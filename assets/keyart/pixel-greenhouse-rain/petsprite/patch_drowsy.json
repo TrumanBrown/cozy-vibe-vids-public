@@ -1,0 +1,34 @@
+{
+ "patch": "drowsy",
+ "prompt": "This is a 16-bit pixel-art greenhouse. Repaint only the masked area, the sleeping golden-brown dog's closed eyes: its eyes are now open halfway, sleepy, looking straight ahead. Its head stays resting on its paws exactly as it is, the same face, fur and colors. Same pixel-art style and pixel size. Nothing else changes.",
+ "mask": "eyes",
+ "window": [
+  39,
+  416,
+  1024,
+  1024
+ ],
+ "references": [],
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-21",
+ "usage": {
+  "input_tokens": 1111,
+  "input_tokens_details": {
+   "image_tokens": 1024,
+   "text_tokens": 87
+  },
+  "output_tokens": 1756,
+  "output_tokens_details": {
+   "image_tokens": 1756,
+   "text_tokens": 0
+  },
+  "total_tokens": 2867
+ },
+ "placed": {
+  "file": "patch_drowsy.png",
+  "x": 939,
+  "y": 1638,
+  "w": 144,
+  "h": 42
+ }
+}

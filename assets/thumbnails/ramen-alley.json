@@ -1,0 +1,800 @@
+{
+ "_note": "Thumbnails in the look of the video (user 2026-10-20: not always the Minecraft-like pixel style): neon like the alley's own signs, a noren and a meal ticket from a ramen shop, a vertical shop sign, handwriting in the opening line's font. The pixel-* ones are the first set, in the channel's pixel style. Every one says 4K and 10 HR. Frame 59789 is the strongest strike at its peak.",
+ "scene": "scenes/ramen-alley",
+ "out": "out/ramen-alley/thumbnails",
+ "badges": [
+  {
+   "x": 0.04,
+   "y": 0.085,
+   "px": 21,
+   "gap": 3,
+   "items": [
+    {
+     "text": "4K",
+     "style": "chip"
+    },
+    {
+     "text": "10 HR",
+     "style": "chip"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "name": "neon-sign",
+   "frame": 59789,
+   "zoom": 1.05,
+   "center": [
+    0.5,
+    0.47
+   ],
+   "badges": [
+    {
+     "x": 0.035,
+     "y": 0.08,
+     "font": "zen-maru-gothic",
+     "size": 190,
+     "gap": 40,
+     "style": "chip",
+     "items": [
+      {
+       "text": "4K"
+      },
+      {
+       "text": "10 HR"
+      }
+     ]
+    }
+   ],
+   "scrims": [
+    {
+     "x": 0.5,
+     "y": 0.45,
+     "rx": 0.36,
+     "ry": 0.2,
+     "alpha": 0.5
+    },
+    {
+     "x": 0.5,
+     "y": 0.585,
+     "rx": 0.22,
+     "ry": 0.075,
+     "alpha": 0.45
+    }
+   ],
+   "text": [
+    {
+     "text": "ramen",
+     "font": "tilt-neon",
+     "size": 560,
+     "x": 0.5,
+     "y": 0.39,
+     "style": "neon"
+    },
+    {
+     "text": "lofi & rain",
+     "font": "tilt-neon",
+     "size": 280,
+     "x": 0.5,
+     "y": 0.585,
+     "style": "neon_cyan",
+     "glow": [
+      {
+       "color": "#06040c",
+       "blur": 0.22,
+       "alpha": 0.75,
+       "grow": 0.06
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "neon-sign-warm",
+   "frame": 59789,
+   "zoom": 1.05,
+   "center": [
+    0.5,
+    0.47
+   ],
+   "badges": [
+    {
+     "x": 0.035,
+     "y": 0.08,
+     "font": "zen-maru-gothic",
+     "size": 190,
+     "gap": 40,
+     "style": "chip",
+     "items": [
+      {
+       "text": "4K"
+      },
+      {
+       "text": "10 HR"
+      }
+     ]
+    }
+   ],
+   "scrims": [
+    {
+     "x": 0.5,
+     "y": 0.45,
+     "rx": 0.36,
+     "ry": 0.2,
+     "alpha": 0.5
+    },
+    {
+     "x": 0.5,
+     "y": 0.585,
+     "rx": 0.22,
+     "ry": 0.075,
+     "alpha": 0.45
+    }
+   ],
+   "text": [
+    {
+     "text": "ramen",
+     "font": "tilt-neon",
+     "size": 560,
+     "x": 0.5,
+     "y": 0.39,
+     "style": "neon"
+    },
+    {
+     "text": "lofi & rain",
+     "font": "tilt-neon",
+     "size": 280,
+     "x": 0.5,
+     "y": 0.585,
+     "style": "neon_warm",
+     "fill": "#ffe2b3",
+     "neon": "#ff7a00",
+     "glow": [
+      {
+       "color": "#06040c",
+       "blur": 0.22,
+       "alpha": 0.75,
+       "grow": 0.06
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "noren",
+   "frame": 59789,
+   "zoom": 1.12,
+   "center": [
+    0.5,
+    0.56
+   ],
+   "badges": [
+    {
+     "x": 0.035,
+     "y": 0.345,
+     "font": "zen-maru-gothic",
+     "size": 190,
+     "gap": 40,
+     "style": "chip",
+     "items": [
+      {
+       "text": "4K"
+      },
+      {
+       "text": "10 HR"
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "x": 0.5,
+     "y": 0.118,
+     "w": 2650,
+     "h": 560,
+     "fill": "#26335f",
+     "fill2": "#18213f",
+     "grain": 0.05,
+     "slits": {
+      "n": 4,
+      "w": 64,
+      "depth": 0.74
+     },
+     "cloth": {
+      "folds": 0.16,
+      "sag": 22
+     },
+     "hem": {
+      "h": 80,
+      "color": "#0b0f22"
+     },
+     "shadow": {
+      "alpha": 0.55,
+      "blur": 26,
+      "off": [
+       0,
+       24
+      ]
+     },
+     "lines": [
+      {
+       "text": "ら",
+       "font": "yuji-boku",
+       "size": 340,
+       "x": 0.125,
+       "y": 0.6,
+       "style": "brush"
+      },
+      {
+       "text": "ー",
+       "font": "yuji-boku",
+       "size": 340,
+       "x": 0.375,
+       "y": 0.6,
+       "style": "brush"
+      },
+      {
+       "text": "め",
+       "font": "yuji-boku",
+       "size": 340,
+       "x": 0.625,
+       "y": 0.6,
+       "style": "brush"
+      },
+      {
+       "text": "ん",
+       "font": "yuji-boku",
+       "size": 340,
+       "x": 0.875,
+       "y": 0.6,
+       "style": "brush"
+      }
+     ]
+    }
+   ],
+   "text": [
+    {
+     "text": "lofi music & rain",
+     "font": "klee-one",
+     "size": 170,
+     "x": 0.5,
+     "y": 0.35,
+     "style": "soft"
+    }
+   ]
+  },
+  {
+   "name": "meal-ticket",
+   "frame": 59789,
+   "zoom": 1.05,
+   "center": [
+    0.5,
+    0.47
+   ],
+   "badges": [],
+   "cards": [
+    {
+     "x": 0.215,
+     "y": 0.43,
+     "w": 1240,
+     "h": 780,
+     "rotate": -6,
+     "fill": "#f7efdd",
+     "fill2": "#eadcbf",
+     "grain": 0.035,
+     "radius": 22,
+     "border": "#b49a6c",
+     "border_w": 7,
+     "shadow": {
+      "alpha": 0.6,
+      "blur": 28,
+      "off": [
+       16,
+       26
+      ]
+     },
+     "lines": [
+      {
+       "text": "食券",
+       "font": "dela-gothic-one",
+       "size": 100,
+       "x": 0.09,
+       "y": 0.14,
+       "align": "left",
+       "style": "ink",
+       "fill": "#b3261e"
+      },
+      {
+       "text": "lofi ramen",
+       "font": "klee-one",
+       "size": 175,
+       "x": 0.5,
+       "y": 0.37,
+       "style": "ink"
+      },
+      {
+       "text": "with rain & distant thunder",
+       "font": "klee-one",
+       "size": 76,
+       "x": 0.5,
+       "y": 0.55,
+       "style": "ink",
+       "fill": "#5a3d24"
+      },
+      {
+       "text": "10 HR",
+       "font": "dela-gothic-one",
+       "size": 160,
+       "x": 0.09,
+       "y": 0.81,
+       "align": "left",
+       "style": "ink"
+      },
+      {
+       "text": "4K",
+       "font": "dela-gothic-one",
+       "size": 110,
+       "x": 0.81,
+       "y": 0.79,
+       "style": "stamp",
+       "rotate": 14
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kanban",
+   "frame": 59789,
+   "zoom": 1.05,
+   "center": [
+    0.52,
+    0.47
+   ],
+   "badges": [
+    {
+     "x": 0.17,
+     "y": 0.08,
+     "font": "zen-maru-gothic",
+     "size": 190,
+     "gap": 40,
+     "style": "chip",
+     "items": [
+      {
+       "text": "4K"
+      },
+      {
+       "text": "10 HR"
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "x": 0.085,
+     "y": 0.53,
+     "w": 360,
+     "h": 1560,
+     "fill": "#2c1c12",
+     "fill2": "#1a100a",
+     "grain": 0.06,
+     "radius": 18,
+     "border": "#c9a24a",
+     "border_w": 12,
+     "shadow": {
+      "alpha": 0.6,
+      "blur": 26,
+      "off": [
+       14,
+       22
+      ]
+     },
+     "lines": [
+      {
+       "text": "ラーメン横丁",
+       "font": "dela-gothic-one",
+       "size": 205,
+       "x": 0.5,
+       "y": 0.5,
+       "style": "gold",
+       "vertical": true
+      }
+     ]
+    }
+   ],
+   "scrims": [
+    {
+     "x": 0.55,
+     "y": 0.37,
+     "rx": 0.28,
+     "ry": 0.16,
+     "alpha": 0.4
+    }
+   ],
+   "text": [
+    {
+     "text": "ramen alley",
+     "font": "klee-one",
+     "size": 270,
+     "x": 0.55,
+     "y": 0.35,
+     "style": "soft"
+    },
+    {
+     "text": "lofi & rain",
+     "font": "zen-maru-gothic",
+     "size": 120,
+     "x": 0.55,
+     "y": 0.485,
+     "style": "tag"
+    }
+   ]
+  },
+  {
+   "name": "cat-note",
+   "frame": 59789,
+   "zoom": 3.0,
+   "center": [
+    0.81,
+    0.765
+   ],
+   "badges": [
+    {
+     "x": 0.035,
+     "y": 0.08,
+     "font": "zen-maru-gothic",
+     "size": 190,
+     "gap": 40,
+     "style": "chip",
+     "items": [
+      {
+       "text": "4K"
+      },
+      {
+       "text": "10 HR"
+      }
+     ]
+    }
+   ],
+   "text": [
+    {
+     "text": "shh, the cat's asleep",
+     "font": "klee-one",
+     "size": 230,
+     "x": 0.56,
+     "y": 0.2,
+     "style": "soft"
+    },
+    {
+     "text": "lofi & rain",
+     "font": "zen-maru-gothic",
+     "size": 120,
+     "x": 0.05,
+     "y": 0.9,
+     "align": "left",
+     "style": "tag"
+    }
+   ]
+  },
+  {
+   "name": "bowl-steam",
+   "frame": 59789,
+   "zoom": 2.2,
+   "center": [
+    0.25,
+    0.68
+   ],
+   "badges": [
+    {
+     "x": 0.035,
+     "y": 0.08,
+     "font": "zen-maru-gothic",
+     "size": 190,
+     "gap": 40,
+     "style": "chip",
+     "items": [
+      {
+       "text": "4K"
+      },
+      {
+       "text": "10 HR"
+      }
+     ]
+    }
+   ],
+   "scrims": [
+    {
+     "x": 0.72,
+     "y": 0.27,
+     "rx": 0.32,
+     "ry": 0.16,
+     "alpha": 0.35
+    }
+   ],
+   "text": [
+    {
+     "text": "ramen, rain\n& lofi",
+     "font": "klee-one",
+     "size": 250,
+     "x": 0.94,
+     "y": 0.29,
+     "align": "right",
+     "style": "soft"
+    }
+   ]
+  },
+  {
+   "name": "polaroid-note",
+   "frame": 59789,
+   "zoom": 1.1,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "mat": {
+    "color": "#f1e8d6",
+    "margin": [
+     0.035,
+     0.06,
+     0.035,
+     0.25
+    ]
+   },
+   "badges": [
+    {
+     "x": 0.06,
+     "y": 0.13,
+     "font": "zen-maru-gothic",
+     "size": 150,
+     "gap": 40,
+     "style": "chip",
+     "items": [
+      {
+       "text": "4K"
+      },
+      {
+       "text": "10 HR"
+      }
+     ]
+    }
+   ],
+   "text": [
+    {
+     "text": "ramen alley, a rainy night",
+     "font": "klee-one",
+     "size": 170,
+     "x": 0.06,
+     "y": 0.83,
+     "align": "left",
+     "style": "ink"
+    },
+    {
+     "text": "lofi music & rain",
+     "font": "klee-one",
+     "size": 110,
+     "x": 0.06,
+     "y": 0.925,
+     "align": "left",
+     "style": "ink",
+     "fill": "#7a5534"
+    }
+   ]
+  },
+  {
+   "name": "pixel-place-card",
+   "frame": 59789,
+   "zoom": 1.05,
+   "center": [
+    0.5,
+    0.47
+   ],
+   "text": [
+    {
+     "text": "Ramen Alley",
+     "px": 30,
+     "y": 0.405,
+     "style": "amber",
+     "rules": [
+      5,
+      3
+     ]
+    },
+    {
+     "text": "♫ chill lofi music",
+     "px": 18,
+     "y": 0.51,
+     "style": "badge"
+    },
+    {
+     "text": "🌧 rain & distant thunder",
+     "px": 15,
+     "y": 0.6,
+     "style": "chip"
+    }
+   ]
+  },
+  {
+   "name": "pixel-cat-asleep",
+   "frame": 59789,
+   "zoom": 3.0,
+   "center": [
+    0.81,
+    0.765
+   ],
+   "badges": [
+    {
+     "x": 0.03,
+     "y": 0.085,
+     "px": 18,
+     "gap": 3,
+     "items": [
+      {
+       "text": "4K",
+       "style": "chip"
+      },
+      {
+       "text": "10 HR",
+       "style": "chip"
+      }
+     ]
+    }
+   ],
+   "text": [
+    {
+     "text": "z",
+     "px": 27,
+     "x": 0.42,
+     "y": 0.27,
+     "bold": true,
+     "opacity": 0.75
+    },
+    {
+     "text": "z",
+     "px": 36,
+     "x": 0.48,
+     "y": 0.17,
+     "bold": true,
+     "opacity": 0.88
+    },
+    {
+     "text": "Z",
+     "px": 48,
+     "x": 0.55,
+     "y": 0.06,
+     "bold": true
+    },
+    {
+     "text": "♫ chill lofi music",
+     "px": 18,
+     "x": 0.05,
+     "y": 0.88,
+     "align": "left",
+     "style": "badge"
+    }
+   ]
+  },
+  {
+   "name": "pixel-polaroid",
+   "frame": 59789,
+   "zoom": 1.05,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "mat": {
+    "color": "#efe4cf",
+    "margin": [
+     0.035,
+     0.06,
+     0.035,
+     0.25
+    ]
+   },
+   "text": [
+    {
+     "text": "ramen alley",
+     "px": 30,
+     "x": 0.06,
+     "y": 0.83,
+     "align": "left",
+     "style": "ink",
+     "bold": true
+    },
+    {
+     "text": "♫ chill lofi music & rain",
+     "px": 15,
+     "x": 0.06,
+     "y": 0.925,
+     "align": "left",
+     "style": "ink",
+     "fill": "#7a5534",
+     "fill2": "#7a5534",
+     "bold": true
+    }
+   ]
+  },
+  {
+   "name": "pixel-bowl",
+   "frame": 59789,
+   "zoom": 2.2,
+   "center": [
+    0.25,
+    0.68
+   ],
+   "text": [
+    {
+     "text": "Ramen Alley",
+     "px": 30,
+     "x": 0.95,
+     "y": 0.27,
+     "align": "right",
+     "style": "amber"
+    },
+    {
+     "text": "♫ chill lofi music & rain",
+     "px": 15,
+     "x": 0.95,
+     "y": 0.38,
+     "align": "right",
+     "style": "badge"
+    }
+   ]
+  },
+  {
+   "name": "pixel-letterbox",
+   "frame": 59789,
+   "badges": [
+    {
+     "x": 0.047,
+     "y": 0.785,
+     "px": 21,
+     "gap": 3,
+     "items": [
+      {
+       "text": "4K",
+       "style": "chip"
+      },
+      {
+       "text": "10 HR",
+       "style": "chip"
+      }
+     ]
+    }
+   ],
+   "bands": [
+    {
+     "y0": 0,
+     "y1": 0.14,
+     "color": "#0a070d"
+    },
+    {
+     "y0": 0.86,
+     "y1": 1,
+     "color": "#0a070d"
+    }
+   ],
+   "text": [
+    {
+     "text": "RAMEN ALLEY",
+     "px": 27,
+     "x": 0.05,
+     "y": 0.07,
+     "align": "left",
+     "style": "label",
+     "tracking": 3
+    },
+    {
+     "text": "♫ chill lofi music & rain",
+     "px": 15,
+     "x": 0.05,
+     "y": 0.93,
+     "align": "left",
+     "style": "amber",
+     "bold": true,
+     "glow_alpha": 0
+    }
+   ]
+  }
+ ]
+}

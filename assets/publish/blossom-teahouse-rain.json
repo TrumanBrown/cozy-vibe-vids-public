@@ -1,0 +1,36 @@
+{
+ "_note": "Drafted by tools/finish_video.py on 2026-10-22: the title, the opening and the hashtags by the chat model in Truman's form (model), from scenes/blossom-teahouse-rain/brief.json and his published videos (docs/records/*/published.md), checked with upload_package's rules. Edit freely: the tool never overwrites this spec. Once it's live, record what he changed (master-render skill, Upload checklist step 9).",
+ "slug": "blossom-teahouse-rain",
+ "name": "Blossom Veranda",
+ "render": "out/blossom-teahouse-rain/render/10h_v5",
+ "video": "master_music.mp4",
+ "thumbnails": "assets/thumbnails/blossom-teahouse-rain.json",
+ "thumbnail": "pixel-dog",
+ "test_and_compare": [
+  "pixel-dog",
+  "pixel-place-card",
+  "pixel-polaroid"
+ ],
+ "draft_text": false,
+ "titles": [
+  "Calm Music Blossom Veranda 🌸 Study and relax with gentle rain ☔ 4K, 10 hours, no Ads",
+  "Calm Music Blossom Veranda 🍵 Sleep with gentle rain ☔ 4K, 10 hours, no Ads",
+  "Calm Music Blossom Veranda 🐕 Read and relax with rain ☔ 4K, 10 hours, no Ads"
+ ],
+ "title_emoji": 2,
+ "description": [
+  "Come relax with rain on a cherry blossom tea house veranda beside a pond, with calm Minecraft music and rain running off the roof. 10 hours of 4K, calming ambience with smooth music. Never interrupting with ads."
+ ],
+ "hashtags": [
+  "#minecraftmusic",
+  "#rainsounds",
+  "#studymusic",
+  "#study",
+  "#relaxing",
+  "#relax",
+  "#4k",
+  "#10hours"
+ ],
+ "tags": [],
+ "category": "Film & Animation"
+}

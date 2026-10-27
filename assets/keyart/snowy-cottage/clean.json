@@ -1,0 +1,37 @@
+{
+ "source": "assets/keyart/snowy-cottage/hero_gpt-image-2-5-sunburst_20261016-193210_2.png",
+ "deployment": "gpt-image-2-5-sunburst",
+ "endpoint": "https://cvvimg-b9812c.cognitiveservices.azure.com/",
+ "items": [
+  {
+   "name": "hearth_fire_flames",
+   "kind": "fire",
+   "prompt": "Remove the flames of the Flames and glowing logs inside the stone hearth. Show the fuel without flames: the split logs on the grate glowing orange with embers between them and a dark sooty back wall lit warm, glowing softly, with the same warm light on the surroundings. No flames, no smoke. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     0,
+     82,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1131,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 107
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2887
+    }
+   ],
+   "date": "2026-10-16"
+  }
+ ],
+ "_note": "AI edit of the key art (painted transients removed); see tools/plate_clean.py"
+}

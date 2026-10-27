@@ -1,0 +1,24 @@
+{
+  "id": "rainy_dusk",
+  "prompt": "Wide 16:9 cinematic screenshot of a cozy Minecraft treehouse in autumn during a gentle evening rain, viewed from inside the treehouse looking out over a wooden balcony railing: a valley of blocky orange, red and gold autumn trees with a misty river and lake, distant blocky mountains fading into blue-grey rain clouds, a few warm lit windows of other treehouses in the distance. Inside: dark oak plank floor and log walls, a red wool carpet, a wooden chest, a small bookshelf, glowing lanterns on the railing posts and hanging from the ceiling, a sleeping cat curled up on a cushion, autumn leaf blocks with hanging vines framing the top of the view. Shader-pack lighting: warm lantern glow inside, cool blue dusk outside, soft bloom, wet reflections. Locked-off camera at eye level, no people, no text, no user interface.",
+  "deployment": "gpt-image-2-5-sunburst",
+  "size": "2560x1440",
+  "quality": "high",
+  "created": 1792102946,
+  "revised_prompt": null,
+  "usage": {
+    "input_tokens": 180,
+    "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 180
+    },
+    "output_tokens": 1843,
+    "output_tokens_details": {
+      "image_tokens": 1843,
+      "text_tokens": 0
+    },
+    "total_tokens": 2023
+  },
+  "endpoint": "https://cvvimg-b9812c.cognitiveservices.azure.com/",
+  "generated_at": "20261015-152227"
+}

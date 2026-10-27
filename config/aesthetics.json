@@ -1,0 +1,422 @@
+{
+  "_note": "Aesthetic catalog for new videos (tools/new_video.py plan). Each aesthetic is a look + a family of settings; a video = one aesthetic + one concrete brief (scenes/<scene>/brief.json). Evidence and ranking: docs/research-aesthetics.md (2026-10-16). Prompts follow the keyart-pipeline rules: 16:9, locked-off camera, foreground/midground/background, light sources, 1-2 animatable props besides the pet, clear areas for animation, no people (user 2026-10-16: avoid humans, pets are fine). Franchise looks may be named in prompts and only as a secondary part of titles (user 2026-10-16). 'motions' uses the module names in src/library/autoscene.js; 'ai_label' is the suggested YouTube 'altered or synthetic content' answer (realistic scenes: true). 'music' is the look's music style; 'music_dirs' (set once Truman has picked tracks for the look from clips) lists its folders under music/ (tools/music.py scene_music); the root music/ folder is the Mojang allowlist, for Minecraft looks only. 'title_font' is the font of the intro title (config/fonts.json, tools/intro_title.py): pixel looks use the channel's own pixel font. 'intro' (optional) styles the look's opening line with tools/intro_title.py's keys, merged in by tools/autopilot.py's setup (the comic look's caption box, 2026-10-25). 'thumb' is how the look's thumbnails look (user 2026-10-20: they fit the video's look, not always the pixel style): its fonts (config/fonts.json; tools/thumbnail.py `font`) and motifs from its own world to draw the text on; every thumbnail still says 4K and 10 HR. A look with tier 'idea' needs new code first: 'needs' lists the repo files that must exist before new_video.py plan accepts it (docs/IDEAS.md).",
+  "boilerplate": "Locked-off camera at eye level, wide 16:9 composition with a clear foreground, midground and background. Leave open, uncluttered areas around the light sources, the windows and the animal so they can be animated. No people anywhere: no pedestrians or silhouettes outside, no portraits, posters or statues of people. No other animals besides the one pet: no birds, insects, snails or frogs anywhere (small creatures are animated in afterwards). No lightning bolts. Things that move are animated afterwards, so do not paint them frozen: no visible steam or smoke plumes, no water drops hanging from edges and no streams of dripping water; surfaces may look wet. No text, no letters, no logos, no watermark, no user interface.",
+  "aesthetics": {
+    "minecraft-voxel": {
+      "title": "Minecraft-style voxel scenes",
+      "tier": "A", "evidence": "CozyCraft 121K subs; Minecraft Winter Cabin 5.3M views (research §1, §2.3)",
+      "style": "voxel", "franchise": "Minecraft", "ai_label": false,
+      "style_prompt": "Wide 16:9 cinematic screenshot of a cozy Minecraft scene with a shader pack: blocky voxel world, high-quality block textures, volumetric light, soft bloom and soft shadows.",
+      "settings": ["a treehouse porch over an autumn valley with a river", "a snowy spruce cabin interior with a campfire", "a cherry blossom tea house by a pond", "a lush cave with a glowing pool", "a cliffside lighthouse room at night"],
+      "times": ["dusk", "night", "rainy evening"], "weather": ["rain", "thunderstorm", "snow"],
+      "pets": ["a cat curled up asleep on a cushion", "a wolf-dog asleep by the fire", "a fox sleeping on a rug"],
+      "props": ["glowing lanterns", "a campfire", "a steaming mug on a table", "a clock on the wall"],
+      "motions": ["rain", "runoff", "leaves", "fire", "steam", "lightning", "farflash", "water", "boat", "fish", "heron", "pet"],
+      "audio_bed": "porch_rain", "playlist": "Minecraft ambience", "music": "Mojang Creator-Safe tracks (config/minecraft_music.json)", "music_dirs": ["music"], "title_font": "pixel", "thumb": {"fonts": ["pixel"], "motifs": ["the place name in amber between rules", "the pet in a pixel-bordered close-up", "a wooden hanging sign"]}
+    },
+    "wizard-library": {
+      "title": "Wizard library (Hogwarts-like)",
+      "tier": "S", "evidence": "Ambient Worlds 1.2M subs; Hogwarts ambience 1.2M-4.6M views per flagship video (research §1, §2.1)",
+      "style": "painterly-cinematic", "franchise": "Harry Potter (Hogwarts)", "ai_label": false,
+      "style_prompt": "Wide 16:9 cinematic fantasy matte painting with the polish of a high-end game render, Hogwarts-inspired wizard school interior, warm painterly light, soft volumetric haze, rich detail.",
+      "settings": ["a vaulted wizard library with towering bookshelves and tall arched leaded windows", "a round tower common room with a big hearth and window seats", "an alchemist's study with shelves of potion bottles and a cauldron"],
+      "times": ["night", "rainy dusk"], "weather": ["thunderstorm", "rain", "snow"],
+      "pets": ["a fluffy grey cat asleep on a red velvet armchair", "a snowy owl dozing on a perch", "a black cat asleep on a stack of books"],
+      "props": ["dozens of lit candles floating under the ceiling, spread out and clearly separated", "a stone fireplace with a crackling fire", "a steaming cup of tea", "an open spellbook with a quill"],
+      "motions": ["bob", "fire", "embers", "glass", "rain", "lightning", "farflash", "dust", "steam", "pet"],
+      "audio_bed": "library", "playlist": "Wizard libraries", "music": "soft orchestral, celesta, harp (later)", "title_font": "im-fell-english", "thumb": {"fonts": ["im-fell-english", "cormorant-garamond"], "motifs": ["a parchment label", "a red wax seal for 4K", "candlelit gold lettering"]}
+    },
+    "dark-academia": {
+      "title": "Dark academia library in a storm",
+      "tier": "A", "evidence": "Dark Academia ~110K subs; up to ~401K views (research §2.6)",
+      "style": "painterly-realistic", "franchise": null, "ai_label": false,
+      "style_prompt": "Wide 16:9 moody painterly-realistic interior, dark academia aesthetic, desaturated browns and deep greens, warm lamplight, oil-painting texture.",
+      "settings": ["a gothic reading nook with a green banker's lamp and tall windows", "an oceanfront gothic library with a storm over the sea", "a Victorian study with leather armchairs and a fireplace"],
+      "times": ["night", "stormy evening"], "weather": ["thunderstorm", "rain"],
+      "pets": ["a black cat asleep on a leather armchair", "a greyhound asleep on a rug"],
+      "props": ["a green banker's lamp", "a fireplace with a low fire", "a steaming cup of tea", "a candle in a brass holder", "a grandfather clock"],
+      "motions": ["fire", "glass", "rain", "lightning", "farflash", "steam", "dust", "pet"],
+      "audio_bed": "library", "playlist": "Dark academia", "music": "melancholic solo piano (later)", "title_font": "cormorant-garamond", "thumb": {"fonts": ["cormorant-garamond", "im-fell-english"], "motifs": ["a library card", "a typed index card", "gold lettering like a book spine"]}
+    },
+    "pixel-farmhouse": {
+      "title": "Pixel-art farm life (Stardew-like)",
+      "tier": "B", "evidence": "Stardew Valley Autumn Rain Ambience ~723K views on a ~9.5K-sub channel (research §1, §6)",
+      "style": "pixel", "franchise": "Stardew Valley", "ai_label": false,
+      "style_prompt": "Wide 16:9 16-bit pixel art in the style of Stardew Valley, chunky square pixels of one consistent size, limited cozy palette, crisp hard edges, no blur, no anti-aliasing.",
+      "settings": ["a farmhouse interior on a rainy autumn night with windows over the fields and a pond", "a farm pond at dusk with a dock, a rowboat and a lit cabin", "a greenhouse full of crops in the rain"],
+      "times": ["night", "rainy evening", "dusk"], "weather": ["rain", "snow", "thunderstorm"],
+      "pets": ["an orange tabby cat asleep on a rug", "a dog asleep in a dog bed"],
+      "props": ["a stone fireplace with a fire", "a candle on the table", "a steaming mug", "a wall clock"],
+      "motions": ["rain", "glass", "fire", "steam", "pet", "lightning", "fireflies", "water"],
+      "audio_bed": "cabin_rain", "playlist": "Pixel farm ambience", "music": "gentle lofi with soft acoustic guitar (chiptune-free)", "music_dirs": ["music/pixel-farmhouse"], "title_font": "pixel", "thumb": {"fonts": ["pixel"], "motifs": ["a wooden sign in the pixel font", "a pixel speech bubble", "an inventory-slot frame around the pet"]},
+      "render": {"pixel": true, "animFps": 12}
+    },
+    "ramen-alley": {
+      "title": "Japanese ramen alley in the rain",
+      "tier": "A", "evidence": "dodosound ~1.62M subs (live streams); VOD version comparatively open (research §2.4)",
+      "style": "cinematic-anime", "franchise": null, "ai_label": false,
+      "style_prompt": "Wide 16:9 cinematic anime background art, detailed and atmospheric like a film still, rich neon night colors, soft glow and wet reflections.",
+      "settings": ["a small ramen stall in a narrow Japanese alley seen from under its awning", "a tiny izakaya counter looking out at a rainy street", "a quiet Tokyo backstreet crossing with a vending machine and a ramen shop"],
+      "times": ["night", "late evening"], "weather": ["rain", "light rain"],
+      "pets": ["a black-and-white cat asleep under the awning", "a calico cat curled up on a stool"],
+      "props": ["a steaming bowl of ramen", "red paper lanterns hanging from the eaves", "neon signs in simple abstract shapes", "a vending machine glowing"],
+      "motions": ["rain", "runoff", "puddles", "steam", "neon", "pendulum", "traffic", "pet"],
+      "audio_bed": "street_rain", "playlist": "Rainy Japan nights", "music": "90s-style chill lofi hip hop and chillhop (user 2026-10-19: lofi over jazz, it is more popular right now; reference: \"90's Chill Lofi, Study Music, Lofi Rain\")", "music_dirs": ["music/lofi-night"], "title_font": "klee-one", "thumb": {"fonts": ["tilt-neon", "klee-one", "dela-gothic-one", "yuji-boku", "zen-maru-gothic"], "motifs": ["neon signs like the alley's own", "a noren with the shop's name", "a meal ticket with a red seal", "a vertical shop sign", "a handwritten note"]}
+    },
+    "ghibli-countryside": {
+      "title": "Ghibli-like countryside",
+      "tier": "B", "evidence": "Anichill 1.78K subs -> 101K views on one video (research §2.5)",
+      "style": "anime-painted", "franchise": "Studio Ghibli", "ai_label": false,
+      "style_prompt": "Wide 16:9 hand-painted anime background art in the style of Studio Ghibli, soft watercolor and gouache textures, gentle natural light, lush and peaceful.",
+      "settings": ["a wooden farmhouse engawa porch in summer rain looking over rice fields", "a cozy cottage kitchen with an open window to a green hillside", "a snowy countryside cottage interior with a hearth at dusk"],
+      "times": ["rainy afternoon", "dusk", "evening"], "weather": ["rain", "snow", "clear"],
+      "pets": ["a shiba inu asleep on a cushion", "a tabby cat asleep on the porch boards"],
+      "props": ["a wind chime by the eaves", "a steaming cup of tea", "a mosquito coil with a thin curl of smoke", "a hearth fire", "laundry or a curtain moving in the breeze"],
+      "motions": ["rain", "runoff", "pendulum", "sway", "flow", "steam", "fire", "snow", "pet", "fireflies"],
+      "audio_bed": "country_rain", "playlist": "Ghibli-style ambience", "music": "acoustic guitar, piano (later)", "title_font": "patrick-hand", "thumb": {"fonts": ["patrick-hand", "klee-one"], "motifs": ["a handwritten note on paper", "a wind chime's paper tag", "a soft watercolor label"]}
+    },
+    "winter-cabin": {
+      "title": "Snowed-in cabin with a fireplace",
+      "tier": "A", "evidence": "best single video in the dataset is a winter cabin (5.3M views); seasonal layer (research §6 #8)",
+      "style": "photoreal", "franchise": null, "ai_label": true,
+      "style_prompt": "Wide 16:9 photorealistic interior photograph, 35 mm lens, soft natural film grain, cinematic warm color grade, shallow depth of field.",
+      "settings": ["a log cabin living room with a stone fireplace and a big window onto a snowy forest", "a mountain lodge reading corner with a wood stove and a view of snowy peaks", "an A-frame cabin loft during a blizzard"],
+      "times": ["evening", "night", "blue hour"], "weather": ["snow", "blizzard"],
+      "pets": ["a golden retriever asleep on a rug by the fire", "a fluffy cat asleep on a knitted blanket"],
+      "props": ["a crackling fireplace", "a steaming mug of cocoa", "candles on the windowsill", "string lights"],
+      "motions": ["snow", "fire", "embers", "steam", "twinkle", "pet", "flicker"],
+      "audio_bed": "cabin_snow", "playlist": "Winter cabins", "music": "soft piano (later)", "music_dirs": ["music/winter-cabin"], "title_font": "playfair-display", "thumb": {"fonts": ["playfair-display", "quicksand"], "motifs": ["a carved wooden cabin sign", "warm serif lettering", "a knitted label"]}
+    },
+    "rainy-cafe": {
+      "title": "Rainy jazz café",
+      "tier": "S", "evidence": "Calmed By Nature ~777K subs; rainy coffee shop videos up to ~18M views; most crowded niche (research §2.8, §3.1)",
+      "style": "photoreal", "franchise": null, "ai_label": true,
+      "style_prompt": "Wide 16:9 photorealistic interior photograph of a cozy café, 35 mm lens, cinematic color grade, gentle bokeh, natural film grain.",
+      "settings": ["a corner table by the big front window of a small jazz café at night", "a Parisian bakery café at dawn in the rain", "a bookshop café with a window seat on a rainy evening"],
+      "times": ["night", "rainy evening", "dawn"], "weather": ["rain", "heavy rain"],
+      "pets": ["a ginger cat asleep on a cushioned chair", "a grey cat asleep on the window seat"],
+      "props": ["a steaming latte in a ceramic cup", "a candle in a glass holder", "Edison bulb pendant lamps", "a neon sign across the street in a simple coffee-cup shape", "an espresso machine"],
+      "motions": ["glass", "rain", "traffic", "neon", "steam", "flicker", "pet", "twinkle"],
+      "audio_bed": "cafe_rain", "playlist": "Rainy cafés", "music": "jazz piano, bossa nova (later)", "title_font": "caveat", "thumb": {"fonts": ["caveat", "playfair-display"], "motifs": ["a chalkboard menu", "a cup sleeve or a receipt", "a neon sign in the window"]}
+    },
+    "rainy-bedroom": {
+      "title": "Rainy window bedroom (sleep)",
+      "tier": "S", "evidence": "Rainy Bedroom 227K subs, ~12M-view video; Ambient Renders 412K subs (research §2.2)",
+      "style": "painterly-realistic", "franchise": null, "ai_label": false,
+      "style_prompt": "Wide 16:9 cozy painterly-realistic interior, soft cinematic light, gentle film grain.",
+      "settings": ["an attic bedroom with a big round window onto a rainy town", "a city apartment bedroom at night with a wall of windows and city lights", "a cottage bedroom with a window seat and rain on the glass"],
+      "times": ["night"], "weather": ["rain", "thunderstorm"],
+      "pets": ["a cat asleep at the foot of the bed", "a dachshund asleep in a basket"],
+      "props": ["a bedside lamp", "a steaming mug on the nightstand", "fairy lights", "a ticking clock"],
+      "motions": ["glass", "rain", "lightning", "farflash", "twinkle", "steam", "pet", "traffic"],
+      "audio_bed": "bedroom_rain", "playlist": "Rainy nights", "music": "none (sleep) or soft piano", "title_font": "quicksand", "thumb": {"fonts": ["quicksand", "gaegu"], "motifs": ["a sticky note", "a polaroid with a handwritten caption", "soft rounded tags"]}
+    },
+    "lighthouse-storm": {
+      "title": "Lighthouse keeper's room in a sea storm",
+      "tier": "C", "evidence": "strong supporting theme in big channels; no dedicated flagship (research §6 #7)",
+      "style": "painterly-cinematic", "franchise": null, "ai_label": false,
+      "style_prompt": "Wide 16:9 cinematic painterly illustration, dramatic but calm storm light, rich atmosphere.",
+      "settings": ["a lighthouse keeper's cottage room with a window onto a stormy sea and the lighthouse beam", "the lamp room at the top of a lighthouse at night over a calm sea"],
+      "times": ["night", "stormy dusk"], "weather": ["thunderstorm", "rain"],
+      "pets": ["a cat asleep on a wool blanket", "a sea dog asleep by the stove"],
+      "props": ["an iron wood stove with a glowing fire", "an oil lamp", "a steaming mug", "a ship in a bottle"],
+      "motions": ["rain", "glass", "lightning", "farflash", "fire", "steam", "boat", "pet", "flow"],
+      "audio_bed": "sea_storm", "playlist": "Stormy seas", "music": "none or soft strings (later)", "title_font": "im-fell-dw-pica", "thumb": {"fonts": ["im-fell-dw-pica", "cormorant-garamond"], "motifs": ["a ship's log page", "a brass nameplate", "a sea chart label"]}
+    },
+    "cyberpunk-balcony": {
+      "title": "Cyberpunk neon apartment in the rain",
+      "tier": "B", "evidence": "Epix Ambience 755K-view video; growing hybrid (research §1, §6 #9)",
+      "style": "cinematic-anime", "franchise": null, "ai_label": false,
+      "style_prompt": "Wide 16:9 cinematic cyberpunk illustration, neon magenta and cyan against deep blue night, rain haze, wet reflections, Blade Runner mood.",
+      "settings": ["a small apartment balcony high above a neon city in the rain", "a noodle bar window seat looking onto a neon street"],
+      "times": ["night"], "weather": ["rain", "heavy rain"],
+      "pets": ["a cat asleep on a cushion by the balcony door"],
+      "props": ["neon signs in simple abstract shapes", "a steaming cup of noodles", "a holographic plant lamp"],
+      "motions": ["rain", "glass", "neon", "traffic", "twinkle", "steam", "pet", "farflash"],
+      "audio_bed": "city_rain", "playlist": "Neon rain", "music": "synthwave, downtempo (later)", "title_font": "orbitron", "thumb": {"fonts": ["orbitron", "tilt-neon", "zen-maru-gothic"], "motifs": ["neon signs", "a holographic tag", "a vertical neon sign"]}
+    },
+    "witch-cottage": {
+      "title": "Cottagecore witch's cottage",
+      "tier": "B", "evidence": "Questcore 108K-view video; Halloween crossover (research §6 #10)",
+      "style": "storybook-painted", "franchise": null, "ai_label": false,
+      "style_prompt": "Wide 16:9 storybook illustration, warm painted textures, cottagecore and gentle witchcore mood.",
+      "settings": ["a witch's cottage kitchen with a bubbling cauldron, hanging herbs and a window onto a misty forest", "an herbalist's attic with drying flowers and jars"],
+      "times": ["dusk", "night", "rainy evening"], "weather": ["rain", "fog", "clear"],
+      "pets": ["a black cat asleep on a cushion", "a toad on a lily pad jar"],
+      "props": ["a cauldron over a small fire with rising steam", "candles", "hanging dried herbs", "a crystal ball glowing softly"],
+      "motions": ["fire", "steam", "flicker", "sway", "glass", "rain", "dust", "pet", "fireflies"],
+      "audio_bed": "cottage_rain", "playlist": "Cottage evenings", "music": "folk harp (later)", "title_font": "amatic-sc", "thumb": {"fonts": ["amatic-sc", "caveat"], "motifs": ["a potion label", "a hand-lettered herb tag", "a wax seal"]}
+    },
+    "lofi-room": {
+      "title": "Anime lofi study room (no character)",
+      "tier": "S", "evidence": "Lofi Girl 15.8M subs (category of one); anime rooms travel well (research §1)",
+      "style": "anime-lofi", "franchise": "Lofi Girl", "ai_label": false,
+      "style_prompt": "Wide 16:9 anime lofi illustration, cel-shaded with soft gradients, warm desk lamp light, cozy clutter, calm night colors.",
+      "settings": ["a cozy desk by a big window over a city at night, with plants, books and headphones", "a bedroom study corner with a view of a train line and distant city lights"],
+      "times": ["night", "dusk"], "weather": ["rain", "clear"],
+      "pets": ["a cat asleep on the desk next to the keyboard", "a cat curled up on the windowsill"],
+      "props": ["a desk lamp", "a steaming mug", "fairy lights", "a small cactus", "a lava lamp"],
+      "motions": ["glass", "rain", "twinkle", "train", "steam", "flicker", "pet", "farflash"],
+      "audio_bed": "bedroom_rain", "playlist": "Lofi rooms", "music": "lofi hip hop (later)", "title_font": "gaegu", "thumb": {"fonts": ["gaegu", "quicksand"], "motifs": ["a cassette label", "a sticky note on the desk", "a now-playing card"]}
+    },
+    "underwater-station": {
+      "title": "Underwater research station",
+      "tier": "B", "evidence": "View Escape 221K subs; ~409K views (research §2.7)",
+      "style": "cinematic-realistic", "franchise": null, "ai_label": true,
+      "style_prompt": "Wide 16:9 cinematic sci-fi interior, realistic materials, deep blue water light, soft caustics.",
+      "settings": ["a cozy reading nook in an underwater research station with a big round porthole onto a coral reef"],
+      "times": ["deep blue day", "night"], "weather": ["clear"],
+      "pets": ["a cat asleep on a cushion by the porthole"],
+      "props": ["a desk lamp", "a steaming mug", "glowing jellyfish outside", "console lights"],
+      "motions": ["flow", "twinkle", "steam", "pet", "flicker"],
+      "audio_bed": "underwater", "playlist": "Deep blue", "music": "none (drone)", "title_font": "quicksand", "thumb": {"fonts": ["quicksand", "orbitron"], "motifs": ["a station console readout", "a depth gauge tag", "glowing cyan lettering"]}
+    },
+    "christmas-cabin": {
+      "title": "Christmas cabin (seasonal)",
+      "tier": "A", "evidence": "Seasonal Ambience 8.88M channel views mostly from Christmas videos (research §2.9); release Nov-Dec",
+      "style": "painterly-realistic", "franchise": null, "ai_label": false,
+      "style_prompt": "Wide 16:9 cozy Christmas illustration with painterly realism, warm golden light, soft bokeh.",
+      "settings": ["a cabin living room with a decorated tree, a fireplace and snow falling outside", "a village bakery window at Christmas with snow"],
+      "times": ["night", "evening"], "weather": ["snow"],
+      "pets": ["a cat asleep under the tree", "a dog asleep by the fire"],
+      "props": ["a decorated Christmas tree with twinkling lights", "a fireplace with stockings", "a steaming mug of cocoa", "candles"],
+      "motions": ["snow", "fire", "embers", "twinkle", "steam", "flicker", "pet"],
+      "audio_bed": "cabin_snow", "playlist": "Christmas ambience", "music": "soft carols, piano (later)", "title_font": "sacramento", "thumb": {"fonts": ["sacramento", "playfair-display"], "motifs": ["a gift tag", "a Christmas card", "gold script lettering"]}
+    },
+    "critter-town": {
+      "title": "Critter town: a top-down pixel RPG village where original creatures and kids wander (Pokemon-like relax videos; an idea, needs new code first)",
+      "tier": "idea", "evidence": "Truman 2026-10-21; Pokemon relax videos get 13K-307K views (Farm Life Gaming) with Nintendo's sprites and music, which we never use (DECISIONS 2026-10-21)",
+      "style": "pixel", "franchise": null, "ai_label": false,
+      "style_prompt": "Top-down pixel art map in the style of modern indie pixel-art RPGs, one single screen, wide 16:9, seen from above at the slight three-quarter angle of classic overworld maps, crisp detailed pixel art with one consistent pixel size, chunky dark outlines, rich warm colors and soft shading. The map is empty: no people, no creatures, no text.",
+      "settings": ["an autumn village square with a fountain, cottages, benches and a lake with a pier", "a farm hamlet by a pond with a pier, two cottages, a vegetable garden and tall grass", "a harbor town with a long pier, a lighthouse and dunes of tall grass", "a forest clearing with a stream, a stone bridge and patches of tall grass"],
+      "times": ["afternoon", "golden hour", "early morning"], "weather": ["falling leaves", "clear"],
+      "pets": ["no painted pet: a creature sprite naps on a bench"],
+      "props": ["a fountain", "a pier over the water", "benches", "house doors", "patches of tall grass"],
+      "motions": ["leaves", "water"],
+      "needs": ["src/library/walkers.js", "tools/sprites.py"], "idea": "docs/IDEAS.md#critter-town",
+      "audio_bed": "village_day", "playlist": "Critter town", "music": "lofi with soft chiptune touches", "title_font": "pixel", "thumb": {"fonts": ["pixel"], "motifs": ["an RPG dialogue box", "an emote bubble over a critter", "a wooden village signpost"]},
+      "render": {"pixel": true, "animFps": 12}
+    },
+    "comic-cute": {
+      "title": "Cute comic book rest stops in the rain",
+      "tier": "hold",
+      "evidence": "Truman 2026-10-25: a new style of our own, perhaps simple and cute like a comic book, a setting with a main character at rest, titled 'come rest...'. ON HOLD the same day: its first key art (scenes/comic-bus-stop) looked far too generic and AI-made; he is sending references for a unique style, and this look is redefined from them before any use (lessons L135).",
+      "style": "comic-cartoon",
+      "franchise": null,
+      "ai_label": false,
+      "style_prompt": "Wide 16:9 panel in a simple, cute comic book style: clean bold black ink outlines of even weight around every shape, flat bright colors with a single soft cel-shaded shadow tone, rounded chunky friendly shapes, simple backgrounds with few details, like a cozy all-ages webcomic or a children's graphic novel. Flat color fills without halftone dots, screentone or paper texture. No panel border, no speech bubbles, captions, sound effects or lettering.",
+      "settings": [
+        "a little wooden bus stop shelter on a quiet country road at dusk, looking out over wet rice fields, wooden utility poles with wires and a few farmhouses with lit windows",
+        "a small covered boat dock in a lakeside village, looking out over the rainy lake, moored rowboats and misty pine hills",
+        "the open porch of a tiny mountain tea hut with a paper lantern, looking out over a rainy valley with a winding river and a village below"
+      ],
+      "times": [
+        "dusk",
+        "late evening"
+      ],
+      "weather": [
+        "rain",
+        "light rain"
+      ],
+      "pets": [
+        "the main character, a round little red panda curled up asleep, its ringed tail wrapped around it",
+        "the main character, a chubby little brown bear cub asleep on its side",
+        "the main character, a small white bunny asleep with its long ears flopped down"
+      ],
+      "props": [
+        "a steaming cup of cocoa or tea",
+        "a hanging lantern or a lamp with a warm glow",
+        "a glowing vending machine",
+        "string lights"
+      ],
+      "motions": [
+        "rain",
+        "runoff",
+        "puddles",
+        "steam",
+        "pendulum",
+        "neon",
+        "twinkle",
+        "sway",
+        "flow",
+        "traffic",
+        "pet"
+      ],
+      "audio_bed": "country_rain",
+      "playlist": "Come rest: cozy comic rain",
+      "music": "lofi with soft keys and gentle acoustic guitar, warm, light and a little playful, sleepy rather than busy (no heavy drums)",
+      "title_font": "comic-neue",
+      "intro": {
+        "panel": true,
+        "size": 80
+      },
+      "thumb": {
+        "fonts": [
+          "bangers",
+          "comic-neue",
+          "patrick-hand"
+        ],
+        "motifs": [
+          "a comic caption box in the top corner",
+          "a speech bubble from the sleeping main character saying zzz",
+          "a comic book cover with a big title and an issue number",
+          "a three-panel comic strip of the scene",
+          "a cartoon sound-effect burst for the rain"
+        ]
+      }
+    },
+    "ink-gouache": {
+      "title": "Hand-inked storybook creatures in the rain",
+      "tier": "new",
+      "evidence": "Truman 2026-10-25, on the style tests (out/style_explore): he liked them all and kept A (inked and painted), C (loose brushwork) and the bare window. From his references 1, 2, 4, 5 (keyart-pipeline skill, references/art-direction.md).",
+      "franchise": null,
+      "ai_label": false,
+      "keyart_model": "gpt-image-2",
+      "settings": [
+        "a tiny campfire under a big burdock leaf on the rainy forest floor at night, seen from a mouse's height",
+        "a deep window seat in a bare timber attic on a rainy night, lit only by a candle on the sill",
+        "a giant creature of the cast curled around a little cottage in the rain, seen from under the cottage's porch"
+      ],
+      "times": [
+        "night",
+        "late evening",
+        "dusk"
+      ],
+      "weather": [
+        "rain",
+        "light rain",
+        "snow"
+      ],
+      "pets": [
+        "two or three of the channel's own creatures (config/cast.json), awake doing something quiet"
+      ],
+      "props": [
+        "a small pot of soup over a tiny campfire",
+        "a candle in a tin holder",
+        "a clay mug of tea",
+        "a small paper lantern"
+      ],
+      "motions": [
+        "rain",
+        "runoff",
+        "puddles",
+        "glass",
+        "steam",
+        "fire",
+        "embers",
+        "flicker",
+        "pendulum",
+        "sway",
+        "pet"
+      ],
+      "audio_bed": "cottage_rain",
+      "music": "lofi with soft acoustic guitar and warm piano, gentle and sleepy (no heavy drums)", "music_dirs": ["music/ink-gouache"],
+      "avoid": "It must look like a real illustrator spent days on it, with deliberate choices everywhere. Avoid every look of generic AI art: no glossy or plastic surfaces, no sparkles or glitter, no bokeh, no lens flare, no bloom halos, no glowing particles or dust motes, no god rays, no wet reflections full of glints, no sunset gradient sky, no teal-and-orange grading, no HDR rendering of every surface, no smooth airbrushed gradients, no uniform machine-clean outlines, no big shiny anime eyes, no blush stickers. Leave large areas simple and quiet; put the detail only where the eye should go.",
+      "brief_rules": "Write the scene as one moment with a small story that makes sense in real life (reading, a handheld game, warming up at a fire, waiting for a pot of soup to cook; never something nobody does, like roasting a blackberry), and prefer what gives the code something to animate: steam from a pot or a mug, a candle, a fire, a lantern, rain on a window. Strip the scene to what the story needs and name what is not there (bare plank walls, no shelves, no plants, no pictures) so the image model doesn't fill it with stock clutter. Every word becomes a thing in the picture: never mention the moon, stars or rain streaks unless they should be drawn. One main light source, how far its light reaches, and how much of the frame is dark. The characters are 2 to 4 of the channel's own creatures (the hint's, when it names them) from config/cast.json, by id in the brief's 'cast', awake doing something quiet (breathing and blinks are drawn in code), never a real animal or a person; say where each one sits and what it does. The falling rain is never drawn (it is animated): say the air is clear and the ground wet.",
+      "style": "ink-gouache",
+      "style_prompt": "Style: a hand-made picture-book illustration, inked and painted. Line art in dark umber and deep forest-green ink, never pure black: the lines vary in weight, taper at their ends and sometimes break off or stop short of closing a shape. Colors are opaque gouache with visible dry-brush strokes and the grain of watercolor paper showing through. The characters are inked carefully; the background is painted looser, with fewer lines, soft brush edges and simple masses. Wood grain, knit and cloth are suggested with a few confident strokes, not rendered everywhere. Muted, earthy palette: rust, ochre, moss green, slate blue and warm brown, with cool blue-gray shadows.",
+      "approved_refs": [
+        "assets/reference/styles/ink-gouache_campfire.jpg",
+        "assets/reference/styles/ink-gouache_window_bare.jpg",
+        "assets/reference/styles/ink-gouache_cast_lineup.jpg"
+      ],
+      "playlist": "Come rest: storybook rain",
+      "title_font": "patrick-hand",
+      "thumb": {
+        "fonts": [
+          "patrick-hand",
+          "caveat",
+          "im-fell-english",
+          "im-fell-english-italic",
+          "cormorant-garamond"
+        ],
+        "motifs": [
+          "a storybook cover with a hand-lettered title",
+          "a torn paper label pinned to the scene",
+          "a page with a small inked vignette of the cast",
+          "a hand-painted wooden sign"
+        ],
+        "painterly": {
+          "why": "Truman 2026-10-26 on the Burdock Shelter's first thumbnails still defaulted to blocky, similar text; a nature look in a pastel, painted style needs thumbnails to match (lessons L160)",
+          "palette": {"paper": "#f3ebd9", "paper2": "#e9dfc8", "sage": "#cfd8bb", "sage_ink": "#5f6f4f", "rose": "#e8c5bb", "butter": "#f1e0ab", "cloth": "#c8d1b5", "cloth2": "#b9c4a5", "ink": "#3a3027"},
+          "type": {"title": "patrick-hand", "hand": "caveat", "plate": "im-fell-english", "label": "im-fell-english-italic", "book": "cormorant-garamond"}
+        }
+      }
+    },
+    "brushwork-night": {
+      "title": "Loose painterly creature nights in the rain",
+      "tier": "new",
+      "evidence": "Truman 2026-10-25, on the style tests (out/style_explore): he liked them all and kept A (inked and painted), C (loose brushwork) and the bare window. From his references 1, 2, 4, 5 (keyart-pipeline skill, references/art-direction.md).",
+      "franchise": null,
+      "ai_label": false,
+      "keyart_model": "gpt-image-2",
+      "settings": [
+        "a tiny campfire under a big burdock leaf on the rainy forest floor at night, seen from a mouse's height",
+        "a deep window seat in a bare timber attic on a rainy night, lit only by a candle on the sill",
+        "a giant creature of the cast curled around a little cottage in the rain, seen from under the cottage's porch"
+      ],
+      "times": [
+        "night",
+        "late evening",
+        "dusk"
+      ],
+      "weather": [
+        "rain",
+        "light rain",
+        "snow"
+      ],
+      "pets": [
+        "two or three of the channel's own creatures (config/cast.json), awake doing something quiet"
+      ],
+      "props": [
+        "a small pot of soup over a tiny campfire",
+        "a candle in a tin holder",
+        "a clay mug of tea",
+        "a small paper lantern"
+      ],
+      "motions": [
+        "rain",
+        "runoff",
+        "puddles",
+        "glass",
+        "steam",
+        "fire",
+        "embers",
+        "flicker",
+        "pendulum",
+        "sway",
+        "pet"
+      ],
+      "audio_bed": "cottage_rain",
+      "music": "lofi with soft acoustic guitar and warm piano, gentle and sleepy (no heavy drums)",
+      "avoid": "It must look like a real illustrator spent days on it, with deliberate choices everywhere. Avoid every look of generic AI art: no glossy or plastic surfaces, no sparkles or glitter, no bokeh, no lens flare, no bloom halos, no glowing particles or dust motes, no god rays, no wet reflections full of glints, no sunset gradient sky, no teal-and-orange grading, no HDR rendering of every surface, no smooth airbrushed gradients, no uniform machine-clean outlines, no big shiny anime eyes, no blush stickers. Leave large areas simple and quiet; put the detail only where the eye should go.",
+      "brief_rules": "Write the scene as one moment with a small story that makes sense in real life (reading, a handheld game, warming up at a fire, waiting for a pot of soup to cook; never something nobody does, like roasting a blackberry), and prefer what gives the code something to animate: steam from a pot or a mug, a candle, a fire, a lantern, rain on a window. Strip the scene to what the story needs and name what is not there (bare plank walls, no shelves, no plants, no pictures) so the image model doesn't fill it with stock clutter. Every word becomes a thing in the picture: never mention the moon, stars or rain streaks unless they should be drawn. One main light source, how far its light reaches, and how much of the frame is dark. The characters are 2 to 4 of the channel's own creatures (the hint's, when it names them) from config/cast.json, by id in the brief's 'cast', awake doing something quiet (breathing and blinks are drawn in code), never a real animal or a person; say where each one sits and what it does. The falling rain is never drawn (it is animated): say the air is clear and the ground wet.",
+      "style": "loose-brushwork",
+      "style_prompt": "Style: a loose digital painting with big, visible, confident brush strokes, like a concept artist's painterly study. Forms are built from light and shadow with almost no outlines; edges are lost in the shadows and found only where the light hits. Near-monochrome palette of cool blue-grays and slate greens; the only warm color is the light. Details are suggested with single strokes, never rendered.",
+      "approved_refs": [
+        "assets/reference/styles/brushwork-night_campfire.jpg"
+      ],
+      "playlist": "Come rest: painted nights",
+      "title_font": "im-fell-english",
+      "thumb": {
+        "fonts": [
+          "im-fell-english",
+          "im-fell-english-italic",
+          "cormorant-garamond",
+          "patrick-hand",
+          "caveat"
+        ],
+        "motifs": [
+          "a painted title in the dark like a book's frontispiece",
+          "a small hand-lettered card in the corner",
+          "an old field-journal page"
+        ],
+        "painterly": {
+          "why": "painted by hand like ink-gouache: pastel paper concepts, no pixel letters (Truman 2026-10-26, lessons L160)",
+          "palette": {"paper": "#ece6d6", "paper2": "#ded6c1", "sage": "#c6cfbb", "sage_ink": "#56634a", "rose": "#dcbdb6", "butter": "#eadbb0", "cloth": "#bcc6b3", "cloth2": "#aab69f", "ink": "#2f2a24"},
+          "type": {"title": "cormorant-garamond", "hand": "caveat", "plate": "im-fell-english", "label": "im-fell-english-italic", "book": "cormorant-garamond"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+ "derived": "walk_side",
+ "prompt": "Pixel-art sprite sheet: the same golden-brown dog four times, facing right, seen from the side, on a transparent background. Repaint only the masked strip under each dog's body, its four legs, so that the four dogs show one smooth walk cycle to the right, in reading order (top left, top right, bottom left, bottom right): 1 the near front leg reaching forward and the near hind leg stretched back; 2 the legs passing under the body, the near hind paw lifted; 3 the near front leg back and the near hind leg forward; 4 the legs passing, the near front paw lifted. The far legs, a little darker, move opposite to the near ones; the second image shows where the legs go, not how to draw them. Every paw that is down stands on the same ground line as now. Keep the head, body and tail exactly as they are. Paint the legs with the same pixel size, fur shading, colors and soft dark-brown edge as the rest of the dog (no black outline). No ground, no shadow, no text.",
+ "master": "posed_stand.png",
+ "master_file_sha": "7ef3ea060e7b3227",
+ "zone": "stand_legs",
+ "scale": 0.6666666666666666,
+ "references": [
+  "sheet_walk_side.png (where the legs go)"
+ ],
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-21",
+ "usage": {
+  "input_tokens": 2810,
+  "input_tokens_details": {
+   "image_tokens": 2560,
+   "text_tokens": 250
+  },
+  "output_tokens": 1756,
+  "output_tokens_details": {
+   "image_tokens": 1756,
+   "text_tokens": 0
+  },
+  "total_tokens": 4566
+ }
+}

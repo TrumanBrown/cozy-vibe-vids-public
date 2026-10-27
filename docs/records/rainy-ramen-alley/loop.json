@@ -1,0 +1,122 @@
+{
+ "source": "C:\\dev\\cozy-vibe-vids\\out\\ramen-alley\\render\\loop20_v1",
+ "source_tag": "loop20_v1",
+ "window": [
+  1200,
+  2400
+ ],
+ "times": 30,
+ "xfade_s": 3.0,
+ "offset_s": 0,
+ "intro": "C:/dev/cozy-vibe-vids/out/ramen-alley/render/loop20_v1_intro_at1200/seg/v_000.mp4#73666afea202d39f",
+ "duration_s": 36000,
+ "created": "2026-10-20T10:03:55",
+ "kept": [
+  "master.mp4"
+ ],
+ "music": {
+  "tracks": 28,
+  "plays": 232,
+  "music_dir": [
+   "music/lofi-night"
+  ],
+  "plan_sha1": "64861cf31dff08b4",
+  "limited_spots_note": "plus 3 more from pass 2 (worst -1.8 dBTP at 8:42:31.7) whose positions weren't recorded: the first run of this code filled the disk at the mux, before mixes were stamped",
+  "limited_spots": [
+   [
+    10658.675,
+    -3.05
+   ],
+   [
+    10709.986,
+    -3.19
+   ],
+   [
+    14393.207,
+    -3.05
+   ],
+   [
+    14457.207,
+    -3.09
+   ],
+   [
+    14509.859,
+    -3.04
+   ],
+   [
+    17523.312,
+    -3.15
+   ],
+   [
+    17801.805,
+    -6.51
+   ],
+   [
+    23865.225,
+    -3.42
+   ]
+  ]
+ },
+ "qa": {
+  "pass": true,
+  "checks": {
+   "length_sync": {
+    "pass": true,
+    "frames": 1080000,
+    "expected": 1080000,
+    "video_s": 36000.0,
+    "audio_s": 36000.0
+   },
+   "loop_seam": {
+    "pass": true,
+    "max_diff": 0,
+    "px_over_2": 0,
+    "detail": "frame 72000 (just past the window) rendered identical to frame 36000 (its start)"
+   },
+   "hour_join_frames": {
+    "pass": true,
+    "at_s": 2400.0,
+    "detail": "the 2 frames each side of a join decode identical to the source window's end/start"
+   },
+   "hour_join_audio": {
+    "pass": true,
+    "level_dip_db": 0.5,
+    "step_vs_p999": 0.65,
+    "at_s": 1200
+   },
+   "loudness": {
+    "pass": true,
+    "lufs": -19.1,
+    "lra": 1.6,
+    "true_peak": -3.1
+   },
+   "music_length_sync": {
+    "pass": true,
+    "frames": 1080000,
+    "expected": 1080000,
+    "video_s": 36000.0,
+    "audio_s": 36000.0
+   },
+   "music_hour_join_audio": {
+    "pass": true,
+    "step_vs_p999": 0.64,
+    "at_s": 1200
+   },
+   "music_transitions": {
+    "pass": true,
+    "changes": 24,
+    "dip_median_db": 1.7,
+    "dip_max_db": 4.51,
+    "worst": "Morning Pages -> Ocean Memory at 0:04:40.0",
+    "detail": "the music's level over each of the first 24 track changes vs the 10 s on each side (fitted plan: every dip <= 6 dB)"
+   },
+   "music_loudness": {
+    "pass": true,
+    "lufs": -15.2,
+    "lra": 3.4,
+    "true_peak": -2.0,
+    "target": "-16.7..-13.7 LUFS (music bus -16.5, ambience -2 dB), true peak <= -1.5 dBTP"
+   }
+  }
+ }
+}

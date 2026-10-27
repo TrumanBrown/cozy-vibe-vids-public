@@ -1,0 +1,385 @@
+{
+ "_note": "Hand data for tools/pet_sprite.py (Truman 2026-10-21 on the sprite dog). eyes: the painted dog's closed eyes in clean.png (fractions of the image), the mask of the drowsy patch. Round 6: the poses are a chain painted in the picture (poses), the cycles repaint only a zone of a posed master (zones), the door wag is the sitting dog's own tail (wag), the door sit's doubled edge is thinned (thin).",
+ "eyes": [
+  0.2441,
+  0.7576,
+  0.282,
+  0.7778
+ ],
+ "_poses": "poses: the get-up chain (pet_sprite.py pose, posecut, round 6). Each is the pose before it with the painted head carried by whole cells (move: poly around the head in key-art px, by [kx, ky] cells) and the mask (boxes, polys; key-art px) repainted by one image edit; window4: the edit's window in 4K px.",
+ "poses": {
+  "sit": {
+   "window4": [
+    72,
+    624,
+    1536,
+    1536
+   ],
+   "move": {
+    "poly": [
+     [
+      570,
+      990
+     ],
+     [
+      590,
+      965
+     ],
+     [
+      622,
+      947
+     ],
+     [
+      668,
+      947
+     ],
+     [
+      688,
+      963
+     ],
+     [
+      692,
+      998
+     ],
+     [
+      716,
+      1003
+     ],
+     [
+      725,
+      1040
+     ],
+     [
+      703,
+      1055
+     ],
+     [
+      650,
+      1061
+     ],
+     [
+      612,
+      1063
+     ],
+     [
+      612,
+      1104
+     ],
+     [
+      590,
+      1106
+     ],
+     [
+      567,
+      1080
+     ]
+    ],
+    "by": [
+     -6,
+     -18
+    ]
+   },
+   "boxes": [
+    [
+     440,
+     870,
+     745,
+     1186
+    ],
+    [
+     395,
+     920,
+     440,
+     1010
+    ]
+   ]
+  },
+  "rise": {
+   "window4": [
+    72,
+    624,
+    1536,
+    1536
+   ],
+   "move": {
+    "poly": [
+     [
+      570,
+      990
+     ],
+     [
+      590,
+      965
+     ],
+     [
+      622,
+      947
+     ],
+     [
+      668,
+      947
+     ],
+     [
+      688,
+      963
+     ],
+     [
+      692,
+      998
+     ],
+     [
+      716,
+      1003
+     ],
+     [
+      725,
+      1040
+     ],
+     [
+      703,
+      1055
+     ],
+     [
+      650,
+      1061
+     ],
+     [
+      612,
+      1063
+     ],
+     [
+      612,
+      1104
+     ],
+     [
+      590,
+      1106
+     ],
+     [
+      567,
+      1080
+     ]
+    ],
+    "by": [
+     -3,
+     -9
+    ]
+   },
+   "boxes": [
+    [
+     440,
+     900,
+     745,
+     1186
+    ],
+    [
+     395,
+     945,
+     440,
+     1010
+    ]
+   ]
+  },
+  "stand": {
+   "window4": [
+    72,
+    624,
+    1536,
+    1536
+   ],
+   "boxes": [
+    [
+     318,
+     900,
+     556,
+     1186
+    ]
+   ]
+  },
+  "views": {
+   "window4": [
+    375,
+    624,
+    2304,
+    1536
+   ],
+   "boxes": [
+    [
+     885,
+     845,
+     1050,
+     1186
+    ],
+    [
+     1235,
+     845,
+     1405,
+     1186
+    ],
+    [
+     1150,
+     540,
+     1278,
+     790
+    ]
+   ],
+   "dogs": [
+    {
+     "name": "back",
+     "box": [
+      885,
+      845,
+      1050,
+      1186
+     ],
+     "seed": "fur"
+    },
+    {
+     "name": "front",
+     "box": [
+      1235,
+      845,
+      1405,
+      1186
+     ],
+     "seed": "fur"
+    },
+    {
+     "name": "sit_back",
+     "box": [
+      1150,
+      540,
+      1278,
+      790
+     ],
+     "anchor": "haunch",
+     "seed": "fur"
+    }
+   ],
+   "lit_at": [
+    726.6,
+    1756.7
+   ]
+  }
+ },
+ "_zones": "zones: what a cycle (pet_sprite.py pderive) may repaint, polygons in the posed master's own px (posed_<master>.png); everything else stays the master's cells. stand_legs stops short of the hanging tail.",
+ "zones": {
+  "stand_legs": [
+   [
+    52,
+    318
+   ],
+   [
+    200,
+    300
+   ],
+   [
+    300,
+    315
+   ],
+   [
+    530,
+    320
+   ],
+   [
+    530,
+    500
+   ],
+   [
+    8,
+    500
+   ],
+   [
+    8,
+    385
+   ],
+   [
+    52,
+    385
+   ]
+  ],
+  "back_legs": [
+   [
+    12,
+    325
+   ],
+   [
+    232,
+    325
+   ],
+   [
+    242,
+    502
+   ],
+   [
+    2,
+    502
+   ]
+  ],
+  "front_legs": [
+   [
+    8,
+    315
+   ],
+   [
+    238,
+    315
+   ],
+   [
+    244,
+    496
+   ],
+   [
+    2,
+    496
+   ]
+  ],
+  "sit_back_tail": [
+   [
+    55,
+    195
+   ],
+   [
+    100,
+    195
+   ],
+   [
+    100,
+    208
+   ],
+   [
+    210,
+    208
+   ],
+   [
+    210,
+    265
+   ],
+   [
+    -65,
+    265
+   ],
+   [
+    -65,
+    208
+   ],
+   [
+    55,
+    208
+   ]
+  ]
+ },
+ "_wag": "wag.wag_back: the door wag from the sitting dog's own tail; row, col: the cell row its tail starts and the tail root's cell column (from the master's top-left cell); stub: the edit frame whose tail points back",
+ "wag": {
+  "wag_back": {
+   "row": 23,
+   "col": 9,
+   "stub": 1
+  }
+ },
+ "_thin": "thin: sheets whose outline is thinned to one cell in cut (the door sit: its cut took a ring of the dark door panel the model repainted)",
+ "thin": [
+  "sit_back",
+  "wag_back"
+ ]
+}

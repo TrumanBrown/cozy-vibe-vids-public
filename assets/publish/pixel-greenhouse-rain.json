@@ -1,0 +1,36 @@
+{
+ "_note": "Drafted by tools/finish_video.py on 2026-10-22: the title, the opening and the hashtags by the chat model in Truman's form (model), from scenes/pixel-greenhouse-rain/brief.json and his published videos (docs/records/*/published.md), checked with upload_package's rules. Edit freely: the tool never overwrites this spec. Once it's live, record what he changed (master-render skill, Upload checklist step 9).",
+ "slug": "pixel-greenhouse-rain",
+ "name": "Seedling House",
+ "render": "out/pixel-greenhouse-rain/render/10h_v9",
+ "video": "master_music.mp4",
+ "thumbnails": "assets/thumbnails/pixel-greenhouse-rain.json",
+ "thumbnail": "pixel-dog",
+ "test_and_compare": [
+  "pixel-dog",
+  "pixel-place-card",
+  "pixel-polaroid"
+ ],
+ "draft_text": false,
+ "titles": [
+  "Lofi Seedling House 🌱 Study and relax with spring rain ☔ 4K, 10 hours, no Ads",
+  "Lofi Seedling House 🌱 Work and study with morning rain ☔ 4K, 10 hours, no Ads",
+  "Lofi Seedling House 🌱 Rest with gentle rain ☔ 4K, 10 hours, no Ads"
+ ],
+ "title_emoji": 2,
+ "description": [
+  "Come relax with rain on a small farm greenhouse at dawn, with gentle lofi music and a dog asleep on its mat. 10 hours of 4K, calming ambience with smooth music. Never interrupting with ads."
+ ],
+ "hashtags": [
+  "#lofi",
+  "#rainsounds",
+  "#studymusic",
+  "#study",
+  "#relaxing",
+  "#relax",
+  "#4k",
+  "#10hours"
+ ],
+ "tags": [],
+ "category": "Film & Animation"
+}

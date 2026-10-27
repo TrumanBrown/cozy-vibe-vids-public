@@ -1,0 +1,74 @@
+{
+ "source": "assets/keyart/leaf-campfire-rain/hero_gpt-image-2_20261025-154404_3_lizard.png",
+ "deployment": "gpt-image-2",
+ "endpoint": "https://cvvimg-b9812c.cognitiveservices.azure.com/",
+ "items": [
+  {
+   "name": "tiny_campfire_flames",
+   "kind": "fire",
+   "prompt": "Remove the flames of the Small flames inside a ring of pebbles.. Show the fuel without flames: small twigs beneath the hanging soup pot, as dark logs with a few glowing orange embers, lit warmly from within, with the same warm light on the surroundings. No flames, no smoke, no grey haze or ash cloud, nothing white. Any pot, kettle or creature stays exactly as it is. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     336,
+     416,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1143,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 119
+     },
+     "output_tokens": 7024,
+     "output_tokens_details": {
+      "image_tokens": 7024,
+      "text_tokens": 0
+     },
+     "total_tokens": 8167
+    }
+   ],
+   "date": "2026-10-25"
+  },
+  {
+   "name": "edge_drips",
+   "kind": "drips",
+   "prompt": "Remove every water drop and drip hanging from the edge of the burdock leaf roof, and the thin streams of water running down from them. The edge itself stays, wet but with no hanging drops. Behind them show the scene as it continues: the scene behind them as it continues. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     1052,
+     0,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1117,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 93
+     },
+     "output_tokens": 7024,
+     "output_tokens_details": {
+      "image_tokens": 7024,
+      "text_tokens": 0
+     },
+     "total_tokens": 8141
+    }
+   ],
+   "date": "2026-10-25"
+  },
+  {
+   "name": "painted_strands",
+   "kind": "strands",
+   "prompt": "Remove the thin strings of water drops hanging from the roof eaves, signs, lanterns and leaves. Where they were, show what is behind them, continuing the surroundings: the walls, windows and leaves behind them. The edges they hung from stay, wet but with no hanging drops. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [],
+   "usage": [],
+   "date": "2026-10-25"
+  }
+ ],
+ "_note": "AI edit of the key art (painted transients removed); see tools/plate_clean.py"
+}

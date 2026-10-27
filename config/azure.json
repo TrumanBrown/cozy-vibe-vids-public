@@ -1,0 +1,66 @@
+{
+  "resource_group": "rg-cozyvibevids-img",
+  "location": "eastus2",
+  "account": "cvvimg-b9812c",
+  "api_version": "2025-04-01-preview",
+  "deployments": [
+    {
+      "name": "gpt-image-2-5-sunburst",
+      "model": "gpt-image-2.5-sunburst",
+      "version": "2026-09-08",
+      "sku": "GlobalStandard",
+      "capacity": 1
+    },
+    {
+      "name": "gpt-image-2",
+      "model": "gpt-image-2",
+      "version": "2026-04-21",
+      "sku": "GlobalStandard",
+      "capacity": 1
+    },
+    {
+      "name": "gpt-6-sol",
+      "model": "gpt-6-sol",
+      "version": "2026-09-22",
+      "sku": "GlobalStandard",
+      "capacity": 100
+    },
+    {
+      "name": "gpt-audio-1-5",
+      "model": "gpt-audio-1.5",
+      "version": "2026-02-23",
+      "sku": "GlobalStandard",
+      "capacity": 10
+    }
+  ],
+  "default_deployment": "gpt-image-2-5-sunburst",
+  "vision_deployment": "gpt-6-sol",
+  "audio_deployment": "gpt-audio-1-5",
+  "daily_cap_usd": 40,
+  "_daily_cap_usd": "tools/azure_ai.py stops before any Azure call once the day's logged estimate reaches this, so a tool stuck in a loop can't run up the bill overnight. The busiest day so far logged $16 (2026-10-25). COZY_DAILY_CAP_USD overrides it for one run; 0 turns it off.",
+  "tags": {
+    "project": "cozy-vibe-vids",
+    "purpose": "image-generation",
+    "owner": "agent"
+  },
+  "prices_usd_per_1m": {
+    "_note": "Estimates for the spend log (tools/azure_ai.py); check the Azure portal for real charges.",
+    "gpt-6-sol": {
+      "input": 2.0,
+      "output": 10.0
+    },
+    "gpt-image-2-5-sunburst": {
+      "input": 5.0,
+      "output": 40.0
+    },
+    "gpt-image-2": {
+      "input": 5.0,
+      "output": 40.0
+    },
+    "gpt-audio-1-5": {
+      "input": 32.0,
+      "output": 10.0
+    }
+  },
+  "endpoint": "https://cvvimg-b9812c.cognitiveservices.azure.com/"
+}

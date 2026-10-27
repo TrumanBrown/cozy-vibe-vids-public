@@ -1,0 +1,38 @@
+{
+ "creature": "beetle",
+ "prompt": "A single a small dark shiny beetle walking to the right, seen from the side, legs visible. Painted to match this art style: Wide 16:9 16-bit pixel art in the style of Stardew Valley, chunky square pixels of one consistent size, limited cozy palette, crisp hard edges, no blur, no anti-aliasing.. Lighting to match the scene: soft blue dawn light through the panes, warmed by one amber lantern; crisp, consistently sized pixels with no blur or anti-aliasing. The whole creature is in view, centered, with a little space around it. Transparent background, no ground, no shadow, no other objects, no text.",
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-21",
+ "usage": {
+  "input_tokens": 143,
+  "input_tokens_details": {
+   "image_tokens": 0,
+   "text_tokens": 143
+  },
+  "output_tokens": 1756,
+  "output_tokens_details": {
+   "image_tokens": 1756,
+   "text_tokens": 0
+  },
+  "total_tokens": 1899
+ },
+ "size": [
+  1024,
+  1024
+ ],
+ "bbox": [
+  163,
+  345,
+  906,
+  750
+ ],
+ "foot_y": 734,
+ "front_x": 906,
+ "back_x": 163,
+ "shell_x": [
+  255,
+  733
+ ],
+ "lum": 0.1769,
+ "lift": 0.55
+}

@@ -1,0 +1,78 @@
+{
+ "a/1": {
+  "sha256": "38032ee3b684892c",
+  "types": {
+   "ant": 203,
+   "birds": 803,
+   "boat": 34,
+   "car": 699,
+   "critter": 200,
+   "ember": 140,
+   "farflash": 239,
+   "fish": 199,
+   "flurry": 30,
+   "gutter": 120,
+   "lightning": 60,
+   "moth": 241,
+   "neon": 302,
+   "perch": 236,
+   "petact": 40,
+   "star": 80
+  }
+ },
+ "a/7": {
+  "sha256": "6ea570ade958d82d",
+  "types": {
+   "ant": 203,
+   "birds": 803,
+   "boat": 37,
+   "car": 699,
+   "critter": 200,
+   "ember": 140,
+   "farflash": 239,
+   "fish": 199,
+   "flurry": 30,
+   "gutter": 120,
+   "lightning": 60,
+   "moth": 241,
+   "neon": 302,
+   "perch": 228,
+   "petact": 40,
+   "star": 80
+  }
+ },
+ "b/1": {
+  "sha256": "59618b1813710f38",
+  "types": {
+   "ant": 120,
+   "birds": 398,
+   "boat": 199,
+   "critter": 60,
+   "flurry": 50,
+   "gutter": 80,
+   "lightning": 101,
+   "moth": 100,
+   "neon": 199,
+   "perch": 281,
+   "petact": 60,
+   "star": 50
+  }
+ },
+ "b/7": {
+  "sha256": "bb6c0b050d7eb7eb",
+  "types": {
+   "ant": 120,
+   "birds": 398,
+   "boat": 202,
+   "critter": 60,
+   "flurry": 50,
+   "gutter": 80,
+   "lightning": 100,
+   "moth": 100,
+   "neon": 199,
+   "perch": 272,
+   "petact": 60,
+   "star": 50
+  }
+ }
+}

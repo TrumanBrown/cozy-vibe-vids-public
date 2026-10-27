@@ -1,0 +1,40 @@
+{
+  "scene": "snowy-cottage",
+  "aesthetic": "ghibli-countryside",
+  "created": "2026-10-16",
+  "setting": "a cozy wooden countryside cottage interior on a snowy winter evening",
+  "time": "dusk",
+  "weather": "snow",
+  "pet": "a shiba inu asleep curled on a round cushion near the hearth",
+  "props": [
+    "a stone hearth with a bright crackling fire",
+    "a steaming mug of cocoa",
+    "a candle on the windowsill"
+  ],
+  "signature": "snow drifting past the window in slow gusts while the hearth fire flickers on the room",
+  "foreground": "a low wooden table with a steaming mug of cocoa and a folded knitted blanket; a shiba inu asleep curled on a round cushion near the hearth, its ears and tail clearly visible",
+  "midground": "a stone hearth on the left with a bright crackling fire and glowing logs, copper pots, dried herbs hanging from a beam, a lit candle on the windowsill",
+  "background": "a large wooden-framed window in the center with clear glass, heavy snow falling outside over a quiet snowy forest, a little red barn and soft blue mountains at dusk",
+  "light": "Warm orange firelight inside, soft blue twilight outside, gentle painted light",
+  "title_idea": "A snowy evening in a countryside cottage, with a crackling fire (Ghibli-style ambience)",
+  "pick_scores": [
+    {
+      "index": 1,
+      "composition": 9,
+      "animatable": 9,
+      "artifacts": 10,
+      "brief": 9,
+      "note": "Calm, readable layout with a prominent central window. The fire, sleeping shiba, candle, and steaming mug are distinct; the barn is less clearly red."
+    },
+    {
+      "index": 2,
+      "composition": 9,
+      "animatable": 10,
+      "artifacts": 10,
+      "brief": 10,
+      "note": "Clear separation of the window, fire, candle, steam, and shiba, with visible ears and tail. The snowy forest, red barn, and dusk mountains closely match the brief."
+    }
+  ],
+  "hero": "assets/keyart/snowy-cottage/hero_gpt-image-2-5-sunburst_20261016-193210_2.png",
+  "status": "plate"
+}

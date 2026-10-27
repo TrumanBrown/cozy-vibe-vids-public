@@ -1,0 +1,17 @@
+#!/bin/sh
+# Refuses a commit that adds a key, a token, this PC's user folder or a private term (tools/secret_scan.py; security
+# review 2026-10-26: the repo is going public). Turned on with: git config core.hooksPath .githooks
+root=$(git rev-parse --show-toplevel)
+common=$(cd "$(git rev-parse --git-common-dir)" && pwd)
+scan="$root/tools/secret_scan.py"
+[ -f "$scan" ] || exit 0
+# the repo's venv first (a worktree uses the main checkout's), then a Python on PATH; each is tried before it is
+# used, since Windows puts "App execution alias" stubs on PATH that only print an install hint and fail
+for py in "$root/.venv/Scripts/python.exe" "$root/.venv/bin/python" "$common/../.venv/Scripts/python.exe" \
+          "$common/../.venv/bin/python" python3 python; do
+  if "$py" -c "import sys" >/dev/null 2>&1; then
+    exec "$py" "$scan" --staged
+  fi
+done
+echo "pre-commit: no Python found, so tools/secret_scan.py didn't check this commit" >&2
+exit 0

@@ -1,0 +1,21 @@
+{
+ "sheet": "walk_back",
+ "prompt": "Pixel-art sprite sheet of this same dog walking straight away from the viewer, seen from behind and a little above: we see its back, the back of its head and its two ears, its rump and its tail, held up and wagging a little. in exactly the same 16-bit pixel-art style as the reference: the same chunky pixel size, the same golden-brown fur colors and shading, the same face, floppy ears, nose and proportions. Four frames of one walk cycle, left to right, the hind legs alternating and the tail swinging a little from side to side. Transparent background. No ground, no floor line, no shadow, no text, no numbers, no frame borders or grid lines. Every frame shows the whole dog with a little space around it, all frames the same size and standing on the same invisible ground line, evenly spaced in one row.",
+ "reference": "ref.png (the painted pet cut from clean.png)",
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-21",
+ "usage": {
+  "input_tokens": 1218,
+  "input_tokens_details": {
+   "image_tokens": 1024,
+   "text_tokens": 194
+  },
+  "output_tokens": 1372,
+  "output_tokens_details": {
+   "image_tokens": 1372,
+   "text_tokens": 0
+  },
+  "total_tokens": 2590
+ },
+ "mode": "RGBA"
+}

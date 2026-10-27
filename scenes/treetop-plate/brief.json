@@ -1,0 +1,16 @@
+{
+  "scene": "treetop-plate",
+  "aesthetic": "minecraft-voxel",
+  "created": "2026-10-15",
+  "_note": "Written 2026-10-21 so the catalog, the look resolver and the brief writer see the published Treetop video (it was built by hand before briefs existed: scenes/treetop-plate/scene.js). Never re-plan it.",
+  "setting": "a Minecraft-style treehouse porch high in an autumn tree, looking out over a valley with a river, a lake and a waterfall, lanterns on the railing",
+  "time": "evening",
+  "weather": "rain with a passing thunderstorm",
+  "pet": "a cat asleep on the porch",
+  "props": ["hanging lanterns on the railing", "a lantern boat on the river"],
+  "signature": "a lantern boat coming down the river in the rain",
+  "signature_detail": "a heron crossing the valley and fish rising on the river",
+  "place_name": "Autumn Treetop",
+  "status": "published",
+  "published": "https://www.youtube.com/watch?v=ftYyRPbOgTU"
+}

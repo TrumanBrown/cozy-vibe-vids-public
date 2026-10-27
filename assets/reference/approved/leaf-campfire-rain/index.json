@@ -1,0 +1,93 @@
+{
+ "source": "out/leaf-campfire-rain/render/sample_v11 (approved 2026-10-26)",
+ "refs": {
+  "keyart__key_art": {
+   "file": "keyart__key_art.jpg",
+   "label": "key art",
+   "lessons": [
+    "L03",
+    "L06",
+    "L07",
+    "L60",
+    "L71"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\leaf-campfire-rain\\render\\sample_v11",
+   "note": "it looks good ... the rest is fine (2026-10-26, on v11; his one note, rain under the salamander's leaf and lantern, fixed after: L156)"
+  },
+  "steam_cup": {
+   "file": "steam_cup.jpg",
+   "label": "steam over soup pot",
+   "lessons": [
+    "L06",
+    "L12",
+    "L18",
+    "L25",
+    "L32",
+    "L35"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\leaf-campfire-rain\\render\\sample_v11",
+   "note": "it looks good ... the rest is fine (2026-10-26, on v11; his one note, rain under the salamander's leaf and lantern, fixed after: L156)"
+  },
+  "pet_dry": {
+   "file": "pet_dry.jpg",
+   "label": "the pet (red backed salamander)",
+   "lessons": [
+    "L10",
+    "L19",
+    "L31"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\leaf-campfire-rain\\render\\sample_v11",
+   "note": "it looks good ... the rest is fine (2026-10-26, on v11; his one note, rain under the salamander's leaf and lantern, fixed after: L156)"
+  },
+  "full_frame_strike": {
+   "file": "full_frame_strike.jpg",
+   "label": "the rain",
+   "lessons": [
+    "L01",
+    "L11",
+    "L14",
+    "L36",
+    "L37"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\leaf-campfire-rain\\render\\sample_v11",
+   "note": "it looks good ... the rest is fine (2026-10-26, on v11; his one note, rain under the salamander's leaf and lantern, fixed after: L156)"
+  },
+  "frames__rain_at_the_glass_and_what_stands_in_fro": {
+   "file": "frames__rain_at_the_glass_and_what_stands_in_fro.jpg",
+   "label": "rain at the glass and what stands in front of it (upper middle, right of center)",
+   "lessons": [
+    "L57",
+    "L92",
+    "L100"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\leaf-campfire-rain\\render\\sample_v11",
+   "note": "it looks good ... the rest is fine (2026-10-26, on v11; his one note, rain under the salamander's leaf and lantern, fixed after: L156)"
+  },
+  "intro_title": {
+   "file": "intro_title.jpg",
+   "label": "the opening line",
+   "lessons": [
+    "L04",
+    "L55"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\leaf-campfire-rain\\render\\sample_v11",
+   "note": "it looks good ... the rest is fine (2026-10-26, on v11; his one note, rain under the salamander's leaf and lantern, fixed after: L156)"
+  },
+  "events__event__moth": {
+   "file": "events__event__moth.jpg",
+   "label": "event: moth",
+   "lessons": [
+    "L16",
+    "L20",
+    "L23",
+    "L28",
+    "L40",
+    "L41",
+    "L42",
+    "L49"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\leaf-campfire-rain\\render\\sample_v11",
+   "note": "it looks good ... the rest is fine (2026-10-26, on v11; his one note, rain under the salamander's leaf and lantern, fixed after: L156)"
+  }
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "source": "assets/keyart/blossom-teahouse-rain/hero_gpt-image-2-5-sunburst_20261022-143454_4.png",
+ "deployment": "gpt-image-2-5-sunburst",
+ "endpoint": "https://cvvimg-b9812c.cognitiveservices.azure.com/",
+ "items": [
+  {
+   "name": "edge_drips",
+   "kind": "drips",
+   "prompt": "Remove every water drop and drip hanging from the edge of the left eaves and upper eaves and the hanging lanterns, and the thin streams of water running down from them. The edge itself stays, wet but with no hanging drops. Behind them show the scene as it continues: the scene behind them as it continues. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     210,
+     0,
+     1536,
+     1024
+    ],
+    [
+     1024,
+     0,
+     1536,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1647,
+     "input_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 111
+     },
+     "output_tokens": 1372,
+     "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+     },
+     "total_tokens": 3019
+    },
+    {
+     "input_tokens": 1647,
+     "input_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 111
+     },
+     "output_tokens": 1372,
+     "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+     },
+     "total_tokens": 3019
+    }
+   ],
+   "date": "2026-10-22"
+  },
+  {
+   "name": "painted_strands",
+   "kind": "strands",
+   "prompt": "Remove the thin strings of water drops hanging from the roof eaves, signs, lanterns and leaves. Where they were, show what is behind them, continuing the surroundings: the walls, windows and leaves behind them. The edges they hung from stay, wet but with no hanging drops. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [],
+   "usage": [],
+   "date": "2026-10-22"
+  }
+ ],
+ "_note": "AI edit of the key art (painted transients removed); see tools/plate_clean.py"
+}

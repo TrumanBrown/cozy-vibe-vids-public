@@ -1,0 +1,142 @@
+{
+ "_note": "The aquarium's thumbnails (2026-10-22). Truman asked for many different styles this time, none that look AI-made. Real frames of his tank (out/aquarium/stills: 4K stills of C0140 inside the looped window, footage_loop.py heroes; redone 2026-10-23 for the new recording), a natural grade (no bloom or dreamy glow, which reads as processed), and eight different concepts, each in its own type: the channel's pixel card (his pick on both published videos, so suggested first), a polaroid with handwriting, a cinema letterbox, a minimal corner label, a magazine cover, a magnified inset, one big word, a paper note. Every one says 4K and 10 HR. Edit freely.",
+ "scene": "scenes/aquarium",
+ "out": "out/aquarium/thumbnails",
+ "badges": [
+  {"x": 0.04, "y": 0.085, "font": "quicksand", "size": 66, "gap": 22, "items": [
+   {"text": "4K", "fill": "#ffffff", "box": {"fill": "#000000", "alpha": 0.5, "radius": 0.3, "pad": [0.42, 0.22]}},
+   {"text": "10 HR", "fill": "#ffffff", "box": {"fill": "#000000", "alpha": 0.5, "radius": 0.3, "pad": [0.42, 0.22]}}]}
+ ],
+ "variants": [
+  {
+   "name": "pixel-gourami",
+   "frame": "out/aquarium/stills/hero_f058383.png",
+   "zoom": 2.6,
+   "center": [0.384, 0.68],
+   "grade": {"bloom": 0.0, "soft": 0.0, "gamma": 0.92, "contrast": 0.2, "sat": 1.06, "vib": 0.15, "vignette": 0.25, "sharpen": 0.25},
+   "scrims": [{"x": 0.24, "y": 0.33, "rx": 0.3, "ry": 0.15, "alpha": 0.45}],
+   "badges": [{"x": 0.04, "y": 0.08, "px": 15, "gap": 3, "items": [{"text": "4K", "style": "chip"}, {"text": "10 HR", "style": "chip"}]}],
+   "text": [
+    {"text": "Planted Aquarium", "px": 24, "x": 0.05, "y": 0.31, "style": "amber", "align": "left"},
+    {"text": "♫ calm minecraft music & water", "px": 12, "x": 0.05, "y": 0.43, "style": "badge", "align": "left"}
+   ]
+  },
+  {
+   "name": "polaroid",
+   "frame": "out/aquarium/stills/hero_f045423.png",
+   "zoom": 1.06,
+   "center": [0.5, 0.52],
+   "grade": {"bloom": 0.0, "soft": 0.0, "gamma": 0.93, "contrast": 0.14, "sat": 1.02, "vib": 0.12, "vignette": 0.2, "sharpen": 0.2},
+   "mat": {"color": "#f2ede3", "margin": [0.035, 0.055, 0.035, 0.24]},
+   "badges": [
+    {"x": 0.6, "y": 0.83, "font": "caveat", "size": 120, "gap": 40, "style": "ink", "items": [
+     {"text": "4K", "fill": "#7a3b2a"},
+     {"text": "10 HR", "fill": "#7a3b2a"}]}
+   ],
+   "text": [
+    {"text": "my planted tank", "font": "caveat", "size": 165, "x": 0.055, "y": 0.83, "style": "ink", "align": "left"},
+    {"text": "calm minecraft music and soft water", "font": "caveat", "size": 104, "x": 0.055, "y": 0.925, "style": "ink", "align": "left", "fill": "#5a4232"}
+   ]
+  },
+  {
+   "name": "letterbox",
+   "frame": "out/aquarium/stills/hero_f044223.png",
+   "zoom": 1.2,
+   "center": [0.45, 0.6],
+   "grade": {"bloom": 0.0, "soft": 0.0, "gamma": 0.94, "contrast": 0.22, "sat": 0.98, "vib": 0.1, "vignette": 0.3, "sharpen": 0.2},
+   "bands": [
+    {"y0": 0.0, "y1": 0.13, "color": "#050505", "alpha": 1.0, "feather": 0},
+    {"y0": 0.87, "y1": 1.0, "color": "#050505", "alpha": 1.0, "feather": 0}
+   ],
+   "badges": [
+    {"x": 0.835, "y": 0.065, "font": "cormorant-garamond", "size": 78, "gap": 26, "items": [
+     {
+      "text": "4K",
+      "fill": "#e9e4da",
+      "box": {"fill": "#000000", "alpha": 0.0, "border": "#e9e4da", "border_w": 0.05, "radius": 0.1, "pad": [0.4, 0.12]}
+     },
+     {
+      "text": "10 HR",
+      "fill": "#e9e4da",
+      "box": {"fill": "#000000", "alpha": 0.0, "border": "#e9e4da", "border_w": 0.05, "radius": 0.1, "pad": [0.4, 0.12]}
+     }]}
+   ],
+   "text": [
+    {"text": "PLANTED AQUARIUM", "font": "cormorant-garamond", "size": 150, "x": 0.41, "y": 0.935, "style": "soft", "tracking": 0.32, "fill": "#f1ece2", "shadow_alpha": 0.0, "glow": []},
+    {"text": "calm minecraft music  ·  soft water", "font": "cormorant-garamond", "size": 80, "x": 0.05, "y": 0.065, "style": "soft", "align": "left", "tracking": 0.08, "fill": "#cfc8bb", "shadow_alpha": 0.0, "glow": []}
+   ]
+  },
+  {
+   "name": "minimal",
+   "frame": "out/aquarium/stills/hero_f044223.png",
+   "zoom": 1.0,
+   "center": [0.5, 0.5],
+   "grade": {"bloom": 0.0, "soft": 0.0, "gamma": 0.92, "contrast": 0.16, "sat": 1.04, "vib": 0.15, "vignette": 0.28, "sharpen": 0.22},
+   "scrims": [{"x": 0.2, "y": 0.9, "rx": 0.32, "ry": 0.13, "alpha": 0.5}],
+   "text": [
+    {"text": "planted aquarium", "font": "quicksand", "size": 150, "x": 0.045, "y": 0.865, "style": "soft", "align": "left", "weight": 600},
+    {"text": "calm minecraft music, soft water, 10 hours", "font": "quicksand", "size": 70, "x": 0.047, "y": 0.94, "style": "soft", "align": "left", "fill": "#e6efe8"}
+   ]
+  },
+  {
+   "name": "magazine",
+   "frame": "out/aquarium/stills/hero_f044223.png",
+   "zoom": 2.2,
+   "center": [0.43, 0.6],
+   "grade": {"bloom": 0.0, "soft": 0.0, "gamma": 0.92, "contrast": 0.2, "sat": 1.05, "vib": 0.15, "vignette": 0.22, "sharpen": 0.25},
+   "scrims": [{"x": 0.5, "y": 0.1, "rx": 0.6, "ry": 0.16, "alpha": 0.35}, {"x": 0.12, "y": 0.62, "rx": 0.26, "ry": 0.24, "alpha": 0.4}],
+   "badges": [
+    {"x": 0.045, "y": 0.9, "font": "playfair-display", "size": 74, "gap": 24, "items": [
+     {"text": "4K", "fill": "#1b140c", "box": {"fill": "#f3e3b8", "alpha": 0.95, "radius": 0.15, "pad": [0.4, 0.16]}},
+     {"text": "10 HR", "fill": "#1b140c", "box": {"fill": "#f3e3b8", "alpha": 0.95, "radius": 0.15, "pad": [0.4, 0.16]}}]}
+   ],
+   "text": [
+    {"text": "AQUARIUM", "font": "playfair-display", "size": 380, "x": 0.5, "y": 0.13, "style": "soft", "tracking": 0.06, "weight": 700, "fill": "#fbf7ef"},
+    {"text": "calm\nminecraft\nmusic", "font": "playfair-display", "size": 118, "x": 0.045, "y": 0.52, "style": "soft", "align": "left", "leading": 0.05, "weight": 600, "fill": "#ffe7b0"},
+    {"text": "soft water sounds", "font": "playfair-display", "size": 64, "x": 0.047, "y": 0.75, "style": "soft", "align": "left", "fill": "#f1ece2"},
+    {"text": "the honey gourami", "font": "playfair-display", "size": 56, "x": 0.955, "y": 0.8, "style": "soft", "align": "right", "fill": "#f1ece2"}
+   ]
+  },
+  {
+   "name": "inset",
+   "frame": "out/aquarium/stills/hero_f058383.png",
+   "zoom": 1.0,
+   "center": [0.5, 0.5],
+   "grade": {"bloom": 0.0, "soft": 0.0, "gamma": 0.92, "contrast": 0.16, "sat": 1.04, "vib": 0.15, "vignette": 0.25, "sharpen": 0.22},
+   "insets": [
+    {"smooth": true, "shape": "circle", "x": 0.8, "y": 0.36, "w": 0.27, "aspect": 1.0, "span": 0.13, "center": [0.444, 0.79], "border": "#f6efe2", "border_px": 14, "shadow": 0.55}
+   ],
+   "scrims": [{"x": 0.8, "y": 0.75, "rx": 0.28, "ry": 0.14, "alpha": 0.5}],
+   "text": [
+    {"text": "honey gourami", "font": "caveat", "size": 120, "x": 0.8, "y": 0.71, "style": "soft", "fill": "#fff4dc"},
+    {"text": "calm music and soft water", "font": "quicksand", "size": 66, "x": 0.8, "y": 0.8, "style": "soft", "fill": "#e9f2ea"}
+   ]
+  },
+  {
+   "name": "big-word",
+   "frame": "out/aquarium/stills/hero_f045423.png",
+   "zoom": 2.2,
+   "center": [0.5, 0.6],
+   "grade": {"bloom": 0.0, "soft": 0.0, "gamma": 0.92, "contrast": 0.2, "sat": 1.05, "vib": 0.15, "vignette": 0.25, "sharpen": 0.25},
+   "scrims": [{"x": 0.24, "y": 0.5, "rx": 0.3, "ry": 0.3, "alpha": 0.35}],
+   "text": [
+    {"text": "calm", "font": "playfair-display", "size": 560, "x": 0.05, "y": 0.47, "style": "soft", "align": "left", "weight": 500, "fill": "#fbf7ef"},
+    {"text": "minecraft music & soft water", "font": "quicksand", "size": 78, "x": 0.058, "y": 0.69, "style": "soft", "align": "left", "fill": "#ffe2a8", "weight": 600}
+   ]
+  },
+  {
+   "name": "paper-note",
+   "frame": "out/aquarium/stills/hero_f079443.png",
+   "zoom": 1.12,
+   "center": [0.55, 0.45],
+   "grade": {"bloom": 0.0, "soft": 0.0, "gamma": 0.93, "contrast": 0.15, "sat": 1.03, "vib": 0.12, "vignette": 0.22, "sharpen": 0.2},
+   "cards": [
+    {"x": 0.22, "y": 0.27, "w": 1400, "h": 640, "rotate": -3, "fill": "#f4eee2", "fill2": "#ebe2d0", "grain": 0.035, "radius": 6, "shadow": {"alpha": 0.5, "blur": 26, "off": [12, 22]}, "lines": [
+     {"text": "planted aquarium", "font": "caveat", "size": 165, "x": 0.07, "y": 0.2, "style": "ink", "align": "left"},
+     {"text": "honey gourami, snails, moss", "font": "caveat", "size": 96, "x": 0.07, "y": 0.45, "style": "ink", "align": "left", "fill": "#4a3424"},
+     {"text": "calm minecraft music, soft water", "font": "caveat", "size": 96, "x": 0.07, "y": 0.65, "style": "ink", "align": "left", "fill": "#4a3424"},
+     {"text": "10 HR, 4K", "font": "caveat", "size": 110, "x": 0.07, "y": 0.85, "style": "ink", "align": "left", "fill": "#8a3a26"}]}
+   ]
+  }
+ ]
+}

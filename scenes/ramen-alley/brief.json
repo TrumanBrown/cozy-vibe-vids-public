@@ -1,0 +1,42 @@
+{
+  "scene": "ramen-alley",
+  "aesthetic": "ramen-alley",
+  "created": "2026-10-16",
+  "setting": "a small ramen stall in a narrow Japanese alley at night in the rain, seen from under the stall's awning",
+  "time": "night",
+  "weather": "rain",
+  "pet": "a black-and-white cat asleep on a wooden stool under the awning",
+  "props": [
+    "a steaming bowl of ramen",
+    "red paper lanterns hanging from the eaves",
+    "neon signs in simple abstract shapes"
+  ],
+  "signature": "neon signs buzzing and steam rising from the ramen while rain falls on the alley",
+  "signature_detail": "an ant that crosses the counter now and then, stops to feel about with its antennae, and walks over the counter's far edge (Truman 2026-10-19: silly and unique, the kind of thing people comment on)",
+  "foreground": "the ramen stall's wooden counter along the bottom of the frame with a steaming bowl of ramen and chopsticks; a black-and-white cat asleep curled up on a wooden stool under the awning, dry, its ears and tail clearly visible",
+  "midground": "three red paper lanterns hanging from the stall's eaves along the top of the frame, the edge of the awning dripping, wet stone pavement with puddles reflecting the lights",
+  "background": "the alley continuing into the distance with glowing neon signs made of simple abstract shapes such as a bowl and a cat face with no letters, more lanterns, power lines, rain falling, misty glow",
+  "light": "Warm red and orange lantern light against a cool blue-violet night, soft glow, wet reflections",
+  "title_idea": "Rainy night at a ramen stall in a Tokyo alley, with rain and quiet city sounds",
+  "pick_scores": [
+    {
+      "index": 1,
+      "composition": 9,
+      "animatable": 8,
+      "artifacts": 9,
+      "brief": 9,
+      "note": "Calm, readable view with strong alley depth. The steam, lanterns, neon, and rain are distinct, though the sleeping cat’s tail is not clearly visible."
+    },
+    {
+      "index": 2,
+      "composition": 9,
+      "animatable": 9,
+      "artifacts": 9,
+      "brief": 10,
+      "note": "Clear view from beneath the awning, with the ramen, sleeping cat, rain, and separate neon signs well placed for animation. No notable text or object artifacts."
+    }
+  ],
+  "hero": "assets/keyart/ramen-alley/hero_gpt-image-2-5-sunburst_20261016-193308_2.png",
+  "status": "published",
+  "published": "https://www.youtube.com/watch?v=GjF9esap044"
+}

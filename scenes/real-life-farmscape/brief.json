@@ -1,0 +1,65 @@
+{
+  "scene": "real-life-farmscape",
+  "aesthetic": "winter-cabin",
+  "created": "2026-10-20",
+  "setting": "A covered farmhouse porch overlooking fenced fields and a small farm pond, in one locked-off wide photorealistic shot",
+  "time": "blue hour",
+  "weather": "gentle rain",
+  "pet": "A farm dog asleep on a woven mat beside the porch rail, with both ears and its tail visible",
+  "props": [
+    "a steaming enamel mug on a side table",
+    "a lit hanging porch lantern"
+  ],
+  "signature": "Gentle rain stipples the farm pond beyond the porch, sending overlapping ripples across its reflection of the sky",
+  "signature_detail": "A tiny snail crawls along the flat, rain-damp porch step in the lower left of the picture, pausing at a knothole",
+  "stages": [
+    "farm pond beyond the fence, dimpled by rain",
+    "flat porch step in the near foreground with a tiny snail",
+    "side table beside the sleeping dog with a steaming mug"
+  ],
+  "foreground": "Weathered porch boards, the damp step, a woven dog mat and a small side table",
+  "midground": "Open porch rail, rain-dark fence posts and grassy fields",
+  "background": "A farm pond and low tree line beneath an overcast blue-hour sky",
+  "light": "Cool, soft light from the open porch, warmed by the hanging lantern",
+  "title_idea": "Gentle Rain at Farmhouse Porch | 10 Hours of Cozy Farm Ambience",
+  "place_name": "Farmhouse Porch",
+  "intro_lines": [
+    "Welcome to the porch, come listen to the rain with us"
+  ],
+  "pick_scores": [
+    {
+      "index": 1,
+      "composition": 8,
+      "animatable": 7,
+      "artifacts": 9,
+      "brief": 8,
+      "note": "Calm wide view with a prominent pond and lantern. The dog is partly crowded by the table; mug steam and pond ripples are not distinct."
+    },
+    {
+      "index": 2,
+      "composition": 8,
+      "animatable": 8,
+      "artifacts": 9,
+      "brief": 8,
+      "note": "Readable depth and a clearly separated dog, mug, and lantern. The mug shows no steam, and rain on the pond is subtle."
+    },
+    {
+      "index": 3,
+      "composition": 9,
+      "animatable": 7,
+      "artifacts": 9,
+      "brief": 8,
+      "note": "Strong framing gives the pond and porch room to breathe. The dog's tail is hard to identify, and the mug has no visible steam."
+    },
+    {
+      "index": 4,
+      "composition": 9,
+      "animatable": 9,
+      "artifacts": 9,
+      "brief": 9,
+      "note": "Best balance of cozy porch, visible dog and tail, distinct light sources, and pond backdrop. Mug steam and overlapping pond ripples would need to be added in animation."
+    }
+  ],
+  "hero": "assets/keyart/real-life-farmscape/hero_gpt-image-2-5-sunburst_20261020-231600_4.png",
+  "status": "plate"
+}

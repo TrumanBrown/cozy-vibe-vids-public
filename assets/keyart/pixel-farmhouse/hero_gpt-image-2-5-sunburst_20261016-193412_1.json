@@ -1,0 +1,24 @@
+{
+  "id": "hero",
+  "prompt": "Wide 16:9 16-bit pixel art in the style of Stardew Valley, chunky square pixels of one consistent size, limited cozy palette, crisp hard edges, no blur, no anti-aliasing. The scene: a cozy farmhouse interior on a rainy autumn night. Foreground: a wooden table with a steaming mug, a lit candle and a pumpkin; an orange tabby cat asleep curled on a round rug, its ears and tail visible. Midground: a stone fireplace on the right with a crackling fire, a bookshelf, potted plants and a quilt-covered bed on the left. Background: two large windows with clear glass in the back wall showing rain falling at night over the farm fields, a pond and a lit barn in the distance. Warm firelight and candlelight inside, deep blue night outside. Locked-off camera at eye level, wide 16:9 composition with a clear foreground, midground and background. Leave open, uncluttered areas around the light sources, the windows and the animal so they can be animated. No people, no characters, no text, no letters, no logos, no watermark, no user interface.",
+  "deployment": "gpt-image-2-5-sunburst",
+  "size": "2560x1440",
+  "quality": "high",
+  "created": 1792204450,
+  "revised_prompt": null,
+  "usage": {
+    "input_tokens": 482,
+    "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 482
+    },
+    "output_tokens": 3685,
+    "output_tokens_details": {
+      "image_tokens": 3685,
+      "text_tokens": 0
+    },
+    "total_tokens": 4167
+  },
+  "endpoint": "https://cvvimg-b9812c.cognitiveservices.azure.com/",
+  "generated_at": "20261016-193412"
+}

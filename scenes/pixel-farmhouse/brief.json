@@ -1,0 +1,40 @@
+{
+  "scene": "pixel-farmhouse",
+  "aesthetic": "pixel-farmhouse",
+  "created": "2026-10-16",
+  "setting": "a cozy farmhouse interior on a rainy autumn night",
+  "time": "night",
+  "weather": "rain",
+  "pet": "an orange tabby cat asleep on a round rug",
+  "props": [
+    "a stone fireplace with a fire",
+    "a lit candle on the table",
+    "a steaming mug"
+  ],
+  "signature": "rain falling on the farm outside the windows while the fireplace crackles",
+  "foreground": "a wooden table with a steaming mug, a lit candle and a pumpkin; an orange tabby cat asleep curled on a round rug, its ears and tail visible",
+  "midground": "a stone fireplace on the right with a crackling fire, a bookshelf, potted plants and a quilt-covered bed on the left",
+  "background": "two large windows with clear glass in the back wall showing rain falling at night over the farm fields, a pond and a lit barn in the distance",
+  "light": "Warm firelight and candlelight inside, deep blue night outside",
+  "title_idea": "A rainy autumn night in a pixel farmhouse, with a crackling fire (Stardew Valley style)",
+  "pick_scores": [
+    {
+      "index": 1,
+      "composition": 9,
+      "animatable": 9,
+      "artifacts": 10,
+      "brief": 10,
+      "note": "Calm, balanced view with both clear windows, the full fireplace, candle, steaming mug, and sleeping cat visible. The barn, pond, and fields read clearly outside."
+    },
+    {
+      "index": 2,
+      "composition": 8,
+      "animatable": 8,
+      "artifacts": 10,
+      "brief": 9,
+      "note": "The cat and rain-filled windows are prominent, but the fireplace is cropped at the right edge and foreground furniture makes the layout slightly busier."
+    }
+  ],
+  "hero": "assets/keyart/pixel-farmhouse/hero_gpt-image-2-5-sunburst_20261016-193412_1.png",
+  "status": "plate"
+}

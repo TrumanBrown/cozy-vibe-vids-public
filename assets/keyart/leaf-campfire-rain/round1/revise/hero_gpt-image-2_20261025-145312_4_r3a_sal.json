@@ -1,0 +1,36 @@
+{
+  "src": "assets/keyart/leaf-campfire-rain/revise/hero_gpt-image-2_20261025-145312_4_r3a.png",
+  "tag": "sal",
+  "steps": [
+    {
+      "kind": "edit",
+      "polygons": [
+        "0.5625,0.264,0.672,0.236,0.875,0.264,0.875,0.826,0.5625,0.826"
+      ],
+      "keep": [
+        [
+          0.508,
+          0.59
+        ]
+      ],
+      "model": "gpt-image-2",
+      "prompt": "Edit only the masked area of this hand-made picture-book illustration and keep its exact style: dark umber and forest-green ink lines that taper and break, opaque gouache with dry-brush strokes and watercolor-paper grain, the same muted night palette and the same light. In the masked area: the burdock leaf's right edge continues as it is, and under it only dark moss at the edge of the camp. Out in the open to the right of the burdock leaf, a little way out on the dark wet forest floor beside a shallow puddle, in the rain: the salamander, a western red-backed salamander: slender, with dark gray sides speckled with white and one brick-red stripe running down its back from its head to the tip of its tail, two tiny black dot eyes without shine, standing on its hind legs and holding a big glossy salal leaf over its head like an umbrella by the leaf's stem in one hand, the leaf tilted back so its whole head and face show; nothing on its head. It stands on its hind legs holding its salal leaf high over its head like an umbrella by the stem, and its face is turned away from the camp, looking out toward the dark forest on the right, as if looking back at the way it came. Its leaf is well clear of the burdock leaf. It is lit only faintly on the side toward the campfire. Draw it complete and correct: its hand closed around the leaf's stem, four legs, its whole tail, the red stripe down its back. No other creatures, no text, no falling rain streaks (the rain is animated later), no steam or smoke.",
+      "px": 664851
+    }
+  ],
+  "usage": {
+    "input_tokens": 1855,
+    "input_tokens_details": {
+      "image_tokens": 1508,
+      "text_tokens": 347
+    },
+    "output_tokens": 7370,
+    "output_tokens_details": {
+      "image_tokens": 7370,
+      "text_tokens": 0
+    },
+    "total_tokens": 9225
+  },
+  "made": "2026-10-25T15:27:33",
+  "note": "tools/keyart_revise.py: only the masked pixels changed (edits feathered 2.5 px); the lift is a code adjustment"
+}

@@ -1,0 +1,39 @@
+{
+  "_note": "As Truman published it on 2026-10-20: his title, opening, hashtags, no tags, Film & Animation, the pixel-bowl thumbnail. The blurb (assets/publish/description_blurb.txt) follows the opening. Drafts of later videos follow this form (master-render skill, Upload checklist step 4).",
+  "slug": "rainy-ramen-alley",
+  "name": "Ramen Alley",
+  "render": "out/ramen-alley/render/10h_v1",
+  "video": "master_music.mp4",
+  "thumbnails": "assets/thumbnails/ramen-alley.json",
+  "thumbnail": "pixel-bowl",
+  "test_and_compare": [
+    "pixel-bowl",
+    "neon-sign",
+    "cat-note"
+  ],
+  "draft_text": false,
+  "titles": [
+    "Lofi Ramen Alley 🍜 Study and relax with calming rain ☔ 4K, 10 hours, no Ads"
+  ],
+  "title_emoji": 2,
+  "description": [
+    "Come relax with rain on a small ramen stall in a Japanese alley at night, with chill lofi music and a storm passing in the distance. 10 hours of 4k, calming ambience with smooth music. Never interrupting with ads."
+  ],
+  "hashtags": [
+    "#lofi",
+    "#rainsounds",
+    "#studymusic",
+    "#study",
+    "#relaxing",
+    "#relax",
+    "#4k",
+    "#10hours"
+  ],
+  "tags": [],
+  "category": "Film & Animation",
+  "published": {
+    "url": "https://www.youtube.com/watch?v=GjF9esap044",
+    "date": "2026-10-20",
+    "record": "docs/records/rainy-ramen-alley/published.md"
+  }
+}

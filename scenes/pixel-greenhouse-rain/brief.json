@@ -1,0 +1,66 @@
+{
+  "scene": "pixel-greenhouse-rain",
+  "aesthetic": "pixel-farmhouse",
+  "created": "2026-10-21",
+  "setting": "One locked-off wide shot inside an 8-bit farm greenhouse packed with tomato vines, leafy greens, and seedling trays. Clear glass panes reveal fields beyond; no humans.",
+  "time": "dawn",
+  "weather": "steady spring rain",
+  "pet": "a small brown dog asleep on a woven mat, with its ears and tail visible",
+  "props": [
+    "a steaming mug on the potting bench",
+    "a lit hanging lantern",
+    "wooden seedling trays"
+  ],
+  "signature": "rainwater spills from the greenhouse roof gutter into an open irrigation trough",
+  "signature_detail": "a tiny ladybug crawls along the flat rim of the seedling planter in the lower right of the picture",
+  "stages": [
+    "open irrigation trough beneath the roof gutter",
+    "flat rim of the near seedling planter",
+    "potting bench with a cup"
+  ],
+  "foreground": "damp brick floor, the dog's mat, and a low seedling planter",
+  "midground": "dense crop rows, a narrow path, and a weathered potting bench",
+  "background": "rainy fields seen through clear greenhouse glass",
+  "light": "soft blue dawn light through the panes, warmed by one amber lantern; crisp, consistently sized pixels with no blur or anti-aliasing",
+  "title_idea": "Rainy Dawn at Seedling House | 10 Hours of Pixel Farm Ambience",
+  "place_name": "Seedling House",
+  "intro_lines": [
+    "Welcome to the Seedling House. Come listen to the morning rain."
+  ],
+  "pick_scores": [
+    {
+      "index": 1,
+      "composition": 9,
+      "animatable": 7,
+      "artifacts": 10,
+      "brief": 8,
+      "note": "Calm, readable wide shot with a hanging lantern and clear rainy panes. The mug has no visible steam, and the roof gutter does not spill into an irrigation trough."
+    },
+    {
+      "index": 2,
+      "composition": 9,
+      "animatable": 8,
+      "artifacts": 10,
+      "brief": 8,
+      "note": "Strong depth and separation of the dog, lantern, mug, glass, and water-filled trough. The lantern rests on the bench rather than hanging; steam and the gutter-to-trough spill are not explicit."
+    },
+    {
+      "index": 3,
+      "composition": 8,
+      "animatable": 7,
+      "artifacts": 9,
+      "brief": 7,
+      "note": "Clear greenhouse layout and rainy fields, but the dog's tail is hard to distinguish. The lantern is not hanging, and no irrigation trough or mug steam is visible. There are minor stray marks on the lower-right box."
+    },
+    {
+      "index": 4,
+      "composition": 9,
+      "animatable": 7,
+      "artifacts": 10,
+      "brief": 7,
+      "note": "Balanced locked-off composition with well-defined planting beds and dog. The lantern is not hanging, the mug lacks visible steam, and the signature gutter spill into an open trough is missing."
+    }
+  ],
+  "hero": "assets/keyart/pixel-greenhouse-rain/hero_gpt-image-2-5-sunburst_20261021-060141_2.png",
+  "status": "plate"
+}

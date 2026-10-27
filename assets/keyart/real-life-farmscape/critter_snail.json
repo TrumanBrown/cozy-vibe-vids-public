@@ -1,0 +1,37 @@
+{
+ "creature": "snail",
+ "prompt": "A single a small garden snail crawling to the right, seen from the side: a glossy spiral shell, brown with darker bands, on its back; its soft grey-brown body stretched out low along the ground in front of the shell, two long eye stalks up and two short feelers at the front, wet and shiny. Painted to match this art style: Wide 16:9 photorealistic interior photograph, 35 mm lens, soft natural film grain, cinematic warm color grade, shallow depth of field.. Lighting to match the scene: Cool, soft light from the open porch, warmed by the hanging lantern. The whole creature is in view, centered, with a little space around it. Transparent background, no ground, no shadow, no other objects, no text.",
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-20",
+ "usage": {
+  "input_tokens": 165,
+  "input_tokens_details": {
+   "image_tokens": 0,
+   "text_tokens": 165
+  },
+  "output_tokens": 1756,
+  "output_tokens_details": {
+   "image_tokens": 1756,
+   "text_tokens": 0
+  },
+  "total_tokens": 1921
+ },
+ "size": [
+  1024,
+  1024
+ ],
+ "bbox": [
+  66,
+  287,
+  983,
+  735
+ ],
+ "foot_y": 731,
+ "front_x": 983,
+ "back_x": 66,
+ "shell_x": [
+  112,
+  567
+ ],
+ "lum": 0.3637
+}

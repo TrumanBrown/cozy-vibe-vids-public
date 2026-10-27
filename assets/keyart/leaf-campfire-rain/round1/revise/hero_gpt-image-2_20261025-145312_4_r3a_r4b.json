@@ -1,0 +1,40 @@
+{
+  "src": "assets/keyart/leaf-campfire-rain/revise/hero_gpt-image-2_20261025-145312_4_r3a.png",
+  "tag": "r4b",
+  "steps": [
+    {
+      "kind": "edit",
+      "polygons": [
+        "0.043,0.375,0.219,0.375,0.219,0.705,0.043,0.705"
+      ],
+      "keep": [
+        [
+          0.164,
+          0.6875
+        ],
+        [
+          0.0508,
+          0.5556
+        ]
+      ],
+      "model": "gpt-image-2",
+      "prompt": "Edit only the masked area of this hand-made picture-book illustration and keep its exact style: dark umber and forest-green ink lines that taper and break, opaque gouache with dry-brush strokes and watercolor-paper grain, the same muted night palette. In the masked area, at the far left of the camp beside the bent burdock stem, far from the campfire: a lit paper lantern, warm yellow and glowing, about the size of the mothling's head, hangs on a short string from the tip of a twig, beside the burdock stem. The mothling holds that twig out in one small hand: a polyphemus mothling: a round tan puff of fluff about the size of a teacup, with a fluffy collar, two whole feathery antennae, wings with big round blue-and-yellow eyespots, two tiny black dot eyes without shine, holding a short twig in one small hand, with a tiny glowing paper lantern hanging from the twig's tip on a short string, as if it brought its own light. It sits on the dry moss just right of the lantern, facing right toward the campfire, a little smaller because it is farther back, whole and inside the masked area. The lantern makes its own small warm pool of light on the stem, the moss under it and the mothling's fur, and the moss around that pool stays in shadow, so the lantern and the campfire are two separate spots of light. Draw it complete and correct: both feathery antennae whole, its hand closed around the twig, the lantern clearly visible and lit, both wings with their eyespots. No other creatures, no text, no falling rain, no steam or smoke.",
+      "px": 185058
+    }
+  ],
+  "usage": {
+    "input_tokens": 1862,
+    "input_tokens_details": {
+      "image_tokens": 1508,
+      "text_tokens": 354
+    },
+    "output_tokens": 7370,
+    "output_tokens_details": {
+      "image_tokens": 7370,
+      "text_tokens": 0
+    },
+    "total_tokens": 9232
+  },
+  "made": "2026-10-25T15:25:09",
+  "note": "tools/keyart_revise.py: only the masked pixels changed (edits feathered 2.5 px); the lift is a code adjustment"
+}

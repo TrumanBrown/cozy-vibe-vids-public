@@ -1,0 +1,122 @@
+{
+ "source": "assets/keyart/real-life-farmscape/hero_gpt-image-2-5-sunburst_20261020-231600_4.png",
+ "deployment": "gpt-image-2-5-sunburst",
+ "endpoint": "https://cvvimg-b9812c.cognitiveservices.azure.com/",
+ "items": [
+  {
+   "name": "enamel_mug_plume",
+   "kind": "steam",
+   "prompt": "Remove the steam rising from the Hot enamel mug on the side table. Where it was, show what is behind it, continuing the surroundings naturally: the shaded porch wall and warm-lit window area. No steam, smoke, vapour or mist there. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     1536,
+     19,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1120,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 96
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2876
+    }
+   ],
+   "date": "2026-10-20"
+  },
+  {
+   "name": "edge_drips",
+   "kind": "drips",
+   "prompt": "Remove every water drop and drip hanging from the edge of the porch roof edge and left porch column, and the thin streams of water running down from them. The edge itself stays, wet but with no hanging drops. Behind them show the scene as it continues: the scene behind them as it continues. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     210,
+     0,
+     1536,
+     1024
+    ],
+    [
+     1024,
+     0,
+     1536,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1642,
+     "input_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 106
+     },
+     "output_tokens": 1372,
+     "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+     },
+     "total_tokens": 3014
+    },
+    {
+     "input_tokens": 1642,
+     "input_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 106
+     },
+     "output_tokens": 1372,
+     "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+     },
+     "total_tokens": 3014
+    }
+   ],
+   "date": "2026-10-20"
+  },
+  {
+   "name": "painted_strands",
+   "kind": "strands",
+   "prompt": "Remove the thin strings of water drops hanging from the roof eaves, signs, lanterns and leaves. Where they were, show what is behind them, continuing the surroundings: the walls, windows and leaves behind them. The edges they hung from stay, wet but with no hanging drops. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [],
+   "usage": [],
+   "date": "2026-10-20"
+  },
+  {
+   "name": "painted_snail",
+   "kind": "other",
+   "prompt": "Remove the small snail painted on the wet porch boards, its reflection and the faint brown smudge left under it. Where it was, show what is behind it: the wet, weathered porch boards with their soft reflections, continuing the boards around it. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     114,
+     416,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1121,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 97
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2877
+    }
+   ],
+   "date": "2026-10-20"
+  }
+ ],
+ "_note": "AI edit of the key art (painted transients removed); see tools/plate_clean.py"
+}

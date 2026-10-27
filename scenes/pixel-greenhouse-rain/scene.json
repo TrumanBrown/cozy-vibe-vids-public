@@ -1,0 +1,471 @@
+{
+  "_note": "Draft written by tools/analyze_plate.py; tune freely (it is not overwritten unless --force-scene). Keys: src/library/autoscene.js.",
+  "name": "pixel-greenhouse-rain",
+  "title": "Rainy Dawn at Seedling House | 10 Hours of Pixel Farm Ambience",
+  "aesthetic": "pixel-farmhouse",
+  "plate": "pixel-greenhouse-rain",
+  "seed": 7,
+  "fps": 30,
+  "loopSeconds": 120,
+  "duration": 36000,
+  "plate_fx": {
+    "flicker": 0.02,
+    "mist": 0.14,
+    "ripple": 0.0003,
+    "horizon": 0.31,
+    "lightning": {
+      "color": "#b9c8ff",
+      "sky": 2.0,
+      "land": 0.8,
+      "roomNear": 0.35,
+      "roomAmbient": 0.06,
+      "farColor": "#c9c4f2"
+    },
+    "mistColor": "#4a6693",
+    "rippleXY": [
+      0.9,
+      0.5
+    ],
+    "rings": [
+      0,
+      0
+    ],
+    "ground": {
+      "horizon": 0.31,
+      "refract": 8,
+      "highlight": 0.7,
+      "cells": 24,
+      "density": 0.85
+    }
+  },
+  "regions": {
+    "bench_lantern": {
+      "flicker": {
+        "style": "candle",
+        "amp": 0.06,
+        "spill": 0.04,
+        "sigma": 0.06
+      },
+      "_why": "2026-10-21: the lantern's glass and frame glow with its flame (the flame itself: region lantern_flame)"
+    }
+  },
+  "layers": [
+    {
+      "type": "rain",
+      "count": 4000,
+      "depth": [
+        3,
+        40
+      ],
+      "depthPower": 1.3,
+      "dropRange": [
+        1.2,
+        3.2
+      ],
+      "dropLambda": 2.4,
+      "focalPx": 2700,
+      "shutter": 0.00909090909090909,
+      "alphaRef": 0.7,
+      "farBoost": 0.5,
+      "maxAlpha": 0.9,
+      "minWidth": 3.0,
+      "focus": 12,
+      "coc": 10,
+      "skyGain": 2.0,
+      "envMix": 0.85,
+      "warm": "#FFAC54",
+      "warmGain": 0.35,
+      "clumps": {
+        "amount": 1.0,
+        "strength": 0.5,
+        "cycles": 13,
+        "across": 3,
+        "drift": 1
+      },
+      "_pixel": "2026-10-21: the steady rain was almost invisible on the pixel grid over the bright dawn sky (thin streaks miss the cells' centers, small far drops too faint): fewer, bigger, bolder drops, compared at 1:1 with the draft and a stronger step; autoscene widens each streak to a cell"
+    },
+    {
+      "type": "steam",
+      "regions": "kind:steam",
+      "opacity": 0.7,
+      "drafts": false,
+      "per": {
+        "steaming_mug": {
+          "opacity": 0.85,
+          "onset": 0.3,
+          "sim": {
+            "buoy": 0.55,
+            "haze": 0.45,
+            "patch": 0.45,
+            "rise": 0.6,
+            "stir": 0.12
+          }
+        }
+      },
+      "simCap": 0.5,
+      "_strength": "2026-10-21: over the lantern-lit pot the default plume (0.5, cap 0.4) vanished on the pixel grid; one step up, like the ramen cup over its bright street (0.7). Onset 0.3 cm: the mug is seen almost side-on (a 10 px opening), and 1 cm cut away the plume's base, leaving only the swaying column (the critic: steam from one half). No drafts indoors.",
+      "_sim": "2026-10-21: the default plume narrowed into a column over this small mug seen side-on (the critic, twice: steam from the center, much of the opening without); gentler buoyancy and a more even emission make it broader and fuller over the whole opening (width at mid-height 130 -> 151 px), still no box edge (0.0) or rolling down (0.013)"
+    },
+    {
+      "type": "critter",
+      "creature": "snail",
+      "path": [
+        [
+          0.4421,
+          0.6914
+        ],
+        [
+          0.469,
+          0.693
+        ],
+        [
+          0.487,
+          0.692
+        ],
+        [
+          0.506,
+          0.693
+        ],
+        [
+          0.526,
+          0.692
+        ],
+        [
+          0.547,
+          0.693
+        ]
+      ],
+      "size": 56,
+      "_auto": "drafted by tools/plate_features.py",
+      "_size": "2026-10-21: 56 px (6.6 cells): at 44 px the grid left a 2-cell speck on the wet bricks"
+    },
+    {
+      "type": "critter",
+      "creature": "ladybug",
+      "track": 1,
+      "path": [
+        [
+          0.834,
+          0.8955
+        ],
+        [
+          0.8,
+          0.8953
+        ],
+        [
+          0.74,
+          0.8952
+        ],
+        [
+          0.69,
+          0.8953
+        ],
+        [
+          0.665,
+          0.8956
+        ],
+        [
+          0.656,
+          0.8965
+        ],
+        [
+          0.665,
+          0.8975
+        ],
+        [
+          0.69,
+          0.8976
+        ],
+        [
+          0.74,
+          0.8977
+        ],
+        [
+          0.8,
+          0.8976
+        ],
+        [
+          0.834,
+          0.8975
+        ]
+      ],
+      "size": 56,
+      "trail": 0,
+      "_path": "2026-10-21, the brief's signature detail: on the seedling planter's front rim (its top face spans y 0.885-0.8995 between the corner post at x 0.615 and the plaid cloth from x 0.828). It comes out from under the cloth, walks left, turns about and walks back under the cloth (both ends hidden by the cloth: critter_occ). 34 px = 4 cells, big enough to read as a red, spotted ladybug in the pixel art",
+      "_size": "2026-10-21: 56 px (6.6 cells): smaller, the pixel grid left a 2-cell red speck (autoscene's pixel floor draws 6.5 cells)"
+    },
+    {
+      "type": "critter",
+      "creature": "beetle",
+      "track": 2,
+      "size": 96,
+      "sizeEnd": 96,
+      "trail": 0,
+      "path": [
+        [
+          0.09688,
+          0.85926
+        ],
+        [
+          0.18229,
+          0.86019
+        ],
+        [
+          0.26042,
+          0.86019
+        ],
+        [
+          0.36458,
+          0.85972
+        ],
+        [
+          0.46875,
+          0.85926
+        ],
+        [
+          0.57292,
+          0.85926
+        ]
+      ],
+      "_path": "2026-10-21, Truman on v5: he liked the ladybug and asked for more insects. A dark beetle walks the floor just in front of the dog's mat, level across the room (a path running toward the camera tilts the side-view sprite as if it climbed a slope): it comes out from behind the dog's bowl (x 70-350, y 1700-1865 px at 4K) and goes behind the seedling tray's left board (x 2200-2260), or the other way",
+      "_size": "2026-10-21: 96 px (11 cells): at 60 px the beetle was a 3-cell dark speck on the near floor, where a brick is ~40 cells long"
+    },
+    {
+      "type": "critter",
+      "creature": "shieldbug",
+      "track": 3,
+      "size": 104,
+      "sizeEnd": 104,
+      "trail": 0,
+      "path": [
+        [
+          -0.01562,
+          0.96296
+        ],
+        [
+          0.13021,
+          0.96343
+        ],
+        [
+          0.26042,
+          0.96343
+        ],
+        [
+          0.39062,
+          0.96296
+        ],
+        [
+          0.52083,
+          0.9625
+        ],
+        [
+          0.57422,
+          0.9625
+        ]
+      ],
+      "_path": "2026-10-21 (more insects): a green shield bug crosses the floor near the camera, level, from beyond the left edge of the frame (a path end inside the frame took a floor brick as its cover) to behind the seedling tray's left board (x 2200-2260 px at 4K), or the other way",
+      "_size": "2026-10-21: 104 px (12 cells): nearest to the camera, and at 66 px its green read as a moss stain on the bricks"
+    },
+    {
+      "type": "birds",
+      "disp": 0.09,
+      "haze": 0.3,
+      "_depth": "2026-10-21: the view through the panes reads 0.003-0.076 and the greenhouse frame 0.11+; at 0.09 the birds pass in front of the whole view, and the frame (not outdoors) hides them"
+    },
+    {
+      "type": "moth",
+      "lamp": "bench_lantern",
+      "center": [
+        0.1153,
+        0.3942
+      ],
+      "unit": 20,
+      "size": 34,
+      "unitM": 0.04,
+      "color": [
+        1.0,
+        0.487,
+        0.113
+      ],
+      "covered": true,
+      "_auto": "2026-10-21: placed by plate_features.place_moth (lit glass 8 cm wide); 26 px rather than 22 so its wings keep a shape on the 8.5 px grid"
+    }
+  ],
+  "wind": {
+    "mean": 0.05,
+    "gust": 0.25,
+    "turb": 0.3,
+    "gustCycles": 5,
+    "fronts": 0.6
+  },
+  "runoff": [],
+  "events": {
+    "weather": {
+      "dt": 5,
+      "rainAmp": 1.25,
+      "windAmp": 1,
+      "stormRain": 0,
+      "stormWind": 0,
+      "stormHalfWidth": 420,
+      "streamLag": 90
+    },
+    "flurry": {
+      "perHour": 6,
+      "minGap": 300,
+      "dur": [
+        5,
+        9
+      ],
+      "amp": [
+        0.35,
+        0.7
+      ],
+      "leaves": [
+        0,
+        0
+      ],
+      "prevailing": 1,
+      "startAfter": 40
+    },
+    "pet": {
+      "ear": 0,
+      "tail": 0,
+      "sigh": 30,
+      "thunderEar": 0,
+      "minGap": 30,
+      "first": 45
+    },
+    "rareGap": 45,
+    "strikeBusy": [
+      30,
+      30
+    ],
+    "critter": [
+      {
+        "perHour": 4,
+        "dur": [
+          185,
+          251
+        ],
+        "startAfter": 4,
+        "first": 6
+      },
+      {
+        "perHour": 8,
+        "dur": [
+          70,
+          110
+        ],
+        "startAfter": 20,
+        "first": 25
+      },
+      {
+        "perHour": 6,
+        "dur": [
+          45,
+          65
+        ],
+        "startAfter": 40,
+        "first": 48
+      },
+      {
+        "perHour": 5,
+        "dur": [
+          60,
+          85
+        ],
+        "startAfter": 70,
+        "first": 95
+      }
+    ],
+    "birds": {
+      "perHour": 80,
+      "minGap": 14,
+      "startAfter": 4,
+      "band": [
+        0.12,
+        0.01,
+        0.99,
+        0.2
+      ],
+      "size": [
+        26,
+        40
+      ],
+      "count": [
+        1,
+        5
+      ],
+      "first": 6,
+      "intro": [
+        300,
+        1.5
+      ]
+    },
+    "moth": {
+      "perHour": 24,
+      "dur": [
+        45,
+        140
+      ],
+      "lands": 2,
+      "startAfter": 15,
+      "first": 30,
+      "intro": [
+        300,
+        1.5
+      ]
+    },
+    "windows": {
+      "pass": 12,
+      "dim": 4,
+      "away": 0,
+      "minGap": 30,
+      "minSize": 20
+    },
+    "loop": {
+      "period": 1200
+    },
+    "gutter": {
+      "perHour": 12,
+      "minGap": 150,
+      "startAfter": 30,
+      "depth": 0.55,
+      "first": 60
+    }
+  },
+  "audio": {
+    "bed": "cabin_rain",
+    "lufs": -20,
+    "extra_db": {
+      "fire": null
+    },
+    "music": {
+      "order": "smooth",
+      "body_db": 6,
+      "crossfade": 8,
+      "fit": true
+    }
+  },
+  "render": {
+    "animFps": 12,
+    "pixel": "plate"
+  },
+  "post": {
+    "bloom": {
+      "strength": 0.12,
+      "radius": 0.3,
+      "threshold": 0.95
+    }
+  },
+  "intro": {
+    "lines": [
+      "Welcome to the Seedling House.",
+      "Come listen to the morning rain."
+    ],
+    "pos": [
+      0.5,
+      0.5
+    ]
+  }
+}

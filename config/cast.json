@@ -1,0 +1,114 @@
+{
+  "_note": "The channel's own recurring creatures (Truman 2026-10-25: original made-up creatures, a recurring cast, awake doing something quiet with breathing and blinks drawn in code). Each is based on a Pacific Northwest animal and has one silly, unrealistic touch the code can animate: a lantern that glows and swings, a scarf blowing in the wind, plants growing on it (never completely realistic). Each 'prompt' is pasted into key-art prompts word for word (tools/new_video.py cast_text) so a creature looks the same in every video: change it only with his OK. 'status': approved (in the cast), candidate (in a lineup, not picked yet), dropped. 'role': the cast slot. One lantern per scene (Truman 2026-10-25: only one holds a lantern; other items, or nothing, look better), held by whoever fits the story; it is a scene prop in the brief, not part of anyone's design (the Burdock Shelter: the salamander, holding its leaf and the lantern, one in each hand, as if searching for something). Lineups: out/style_explore/round3 to round5. 'animates': what the code can bring to life on it besides breathing and blinks. \"species\": the real Pacific Northwest species each approved character is based on, by its common name; a video's description names them (user 2026-10-26: descriptions name the species).",
+  "cast": {
+    "mothling": {
+      "status": "replaced",
+      "approved": "2026-10-25 (he liked the moth); a PNW version may replace this design (round 4 lineup)",
+      "prompt": "a mothling: a round cream-white puff of fluff about the size of a teacup, with a fluffy collar, two large feathery antennae the color of dry grass, dusty brown wings folded behind it like a short cape, and two tiny black dot eyes without shine.",
+      "animates": "antennae sway a little in a draft",
+      "role": "moth",
+      "replaced": "2026-10-25: a Pacific Northwest version took the role (round 4 lineup)"
+    },
+    "stone-toad": {
+      "status": "dropped",
+      "prompt": "a stone toad: a round toad shaped like a smooth river stone, slate blue-gray with a paler belly, a three-leaf clover sprout growing from the top of its head, short stubby legs, and two tiny black dot eyes without shine.",
+      "animates": "the clover sprout sways",
+      "dropped": "2026-10-25: he found lineup designs 2 and 5 too alike; an insect takes the slot (round 4 lineup)"
+    },
+    "lantern-gecko": {
+      "status": "replaced",
+      "prompt": "a lantern gecko: a small leaf-green gecko with big round toe pads, two tiny black dot eyes without shine, and a curled tail whose round tip glows a soft amber like a tiny paper lantern.",
+      "animates": "the tail's glow pulses softly and lights what is near it",
+      "role": "lizard",
+      "approved": "2026-10-25, the role and its silly touch; its PNW species to be picked from the round 4 lineup",
+      "replaced": "2026-10-25: a Pacific Northwest version took the role (round 4 lineup)"
+    },
+    "teacup-crab": {
+      "status": "replaced",
+      "prompt": "a teacup hermit crab: a little coral-red hermit crab living in a chipped cream teacup as its shell, its two small claws resting on the rim, and two tiny black dot eyes on short stalks.",
+      "animates": "the eye stalks tilt now and then",
+      "role": "crab",
+      "approved": "2026-10-25, the role and its silly touch; its PNW species to be picked from the round 4 lineup",
+      "replaced": "2026-10-25: a Pacific Northwest version took the role (round 4 lineup)"
+    },
+    "moss-newt": {
+      "status": "dropped",
+      "prompt": "a moss newt: a plump olive-green newt with a speckled orange belly, soft moss and tiny fern fronds growing along its back, and two tiny black dot eyes without shine.",
+      "animates": "the fern fronds on its back sway",
+      "dropped": "2026-10-25: he found lineup designs 2 and 5 too alike; an insect takes the slot (round 4 lineup)"
+    },
+    "scarf-snake": {
+      "status": "replaced",
+      "prompt": "a scarf snake: a long, soft, plump snake, pale lavender with darker plum bands, a round head with two tiny black dot eyes without shine, lying in loose coils like a dropped scarf.",
+      "animates": "its coils rise and fall with its breath",
+      "role": "snake",
+      "approved": "2026-10-25, the role and its silly touch; its PNW species to be picked from the round 4 lineup",
+      "replaced": "2026-10-25: a Pacific Northwest version took the role (round 4 lineup)"
+    },
+    "polyphemus-mothling": {
+      "status": "approved",
+      "role": "moth",
+      "species": "polyphemus moth",
+      "scientific": "Antheraea polyphemus",
+      "approved": "2026-10-25, picked from the round 4 lineup (replaces the cream mothling design); 2026-10-25: the lantern is no longer part of its design (a scene prop, see _note)",
+      "prompt": "a polyphemus mothling: a round tan puff of fluff about the size of a teacup, with a fluffy collar, two whole feathery antennae, wings with big round blue-and-yellow eyespots, and two tiny black dot eyes without shine.",
+      "animates": "the feathery antennae sway in a draft"
+    },
+    "short-horned-lizard": {
+      "status": "approved",
+      "role": "lizard",
+      "species": "pygmy short-horned lizard",
+      "scientific": "Phrynosoma douglasii",
+      "approved": "2026-10-25, picked from the round 4 lineup (replaces the lantern gecko); holds nothing (one lantern in the cast)",
+      "prompt": "a pygmy short-horned lizard: a round, flat, sandy-gray lizard with tiny soft horns around its head, little moss tufts and a sprig of silver sagebrush growing between its spikes, two tiny black dot eyes without shine, holding nothing.",
+      "animates": "the sagebrush sprig and the moss sway"
+    },
+    "decorator-crab": {
+      "status": "approved",
+      "role": "crab",
+      "species": "graceful decorator crab",
+      "scientific": "Oregonia gracilis",
+      "approved": "2026-10-25, picked from the round 4 lineup (replaces the teacup crab)",
+      "prompt": "a graceful decorator crab: a small crab with long spindly legs whose back is a tiny garden of moss, a curled fern frond and a little mushroom, with two tiny black dot eyes on short stalks.",
+      "animates": "the fern frond and the moss on its back sway"
+    },
+    "garter-snake": {
+      "status": "approved",
+      "role": "snake",
+      "species": "northwestern garter snake",
+      "scientific": "Thamnophis ordinoides",
+      "approved": "2026-10-25, picked from the round 4 lineup (replaces the lavender scarf snake)",
+      "prompt": "a northwestern garter snake: a soft, plump brown snake with an orange stripe along its back, a small fern sprout growing on its head, two tiny black dot eyes without shine, and a knitted scarf wrapped once around its neck with both ends hanging down in front.",
+      "animates": "the scarf's ends blow in the wind; the fern sprout sways"
+    },
+    "alder-borer": {
+      "status": "approved",
+      "role": "insect",
+      "species": "banded alder borer",
+      "scientific": "Rosalia funebris",
+      "approved": "2026-10-25, picked from the round 4 lineup; the hiking pack drawn right in round 6 (version 2: straps over the shoulders, six legs, whole antennae), his look pending",
+      "prompt": "a banded alder borer: a blue-gray longhorn beetle with black bands, six legs and two tiny black dot eyes without shine, carrying a tiny hiking pack with a rolled bedroll on top; the pack's two straps go over its shoulders and down its front, outside its arms and legs, and both of its very long banded antennae are whole from base to tip, curving up and back clear of the pack.",
+      "animates": "the long antennae sway; the bedroll's strap end flutters"
+    },
+    "red-backed-salamander": {
+      "status": "approved",
+      "role": "salamander",
+      "species": "western red-backed salamander",
+      "scientific": "Plethodon vehiculum",
+      "approved": "2026-10-25 (the red-backed salamander instead of the ensatina, holding a leaf: more recognizable, and it lives under leaves anyway); round 6; 2026-10-25: its mouth had started to look like a lizard's, which is wrong: a salamander's blunt rounded snout and smooth skin in its description",
+      "prompt": "a western red-backed salamander: slender, with dark gray sides speckled with white and one brick-red stripe running down its back from its head to the tip of its tail, a salamander's head with a short, rounded, blunt snout, smooth moist skin without any scales and a soft, wide mouth line (never a lizard's pointed snout), two tiny black dot eyes without shine, standing on its hind legs and holding a big glossy salal leaf over its head like an umbrella by the leaf's stem in one hand, the leaf tilted back so its whole head and face show; nothing on its head.",
+      "animates": "the salal leaf trembles a little in the wind"
+    }
+  },
+  "first_video": {
+    "cast": [
+      "polyphemus-mothling",
+      "short-horned-lizard",
+      "garter-snake",
+      "red-backed-salamander"
+    ],
+    "scene": "a tiny campfire under a burdock leaf on the rainy forest floor at night, a pot of soup steaming; style ink-gouache",
+    "picked": "2026-10-25"
+  },
+  "reference_lineup": "assets/reference/styles/cast_lineup_round6.jpg (round 6, version 2: checked at 1:1, no drawing errors)"
+}

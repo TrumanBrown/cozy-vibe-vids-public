@@ -1,0 +1,37 @@
+{
+ "creature": "shieldbug",
+ "prompt": "A single a small green shield bug walking to the right, seen from the side and a little above: a flat shield-shaped green back with a slightly darker edge, six thin legs and two antennae, legs visible. Painted to match this art style: Wide 16:9 16-bit pixel art in the style of Stardew Valley, chunky square pixels of one consistent size, limited cozy palette, crisp hard edges, no blur, no anti-aliasing.. Lighting to match the scene: soft blue dawn light through the panes, warmed by one amber lantern; crisp, consistently sized pixels with no blur or anti-aliasing. The whole creature is in view, centered, with a little space around it. Transparent background, no ground, no shadow, no other objects, no text.",
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-21",
+ "usage": {
+  "input_tokens": 166,
+  "input_tokens_details": {
+   "image_tokens": 0,
+   "text_tokens": 166
+  },
+  "output_tokens": 1756,
+  "output_tokens_details": {
+   "image_tokens": 1756,
+   "text_tokens": 0
+  },
+  "total_tokens": 1922
+ },
+ "size": [
+  1024,
+  1024
+ ],
+ "bbox": [
+  141,
+  257,
+  960,
+  793
+ ],
+ "foot_y": 793,
+ "front_x": 960,
+ "back_x": 141,
+ "shell_x": [
+  231,
+  588
+ ],
+ "lum": 0.3938
+}

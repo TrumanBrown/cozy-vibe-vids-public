@@ -1,0 +1,65 @@
+{
+  "about": "Truman's own recordings of his planted aquarium (Sony a6700, XAVC HS 4K 59.94 fps 4:2:2 10-bit), looped with tools/footage_loop.py. The first, C0139 (2026-10-22), was dropped on 2026-10-23 for C0140, a better recording, whose first 9:06 had lighting problems (he cut it to start at 09:06; the rest is good). His calls: Mojang's music at our risk (upload Private, publish only once the copyright check is clear), the water under the music, a review cut before any 10 h loop, an opening line, the upload folder, thumbnails in many styles that don't look AI.",
+  "source": "C0140.MP4",
+  "in": 546.0,
+  "_in": "9:06, his cut (2026-10-23); the brightness holds within 2% from there to the end (measured once a second)",
+  "loop_seconds": 1000,
+  "_loop_seconds": "the cut runs 17:52 (64,262 frames); a 16:40 loop leaves about 70 s for the seam search, and 36 loops make 10 h (2026-10-23: he approved the cut and asked for the 10 h version)",
+  "target_s": 36000,
+  "loop_start": 35834,
+  "_loop_start": "9:57.8 in the recording (2026-10-23): the gourami is at the same spot in both frames through the blend, so it doesn't fade out at the loop point. seam() chose 9:08 by fish ghosts (30 per 10k px, median 73), but there the gourami was in the loop's start and hidden at its end, and every seam in reach ghosted it somewhat (seam_dissolve_35834.jpg)",
+  "opening": 9541,
+  "_opening": "source frame 45375 (12:37 in the recording), seam()'s pick: the gourami in view by the sword plant through the first 30 s (opening_strips.jpg)",
+  "xfade_frames": 150,
+  "intro_frames": 720,
+  "seed": 1022,
+  "encoder": {
+    "preset": "p7",
+    "multipass": "fullres",
+    "bitrate": "46M",
+    "maxrate": "70M",
+    "bufsize": "92M",
+    "gop": 120
+  },
+  "intro": {
+    "lines": [
+      "Welcome to my aquarium.",
+      "Come sit with me and watch the fish."
+    ],
+    "font": "quicksand",
+    "size": 72,
+    "pos": [
+      0.5,
+      0.5
+    ]
+  },
+  "water": {
+    "lufs": -33.0,
+    "period_s": 1200,
+    "cfg": {
+      "kind": "minecraft"
+    },
+    "_lufs": "the bed alone; under the music it sits ambience_db (-2) lower, at -35 LUFS, 18.5 LU under the music bus (his 2026-10-23 note on the synthesized water at -25: far too loud, turn it down a lot)",
+    "_cfg": "Minecraft's own flowing water (water_bed.py build_minecraft, MC_DEFAULTS); his call 2026-10-23: Minecraft's own water will do"
+  },
+  "music": {
+    "order": "smooth",
+    "body_db": 6,
+    "crossfade": 8,
+    "fit": true,
+    "ambience_db": -2.0,
+    "opener": "Broken Clocks",
+    "_opener": "the steadiest first 30 s against the water: never under -20.1 LUFS, so always at least 5 dB over it. Lilypad reached its level at once by music.py's lead but sat 7 dB under its body for its first minute; the smooth order's own pick, Left to Bloom, took 52 s to its level (2026-10-22)"
+  },
+  "grade": {
+    "brilliance": 2,
+    "shadows": -50,
+    "contrast": -77,
+    "brightness": -63,
+    "black_point": -5,
+    "saturation": 35,
+    "warmth": 51,
+    "sharpness": 30
+  },
+  "_grade": "his look, set in tools/color_edit.py 2026-10-23 19:12: Brilliance +2, Shadows -50, Contrast -77, Brightness -63, Black Point -5, Saturation +35, Warmth +51, Sharpness +30 (iPhone-style sliders, -100..100, tools/color_grade.py). A new look needs a new window --tag, then master"
+}

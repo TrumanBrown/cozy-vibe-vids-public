@@ -1,0 +1,54 @@
+{
+ "pose": "views",
+ "base": "stand",
+ "prompt": "This is a 16-bit pixel-art greenhouse with a golden-brown puppy standing on a woven mat at the left. Paint this same puppy three more times, once in each masked area, as if the picture showed it at three moments. In the masked area on the brick floor just right of the mat: walking straight away from the viewer, seen from behind: the back of its head and its two floppy ears, its back, its rump with its fluffy tail held up, and its hind legs, one paw lifted. In the masked area on the brick floor further right: walking straight toward the viewer, seen from the front: its face looking ahead with the same eyes and nose, its floppy ears, its chest and its two front legs, one paw lifted. In the small masked area far back: sitting on the brick floor in front of the glass door, seen from behind, looking out through the glass: the back of its head and its two floppy ears, its back and its haunches on the floor, its fluffy tail lying on the floor behind it. Each is exactly the same puppy as the one standing on the mat: the same round head, the same golden fur with the same small shades and warm highlights, the same soft dark-brown edge, the same proportions and the same pixel size as the rest of the picture. The two on the floor are as big as the one on the mat; the one at the door is smaller because it is far away. Each is lit by the light where it is. Around them the floor, the beds, the door and the plants continue as they are. Nothing else changes.",
+ "window4": [
+  375,
+  624,
+  2304,
+  1536
+ ],
+ "boxes": [
+  [
+   885,
+   845,
+   1050,
+   1186
+  ],
+  [
+   1235,
+   845,
+   1405,
+   1186
+  ],
+  [
+   1150,
+   540,
+   1278,
+   790
+  ]
+ ],
+ "warp": [
+  1.0,
+  0.0,
+  0.3736,
+  -0.0,
+  0.9999,
+  -0.0436
+ ],
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-21",
+ "usage": {
+  "input_tokens": 1883,
+  "input_tokens_details": {
+   "image_tokens": 1536,
+   "text_tokens": 347
+  },
+  "output_tokens": 1372,
+  "output_tokens_details": {
+   "image_tokens": 1372,
+   "text_tokens": 0
+  },
+  "total_tokens": 3255
+ }
+}

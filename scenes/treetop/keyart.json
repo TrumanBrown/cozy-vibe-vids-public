@@ -1,0 +1,14 @@
+{
+  "_note": "Key-art prompts for the treetop scene (tools/keyart.py). Wide 16:9 so the plate needs no crop. Keep the camera locked-off and leave room for rain/leaf/lantern animation.",
+  "defaults": { "size": "2560x1440", "quality": "high", "n": 1 },
+  "items": [
+    {
+      "id": "sunset",
+      "prompt": "Wide 16:9 cinematic screenshot of a cozy Minecraft treehouse in autumn, viewed from inside the treehouse looking out over a wooden balcony railing at a great view: a valley of blocky orange, red and gold autumn trees, a winding river and lake, and snow-capped blocky mountains in the distance under a warm sunset sky with soft pink clouds. Inside: dark oak plank floor and log walls, a red wool carpet in the foreground, a wooden chest, a small bookshelf, glowing lanterns on the railing posts and hanging from the ceiling, potted flowers, and autumn leaf blocks with hanging vines framing the top of the view. Shader-pack lighting with soft volumetric god rays, warm bloom, soft shadows and realistic reflections on the water. Locked-off camera at eye level, no people, no text, no user interface."
+    },
+    {
+      "id": "rainy_dusk",
+      "prompt": "Wide 16:9 cinematic screenshot of a cozy Minecraft treehouse in autumn during a gentle evening rain, viewed from inside the treehouse looking out over a wooden balcony railing: a valley of blocky orange, red and gold autumn trees with a misty river and lake, distant blocky mountains fading into blue-grey rain clouds, a few warm lit windows of other treehouses in the distance. Inside: dark oak plank floor and log walls, a red wool carpet, a wooden chest, a small bookshelf, glowing lanterns on the railing posts and hanging from the ceiling, a sleeping cat curled up on a cushion, autumn leaf blocks with hanging vines framing the top of the view. Shader-pack lighting: warm lantern glow inside, cool blue dusk outside, soft bloom, wet reflections. Locked-off camera at eye level, no people, no text, no user interface."
+    }
+  ]
+}

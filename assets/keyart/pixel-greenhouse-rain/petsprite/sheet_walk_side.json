@@ -1,0 +1,21 @@
+{
+ "sheet": "walk_side",
+ "prompt": "Pixel-art sprite sheet of this same dog walking to the right, seen exactly from the side, in exactly the same 16-bit pixel-art style as the reference: the same chunky pixel size, the same golden-brown fur colors and shading, the same face, floppy ears, nose and proportions. Four frames of one smooth walk cycle, left to right: 1 right front paw forward, 2 legs passing under the body, 3 left front paw forward, 4 legs passing. Its tail is up and relaxed, its head level, ears soft. Transparent background. No ground, no floor line, no shadow, no text, no numbers, no frame borders or grid lines. Every frame shows the whole dog with a little space around it, all frames the same size and standing on the same invisible ground line, evenly spaced in one row.",
+ "reference": "ref.png (the painted pet cut from clean.png)",
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-21",
+ "usage": {
+  "input_tokens": 1212,
+  "input_tokens_details": {
+   "image_tokens": 1024,
+   "text_tokens": 188
+  },
+  "output_tokens": 1372,
+  "output_tokens_details": {
+   "image_tokens": 1372,
+   "text_tokens": 0
+  },
+  "total_tokens": 2584
+ },
+ "mode": "RGBA"
+}

@@ -1,0 +1,24 @@
+{
+  "_note": "Truman's settled defaults (the ramen alley as approved, v10 and the published 10 h; retrospective section 6). A new scene starts here, never sparser: tools/autopilot.py raises every rate in a new scene.json to at least these, for the event kinds the scene has, and sets the loop period. Change a number here when he asks for more or less of something in general; change the scene's own scene.json when it is about one video. Rates are per hour (events.<kind>.perHour); `first` is the second of the video by which the first one comes (strong opening, L04).",
+  "loop": {"period": 1200},
+  "events": {
+    "birds": {"perHour": 80, "minGap": 14, "first": 6, "intro": [300, 1.5]},
+    "farflash": {"perHour": 54, "minGap": 18, "first": 10, "intro": [300, 1.5]},
+    "lightning": {"perHour": 18, "cluster": [3, 4], "minGap": 70, "first": 20},
+    "neon": {"perHour": 30, "minGap": 45, "first": 20, "intro": [300, 2]},
+    "gutter": {"perHour": 12, "minGap": 150, "first": 60},
+    "moth": {"perHour": 24, "first": 30, "intro": [300, 1.5]},
+    "ant": {"perHour": 20, "first": 25, "intro": [300, 3]},
+    "perch": {"perHour": 20, "first": 10, "intro": [300, 2]},
+    "fish": {"perHour": 20, "minGap": 60, "first": 15, "intro": [300, 2]},
+    "flurry": {"perHour": 6, "minGap": 240},
+    "pet": {"sigh": 30, "minGap": 20, "first": 45},
+    "boat": {"first": 4}
+  },
+  "critter_total_per_hour": 20,
+  "music": {"order": "smooth", "body_db": 6, "crossfade": 8, "fit": true},
+  "audio": {"thunder": {"over_bed_db": [2.0, 5.5], "peak_dbfs": -6.0}},
+  "sample": {"seconds": 300, "intro_at": 0},
+  "budget_usd_per_sample": 6.0,
+  "keyart_candidates": 4
+}

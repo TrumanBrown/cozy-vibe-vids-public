@@ -1,0 +1,24 @@
+{
+ "derived": "wag_back",
+ "prompt": "Pixel-art sprite sheet: the same golden-brown puppy four times in a row, sitting, seen from behind, on a transparent background. Repaint only the masked area at the bottom of each puppy: its tail and the empty space around it, low on the floor. Left to right the four puppies sweep their tail across the floor: 1 the tail swept out to the left, 2 the tail lying straight back toward the viewer, 3 the tail swept out to the right, 4 the tail lying straight back. The tail grows from the same spot under the rump in all four and is the same fluffy tail as now, with the same pixel size, fur shading, colors and soft dark-brown edge as the rest of the dog (no black outline). The head, ears, back and haunches stay exactly as they are. No ground, no shadow, no text.",
+ "master": "posed_sit_back.png",
+ "master_file_sha": "3349e21d766c78b8",
+ "zone": "sit_back_tail",
+ "scale": 1.5,
+ "references": [],
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-21",
+ "usage": {
+  "input_tokens": 1733,
+  "input_tokens_details": {
+   "image_tokens": 1536,
+   "text_tokens": 197
+  },
+  "output_tokens": 1372,
+  "output_tokens_details": {
+   "image_tokens": 1372,
+   "text_tokens": 0
+  },
+  "total_tokens": 3105
+ }
+}

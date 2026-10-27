@@ -1,0 +1,26 @@
+{
+  "src": "assets/keyart/leaf-campfire-rain/hero_gpt-image-2_20261025-154404_3.png",
+  "tag": "lizard",
+  "steps": [
+    {
+      "kind": "dodge and burn",
+      "points": [
+        [
+          0.219,
+          0.778
+        ],
+        [
+          0.32,
+          0.771
+        ]
+      ],
+      "strength": 0.6,
+      "lizard_minus_ground_L": [
+        15.4,
+        20.7
+      ]
+    }
+  ],
+  "note": "code only: the lizard's lightness raised inside its SAM outline, the ground within ~45 px of it darkened a little; nothing redrawn",
+  "request": "Truman 2026-10-25: the lizard distinct from the ground"
+}

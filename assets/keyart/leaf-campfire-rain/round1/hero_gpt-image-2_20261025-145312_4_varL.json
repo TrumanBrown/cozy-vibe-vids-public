@@ -1,0 +1,12 @@
+{
+  "src": "assets/keyart/leaf-campfire-rain/revise/hero_gpt-image-2_20261025-145312_4_r3a_sal.png",
+  "tag": "varL",
+  "steps": [
+    {
+      "kind": "composite",
+      "from": "assets/keyart/leaf-campfire-rain/revise/hero_gpt-image-2_20261025-145312_4_r3a_r4b.png",
+      "note": "the r4b edit (the mothling at the back left) added onto the salamander edit; their masks do not overlap"
+    }
+  ],
+  "revisions": "Truman 2026-10-25 on candidate 4: the lizard a touch more distinct (code lift, r3a), the mothling and its lantern farther from the fire (painted out in r3a, painted in at the back left in r4b), the salamander out in the rain holding its leaf high and looking away (sal); r4b's change added onto sal here"
+}

@@ -1,0 +1,71 @@
+# Renders and heavy outputs: never commit
+out/
+upload/
+renders/
+previews/
+cache/
+.cache/
+tmp/
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.exr
+# the same in capitals (the a6700 writes C0140.MP4, a phone .MOV): git on WSL matches case, Windows doesn't
+*.MP4
+*.MKV
+*.MOV
+*.AVI
+*.WEBM
+*.EXR
+
+# User-supplied music (licensed per track; tracked in docs/asset-ledger.csv, not in git)
+music/
+
+# Tooling
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Generated spike inputs (rebuilt by spikes/shared/gen-*.mjs) and Godot's import cache
+spikes/shared/textures/
+spikes/shared/scene.json
+.godot/
+
+# Secrets: keys, certificates, tokens and cookies never go in git (security review 2026-10-26)
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa*
+id_ed25519*
+client_secret*.json
+credentials*.json
+token*.json
+cookies*.txt
+
+# Model weights live in cache/; one saved anywhere else is still never committed
+*.gguf
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Third-party skill demo bundles (vendored three.min.js, preview images); restored by `npx skills experimental_install`
+.agents/skills/*/demo/
+
+# Python venv + model cache live in .venv/ and cache/ (already ignored)
+
+# Promotion: creator contacts and Studio exports stay local (see .agents/skills/marketing-outreach)
+marketing/private/

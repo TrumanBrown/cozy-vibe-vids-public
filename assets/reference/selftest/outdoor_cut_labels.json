@@ -1,0 +1,11 @@
+{
+  "_note": "Labels for tools/local_vision.py compare, by eye 2026-10-22: each thing tools/outdoor_check.py --repair cut from the weather on these scenes (hand.json outdoor_cuts, merged into things, located by its center in plate px). 'inside' things are the room's own: they must stay dry, and a model must flag weather over them. 'outside' ones were the outdoor check's false cuts on the Minecraft tea house: buildings, a pagoda, a stone lantern and a stone bank across the garden, which it read as 'solid parts of the building'; rain falls in front of them, and a model is right to call them outside.",
+  "blossom-teahouse-rain": {
+    "inside": [[640, 282, "the eave beam above the lantern"], [998, 1425, "the porch floor behind the dog"], [1683, 1548, "the tabletop by the cup"], [640, 1081, "the lantern on the veranda post"]],
+    "outside": [[2977, 1080, "the stone bank right of the bridge"], [1615, 819, "the pavilion across the pond"], [954, 827, "the white building behind the left cherry"], [1064, 519, "the far roof behind the blossoms"], [1999, 574, "the distant pagoda"], [2779, 1004, "the stone lantern by the bridge"]]
+  },
+  "pixel-greenhouse-rain": {
+    "inside": [[3542, 1189, "the indoor trough"], [603, 849, "the plants right of the lantern"], [1935, 646, "the door's stile"], [337, 842, "the vine and frame left of the lantern"], [712, 85, "a roof rafter, left"], [3111, 70, "a roof rafter, right"], [2859, 536, "a tomato stake"], [358, 163, "the hanging plant, top left"], [3044, 432, "the tomato vine's top"], [3630, 200, "a vine stem by the right mullion"]],
+    "outside": []
+  }
+}

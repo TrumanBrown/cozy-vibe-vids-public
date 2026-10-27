@@ -1,0 +1,41 @@
+{
+  "_note": "A local vision model next to Azure (llama.cpp's llama-server, OpenAI-compatible, on this PC's RTX 4070 SUPER). Truman 2026-10-22, after the comparison (tools/local_vision.py compare; Qwen3.5-9B caught 8 of 16 indoor things Azure catches): the local model for first passes to save cost, Azure for the final check. 'first_pass' lists the checks that screen every tile with the local model, send only what it flags to Azure, cut only what Azure confirms, and end with Azure looking at every tile (tools/outdoor_check.py --repair); without the setup they stay on Azure. 'purposes' would send a purpose's calls to the local model outright: empty, nothing is decided by the local model alone. COZY_VISION=local or =azure overrides the routing for one process, COZY_LOCAL_MODEL picks a model from 'models' instead of 'active'. Binaries and weights live in cache/ (gitignored). serve() checks the weights against models.<m>.sha256 (Hugging Face's own hashes, matched 2026-10-26) and setup checks the llama.cpp zips against GitHub's digests (docs/SETUP.md section 7); the server takes requests with its key only (out/local_vision/server.key) and answers browsers from localhost pages only (tools/cozy/llama.py): llama.cpp build b11827 (MIT, ggml-org release, CUDA 13.4); Qwen3-VL 8B Instruct Q4_K_M with its F16 vision projector (Apache-2.0, Qwen's own GGUF repo); Qwen3.5 9B Q4_K_M with its F16 projector (Apache-2.0, unsloth's GGUF of Qwen's model). They are tools, not video assets, like SAM 2 and Wan 2.2.",
+  "endpoint": "http://127.0.0.1:8786/v1",
+  "active": "qwen3.5-9b",
+  "first_pass": ["outdoor_check"],
+  "purposes": [],
+  "timeout_s": 900,
+  "server": {
+    "exe": "cache/llama.cpp/b11827/llama-server.exe",
+    "args": ["-ngl", "99", "-np", "1", "-fa", "on", "--image-min-tokens", "256", "--image-max-tokens", "2048"]
+  },
+  "models": {
+    "qwen3-vl-8b": {
+      "model": "cache/llm/qwen3-vl-8b/Qwen3VL-8B-Instruct-Q4_K_M.gguf",
+      "mmproj": "cache/llm/qwen3-vl-8b/mmproj-Qwen3VL-8B-Instruct-F16.gguf",
+      "sha256": {"model": "67d1659bfe71b89d50b45a4ad1a9e5b997e5bb16ce5da66a6a6167abd569e9e2",
+                 "mmproj": "ca524100ebf825c9a870db1c580d03879e0da0ab2541697e2458e64891cf9d38"},
+      "ctx": 16384, "max_tokens": 4096,
+      "sampling": {"temperature": 0.7, "top_p": 0.8, "top_k": 20}
+    },
+    "qwen3.5-9b": {
+      "model": "cache/llm/qwen3.5-9b/Qwen3.5-9B-Q4_K_M.gguf",
+      "mmproj": "cache/llm/qwen3.5-9b/mmproj-F16.gguf",
+      "sha256": {"model": "03b74727a860a56338e042c4420bb3f04b2fec5734175f4cb9fa853daf52b7e8",
+                 "mmproj": "f70dc3509053962b0d0d3ee8a7eacebf5d60aa560cad78254ae8698516ae029f"},
+      "ctx": 16384, "max_tokens": 4096,
+      "sampling": {"temperature": 0.7, "top_p": 0.8, "top_k": 20, "presence_penalty": 1.5},
+      "request": {"chat_template_kwargs": {"enable_thinking": false}}
+    },
+    "qwen3.5-9b-think": {
+      "model": "cache/llm/qwen3.5-9b/Qwen3.5-9B-Q4_K_M.gguf",
+      "mmproj": "cache/llm/qwen3.5-9b/mmproj-F16.gguf",
+      "sha256": {"model": "03b74727a860a56338e042c4420bb3f04b2fec5734175f4cb9fa853daf52b7e8",
+                 "mmproj": "f70dc3509053962b0d0d3ee8a7eacebf5d60aa560cad78254ae8698516ae029f"},
+      "ctx": 32768, "max_tokens": 8192,
+      "sampling": {"temperature": 0.6, "top_p": 0.95, "top_k": 20, "presence_penalty": 1.5},
+      "request": {"chat_template_kwargs": {"enable_thinking": true}},
+      "json_mode": false
+    }
+  }
+}

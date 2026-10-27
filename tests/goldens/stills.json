@@ -1,0 +1,138 @@
+{
+ "blossom-teahouse-rain": {
+  "frames": {
+   "18000": "27b247bfc045b9c2",
+   "23340": "b09fd8ec8f750601",
+   "90": "54a13f156bc30022"
+  },
+  "inputs": "c9c42b29f41bc1ce"
+ },
+ "catmock-pixel": {
+  "frames": {
+   "18000": "9f886fc074069ceb",
+   "3870": "06df3bcaa4991131",
+   "90": "2276d7e767e73444"
+  },
+  "inputs": "35dbabdf6c11a0da"
+ },
+ "catmock-treetop": {
+  "frames": {
+   "12510": "a89ca6cffa1883c2",
+   "21990": "3892ecb3f43a8406",
+   "90": "0a1314b4315adf57"
+  },
+  "inputs": "d2b3530c58bfd1c0"
+ },
+ "dogmock-greenhouse": {
+  "frames": {
+   "18000": "d8510ebfd78afa22",
+   "2700": "750bc01abbaf8452",
+   "90": "73983cd745693337"
+  },
+  "inputs": "b790c0b8caae21db"
+ },
+ "lakeside": {
+  "frames": {
+   "150": "e37d83eb8af89549",
+   "18000": "78b18b3472a6dc67",
+   "90": "24dcdb991537c990"
+  },
+  "inputs": "52c366744870a891"
+ },
+ "leaf-campfire-rain": {
+  "frames": {
+   "18000": "60870d6c9d29252a",
+   "3180": "033b61f7dd2c75d2",
+   "90": "3c55c55c80e921d8"
+  },
+  "inputs": "a90f32b2e8523558"
+ },
+ "loft": {
+  "frames": {
+   "150": "40d1b058c2bd6c0a",
+   "18000": "d54179ef4dfb79cf",
+   "90": "be69b7c4babc04bb"
+  },
+  "inputs": "2799a5d4a67763c6"
+ },
+ "petmock-greenhouse": {
+  "frames": {
+   "18000": "6cd677f40ba8b17e",
+   "2700": "f420b45bd59b2193",
+   "90": "d13027973e0fb34a"
+  },
+  "inputs": "687b5917c58d2b56"
+ },
+ "pixel-farmhouse": {
+  "frames": {
+   "18000": "9f886fc074069ceb",
+   "3870": "06df3bcaa4991131",
+   "90": "8b7198d54caee79c"
+  },
+  "inputs": "85f8194234adfcb6"
+ },
+ "pixel-greenhouse-rain": {
+  "frames": {
+   "18000": "3623c87f2a9ec3ed",
+   "2700": "ec496cb49f9c8707",
+   "90": "d13027973e0fb34a"
+  },
+  "inputs": "13369e918b80dce3"
+ },
+ "rainy-cafe": {
+  "frames": {
+   "18000": "2cde22449d06fe95",
+   "690": "0fcffeaecdf0d722",
+   "90": "ef99e100d5a9c4cc"
+  },
+  "inputs": "a048c20d60f0a256"
+ },
+ "ramen-alley": {
+  "frames": {
+   "10620": "c9dc3c0567c92ba5",
+   "1504": "2255ae1e0c2c0392",
+   "90": "ea39b3d4f1310bc6"
+  },
+  "inputs": "4db621bd73a993c5"
+ },
+ "real-life-farmscape": {
+  "frames": {
+   "18000": "58c71ee30fcef7da",
+   "4590": "f8e1b7eb2ac665d6",
+   "90": "4cda443280a7b300"
+  },
+  "inputs": "5a35f8bdba603e3f"
+ },
+ "snowy-cottage": {
+  "frames": {
+   "18000": "ee4466e9b01145a5",
+   "3870": "115a110f6e947764",
+   "90": "99067d48356da6d2"
+  },
+  "inputs": "b9b2aeb020d0dfec"
+ },
+ "treetop": {
+  "frames": {
+   "150": "bbc5141d2bbd5780",
+   "18000": "fd7afa349d4a3004",
+   "90": "738e1ad8f1b0dd7b"
+  },
+  "inputs": "cad8b7b596f547bc"
+ },
+ "treetop-plate": {
+  "frames": {
+   "12510": "a89ca6cffa1883c2",
+   "21990": "3892ecb3f43a8406",
+   "90": "230732e964a2df8e"
+  },
+  "inputs": "6c254fe77803a9ce"
+ },
+ "wizard-library": {
+  "frames": {
+   "12600": "7421c265f31bb3a1",
+   "3600": "3c0fa4a4d927c6c1",
+   "90": "aa1c8a097cbc603c"
+  },
+  "inputs": "f5e8d5c569971731"
+ }
+}

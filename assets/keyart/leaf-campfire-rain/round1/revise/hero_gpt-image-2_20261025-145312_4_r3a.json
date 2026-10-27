@@ -1,0 +1,59 @@
+{
+  "src": "assets/keyart/leaf-campfire-rain/hero_gpt-image-2_20261025-145312_4.png",
+  "tag": "r3a",
+  "steps": [
+    {
+      "kind": "lift",
+      "points": [
+        [
+          0.168,
+          0.764
+        ],
+        [
+          0.242,
+          0.75
+        ]
+      ],
+      "amount": 0.12,
+      "px": 68539
+    },
+    {
+      "kind": "edit",
+      "polygons": [
+        "0.0703,0.375,0.3008,0.375,0.3047,0.486,0.3008,0.7257,0.0703,0.7257"
+      ],
+      "keep": [
+        [
+          0.168,
+          0.764
+        ],
+        [
+          0.164,
+          0.6875
+        ],
+        [
+          0.0508,
+          0.5556
+        ]
+      ],
+      "model": "gpt-image-2",
+      "prompt": "Edit only the masked area of this hand-made picture-book illustration and keep its exact style: dark umber and forest-green ink lines that taper and break, opaque gouache with dry-brush strokes and watercolor-paper grain, the same muted night palette and the same light. In the masked area there is no creature and no lantern: only the dry moss of the camp floor, warm in the firelight close to the campfire and fading into deep shadow toward the left, and the dark space under the burdock leaf. No text, no falling rain, no steam or smoke.",
+      "px": 280805
+    }
+  ],
+  "usage": {
+    "input_tokens": 1630,
+    "input_tokens_details": {
+      "image_tokens": 1508,
+      "text_tokens": 122
+    },
+    "output_tokens": 7370,
+    "output_tokens_details": {
+      "image_tokens": 7370,
+      "text_tokens": 0
+    },
+    "total_tokens": 9000
+  },
+  "made": "2026-10-25T15:21:32",
+  "note": "tools/keyart_revise.py: only the masked pixels changed (edits feathered 2.5 px); the lift is a code adjustment"
+}

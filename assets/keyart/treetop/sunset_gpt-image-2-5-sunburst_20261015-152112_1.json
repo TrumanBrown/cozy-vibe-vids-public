@@ -1,0 +1,24 @@
+{
+  "id": "sunset",
+  "prompt": "Wide 16:9 cinematic screenshot of a cozy Minecraft treehouse in autumn, viewed from inside the treehouse looking out over a wooden balcony railing at a great view: a valley of blocky orange, red and gold autumn trees, a winding river and lake, and snow-capped blocky mountains in the distance under a warm sunset sky with soft pink clouds. Inside: dark oak plank floor and log walls, a red wool carpet in the foreground, a wooden chest, a small bookshelf, glowing lanterns on the railing posts and hanging from the ceiling, potted flowers, and autumn leaf blocks with hanging vines framing the top of the view. Shader-pack lighting with soft volumetric god rays, warm bloom, soft shadows and realistic reflections on the water. Locked-off camera at eye level, no people, no text, no user interface.",
+  "deployment": "gpt-image-2-5-sunburst",
+  "size": "2560x1440",
+  "quality": "high",
+  "created": 1792102870,
+  "revised_prompt": null,
+  "usage": {
+    "input_tokens": 175,
+    "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 175
+    },
+    "output_tokens": 1843,
+    "output_tokens_details": {
+      "image_tokens": 1843,
+      "text_tokens": 0
+    },
+    "total_tokens": 2018
+  },
+  "endpoint": "https://cvvimg-b9812c.cognitiveservices.azure.com/",
+  "generated_at": "20261015-152112"
+}

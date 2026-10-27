@@ -1,0 +1,24 @@
+{
+ "derived": "walk_front",
+ "prompt": "Pixel-art sprite sheet: the same golden-brown dog four times in a row, walking straight toward the viewer, seen from the front, on a transparent background. Repaint only the masked strip at the bottom of each dog, its front legs and paws, so that the four dogs show one walk cycle, left to right: 1 the left front paw lifted and reaching forward, the right one down; 2 both front paws down; 3 the right front paw lifted and reaching forward, the left one down; 4 both front paws down. Every paw that is down stands on the same ground line as now. Paint them with the same pixel size, fur shading, colors and soft dark-brown edge as the rest of the dog (no black outline). Keep the face, ears, chest and body exactly as they are. No ground, no shadow, no text.",
+ "master": "posed_front.png",
+ "master_file_sha": "4b0c9c0e976c83c2",
+ "zone": "front_legs",
+ "scale": 0.6666666666666666,
+ "references": [],
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-21",
+ "usage": {
+  "input_tokens": 1730,
+  "input_tokens_details": {
+   "image_tokens": 1536,
+   "text_tokens": 194
+  },
+  "output_tokens": 1372,
+  "output_tokens_details": {
+   "image_tokens": 1372,
+   "text_tokens": 0
+  },
+  "total_tokens": 3102
+ }
+}

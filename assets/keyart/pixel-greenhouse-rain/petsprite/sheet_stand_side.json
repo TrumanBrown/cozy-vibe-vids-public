@@ -1,0 +1,21 @@
+{
+ "sheet": "stand_side",
+ "prompt": "Pixel-art sprite sheet of this same dog facing right, seen from the side, in exactly the same 16-bit pixel-art style as the reference: the same chunky pixel size, the same golden-brown fur colors and shading, the same face, floppy ears, nose and proportions. Four frames, left to right: 1 standing still, head level, tail relaxed; 2 standing, tail up and wagging; 3 sitting upright facing right, tail on the floor; 4 lying down facing right, head up and eyes open, front paws stretched out in front. Transparent background. No ground, no floor line, no shadow, no text, no numbers, no frame borders or grid lines. Every frame shows the whole dog with a little space around it, all frames the same size and standing on the same invisible ground line, evenly spaced in one row.",
+ "reference": "ref.png (the painted pet cut from clean.png)",
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-21",
+ "usage": {
+  "input_tokens": 1216,
+  "input_tokens_details": {
+   "image_tokens": 1024,
+   "text_tokens": 192
+  },
+  "output_tokens": 1372,
+  "output_tokens_details": {
+   "image_tokens": 1372,
+   "text_tokens": 0
+  },
+  "total_tokens": 2588
+ },
+ "mode": "RGBA"
+}

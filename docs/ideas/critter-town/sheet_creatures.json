@@ -1,0 +1,23 @@
+{
+ "deployment": "gpt-image-2-5-sunburst",
+ "quality": "high",
+ "purpose": "concept:critter-town:sheet_creatures",
+ "tool": "tools/critter_concept.py gen",
+ "prompt": "A sprite sheet of 12 small original creature characters as pixel art overworld sprites for a cozy top-down RPG, in a 4 by 3 grid with lots of empty space between them, each one standing alone in its cell, seen from the front at the slight top-down angle of 2000s handheld RPG overworld sprites, each drawn about 24 pixels tall with large chunky square pixels, dark outlines, flat colors with simple shading, transparent background, no ground shadows, no text, no labels, no grid lines. Row 1: a red fox kit with a cream-tipped tail; a brown river otter; a fluffy yellow duckling; a green tree frog. Row 2: a squirrel whose tail is a big red maple leaf; a white bunny whose ears end in dandelion puffs; a small porcupine whose back is covered in pinecone scales; a raccoon kit wearing a little knitted orange scarf. Row 3: a barn owl flying with wings spread, seen from above; a moth with stained-glass wings, seen from above; a large gentle manatee-like water creature with moss and small flowers on its back, seen from above as it floats; a small round hedgehog wearing an acorn cap. All original designs that do not resemble any existing game or cartoon character.",
+ "size": "1536x1024",
+ "background": "transparent",
+ "usage": {
+  "input_tokens": 276,
+  "input_tokens_details": {
+   "image_tokens": 0,
+   "text_tokens": 276
+  },
+  "output_tokens": 1372,
+  "output_tokens_details": {
+   "image_tokens": 1372,
+   "text_tokens": 0
+  },
+  "total_tokens": 1648
+ },
+ "date": "2026-10-21"
+}

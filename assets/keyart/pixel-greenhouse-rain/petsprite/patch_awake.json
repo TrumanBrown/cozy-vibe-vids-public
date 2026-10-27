@@ -1,0 +1,32 @@
+{
+ "patch": "awake",
+ "prompt": "This is a 16-bit pixel-art greenhouse. Repaint only the masked area around the sleeping golden-brown dog's head: the dog wakes up and lifts its head up from its paws, eyes open, ears up a little, looking toward the right, calm and curious. Its body, front paws, back and tail stay exactly as they are, curled on the woven mat. Same pixel-art style, pixel size, colors and warm lantern light as the rest of the picture. Nothing else changes.",
+ "window": [
+  47,
+  416,
+  1024,
+  1024
+ ],
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-21",
+ "usage": {
+  "input_tokens": 1140,
+  "input_tokens_details": {
+   "image_tokens": 1024,
+   "text_tokens": 116
+  },
+  "output_tokens": 1756,
+  "output_tokens_details": {
+   "image_tokens": 1756,
+   "text_tokens": 0
+  },
+  "total_tokens": 2896
+ },
+ "placed": {
+  "file": "patch_awake.png",
+  "x": 829,
+  "y": 1408,
+  "w": 348,
+  "h": 357
+ }
+}

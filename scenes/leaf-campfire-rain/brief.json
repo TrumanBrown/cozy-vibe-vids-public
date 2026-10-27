@@ -1,0 +1,188 @@
+{
+  "scene": "leaf-campfire-rain",
+  "aesthetic": "ink-gouache",
+  "created": "2026-10-25",
+  "setting": "a tiny camp on the forest floor at night in steady rain, seen from a mouse's height: a huge burdock leaf bent over on its stem makes a roof over a dry patch of moss, where four small friends wait for a pot of soup to cook over a tiny fire; nothing else is there, no buildings and no camp clutter",
+  "time": "night",
+  "weather": "steady rain",
+  "cast": [
+    "polyphemus-mothling",
+    "short-horned-lizard",
+    "garter-snake",
+    "red-backed-salamander"
+  ],
+  "pet": "the mothling, the short-horned lizard and the garter snake sit close together around the tiny fire, waiting on the soup; out in the rain the red-backed salamander, holding its salal leaf over its head in one hand and a small lit lantern in the other, peers into the dark forest as if looking for something",
+  "props": [
+    "a little soup pot hanging from a tripod of three twigs over the fire",
+    "a tiny campfire in a ring of pebbles",
+    "the salamander's small paper lantern on a short twig"
+  ],
+  "signature": "rainwater dropping from the burdock leaf's edge and from the salamander's salal leaf into the puddles, while the soup pot steams over the fire and the salamander's lantern glows",
+  "signature_detail": "At the lower right, a tiny beetle crawls across a flat pebble beneath the leaf’s edge, pauses when a drop lands ahead of it, then turns back. Add the beetle in animation, not in the painting.",
+  "foreground": "a sparse fringe of moss and a few broad, flat pebbles along the bottom edge, where the dry patch ends",
+  "midground": "under the leaf roof, left of center, all three close around the tiny campfire in its ring of pebbles, with the little soup pot hanging over it from a tripod of three twigs: the mothling sits on the left of the fire with its small hands in its lap, holding nothing; the short-horned lizard lies on a patch of dark moss in front of the fire, its pale sandy body clearly lighter than the dark moss around it, so it stands out; the garter snake sits coiled on the far side of the fire. All three face the fire. Clear, empty space above the pot",
+  "background": "out in the open to the right of the burdock leaf, a few steps out on the dark wet forest floor in the rain: the red-backed salamander stands on its hind legs, holding its salal leaf over its head like an umbrella in one hand and, in its other hand, a short twig with a small lit paper lantern hanging from its tip, held out in front of it; it peers into the dark forest on the right as if looking for something. Behind it the open forest floor at night: dark and wet, with shallow puddles, grass stems and fern fronds rising like tall trees. No moon and no stars. The falling rain itself is not drawn (it is animated later): the air is clear and the ground is wet",
+  "composition": "the camera sits low on the moss at the friends' eye level, looking slightly across the camp toward the open forest on the right. The bent burdock stem and its broad leaf frame the upper left and roof the camp. The three friends sit together around the fire left of center; the salamander with its leaf and lantern stands out in the rain in the right third, its leaf well clear of the burdock leaf; dark wet ground between them. Locked-off, wide 16:9",
+  "light": "two separate warm lights in the dark: the campfire under the leaf, lighting a small circle of moss, the three friends' fronts and the underside of the burdock leaf, and the salamander's lantern out in the rain, lighting a small pool of wet ground, its leaf from below and its face. Between the two pools lies a stretch of dark ground; each light fades softly and evenly into the dark, with no hard edge. Most of the forest stays in cool, dark blue-green; about two thirds of the frame is dark",
+  "title_idea": "Come rest at the Burdock Shelter",
+  "place_name": "Burdock Shelter",
+  "intro_lines": [
+    "Welcome home, critter.",
+    "Come rest with your PNW friends."
+  ],
+  "request": "Truman 2026-10-25: the first video in the approved style A (ink-gouache) with the channel's own cast (mothling, short-horned lizard, garter snake, red-backed salamander), the tiny campfire in the rain; the story approved as proposed (three friends waiting on a pot of soup, the salamander arriving out of the rain under its leaf). Then (candidate 4 revised, rejected): a new image with the moth, snake and lizard gathered at the fire and the salamander holding its leaf and the lantern, one in each hand, as if searching for something; the lizard distinct from the ground; the salamander's mouth a salamander's, not a lizard's.",
+  "status": "plate",
+  "pick_scores": [
+    {
+      "index": 1,
+      "composition": 8,
+      "animatable": 7,
+      "artifacts": 7,
+      "brief": 7,
+      "characters": [
+        [
+          0.076,
+          0.408,
+          0.236,
+          0.701
+        ],
+        [
+          0.232,
+          0.688,
+          0.498,
+          0.861
+        ],
+        [
+          0.386,
+          0.444,
+          0.553,
+          0.719
+        ],
+        [
+          0.671,
+          0.283,
+          0.893,
+          0.658
+        ]
+      ],
+      "note": "Readable firelit camp and separate lantern. The snake appears to have forelimbs; steam and leaf-edge drips are not depicted.",
+      "detail_errors": []
+    },
+    {
+      "index": 2,
+      "composition": 8,
+      "animatable": 7,
+      "artifacts": 7,
+      "brief": 7,
+      "characters": [
+        [
+          0.049,
+          0.469,
+          0.226,
+          0.778
+        ],
+        [
+          0.364,
+          0.701,
+          0.626,
+          0.858
+        ],
+        [
+          0.379,
+          0.45,
+          0.57,
+          0.689
+        ],
+        [
+          0.677,
+          0.307,
+          0.892,
+          0.626
+        ]
+      ],
+      "note": "Strong shelter shape and open rainy-side space, but the snake has apparent limbs. No visible pot steam or dripping water.",
+      "detail_errors": []
+    },
+    {
+      "index": 3,
+      "composition": 9,
+      "animatable": 8,
+      "artifacts": 3,
+      "brief": 8,
+      "characters": [
+        [
+          0.079,
+          0.425,
+          0.251,
+          0.708
+        ],
+        [
+          0.098,
+          0.722,
+          0.34,
+          0.87
+        ],
+        [
+          0.438,
+          0.474,
+          0.61,
+          0.752
+        ],
+        [
+          0.692,
+          0.278,
+          0.887,
+          0.641
+        ]
+      ],
+      "note": "Best separation of the four friends, pot, fire, leaf roof, and lantern, with useful dark space for animation. The snake appears limbed, and steam and drips are missing.",
+      "detail_errors": [
+        "crop 2: The silver sagebrush grows from the lizard’s back, well behind its head, rather than between its head spikes.",
+        "crop 2: The silver sagebrush is growing from the lizard’s back rather than between the spikes on its head."
+      ]
+    },
+    {
+      "index": 4,
+      "composition": 8,
+      "animatable": 8,
+      "artifacts": 3,
+      "brief": 8,
+      "characters": [
+        [
+          0.084,
+          0.476,
+          0.24,
+          0.752
+        ],
+        [
+          0.33,
+          0.762,
+          0.578,
+          0.898
+        ],
+        [
+          0.37,
+          0.521,
+          0.541,
+          0.75
+        ],
+        [
+          0.691,
+          0.349,
+          0.881,
+          0.764
+        ]
+      ],
+      "note": "Clear, cozy layout with distinct fire and lantern glow. The central snake has apparent forelimbs; pot steam and leaf drips are absent.",
+      "detail_errors": [
+        "crop 1: Only one eyespotted wing is visible; the other wing and its large blue-and-yellow eyespot appear to be missing.",
+        "crop 1: Only one wing with a blue-and-yellow eyespot is visible; the other described wing appears to be missing.",
+        "crop 1: Only one wing with a blue-and-yellow eyespot is visible; the second wing appears to be missing.",
+        "crop 4: The salamander has a long, pointed, lizard-like snout rather than a short, rounded, blunt one.",
+        "crop 4: The salamander has a long, tapered, lizard-like snout instead of a short, rounded, blunt one."
+      ]
+    }
+  ],
+  "hero": "assets/keyart/leaf-campfire-rain/hero_gpt-image-2_20261025-154404_3_lizard.png",
+  "intro_why": "Truman's pick, 2026-10-26, from his own line \"welcome home critter, come rest with your PNW friends\""
+}

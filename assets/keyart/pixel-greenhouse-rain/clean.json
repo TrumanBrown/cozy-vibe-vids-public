@@ -1,0 +1,110 @@
+{
+ "source": "assets/keyart/pixel-greenhouse-rain/hero_gpt-image-2-5-sunburst_20261021-060141_2.png",
+ "deployment": "gpt-image-2-5-sunburst",
+ "endpoint": "https://cvvimg-b9812c.cognitiveservices.azure.com/",
+ "items": [
+  {
+   "name": "steaming_mug_plume",
+   "kind": "steam",
+   "prompt": "Remove the steam rising from the Light-colored mug on the potting bench.. Where it was, show what is behind it, continuing the surroundings naturally: the warmly lit area beside the lantern. No steam, smoke, vapour or mist there. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     0,
+     90,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1119,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 95
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2875
+    }
+   ],
+   "date": "2026-10-21"
+  },
+  {
+   "name": "painted_strands",
+   "kind": "strands",
+   "prompt": "Remove the thin strings of water drops hanging from the roof eaves, signs, lanterns and leaves. Where they were, show what is behind them, continuing the surroundings: the walls, windows and leaves behind them. The edges they hung from stay, wet but with no hanging drops. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [],
+   "usage": [],
+   "date": "2026-10-21"
+  },
+  {
+   "name": "sky",
+   "kind": "art",
+   "prompt": "This is a 16-bit pixel-art greenhouse at a rainy dawn. Repaint only the masked area, which is the sky seen through the glass and the very top edge of the far hazy hills. Make the sky a prettier, softer rainy dawn sky in exactly the same pixel-art style and pixel size as the rest of the picture: layered soft rain clouds in lavender, dusty blue and slate gray, lit from below by a gentle peach and rose sunrise glow low near the horizon behind the hills, fading upward into cool lavender blue, with a few lighter breaks between the cloud bands. Let the far hills' hazy tops meet the new sky naturally, keeping their shapes soft and misty. It is still overcast and softly raining, calm and cozy, not stormy. Keep the colors muted so the scene stays a dim, cool morning. Do not paint rain streaks, a sun, moon, stars, birds, animals, people, text or lightning. Everything outside the masked area stays exactly as it is.",
+   "mask": {
+    "sky": true,
+    "green": [],
+    "poly": [],
+    "px": 324412
+   },
+   "size": "2560x1440",
+   "usage": [
+    {
+     "input_tokens": 1728,
+     "input_tokens_details": {
+      "image_tokens": 1508,
+      "text_tokens": 220
+     },
+     "output_tokens": 1843,
+     "output_tokens_details": {
+      "image_tokens": 1843,
+      "text_tokens": 0
+     },
+     "total_tokens": 3571
+    }
+   ],
+   "date": "2026-10-21",
+   "note": "Truman 2026-10-21: a prettier, less bland sky. Three edits were made (the usage lists all three); the second was kept. It repainted the windpump's wheel and left the old sky beside its tower, so the windpump was put back from the original key art (the tower and the 8 blades), the sky around it filled row by row from the new sky on either side, and the sky between the blades given one flat color (the wheel turns in code; a turning patch of cloud texture would show)."
+  },
+  {
+   "name": "crops",
+   "kind": "art",
+   "prompt": "This is a 16-bit pixel-art greenhouse at a rainy dawn. Repaint only the masked plants so the garden has more variety, in exactly the same pixel-art style, pixel size, perspective and warm lantern-and-dawn lighting as the rest of the picture. In the seedling tray at the front right, make each cell a different young plant: tiny radish sprouts with red stems, pea shoots with curly tendrils, little basil leaves, carrot fronds, onion sprouts, a sprouting bean, and a few cells with just a seed leaf breaking the soil, all small and short, sitting in the soil of their own cell without crossing the dividers. In the raised bed at the left, change the row of lettuce heads into a mix: a red-leaf lettuce, a cabbage, a curly kale, a bok choy and a butterhead lettuce. In the raised bed at the right, make the plants a mix too: Swiss chard with red and yellow stems, a row of carrots with feathery tops, some young leeks or spring onions, and a few beet plants with dark red veins. Keep every plant within its masked area, the same size or a little smaller, rooted in the soil. Do not add animals, insects, people, text, tools, labels or signs. Everything outside the masked area stays exactly as it is.",
+   "mask": {
+    "sky": false,
+    "green": [
+     "0.5879,0.7222,0.8730,0.7222,0.8990,0.8806,0.5938,0.8806"
+    ],
+    "sam": [
+     "0.2141,0.5764;0.2539,0.5660;0.2969,0.5764;0.3594,0.5764;0.4043,0.5799",
+     "0.5918,0.5764;0.6484,0.5764;0.6992,0.5764;0.7500,0.5764",
+     "0.5898,0.4792;0.6367,0.4792;0.6875,0.4792;0.7344,0.4792"
+    ],
+    "grow": 6,
+    "poly": [],
+    "px": 266319
+   },
+   "size": "2560x1440",
+   "usage": [
+    {
+     "input_tokens": 1801,
+     "input_tokens_details": {
+      "image_tokens": 1508,
+      "text_tokens": 293
+     },
+     "output_tokens": 1843,
+     "output_tokens_details": {
+      "image_tokens": 1843,
+      "text_tokens": 0
+     },
+     "total_tokens": 3644
+    }
+   ],
+   "date": "2026-10-21"
+  }
+ ],
+ "_note": "AI edit of the key art (painted transients removed); see tools/plate_clean.py"
+}

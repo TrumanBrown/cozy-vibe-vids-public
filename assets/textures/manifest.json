@@ -1,0 +1,151 @@
+{
+  "_note": "Block texture pack generated locally with SDXL (tools/gen_textures.py). Each entry: id, prompt, seed, out size (px per block face), alpha mode. Regenerate one: python tools/gen_textures.py --only <id>.",
+  "style": "top down texture photograph, flat even diffuse lighting, fills the whole frame edge to edge, high detail, sharp focus, 8k",
+  "negative": "text, watermark, logo, illustration, vector art, cartoon, drawing, painting, flat colors, perspective, horizon, room, furniture, objects, border, frame, vignette, blurry",
+  "textures": [
+    {
+      "id": "oak_planks",
+      "seed": 301,
+      "size": 512,
+      "prompt": "close up photo of exactly four wide oak floor boards running horizontally, warm honey wood with visible grain and a knot, thin dark gaps between boards",
+      "flatten": true
+    },
+    {
+      "id": "oak_planks_b",
+      "seed": 302,
+      "size": 512,
+      "prompt": "close up photo of exactly four wide weathered grey brown deck boards running horizontally, wood grain, two nail heads per board",
+      "flatten": true
+    },
+    {
+      "id": "dark_planks",
+      "seed": 303,
+      "size": 512,
+      "prompt": "close up photo of exactly four wide dark walnut boards running horizontally, rich grain, satin sheen",
+      "flatten": true
+    },
+    {
+      "id": "log_wall",
+      "seed": 304,
+      "size": 512,
+      "prompt": "close up photo of a log cabin wall, exactly two large horizontal peeled logs stacked one above the other, warm brown planed wood with long grain and checking cracks, thin pale chinking line between them, side view"
+    },
+    {
+      "id": "bark",
+      "seed": 105,
+      "size": 512,
+      "prompt": "photo of oak tree bark close up, deep vertical ridges, dark brown and grey"
+    },
+    {
+      "id": "log_end",
+      "seed": 305,
+      "size": 512,
+      "prompt": "close up photo of the single cut end of one large log filling the frame, concentric tree rings, radial cracks, warm wood, bark ring at the very edge"
+    },
+    {
+      "id": "fieldstone",
+      "seed": 313,
+      "size": 512,
+      "prompt": "close up photo of a rustic fieldstone fireplace wall, about ten large irregular grey and tan stones set in mortar"
+    },
+    {
+      "id": "stone_bricks",
+      "seed": 311,
+      "size": 512,
+      "prompt": "close up photo of a grey stone brick wall, exactly three rows of large rectangular chiselled stone blocks, mortar joints"
+    },
+    {
+      "id": "cobble",
+      "seed": 312,
+      "size": 512,
+      "prompt": "close up photo of a rustic wall of large rounded grey cobblestones, about twelve stones, dark gaps"
+    },
+    {
+      "id": "bookshelf",
+      "seed": 210,
+      "size": 512,
+      "prompt": "photo of one wooden shelf seen straight on holding about twelve large old leather bound books standing upright, thick spines in red green brown and navy with gold bands, shelf board below"
+    },
+    {
+      "id": "leaves_autumn",
+      "seed": 306,
+      "size": 512,
+      "alpha": "leaves",
+      "prompt": "photo of autumn maple leaves densely overlapping on a pure black background, bright orange red and golden yellow, studio photo from above"
+    },
+    {
+      "id": "leaves_autumn_far",
+      "seed": 307,
+      "size": 256,
+      "alpha": "leaves",
+      "prompt": "photo of deep red and burnt orange small autumn leaves densely overlapping on a pure black background, studio photo from above"
+    },
+    {
+      "id": "leaves_green",
+      "seed": 308,
+      "size": 512,
+      "alpha": "leaves",
+      "prompt": "photo of green houseplant leaves densely overlapping on a pure black background, studio photo from above"
+    },
+    {
+      "id": "wool_red",
+      "seed": 114,
+      "size": 512,
+      "prompt": "photo of a chunky cable knit wool blanket, deep red yarn, soft fluffy fibers, close up"
+    },
+    {
+      "id": "wool_cream",
+      "seed": 115,
+      "size": 512,
+      "prompt": "photo of a chunky cable knit wool blanket, cream white yarn, soft fluffy fibers, close up"
+    },
+    {
+      "id": "plaid",
+      "seed": 116,
+      "size": 512,
+      "prompt": "photo of red and black buffalo check flannel fabric, woven cotton, close up"
+    },
+    {
+      "id": "kilim",
+      "seed": 117,
+      "size": 512,
+      "prompt": "photo of a woven kilim rug, red cream and dark navy geometric diamond pattern, wool weave, close up"
+    },
+    {
+      "id": "shingles",
+      "seed": 118,
+      "size": 512,
+      "prompt": "photo of weathered cedar wooden roof shingles in staggered rows"
+    },
+    {
+      "id": "rope",
+      "seed": 119,
+      "size": 256,
+      "prompt": "photo of thick twisted hemp rope lengths lying side by side"
+    },
+    {
+      "id": "iron",
+      "seed": 120,
+      "size": 256,
+      "prompt": "photo of dark hammered wrought iron metal surface, slight rust"
+    },
+    {
+      "id": "fur_grey",
+      "seed": 309,
+      "size": 256,
+      "prompt": "extreme macro photo of soft grey tabby cat fur texture only, hairs and darker stripes filling the frame, no face, no eyes"
+    },
+    {
+      "id": "pumpkin",
+      "seed": 310,
+      "size": 256,
+      "prompt": "extreme macro photo of orange pumpkin skin filling the frame, smooth vertical ribs and grooves, no stem"
+    },
+    {
+      "id": "paper_wall",
+      "seed": 123,
+      "size": 512,
+      "prompt": "photo of a warm cream plaster wall with subtle trowel marks"
+    }
+  ]
+}
