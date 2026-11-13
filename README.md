@@ -6,6 +6,8 @@ Each scene is one AI key-art image, animated in code: rain, rain on glass, snow,
 
 > **Status:** six videos are live on [Sweater Weather Productivity](https://www.youtube.com/@SweaterWeatherProductivity). Live status: [docs/STATUS.md](docs/STATUS.md).
 
+This is a public copy of a private repo, which is why its history is so short.
+
 ## Videos made with it
 
 <table>
