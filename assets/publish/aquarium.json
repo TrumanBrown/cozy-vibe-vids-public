@@ -1,0 +1,45 @@
+{
+ "_note": "Drafted 2026-10-22 for Truman's own aquarium recording, redone 2026-10-23 for the better recording, C0140 (from 9:06), in the form he published (docs/records/*/published.md). The usual blurb (assets/publish/description_blurb.txt) says every scene is animated and the ambience synthesized, which isn't true here, so this video has its own blurb below: edit it to taste. Music and water: Mojang's (the allowlist music and Minecraft's own flowing water), on a video that isn't Minecraft, his call at our risk: upload Private and publish only once YouTube's copyright check is clear. AI use: No. Edit freely: no tool overwrites this spec.",
+ "slug": "aquarium",
+ "name": "Planted Aquarium",
+ "render": "out/aquarium/render/10h_v3",
+ "video": "master_music.mp4",
+ "thumbnails": "assets/thumbnails/aquarium.json",
+ "thumbnail": "pixel-gourami",
+ "test_and_compare": [
+  "pixel-gourami",
+  "magazine",
+  "big-word"
+ ],
+ "draft_text": false,
+ "titles": [
+  "Calm Music Planted Aquarium 🐠 Study and relax with soft water sounds 💧 4K, 10 hours, no Ads",
+  "Calm Music Planted Aquarium 🐠 Sleep with soft water sounds 💧 4K, 10 hours, no Ads",
+  "Calm Minecraft Music Planted Aquarium 🐠 Read and relax with the fish 💧 4K, 10 hours, no Ads"
+ ],
+ "title_emoji": 2,
+ "description": [
+  "Come relax by my planted aquarium, with a honey gourami and snails exploring the moss and lava rock, calm Minecraft music and soft flowing water. 10 hours of 4K, calming ambience with smooth music. Never interrupting with ads."
+ ],
+ "blurb": [
+  "I put videos like these on the TV while I work from home, so I started making my own. This one is my own aquarium, filmed in 4K and looped. Excited to continue to develop more.",
+  "",
+  "The soft water sound is the flowing water from Minecraft, to go with the Minecraft music. I love making these videos, so please let me know what you would like to see next.",
+  "",
+  "No stock footage or sound-effect libraries."
+ ],
+ "hashtags": [
+  "#minecraftmusic",
+  "#aquarium",
+  "#plantedtank",
+  "#studymusic",
+  "#relaxing",
+  "#relax",
+  "#4k",
+  "#10hours"
+ ],
+ "tags": [],
+ "category": "Film & Animation",
+ "ai_use": false,
+ "ai_use_why": "The picture is your own recording of the tank; Minecraft's flowing water and Mojang's music go under it like any soundtrack. Nothing realistic is generated or altered, and nothing in it is AI-made."
+}

@@ -1,0 +1,49 @@
+{
+ "_note": "Painted transients to remove from the key art (tools/plate_clean.py); written by tools/analyze_plate.py, edit freely.",
+ "source": "assets/keyart/leaf-campfire-rain/hero_gpt-image-2_20261025-154404_3_lizard.png",
+ "items": [
+  {
+   "name": "tiny_campfire_flames",
+   "kind": "fire",
+   "box": [
+    0.2962,
+    0.603,
+    0.3668,
+    0.713
+   ],
+   "shape": "ellipse",
+   "what": "Small flames inside a ring of pebbles.",
+   "behind": "small twigs beneath the hanging soup pot"
+  },
+  {
+   "name": "soup_pot_plume",
+   "kind": "steam",
+   "box": [
+    0.3051,
+    0.4916,
+    0.3639,
+    0.5684
+   ],
+   "shape": "ellipse",
+   "what": "steam rising from the Soup pot suspended from a three-twig tripod.",
+   "behind": "the dark underside of the burdock leaf and the tripod",
+   "protect": [
+    "soup_pot"
+   ]
+  },
+  {
+   "name": "edge_drips",
+   "kind": "drips",
+   "what": "burdock leaf roof",
+   "behind": "the scene behind them as it continues"
+  },
+  {
+   "name": "painted_strands",
+   "kind": "strands",
+   "what": "roof eaves, signs, lanterns and leaves",
+   "behind": "the walls, windows and leaves behind them",
+   "boxes": [],
+   "found": []
+  }
+ ]
+}

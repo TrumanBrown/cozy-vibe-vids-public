@@ -1,0 +1,39 @@
+{
+ "source": "out/skyrim-mill-night/render/sample_v4 (approved 2026-11-08)",
+ "refs": {
+  "keyart__key_art": {
+   "file": "keyart__key_art.jpg",
+   "label": "key art",
+   "lessons": [
+    "L03",
+    "L06",
+    "L07",
+    "L60",
+    "L71"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\skyrim-mill-night\\render\\sample_v4",
+   "note": "Truman approved the sound of sample v4 and asked for the 10 hours"
+  },
+  "pet_dry": {
+   "file": "pet_dry.jpg",
+   "label": "the pet (sleeping nordic hound)",
+   "lessons": [
+    "L10",
+    "L19",
+    "L31"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\skyrim-mill-night\\render\\sample_v4",
+   "note": "Truman approved the sound of sample v4 and asked for the 10 hours"
+  },
+  "intro_title": {
+   "file": "intro_title.jpg",
+   "label": "the opening line",
+   "lessons": [
+    "L04",
+    "L55"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\skyrim-mill-night\\render\\sample_v4",
+   "note": "Truman approved the sound of sample v4 and asked for the 10 hours"
+  }
+ }
+}

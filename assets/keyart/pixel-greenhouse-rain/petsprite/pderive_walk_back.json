@@ -1,0 +1,24 @@
+{
+ "derived": "walk_back",
+ "prompt": "Pixel-art sprite sheet: the same golden-brown dog four times in a row, walking straight away from the viewer, seen from behind, on a transparent background. Repaint only the masked strip at the bottom of each dog, its hind legs and paws, so that the four dogs show one walk cycle, left to right: 1 the left hind paw lifted, the right one down; 2 both hind paws down; 3 the right hind paw lifted, the left one down; 4 both hind paws down. Every paw that is down stands on the same ground line as now. Paint them with the same pixel size, fur shading, colors and soft dark-brown edge as the rest of the dog (no black outline). Keep the head, ears, back and tail exactly as they are. No ground, no shadow, no text.",
+ "master": "posed_back.png",
+ "master_file_sha": "a7ff7a3ca6f0a427",
+ "zone": "back_legs",
+ "scale": 0.6666666666666666,
+ "references": [],
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-21",
+ "usage": {
+  "input_tokens": 1724,
+  "input_tokens_details": {
+   "image_tokens": 1536,
+   "text_tokens": 188
+  },
+  "output_tokens": 1372,
+  "output_tokens_details": {
+   "image_tokens": 1372,
+   "text_tokens": 0
+  },
+  "total_tokens": 3096
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "frames": 184,
+ "size": [
+  986,
+  594
+ ],
+ "streaks_per_frame": 1469.25,
+ "length_px_pct": {
+  "10": 4.0,
+  "25": 5.42773699760437,
+  "50": 8.063817024230957,
+  "75": 14.03798770904541,
+  "90": 23.090455627441408,
+  "99": 44.29006347656251
+ },
+ "width_px_median": 1.769744107774745,
+ "angle_deg_pct": {
+  "10": -9.5530029296875,
+  "50": 0.0,
+  "90": 8.991294860839853
+ },
+ "peak_lum_pct": {
+  "10": 0.049284237623214724,
+  "50": 0.08294510096311569,
+  "90": 0.17340031862258912,
+  "99": 0.3518425112962731
+ },
+ "fall_px_per_frame_peaks": [
+  22
+ ],
+ "speed_px_per_frame_pct": {
+  "10": 12.924172973632812,
+  "25": 23.5,
+  "50": 33.149993896484375,
+  "75": 50.67652893066406,
+  "90": 71.2131500244141
+ },
+ "speed_tracked": 2419,
+ "rain_area_fraction": 0.7760259798799353,
+ "hot_columns_x": [
+  193,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  516,
+  517,
+  518,
+  519,
+  520
+ ],
+ "_source": "User screen recording of a third-party 10 h treehouse-rain video (2026-10-15, 986x594, 184 frames); internal calibration target only. Derived statistics, no footage. Regenerate: tools/rain_analyze.py on the frames."
+}

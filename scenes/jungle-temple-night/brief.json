@@ -1,0 +1,68 @@
+{
+  "scene": "jungle-temple-night",
+  "aesthetic": "minecraft-voxel",
+  "created": "2026-10-27",
+  "setting": "One locked-off wide Minecraft-style voxel shot from beneath a mossy jungle temple overhang, looking past hanging vines toward a distant waterfall. The entrance is open to the sky; no humans.",
+  "time": "night",
+  "weather": "clear night with fireflies",
+  "pet": "an ocelot asleep on a dry woven mat beneath the overhang, with its ears and tail visible",
+  "props": [
+    "a lit hanging lantern",
+    "a carved stone bowl",
+    "a woven mat"
+  ],
+  "signature": "long vines swing beyond the stone overhang against the moonlit waterfall, and the moon crosses the sky",
+  "signature_detail": "a tiny red-eyed tree frog hops in across the temple floor in the lower left, sits facing the camera and croaks, then hops away",
+  "stages": [
+    "hanging vines beyond the stone overhang",
+    "flat carved temple threshold in the lower left",
+    "open plunge pool beneath the waterfall",
+    "hanging lantern at the entrance"
+  ],
+  "foreground": "dry moss-edged stone blocks, the carved threshold, and the sleeping ocelot tucked safely under the overhang",
+  "midground": "a vine-framed temple entrance with a warm lantern and glimpses of fireflies among jungle leaves",
+  "background": "a pale waterfall dropping into an open pool beneath a starry sky",
+  "light": "cool moonlight on stone and water, balanced by a small pool of warm lantern light",
+  "title_idea": "10 Hours at the Moonvine Temple | Minecraft Jungle Night Ambience",
+  "place_name": "Moonvine Temple",
+  "intro_lines": [
+    "Welcome to the Moonvine Temple, settle in and watch the falls"
+  ],
+  "weather_why": "his answer before the key art",
+  "pick_scores": [
+    {
+      "index": 1,
+      "composition": 8,
+      "animatable": 7,
+      "artifacts": 9,
+      "brief": 7,
+      "note": "Calm, spacious view with a clear waterfall, vines, and lantern. The ocelot is partly cut off, and neither the woven mat nor carved bowl is clear."
+    },
+    {
+      "index": 2,
+      "composition": 8,
+      "animatable": 8,
+      "artifacts": 9,
+      "brief": 7,
+      "note": "Strong depth and well-separated vines, lantern, pet, and waterfall. The ocelot is small, and the mat and bowl are missing."
+    },
+    {
+      "index": 3,
+      "composition": 9,
+      "animatable": 9,
+      "artifacts": 9,
+      "brief": 8,
+      "note": "Best balance of a readable sleeping ocelot, hanging lantern, foreground vines, and distant waterfall. The mat and carved bowl are not apparent."
+    },
+    {
+      "index": 4,
+      "composition": 8,
+      "animatable": 8,
+      "artifacts": 9,
+      "brief": 7,
+      "note": "Cozy lighting and a clear waterfall; the ocelot is visible but tucked against the left edge. No clear mat or carved bowl."
+    }
+  ],
+  "hero": "assets/keyart/jungle-temple-night/hero_gpt-image-2-5-sunburst_20261027-114441_3.png",
+  "status": "plate"
+}

@@ -1,0 +1,104 @@
+{
+ "source": "out/pixel-greenhouse-rain/render/sample_v9 (approved 2026-10-22)",
+ "refs": {
+  "keyart__key_art": {
+   "file": "keyart__key_art.jpg",
+   "label": "key art",
+   "lessons": [
+    "L03",
+    "L06",
+    "L07",
+    "L60",
+    "L71"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\pixel-greenhouse-rain\\render\\sample_v9",
+   "note": "Keep v9 with the breathing painted dog and finish the video, without the animated 3D dog (2026-10-21)"
+  },
+  "steam_cup": {
+   "file": "steam_cup.jpg",
+   "label": "steam over steaming mug",
+   "lessons": [
+    "L06",
+    "L12",
+    "L18",
+    "L25",
+    "L32",
+    "L35"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\pixel-greenhouse-rain\\render\\sample_v9",
+   "note": "Keep v9 with the breathing painted dog and finish the video, without the animated 3D dog (2026-10-21)"
+  },
+  "pet_dry": {
+   "file": "pet_dry.jpg",
+   "label": "the pet (sleeping dog)",
+   "lessons": [
+    "L10",
+    "L19",
+    "L31"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\pixel-greenhouse-rain\\render\\sample_v9",
+   "note": "Keep v9 with the breathing painted dog and finish the video, without the animated 3D dog (2026-10-21)"
+  },
+  "full_frame_strike": {
+   "file": "full_frame_strike.jpg",
+   "label": "the rain",
+   "lessons": [
+    "L01",
+    "L11",
+    "L14",
+    "L36",
+    "L37"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\pixel-greenhouse-rain\\render\\sample_v9",
+   "note": "Keep v9 with the breathing painted dog and finish the video, without the animated 3D dog (2026-10-21)"
+  },
+  "frames__rain_at_the_frames_of_back_door_glass": {
+   "file": "frames__rain_at_the_frames_of_back_door_glass.jpg",
+   "label": "rain at the frames of back door glass",
+   "lessons": [
+    "L57",
+    "L92",
+    "L100"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\pixel-greenhouse-rain\\render\\sample_v9",
+   "note": "Keep v9 with the breathing painted dog and finish the video, without the animated 3D dog (2026-10-21)"
+  },
+  "frames__rain_at_the_glass_and_what_stands_in_fro": {
+   "file": "frames__rain_at_the_glass_and_what_stands_in_fro.jpg",
+   "label": "rain at the glass and what stands in front of it (top, left of center)",
+   "lessons": [
+    "L57",
+    "L92",
+    "L100"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\pixel-greenhouse-rain\\render\\sample_v9",
+   "note": "Keep v9 with the breathing painted dog and finish the video, without the animated 3D dog (2026-10-21)"
+  },
+  "intro_title": {
+   "file": "intro_title.jpg",
+   "label": "the opening line",
+   "lessons": [
+    "L04",
+    "L55"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\pixel-greenhouse-rain\\render\\sample_v9",
+   "note": "Keep v9 with the breathing painted dog and finish the video, without the animated 3D dog (2026-10-21)"
+  },
+  "events__event__moth": {
+   "file": "events__event__moth.jpg",
+   "label": "event: moth",
+   "lessons": [
+    "L16",
+    "L20",
+    "L23",
+    "L28",
+    "L40",
+    "L41",
+    "L42",
+    "L49"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\pixel-greenhouse-rain\\render\\sample_v9",
+   "note": "Keep v9 with the breathing painted dog and finish the video, without the animated 3D dog (2026-10-21)"
+  }
+ }
+}

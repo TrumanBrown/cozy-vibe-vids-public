@@ -1,0 +1,38 @@
+{
+ "creature": "beetle",
+ "prompt": "A single a small dark shiny beetle walking to the right, seen from the side, legs visible. Painted to match this art style: Style: a hand-made fantasy concept painting, the kind a game's art team makes while designing its world: a loose graphite and ink drawing with gestural, broken, searching lines left visible under transparent washes of muted watercolor and a few strokes of opaque gouache, on warm toned paper whose grain shows through. The porch, the brazier and the sleeping dog are drawn with care; the village, the mill and the mountains behind are suggested with fewer, looser marks and soft washes, and some edges are left unfinished. A limited palette: slate blue, blue-gray and bone white, the warm amber of the fire as the one accent.. Lighting to match the scene: Real darkness: deep blue night over most of the frame; the brazier's small fire and the lantern light the porch warmly and fall off within a few meters; the northern lights cast a faint cold green on the snow, the mill's roof and the river. The whole creature is in view, centered, with a little space around it. Transparent background, no ground, no shadow, no other objects, no text.",
+ "deployment": "gpt-image-2",
+ "date": "2026-11-08",
+ "usage": {
+  "input_tokens": 253,
+  "input_tokens_details": {
+   "image_tokens": 0,
+   "text_tokens": 253
+  },
+  "output_tokens": 7024,
+  "output_tokens_details": {
+   "image_tokens": 7024,
+   "text_tokens": 0
+  },
+  "total_tokens": 7277
+ },
+ "size": [
+  1024,
+  1024
+ ],
+ "bbox": [
+  103,
+  278,
+  966,
+  771
+ ],
+ "foot_y": 730,
+ "front_x": 966,
+ "back_x": 103,
+ "shell_x": [
+  244,
+  754
+ ],
+ "lum": 0.2271,
+ "lift": 0.55
+}

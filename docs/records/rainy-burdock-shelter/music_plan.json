@@ -1,0 +1,2483 @@
+{
+ "version": 1,
+ "seed": 7,
+ "duration": 36000,
+ "cfg": {
+  "lufs": -16.5,
+  "crossfade": 8,
+  "max_crossfade": 12.0,
+  "fade_in": 4.0,
+  "fade_out": 8.0,
+  "silence_db": -60.0,
+  "ambience_db": -2.0,
+  "thunder_db": 0.0,
+  "opener_lead": 5.0,
+  "trim_intro": 40.0,
+  "order": "smooth",
+  "body_db": 6,
+  "fit": true
+ },
+ "tracks": [
+  {
+   "file": "music\\ink-gouache\\holiznacc0_april-showers.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\holiznacc0_april-showers.mp3",
+   "title": "April Showers",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/spring-at-last-lofi-tape/april-showers/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/SZQum7R8bPGg4PsamRg7Ikk5Cs7mTgrELzE1LYDu.mp3 (license read on the track's page 2026-10-19)",
+   "hash": "b1918d09e2099fc99875",
+   "in": 11839,
+   "out": 5579839,
+   "dur": 116.0,
+   "lufs": -10.71,
+   "gain_db": -5.79,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 11.4,
+   "tempo": 76.01
+  },
+  {
+   "file": "music\\ink-gouache\\holiznacc0_busted-ac-unit.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\holiznacc0_busted-ac-unit.mp3",
+   "title": "Busted AC Unit",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/city-slacker/busted-ac-unit/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/4BMpQmAdFMCQnZ1fyqZc0ZluDgJ3K59vCQjyJqWX.mp3 (license read on the track's page 2026-10-19)",
+   "hash": "c23ded7afc1d5e27722e",
+   "in": 3,
+   "out": 7128003,
+   "dur": 148.5,
+   "lufs": -9.91,
+   "gain_db": -6.59,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 2.8,
+   "tempo": 93.75
+  },
+  {
+   "file": "music\\ink-gouache\\holiznacc0_foggy-headed.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\holiznacc0_foggy-headed.mp3",
+   "title": "Foggy Headed",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/foggy-headed/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/Pk3CLIg1d1BOKpDCDcfguGVECJ0j0Ox0xHbknvMd.mp3 (license read on the track's page 2026-10-19)",
+   "hash": "3ce2aa0bb79c9058911d",
+   "in": 20533,
+   "out": 11468533,
+   "dur": 238.5,
+   "lufs": -8.19,
+   "gain_db": -8.31,
+   "tail": 0.0,
+   "lead": 0.5,
+   "intro_cut": 0.0,
+   "outro_cut": 6.8,
+   "tempo": 75.0
+  },
+  {
+   "file": "music\\ink-gouache\\holiznacc0_moon-unit-lofi-reflection-dreamy.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\holiznacc0_moon-unit-lofi-reflection-dreamy.mp3",
+   "title": "Moon Unit ( Lofi , Reflection , Dreamy )",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/moon-unit-lofi-reflection-dreamy/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/CbNZO1QUuJq1f50RHzZ5kykNj1hdqT04UaWOYSNf.mp3 (license read on the track's page 2026-10-19)",
+   "hash": "42f35e5b5896e5952907",
+   "in": 35,
+   "out": 8136035,
+   "dur": 169.5,
+   "lufs": -12.71,
+   "gain_db": -3.79,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 2.7,
+   "tempo": 85.23
+  },
+  {
+   "file": "music\\ink-gouache\\holiznacc0_new-shoes.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\holiznacc0_new-shoes.mp3",
+   "title": "New Shoes",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/new-shoes/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/lFCAIOaX9YXuVwVGHlIZhZ5iRFSFDBDXiz1kOBGA.mp3 (license read on the track's page 2026-10-19)",
+   "hash": "99772ec4e5351fa79d1c",
+   "in": 5,
+   "out": 7104005,
+   "dur": 148.0,
+   "lufs": -9.97,
+   "gain_db": -6.53,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 7.9,
+   "tempo": 79.23
+  },
+  {
+   "file": "music\\ink-gouache\\holiznacc0_orbs-in-a-photo-lofi-chill.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\holiznacc0_orbs-in-a-photo-lofi-chill.mp3",
+   "title": "Orbs In A Photo ( LoFi , Chill )",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/orbs-in-a-photo-lofi-chill-mp3/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/8VYwiA4OCIwhSUIblz3LrYKmMwjbm0kqXE1ex72s.mp3 (license read on the track's page 2026-10-19)",
+   "hash": "837c14852acae967ab83",
+   "in": 870021,
+   "out": 9942021,
+   "dur": 189.0,
+   "lufs": -14.11,
+   "gain_db": -2.39,
+   "tail": 0.5,
+   "lead": 19.0,
+   "intro_cut": 18.0,
+   "outro_cut": 12.7,
+   "tempo": 119.68
+  },
+  {
+   "file": "music\\ink-gouache\\holiznacc0_studio-apartment.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\holiznacc0_studio-apartment.mp3",
+   "title": "Studio Apartment",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/city-slacker/studio-apartment/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/u8bPQtcGMxlELVdu3Z44EBzVTB3rxJ9LJO9b71Os.mp3 (license read on the track's page 2026-10-19)",
+   "hash": "d23ba636bd9b20206fe6",
+   "in": 163,
+   "out": 9144163,
+   "dur": 190.5,
+   "lufs": -8.28,
+   "gain_db": -8.22,
+   "tail": 0.5,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 6.5,
+   "tempo": 95.34
+  },
+  {
+   "file": "music\\ink-gouache\\holiznacc0_the-best-of-times-lofi-relaxing.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\holiznacc0_the-best-of-times-lofi-relaxing.mp3",
+   "title": "The Best Of Times( LoFi , Relaxing )",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/the-best-of-times-lofi-relaxing-mp3/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/HCZ95XWg57g1Y9ZyGLt8Fo9od9G1BzKhJySWaSPt.mp3 (license read on the track's page 2026-10-19)",
+   "hash": "28971f5f929d096b6cba",
+   "in": 719,
+   "out": 7704719,
+   "dur": 160.5,
+   "lufs": -10.46,
+   "gain_db": -6.04,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 7.4,
+   "tempo": 80.36
+  },
+  {
+   "file": "music\\ink-gouache\\holiznacc0_walking-away-lofi-peaceful-motivating.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\holiznacc0_walking-away-lofi-peaceful-motivating.mp3",
+   "title": "Walking Away ( Lofi , Peaceful , Motivating )",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/walking-away-lofi-peaceful-motivating/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/WOtcP3GhbgTD8CuC6sEgpQOEXMyNeXYbTNmHjgN6.mp3 (license read on the track's page 2026-10-19)",
+   "hash": "d9ac0857c9e9328e009d",
+   "in": 229,
+   "out": 7464229,
+   "dur": 155.5,
+   "lufs": -13.24,
+   "gain_db": -3.26,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 0.5,
+   "tempo": 81.52
+  },
+  {
+   "file": "music\\ink-gouache\\openlofi_2-am-debug-loop.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\openlofi_2-am-debug-loop.mp3",
+   "title": "2 AM Debug Loop",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), 2-am-debug-loop.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "hash": "66980bd963f7c454040b",
+   "in": 1,
+   "out": 5472001,
+   "dur": 114.0,
+   "lufs": -14.95,
+   "gain_db": -1.55,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 3.8,
+   "tempo": 80.36
+  },
+  {
+   "file": "music\\ink-gouache\\openlofi_amber-sidewalks.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\openlofi_amber-sidewalks.mp3",
+   "title": "Amber Sidewalks",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), amber-sidewalks.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "hash": "7fa1b4751eaff5594a31",
+   "in": 0,
+   "out": 5232000,
+   "dur": 109.0,
+   "lufs": -14.63,
+   "gain_db": -1.87,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 2.5,
+   "tempo": 72.12
+  },
+  {
+   "file": "music\\ink-gouache\\openlofi_brushstrokes-and-rain.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\openlofi_brushstrokes-and-rain.mp3",
+   "title": "Brushstrokes and Rain",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), brushstrokes-and-rain.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "hash": "96f006dc18492d20523c",
+   "in": 0,
+   "out": 6504000,
+   "dur": 135.5,
+   "lufs": -15.69,
+   "gain_db": -0.81,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 10.8,
+   "tempo": 73.05
+  },
+  {
+   "file": "music\\ink-gouache\\openlofi_dusk-between-stoops.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\openlofi_dusk-between-stoops.mp3",
+   "title": "Dusk Between Stoops",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), dusk-between-stoops.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "hash": "7147be59b4b4b0b75b6b",
+   "in": 0,
+   "out": 6312000,
+   "dur": 131.5,
+   "lufs": -13.25,
+   "gain_db": -3.25,
+   "tail": 0.5,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 0.7,
+   "tempo": 86.54
+  },
+  {
+   "file": "music\\ink-gouache\\openlofi_electric-puddles.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\openlofi_electric-puddles.mp3",
+   "title": "Electric Puddles",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), electric-puddles.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "hash": "e951519ed9e430c5fcdf",
+   "in": 0,
+   "out": 6552000,
+   "dur": 136.5,
+   "lufs": -14.54,
+   "gain_db": -1.96,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 3.3,
+   "tempo": 76.01
+  },
+  {
+   "file": "music\\ink-gouache\\openlofi_embers-after-midnight.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\openlofi_embers-after-midnight.mp3",
+   "title": "Embers After Midnight",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), embers-after-midnight.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "hash": "2234cbb3473877f5907c",
+   "in": 0,
+   "out": 6312000,
+   "dur": 131.5,
+   "lufs": -15.57,
+   "gain_db": -0.93,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 1.4,
+   "tempo": 87.89
+  },
+  {
+   "file": "music\\ink-gouache\\openlofi_ghosts-on-the-hillside.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\openlofi_ghosts-on-the-hillside.mp3",
+   "title": "Ghosts on the Hillside",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), ghosts-on-the-hillside.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "hash": "ddf54a1caf50ee635a44",
+   "in": 0,
+   "out": 9408000,
+   "dur": 196.0,
+   "lufs": -14.57,
+   "gain_db": -1.93,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 3.4,
+   "tempo": 115.98
+  },
+  {
+   "file": "music\\ink-gouache\\openlofi_graphite-in-the-quiet.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\openlofi_graphite-in-the-quiet.mp3",
+   "title": "Graphite in the Quiet",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), graphite-in-the-quiet.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "hash": "e934146b686639a33008",
+   "in": 0,
+   "out": 6276478,
+   "dur": 130.75995833333334,
+   "lufs": -14.34,
+   "gain_db": -2.16,
+   "tail": 0.26,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "tempo": 81.52
+  },
+  {
+   "file": "music\\ink-gouache\\openlofi_graphite-mornings.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\openlofi_graphite-mornings.mp3",
+   "title": "Graphite Mornings",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), graphite-mornings.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "hash": "a5c7ebcff43f3e499d0c",
+   "in": 0,
+   "out": 6255359,
+   "dur": 130.31997916666666,
+   "lufs": -14.56,
+   "gain_db": -1.94,
+   "tail": 0.32,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "tempo": 81.52
+  },
+  {
+   "file": "music\\ink-gouache\\openlofi_headlights-on-the-divider.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\openlofi_headlights-on-the-divider.mp3",
+   "title": "Headlights on the Divider",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), headlights-on-the-divider.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "hash": "f55e73aca95c1630d621",
+   "in": 1,
+   "out": 8712001,
+   "dur": 181.5,
+   "lufs": -13.35,
+   "gain_db": -3.15,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 1.7,
+   "tempo": 74.01
+  },
+  {
+   "file": "music\\ink-gouache\\openlofi_hour-between-clicks.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\openlofi_hour-between-clicks.mp3",
+   "title": "Hour Between Clicks",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), hour-between-clicks.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "hash": "50a0241b5b0d4ae8ab22",
+   "in": 0,
+   "out": 10368000,
+   "dur": 216.0,
+   "lufs": -14.46,
+   "gain_db": -2.04,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 7.6,
+   "tempo": 62.5
+  },
+  {
+   "file": "music\\ink-gouache\\openlofi_mat-and-morning-light.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\openlofi_mat-and-morning-light.mp3",
+   "title": "Mat and Morning Light",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), mat-and-morning-light.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "hash": "1631186ed68a560dbd87",
+   "in": 0,
+   "out": 9456000,
+   "dur": 197.0,
+   "lufs": -13.15,
+   "gain_db": -3.35,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 1.7,
+   "tempo": 61.14
+  },
+  {
+   "file": "music\\ink-gouache\\openlofi_slow-dancing-by-the-stove.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\openlofi_slow-dancing-by-the-stove.mp3",
+   "title": "Slow Dancing By the Stove",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), slow-dancing-by-the-stove.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "hash": "f43289d4b78f3c76497a",
+   "in": 0,
+   "out": 8688000,
+   "dur": 181.0,
+   "lufs": -13.02,
+   "gain_db": -3.48,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 0.4,
+   "tempo": 76.01
+  },
+  {
+   "file": "music\\ink-gouache\\openlofi_sunset-offbeat.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\openlofi_sunset-offbeat.mp3",
+   "title": "Sunset Offbeat",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), sunset-offbeat.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "hash": "d13963f3b973660dbe86",
+   "in": 0,
+   "out": 7440000,
+   "dur": 155.0,
+   "lufs": -13.9,
+   "gain_db": -2.6,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 3.4,
+   "tempo": 70.31
+  },
+  {
+   "file": "music\\ink-gouache\\openlofi_thunder-in-the-dust.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\ink-gouache\\openlofi_thunder-in-the-dust.mp3",
+   "title": "Thunder in the Dust",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), thunder-in-the-dust.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "hash": "4e78b9b07ff2b22372e3",
+   "in": 0,
+   "out": 8256000,
+   "dur": 172.0,
+   "lufs": -13.54,
+   "gain_db": -2.96,
+   "tail": 0.5,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 1.8,
+   "tempo": 74.01
+  }
+ ],
+ "entries": [
+  {
+   "track": 8,
+   "start": 0.0,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 3.8
+  },
+  {
+   "track": 7,
+   "start": 149.5,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.82
+  },
+  {
+   "track": 4,
+   "start": 302.0,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 2.0,
+   "fit_dip_db": 3.94
+  },
+  {
+   "track": 16,
+   "start": 441.0,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.09
+  },
+  {
+   "track": 17,
+   "start": 565.759958,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.81
+  },
+  {
+   "track": 9,
+   "start": 688.079937,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.63
+  },
+  {
+   "track": 0,
+   "start": 792.079937,
+   "xfade": 10.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.41
+  },
+  {
+   "track": 21,
+   "start": 893.079937,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.36
+  },
+  {
+   "track": 13,
+   "start": 1062.079937,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.61
+  },
+  {
+   "track": 18,
+   "start": 1192.579937,
+   "xfade": 8.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.44
+  },
+  {
+   "track": 23,
+   "start": 1364.079937,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 11,
+   "start": 1524.079937,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.97
+  },
+  {
+   "track": 10,
+   "start": 1646.579937,
+   "xfade": 8.0,
+   "skip": 1.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.43
+  },
+  {
+   "track": 2,
+   "start": 1744.579937,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.2
+  },
+  {
+   "track": 22,
+   "start": 1974.079937,
+   "xfade": 10.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.43
+  },
+  {
+   "track": 5,
+   "start": 2116.079937,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.72
+  },
+  {
+   "track": 15,
+   "start": 2297.079937,
+   "xfade": 4.0,
+   "skip": 3.0,
+   "trim": 7.0,
+   "fit_dip_db": 0.18
+  },
+  {
+   "track": 19,
+   "start": 2479.079937,
+   "xfade": 6.0,
+   "skip": 7.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 20,
+   "start": 2682.079937,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.82
+  },
+  {
+   "track": 1,
+   "start": 2868.079937,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.69
+  },
+  {
+   "track": 6,
+   "start": 3007.579937,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.11
+  },
+  {
+   "track": 14,
+   "start": 3192.079937,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.24
+  },
+  {
+   "track": 12,
+   "start": 3316.579937,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.61
+  },
+  {
+   "track": 3,
+   "start": 3437.079937,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 3.57
+  },
+  {
+   "track": 8,
+   "start": 3594.579937,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 3.8
+  },
+  {
+   "track": 7,
+   "start": 3744.079937,
+   "xfade": 4.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.6
+  },
+  {
+   "track": 16,
+   "start": 3897.579937,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.65
+  },
+  {
+   "track": 9,
+   "start": 4019.339896,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 17,
+   "start": 4123.339896,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.2
+  },
+  {
+   "track": 4,
+   "start": 4246.659875,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.95
+  },
+  {
+   "track": 13,
+   "start": 4384.659875,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.88
+  },
+  {
+   "track": 0,
+   "start": 4515.159875,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 7.0,
+   "fit_dip_db": 1.43
+  },
+  {
+   "track": 18,
+   "start": 4613.159875,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.44
+  },
+  {
+   "track": 23,
+   "start": 4786.659875,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.03
+  },
+  {
+   "track": 10,
+   "start": 4945.659875,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.36
+  },
+  {
+   "track": 22,
+   "start": 5046.659875,
+   "xfade": 10.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.03
+  },
+  {
+   "track": 11,
+   "start": 5186.659875,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.65
+  },
+  {
+   "track": 21,
+   "start": 5312.159875,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.25
+  },
+  {
+   "track": 12,
+   "start": 5484.159875,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.71
+  },
+  {
+   "track": 1,
+   "start": 5605.659875,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.69
+  },
+  {
+   "track": 6,
+   "start": 5745.159875,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.85
+  },
+  {
+   "track": 3,
+   "start": 5928.659875,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.71
+  },
+  {
+   "track": 14,
+   "start": 6090.159875,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.19
+  },
+  {
+   "track": 2,
+   "start": 6212.659875,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 20,
+   "start": 6443.159875,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 2.52
+  },
+  {
+   "track": 19,
+   "start": 6628.159875,
+   "xfade": 8.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.13
+  },
+  {
+   "track": 15,
+   "start": 6833.159875,
+   "xfade": 10.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.65
+  },
+  {
+   "track": 5,
+   "start": 7014.159875,
+   "xfade": 10.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.48
+  },
+  {
+   "track": 10,
+   "start": 7191.159875,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.51
+  },
+  {
+   "track": 18,
+   "start": 7292.159875,
+   "xfade": 8.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.44
+  },
+  {
+   "track": 23,
+   "start": 7463.659875,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 11,
+   "start": 7623.659875,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.5
+  },
+  {
+   "track": 0,
+   "start": 7748.159875,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.84
+  },
+  {
+   "track": 13,
+   "start": 7853.159875,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.77
+  },
+  {
+   "track": 21,
+   "start": 7983.659875,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 7,
+   "start": 8157.659875,
+   "xfade": 4.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.96
+  },
+  {
+   "track": 8,
+   "start": 8310.159875,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.12
+  },
+  {
+   "track": 17,
+   "start": 8459.659875,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.81
+  },
+  {
+   "track": 9,
+   "start": 8581.979854,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.2
+  },
+  {
+   "track": 4,
+   "start": 8686.979854,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 2.0,
+   "fit_dip_db": 3.94
+  },
+  {
+   "track": 16,
+   "start": 8825.979854,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 3.25
+  },
+  {
+   "track": 3,
+   "start": 8950.739812,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.25
+  },
+  {
+   "track": 12,
+   "start": 9112.239812,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.5
+  },
+  {
+   "track": 14,
+   "start": 9237.739812,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.19
+  },
+  {
+   "track": 2,
+   "start": 9360.239812,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.2
+  },
+  {
+   "track": 22,
+   "start": 9587.739812,
+   "xfade": 8.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.37
+  },
+  {
+   "track": 19,
+   "start": 9729.739812,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 20,
+   "start": 9936.739812,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.14
+  },
+  {
+   "track": 5,
+   "start": 10121.739812,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.72
+  },
+  {
+   "track": 15,
+   "start": 10302.739812,
+   "xfade": 4.0,
+   "skip": 3.0,
+   "trim": 7.0,
+   "fit_dip_db": 0.78
+  },
+  {
+   "track": 1,
+   "start": 10484.739812,
+   "xfade": 6.0,
+   "skip": 7.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.69
+  },
+  {
+   "track": 6,
+   "start": 10620.239812,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.85
+  },
+  {
+   "track": 3,
+   "start": 10803.739812,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.25
+  },
+  {
+   "track": 12,
+   "start": 10965.239812,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.5
+  },
+  {
+   "track": 14,
+   "start": 11090.739812,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 17,
+   "start": 11213.239812,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 7,
+   "start": 11335.559792,
+   "xfade": 4.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.96
+  },
+  {
+   "track": 8,
+   "start": 11488.059792,
+   "xfade": 4.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.6
+  },
+  {
+   "track": 16,
+   "start": 11638.559792,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.21
+  },
+  {
+   "track": 4,
+   "start": 11763.31975,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.85
+  },
+  {
+   "track": 0,
+   "start": 11900.31975,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.27
+  },
+  {
+   "track": 2,
+   "start": 12002.31975,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 23,
+   "start": 12232.81975,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.88
+  },
+  {
+   "track": 18,
+   "start": 12394.81975,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 2.52
+  },
+  {
+   "track": 13,
+   "start": 12566.31975,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.67
+  },
+  {
+   "track": 11,
+   "start": 12696.81975,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.65
+  },
+  {
+   "track": 21,
+   "start": 12824.31975,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.83
+  },
+  {
+   "track": 10,
+   "start": 12993.31975,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 2.0,
+   "fit_dip_db": 3.07
+  },
+  {
+   "track": 9,
+   "start": 13093.31975,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 22,
+   "start": 13196.31975,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 20,
+   "start": 13343.31975,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 2.52
+  },
+  {
+   "track": 19,
+   "start": 13528.31975,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.57
+  },
+  {
+   "track": 5,
+   "start": 13735.31975,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.72
+  },
+  {
+   "track": 15,
+   "start": 13913.31975,
+   "xfade": 4.0,
+   "skip": 3.0,
+   "trim": 7.0,
+   "fit_dip_db": 0.78
+  },
+  {
+   "track": 1,
+   "start": 14095.31975,
+   "xfade": 6.0,
+   "skip": 7.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.69
+  },
+  {
+   "track": 6,
+   "start": 14230.81975,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.85
+  },
+  {
+   "track": 3,
+   "start": 14414.31975,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.25
+  },
+  {
+   "track": 12,
+   "start": 14575.81975,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.5
+  },
+  {
+   "track": 14,
+   "start": 14701.31975,
+   "xfade": 4.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.6
+  },
+  {
+   "track": 16,
+   "start": 14825.81975,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.1
+  },
+  {
+   "track": 7,
+   "start": 14950.579708,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.76
+  },
+  {
+   "track": 17,
+   "start": 15103.079708,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.49
+  },
+  {
+   "track": 8,
+   "start": 15219.399688,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.57
+  },
+  {
+   "track": 4,
+   "start": 15364.899688,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.95
+  },
+  {
+   "track": 13,
+   "start": 15502.899688,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.88
+  },
+  {
+   "track": 0,
+   "start": 15633.399688,
+   "xfade": 10.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.41
+  },
+  {
+   "track": 21,
+   "start": 15733.399688,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 23,
+   "start": 15902.399688,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.33
+  },
+  {
+   "track": 2,
+   "start": 16064.399688,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.47
+  },
+  {
+   "track": 10,
+   "start": 16292.899688,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.36
+  },
+  {
+   "track": 22,
+   "start": 16393.899688,
+   "xfade": 8.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.37
+  },
+  {
+   "track": 19,
+   "start": 16535.899688,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.57
+  },
+  {
+   "track": 5,
+   "start": 16741.899688,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.72
+  },
+  {
+   "track": 15,
+   "start": 16919.899688,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 20,
+   "start": 17106.899688,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.68
+  },
+  {
+   "track": 6,
+   "start": 17295.899688,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.04
+  },
+  {
+   "track": 1,
+   "start": 17477.399688,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.88
+  },
+  {
+   "track": 18,
+   "start": 17613.899688,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.54
+  },
+  {
+   "track": 11,
+   "start": 17787.399688,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.65
+  },
+  {
+   "track": 9,
+   "start": 17912.899688,
+   "xfade": 10.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.6
+  },
+  {
+   "track": 8,
+   "start": 18012.899688,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.12
+  },
+  {
+   "track": 17,
+   "start": 18159.399688,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 7,
+   "start": 18281.719667,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.82
+  },
+  {
+   "track": 4,
+   "start": 18434.219667,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.95
+  },
+  {
+   "track": 13,
+   "start": 18572.219667,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.88
+  },
+  {
+   "track": 0,
+   "start": 18702.719667,
+   "xfade": 10.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.41
+  },
+  {
+   "track": 21,
+   "start": 18802.719667,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.83
+  },
+  {
+   "track": 10,
+   "start": 18971.719667,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.36
+  },
+  {
+   "track": 22,
+   "start": 19071.719667,
+   "xfade": 8.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.07
+  },
+  {
+   "track": 23,
+   "start": 19213.719667,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 11,
+   "start": 19373.719667,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.37
+  },
+  {
+   "track": 2,
+   "start": 19495.219667,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 3.85
+  },
+  {
+   "track": 16,
+   "start": 19725.719667,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 3.25
+  },
+  {
+   "track": 3,
+   "start": 19850.479625,
+   "xfade": 4.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.3
+  },
+  {
+   "track": 9,
+   "start": 20013.979625,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.25
+  },
+  {
+   "track": 12,
+   "start": 20121.979625,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.69
+  },
+  {
+   "track": 6,
+   "start": 20247.479625,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.04
+  },
+  {
+   "track": 1,
+   "start": 20428.979625,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 14,
+   "start": 20565.479625,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.99
+  },
+  {
+   "track": 18,
+   "start": 20687.979625,
+   "xfade": 8.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.66
+  },
+  {
+   "track": 5,
+   "start": 20858.479625,
+   "xfade": 8.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.26
+  },
+  {
+   "track": 19,
+   "start": 21037.479625,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 20,
+   "start": 21244.479625,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.2
+  },
+  {
+   "track": 15,
+   "start": 21430.479625,
+   "xfade": 10.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.04
+  },
+  {
+   "track": 10,
+   "start": 21611.479625,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.36
+  },
+  {
+   "track": 22,
+   "start": 21710.479625,
+   "xfade": 8.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.07
+  },
+  {
+   "track": 23,
+   "start": 21852.479625,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.33
+  },
+  {
+   "track": 2,
+   "start": 22014.479625,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.72
+  },
+  {
+   "track": 13,
+   "start": 22243.979625,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.77
+  },
+  {
+   "track": 21,
+   "start": 22374.479625,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.89
+  },
+  {
+   "track": 0,
+   "start": 22546.479625,
+   "xfade": 4.0,
+   "skip": 2.0,
+   "trim": 7.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 7,
+   "start": 22649.479625,
+   "xfade": 4.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.96
+  },
+  {
+   "track": 8,
+   "start": 22800.979625,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 3.64
+  },
+  {
+   "track": 9,
+   "start": 22950.479625,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 17,
+   "start": 23054.479625,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.3
+  },
+  {
+   "track": 3,
+   "start": 23174.799604,
+   "xfade": 10.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.29
+  },
+  {
+   "track": 16,
+   "start": 23330.299604,
+   "xfade": 6.0,
+   "skip": 8.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.25
+  },
+  {
+   "track": 12,
+   "start": 23447.059562,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.5
+  },
+  {
+   "track": 14,
+   "start": 23572.559562,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 3.48
+  },
+  {
+   "track": 1,
+   "start": 23695.059562,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.69
+  },
+  {
+   "track": 6,
+   "start": 23834.559562,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.21
+  },
+  {
+   "track": 4,
+   "start": 24018.059562,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.66
+  },
+  {
+   "track": 18,
+   "start": 24157.059562,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.54
+  },
+  {
+   "track": 11,
+   "start": 24328.559562,
+   "xfade": 8.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.82
+  },
+  {
+   "track": 5,
+   "start": 24454.059562,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 20,
+   "start": 24635.059562,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.2
+  },
+  {
+   "track": 15,
+   "start": 24821.059562,
+   "xfade": 4.0,
+   "skip": 2.0,
+   "trim": 7.0,
+   "fit_dip_db": 0.18
+  },
+  {
+   "track": 19,
+   "start": 25004.059562,
+   "xfade": 8.0,
+   "skip": 7.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.16
+  },
+  {
+   "track": 10,
+   "start": 25204.059562,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.36
+  },
+  {
+   "track": 22,
+   "start": 25304.059562,
+   "xfade": 8.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.07
+  },
+  {
+   "track": 23,
+   "start": 25446.059562,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.37
+  },
+  {
+   "track": 13,
+   "start": 25609.059562,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.77
+  },
+  {
+   "track": 21,
+   "start": 25739.559562,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.75
+  },
+  {
+   "track": 2,
+   "start": 25911.559562,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.84
+  },
+  {
+   "track": 0,
+   "start": 26140.059562,
+   "xfade": 4.0,
+   "skip": 3.0,
+   "trim": 7.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 7,
+   "start": 26242.059562,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.82
+  },
+  {
+   "track": 4,
+   "start": 26393.559562,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.21
+  },
+  {
+   "track": 8,
+   "start": 26530.559562,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.12
+  },
+  {
+   "track": 17,
+   "start": 26677.059562,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.3
+  },
+  {
+   "track": 3,
+   "start": 26797.379542,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.25
+  },
+  {
+   "track": 12,
+   "start": 26958.879542,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 3.3
+  },
+  {
+   "track": 9,
+   "start": 27082.379542,
+   "xfade": 12.0,
+   "skip": 2.0,
+   "trim": 6.0,
+   "fit_dip_db": 0.28
+  },
+  {
+   "track": 16,
+   "start": 27176.379542,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.72
+  },
+  {
+   "track": 11,
+   "start": 27299.1395,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.04
+  },
+  {
+   "track": 18,
+   "start": 27425.6395,
+   "xfade": 8.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.32
+  },
+  {
+   "track": 19,
+   "start": 27597.1395,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.57
+  },
+  {
+   "track": 5,
+   "start": 27803.1395,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 20,
+   "start": 27983.1395,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.2
+  },
+  {
+   "track": 15,
+   "start": 28169.1395,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.2
+  },
+  {
+   "track": 6,
+   "start": 28354.1395,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.11
+  },
+  {
+   "track": 14,
+   "start": 28538.6395,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 3.48
+  },
+  {
+   "track": 1,
+   "start": 28661.1395,
+   "xfade": 10.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.69
+  },
+  {
+   "track": 8,
+   "start": 28796.6395,
+   "xfade": 4.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.6
+  },
+  {
+   "track": 16,
+   "start": 28944.1395,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.09
+  },
+  {
+   "track": 17,
+   "start": 29068.899458,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.2
+  },
+  {
+   "track": 4,
+   "start": 29192.219437,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.85
+  },
+  {
+   "track": 0,
+   "start": 29329.219437,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.84
+  },
+  {
+   "track": 13,
+   "start": 29433.219437,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.34
+  },
+  {
+   "track": 2,
+   "start": 29563.719437,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 23,
+   "start": 29793.219437,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.88
+  },
+  {
+   "track": 18,
+   "start": 29955.219437,
+   "xfade": 8.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.4
+  },
+  {
+   "track": 10,
+   "start": 30125.719437,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.45
+  },
+  {
+   "track": 21,
+   "start": 30222.719437,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.09
+  },
+  {
+   "track": 11,
+   "start": 30395.719437,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 22,
+   "start": 30522.219437,
+   "xfade": 8.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.37
+  },
+  {
+   "track": 19,
+   "start": 30664.219437,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 20,
+   "start": 30871.219437,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.14
+  },
+  {
+   "track": 5,
+   "start": 31056.219437,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.72
+  },
+  {
+   "track": 15,
+   "start": 31237.219437,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.2
+  },
+  {
+   "track": 6,
+   "start": 31421.219437,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.04
+  },
+  {
+   "track": 1,
+   "start": 31602.719437,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.25
+  },
+  {
+   "track": 12,
+   "start": 31742.219437,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.5
+  },
+  {
+   "track": 14,
+   "start": 31867.719437,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 3.78
+  },
+  {
+   "track": 3,
+   "start": 31991.219437,
+   "xfade": 4.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.3
+  },
+  {
+   "track": 9,
+   "start": 32153.719437,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 7,
+   "start": 32259.719437,
+   "xfade": 4.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.6
+  },
+  {
+   "track": 16,
+   "start": 32413.219437,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.21
+  },
+  {
+   "track": 4,
+   "start": 32537.979396,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.85
+  },
+  {
+   "track": 0,
+   "start": 32674.979396,
+   "xfade": 10.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.41
+  },
+  {
+   "track": 21,
+   "start": 32774.979396,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.75
+  },
+  {
+   "track": 2,
+   "start": 32943.979396,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 23,
+   "start": 33175.479396,
+   "xfade": 10.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.03
+  },
+  {
+   "track": 10,
+   "start": 33332.479396,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.51
+  },
+  {
+   "track": 18,
+   "start": 33433.479396,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 2.52
+  },
+  {
+   "track": 13,
+   "start": 33604.979396,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 3.02
+  },
+  {
+   "track": 9,
+   "start": 33734.479396,
+   "xfade": 10.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.6
+  },
+  {
+   "track": 8,
+   "start": 33833.479396,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 3.8
+  },
+  {
+   "track": 7,
+   "start": 33979.979396,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.76
+  },
+  {
+   "track": 17,
+   "start": 34132.479396,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.23
+  },
+  {
+   "track": 12,
+   "start": 34255.799375,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.71
+  },
+  {
+   "track": 1,
+   "start": 34377.299375,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.69
+  },
+  {
+   "track": 6,
+   "start": 34516.799375,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.11
+  },
+  {
+   "track": 14,
+   "start": 34701.299375,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 3.78
+  },
+  {
+   "track": 3,
+   "start": 34824.799375,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.21
+  },
+  {
+   "track": 22,
+   "start": 34980.299375,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.03
+  },
+  {
+   "track": 11,
+   "start": 35122.299375,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 20,
+   "start": 35249.799375,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.14
+  },
+  {
+   "track": 5,
+   "start": 35434.799375,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.54
+  },
+  {
+   "track": 8,
+   "start": 35613.799375,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 3.8
+  },
+  {
+   "track": 7,
+   "start": 35760.299375,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.82
+  },
+  {
+   "track": 4,
+   "start": 35912.799375,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 2.0,
+   "fit_dip_db": 3.94
+  }
+ ],
+ "scene": "leaf-campfire-rain",
+ "dirs": [
+  "music/ink-gouache"
+ ],
+ "minecraft": false
+}

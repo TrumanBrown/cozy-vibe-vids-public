@@ -1,0 +1,42 @@
+{
+ "_note": "Drafted by tools/finish_video.py on 2026-10-27: the title, the opening and the hashtags by the chat model in Truman's form (model), from scenes/jungle-temple-night/brief.json and his published videos (docs/records/*/published.md), checked with upload_package's rules. Edit freely: the tool never overwrites this spec. Once it's live, record what he changed (master-render skill, Upload checklist step 9). Edited by hand on 2026-10-27: the opening names the frog (the video's signature, on screen about 80% of the time, which Truman praised) instead of the soft wind, #nightambience for #windsounds (the wind is faint), and the frog close-up is the suggested thumbnail.",
+ "slug": "moonvine-temple-night",
+ "name": "Moonvine Temple",
+ "render": "out/jungle-temple-night/render/10h_v2",
+ "video": "master_music.mp4",
+ "thumbnails": "assets/thumbnails/jungle-temple-night.json",
+ "thumbnail": "pixel-frog",
+ "test_and_compare": [
+  "pixel-frog",
+  "pixel-ocelot",
+  "pixel-place-card"
+ ],
+ "draft_text": false,
+ "titles": [
+  "Calm Music Moonvine Temple. Study and relax under clear skies. 4K, 10 hours, no Ads",
+  "Calm Music Moonvine Temple. Relax with fireflies on a clear night. 4K, 10 hours, no Ads",
+  "Calm Music Moonvine Temple. Sleep with soft wind and a frog's call. 4K, 10 hours, no Ads"
+ ],
+ "description": [
+  "Come relax on a clear night at a mossy jungle temple overhang by a waterfall, with calm Minecraft music and a little red-eyed tree frog that hops by and croaks now and then. 10 hours of 4K, calming ambience with smooth music. Never interrupting with ads."
+ ],
+ "hashtags": [
+  "#minecraftmusic",
+  "#nightambience",
+  "#studymusic",
+  "#study",
+  "#relaxing",
+  "#relax",
+  "#4k",
+  "#10hours"
+ ],
+ "tags": [],
+ "category": "Film & Animation",
+ "blurb": [
+  "I put videos like these on the TV while I work from home, so I started making my own. Each video is one scene I designed for this channel. Excited to continue to develop more.",
+  "",
+  "All my animation is made by myself and rendered frame by frame, and the ambience (wind, the frog's call, fish splashing and every other effect) is synthesized in my engine. I love making these videos, so please let me know what you would like to see next.",
+  "",
+  "No stock footage, recordings or sound-effect libraries."
+ ]
+}

@@ -1,0 +1,31 @@
+{
+  "src": "assets/keyart/tidepool-fog/hero_gpt-image-2_20261105-114446_3.png",
+  "tag": "float",
+  "steps": [
+    {
+      "kind": "edit",
+      "polygons": [
+        "0.49297,0.49653,0.51172,0.49653,0.51172,0.70833,0.51875,0.70833,0.51875,0.82292,0.4875,0.82292,0.4875,0.70833,0.49297,0.70833"
+      ],
+      "keep": [],
+      "model": "gpt-image-2",
+      "prompt": "A hand-made picture-book illustration in ink and gouache: keep its style, light and colors exactly. Repaint only the masked strip below the tip of the tufted puffin's fishing rod. The rod rests on the puffin's shoulder, so its thin line hangs straight down from the rod's tip and ends a short way down, at about the height of the puffin's chest, where the little red-and-white float hangs from it in the air, small, with an ink outline like everything else. Below the float there is no line and no float: only the dark wet rock, its edge and the still water of the tide pool with soft gray-blue reflections, continuing what is on either side of the strip. No ripples or rings on the water, no splash.",
+      "px": 28423
+    }
+  ],
+  "usage": {
+    "input_tokens": 1673,
+    "input_tokens_details": {
+      "image_tokens": 1508,
+      "text_tokens": 165
+    },
+    "output_tokens": 7370,
+    "output_tokens_details": {
+      "image_tokens": 7370,
+      "text_tokens": 0
+    },
+    "total_tokens": 9043
+  },
+  "made": "2026-11-05T11:58:46",
+  "note": "tools/keyart_revise.py: only the masked pixels changed (edits feathered 2.5 px); the lift is a code adjustment; its first bill tint was undone (the bill restored from the source in the box 2200,560,2340,650) and redone gentler in the _bill revision"
+}

@@ -1,0 +1,42 @@
+{
+ "_note": "Drafted by tools/finish_video.py on 2026-11-15: the title, the opening and the hashtags by the chat model in Truman's form (model), from scenes/skyrim-village-night/brief.json and his published videos (docs/records/*/published.md), checked with upload_package's rules. Edit freely: the tool never overwrites this spec. Once it's live, record what he changed (master-render skill, Upload checklist step 9).",
+ "slug": "sleeping-hound-inn",
+ "name": "Sleeping Hound Inn",
+ "render": "out/skyrim-village-night/render/10h_v1",
+ "video": "master_music.mp4",
+ "thumbnails": "assets/thumbnails/skyrim-village-night.json",
+ "thumbnail": "pixel-dog",
+ "test_and_compare": [
+  "pixel-dog",
+   "place-name",
+  "polaroid-note"
+ ],
+ "draft_text": false,
+ "titles": [
+  "4K Nord village inn at night with calm Skyrim music and crackling fire, no ads (10 hours)",
+  "4K quiet Nord village porch with calm Skyrim music and flowing river, no ads (10 hours)",
+  "4K clear Nord village night with calm Skyrim music and soft wind, no ads (10 hours)"
+ ],
+ "description": [
+  "Come relax with the clear night on the porch of the Sleeping Hound Inn, with calm Skyrim music and a crackling fire. 10 hours of 4K, calming ambience with smooth music. Never interrupting with ads."
+ ],
+ "hashtags": [
+  "#skyrimmusic",
+  "#firesounds",
+  "#studymusic",
+  "#study",
+  "#relaxing",
+  "#relax",
+  "#4k",
+  "#10hours"
+ ],
+ "tags": [],
+ "category": "Film & Animation",
+ "blurb": [
+  "I put videos like these on the TV while I work from home, so I started making my own. Each video is one scene I designed for this channel. Excited to continue to develop more.",
+  "",
+  "All my animation is made by myself and rendered frame by frame, and the ambience (the river, the waterwheel, wind, the crackling fire, fish splashing and every other effect) is synthesized in my engine. I love making these videos, so please let me know what you would like to see next.",
+  "",
+  "No stock footage, recordings or sound-effect libraries."
+ ]
+}

@@ -1,0 +1,39 @@
+{
+  "scene": "skyrim-village-night",
+  "aesthetic": "skyrim-village",
+  "created": "2026-11-15",
+  "setting": "one locked-off wide shot at standing eye height from the covered timber porch of a Nord village inn, looking down the main street of a Riverwood-like Nord village of the game at night: the street runs from the porch steps past the village houses and the blacksmith's forge to the river and the sawmill, under snowy mountains, the northern lights and the game's two moons. The village sleeps: nobody is outside",
+  "time": "night",
+  "weather": "clear night with the northern lights",
+  "pet": "a big black-and-white Nordic husky curled up asleep on a bear pelt on the porch planks, its ears and its tail over its paws clearly visible",
+  "props": [
+    "a black iron brazier on three legs with a small, low fire, at the porch's front edge a little left of center",
+    "a lit iron lantern hanging from the porch's roof beam on a short chain, with open dark space around it",
+    "the sawmill's big wooden undershot waterwheel on the river",
+    "a sweetroll (a round iced pastry) on a wooden plate on a small, level porch table"
+  ],
+  "signature": "the sawmill's waterwheel turns nonstop at the end of the street under the rippling northern lights",
+  "signature_detail": "a little file of ants marches across the porch table to the sweetroll and away over the table's far edge (someone is stealing your sweetroll); added in animation, not painted in the image",
+  "stages": [
+    "a small, level wooden porch table at the lower right with the sweetroll on its plate and bare tabletop around it",
+    "the lit lantern hanging under the porch roof",
+    "the open river beside the sawmill",
+    "the forge's stone chimney and the smoke holes in the houses' roofs"
+  ],
+  "foreground": "rough porch planks; two thick carved timber posts at the sides and the roof beam with carved beam ends across the top frame the view; the husky asleep on its bear pelt at the lower left, an arm's length from the brazier, so the fire and the dog stay apart; the small table with the sweetroll on its wooden plate at the lower right, its top level and in clear view; the brazier's fire low and calm",
+  "midground": "the village street of packed earth and flat stones with old snow along its edges, running from the porch steps away toward the river; along its left side two Nord houses, their carved dragon-head gables against the sky and a few small shuttered windows warmly lit; across the street at the center the blacksmith's open-air forge under a shingled roof on posts: a stone forge with a low orange fire, an anvil on a stump, a grindstone, a tanning rack with a stretched hide; at the right the river runs along the far side of the street, and on it, right of center, a log sawmill with its big wooden undershot waterwheel at its side, clearly seen: the wheel's hub, spokes and paddles stand out against the mill's dark log wall, its lowest paddles dip into the river and no water pours onto it from above",
+  "background": "a dark pine forest rising to snowcapped mountains, and on the highest peak the small dark silhouette of an ancient Nordic stone ruin with a great arch; low over the mountains at the upper left the game's two moons, Masser large and pale red with dark craters and Secunda smaller and white a little above it; across the upper sky to the right of them the northern lights: soft green curtains with faint violet upper edges, open clear night sky with stars around them; the river faintly mirrors the green of the lights",
+  "light": "Real darkness: deep blue night over most of the frame; cold moonlight on the snow, the roofs and the river; the brazier and the lantern light the porch warmly and fall off within a few meters; the forge glows orange on its stones and the street just in front of it; a few warm windows; the northern lights cast a faint cold green on the snow and the river",
+  "title_idea": "A Nord village inn under the northern lights",
+  "place_name": "Sleeping Hound Inn",
+  "intro_lines": [
+    "Welcome to the Sleeping Hound Inn.",
+    "Warm up by the fire, traveler."
+  ],
+  "weather_why": "my call in autopilot (2026-11-15): his line named no weather, and he asked for another like Northlight Mill, his most viewed video, which has the clear night with the northern lights",
+  "composition": "The porch posts frame the view at both sides; the street leads the eye from the porch steps to the forge and the mill; the forge sits left of center and the waterwheel right of center; the husky at the lower left and the table with the sweetroll at the lower right, apart from the brazier; quiet open sky around the moons and the lights",
+  "movers_note": "he asked for movers like Northlight Mill's (2026-11-15): the waterwheel turning nonstop and the aurora rippling, with the fires, the forge, chimney smoke and the river; the ants at the sweetroll are the signature detail",
+  "hero": "assets/keyart/skyrim-village-night/hero_gpt-image-2-5-sunburst_20261115-125418_1.png",
+  "status": "approved",
+  "keyart_note": "the sleeping husky lies in the near lower-left corner with its back end running off the frame's left edge, as painted; its head, ears, closed eyes, paws and curled tail are all in view (Truman okayed the sample, 2026-11-15)"
+}

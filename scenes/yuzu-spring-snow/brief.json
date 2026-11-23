@@ -1,0 +1,50 @@
+{
+  "scene": "yuzu-spring-snow",
+  "aesthetic": "pencil-night",
+  "created": "2026-11-12",
+  "setting": "a small natural hot spring in the snowy woods at night, seen from the friends' eye level at the water's edge: a round pool of dark, calm hot water among big snow-capped boulders, where three friends soak and float together on a snowy night with a few yuzu fruits floating around them, with a bamboo spout over the pool, drawn dry (the hot water pouring from it is animated) and a small paper lantern hangs lit from a bent bamboo pole; the air is clear, with no falling snowflakes drawn, and nothing else is there: no buildings, no fences, no signs, no buckets",
+  "time": "night",
+  "weather": "gentle snow",
+  "cast": [
+    "snow-monkey",
+    "long-stoat",
+    "yuzu-sprite"
+  ],
+  "pet": "the snow monkey sits in the water up to its chest left of center with its towel on its head, content; the long stoat lies along the pool's rocky rim right behind the monkey, its long body draped over the snowy rocks like a scarf with its middle dipping into the water, a tiny folded white towel on its head too, its chin resting on its crossed front paws on a rock just right of the monkey; the yuzu sprite floats in front of them among four ordinary yuzu fruits that look just like it except that only it has a face",
+  "props": [
+    "a small paper lantern hanging lit from a bent bamboo pole stuck in the snow at the pool's back edge, right of the friends",
+    "a bamboo spout jutting out between two snowy rocks at the right, drawn dry, the water under it calm: the hot water pouring from it into the pool is animated",
+    "four ordinary yuzu fruits floating on the water",
+    "the stoat's tiny folded white towel"
+  ],
+  "signature": "the steam rising off the whole pool and drifting through the lantern's light while the snow falls into it, the spout pouring and the yuzu bobbing on the water",
+  "signature_detail": "A small wood mouse comes out from behind the big snowy rock at the right, runs across the flat snowy ledge between the spout and the lantern's pole in little bursts, stops to sniff, and goes back out of sight. Added in animation, not in the painting.",
+  "stages": [
+    "the paper lantern hanging from the bent bamboo pole",
+    "the flat snowy ledge between the lantern's pole and the spout",
+    "open dark sky between the branches in the top left",
+    "the calm water of the pool"
+  ],
+  "composition": "the camera sits low at the pool's near rim, at the friends' eye level, looking across the water into the woods. The pool fills the lower middle of the frame, its near rim of big snowy boulders along the bottom edge. The three friends are together in the left half: the monkey in the water left of center; the stoat's long body draped along the snowy rocks behind it from the far left, its tail's black tip hanging down over the rocks near the left edge, its head and paws on a rock just right of the monkey; the yuzu sprite floating in front of the monkey, a little to its right. Right of the friends the pool is open, calm dark water with the lantern's warm reflection lying on it. The lantern hangs from a tall bent bamboo pole in the right half, over a flat lantern-lit snowy ledge at the pool's back edge, and lights the friends from the right; the bamboo spout juts out over the pool at the right, drawn dry (the pour is animated), its stream a separate spot from the lantern; dark trunks frame both sides; snowy spruce branches cross the top, with open dark sky in the top left and open dark space above the pool",
+  "foreground": "along the bottom edge, the near rim of the pool: a few big rounded boulders under thick snow, drawn simply and mostly in shadow",
+  "midground": "the round pool of dark, calm hot water with the friends in it: the snow monkey sits in the water up to its chest left of center with its towel on its head, content; the long stoat lies along the pool's rocky rim right behind the monkey, its long body draped over the snowy rocks like a scarf with its middle dipping into the water, a tiny folded white towel on its head too, its chin resting on its crossed front paws on a rock just right of the monkey; the yuzu sprite floats in front of them among four ordinary yuzu fruits that look just like it except that only it has a face. On the right, the bamboo spout between two snowy rocks pours a thin, steady stream into the pool; the paper lantern hangs lit from its bent bamboo pole stuck in the snow at the back edge, right of the friends; a flat snowy ledge lies between the pole and the spout",
+  "background": "behind the pool, big snow-capped boulders, a few dark tree trunks and low spruce branches heavy with snow; past them the dark woods fade into the bare black paper; no moon, no stars, and the air is clear",
+  "light": "the small paper lantern is the only warm light: it lights the friends from the right, the spout, the nearest rocks and the water just around them in warm yellow and orange, and falls off within a short distance. Everything else is the dim, cool light of snow at night: the snow is pale blue and lavender, the trees and the far woods fade into the bare black paper. There is no moon and there are no stars in view. About half of the frame is dark",
+  "place_name": "Yuzu Spring",
+  "title_idea": "Come soak at the Yuzu Spring",
+  "intro_lines": [
+    "Welcome to the Yuzu Spring.",
+    "Slip in, the water's warm."
+  ],
+  "weather_why": "his answer before the key art (2026-11-12): the weather that fits the setting, snow for the hot spring",
+  "intro_why": "a proposal in the form of his earlier lines (\"Welcome home, critter. / Come rest with your PNW friends.\", \"Welcome to Northlight Mill. / Rest by the fire and watch the lights.\"); he can change it on the sample",
+  "request": "Truman 2026-11-12 asked for a sample in a hand-made style the channel hasn't used, with a fresh set of silly, cute characters that read as drawn by a person, and mock options to pick from before anything renders. His picks: the hot spring in the snowy woods at night (steam rising off the water nonstop, a bamboo spout pouring, a lantern; the friends soak with little towels on their heads) and the weather that fits (snow); a style taken from real printmaking and drawing techniques rather than the usual AI looks. From the round 8 mocks (out/style_explore/round8): style E, colored pencil on black paper; the snow monkey, the long stoat, the yuzu sprite and the mandarin duck with its rubber duck; his look at the key-art candidates before the rest runs. On the candidates he had the mandarin duck taken out: a duck painted on the water would sit there without moving and look wrong, while the others read fine resting (lessons L215); the duck was painted out of candidates 2 and 4 (tools/keyart_revise.py) for his pick. Then he asked for candidate 2 drawn again without the duck rather than painted out (painted out looked bad): round 2 is candidate 2 redrawn with itself as the reference (tools/keyart_revise.py --redraw) and new images from this brief, its composition taken from candidate 2; round 1 is in assets/keyart/yuzu-spring-snow/round1/.",
+  "status": "approved",
+  "hero": "assets/keyart/yuzu-spring-snow/hero_gpt-image-2_20261112-151801_2_redraw_a_dry_a.png",
+  "hero_note": "Truman's pick 2026-11-12: round 2 candidate 1, his round 1 pick (candidate 2) drawn again without the mandarin duck with itself as the reference (tools/keyart_revise.py --redraw, tag redraw_a); round 1 is in assets/keyart/yuzu-spring-snow/round1/",
+  "music_why": "his answer at the key-art pick (2026-11-12): old-timey Japanese music, the agent's choice of tracks",
+  "publish": {
+    "recording_note": false,
+    "_why": "Truman 2026-11-15, approving the sample: keep the description as it is; he deals with the spout's recording himself (finish_video doesn't add the public domain recording line)"
+  }
+}

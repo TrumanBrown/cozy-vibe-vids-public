@@ -1,0 +1,410 @@
+{
+ "playlist": "Minecraft Creator-Safe Playlist (official, Mojang Studios)",
+ "url": "https://open.spotify.com/playlist/5T4KWhz9Q8r98skQBimtlH",
+ "retrieved": "2026-10-16",
+ "method": "https://open.spotify.com/embed/playlist/5T4KWhz9Q8r98skQBimtlH (server-rendered, first 100 tracks of the playlist); tools/mc_music.py check",
+ "description": "This playlist is a collection of tracks that you're welcome to use in the Minecraft content that you create. (Spotify playlist description)",
+ "policy_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+ "tracks": [
+  {
+   "title": "Memories",
+   "artists": "Minecraft, fingerspit"
+  },
+  {
+   "title": "Ebb",
+   "artists": "Minecraft, fingerspit"
+  },
+  {
+   "title": "Home",
+   "artists": "Minecraft, fingerspit"
+  },
+  {
+   "title": "Shores",
+   "artists": "Minecraft, fingerspit"
+  },
+  {
+   "title": "Nightly",
+   "artists": "Minecraft, fingerspit"
+  },
+  {
+   "title": "Bounce",
+   "artists": "Minecraft, fingerspit"
+  },
+  {
+   "title": "Bromeliad (floopy Remix)",
+   "artists": "Minecraft, floopy"
+  },
+  {
+   "title": "Comforting Memories (Synthion Remix)",
+   "artists": "Minecraft, Synthion"
+  },
+  {
+   "title": "Broken Clocks (Hyper Potions Remix)",
+   "artists": "Minecraft, Hyper Potions"
+  },
+  {
+   "title": "A Familiar Room (Turbo Remix)",
+   "artists": "Minecraft, Turbo"
+  },
+  {
+   "title": "Labyrinthine (meganeko Remix)",
+   "artists": "Minecraft, meganeko"
+  },
+  {
+   "title": "Relic (EX-LYD Remix)",
+   "artists": "Minecraft, EX-LYD"
+  },
+  {
+   "title": "Echo in the Wind (floopy Remix)",
+   "artists": "Minecraft, floopy"
+  },
+  {
+   "title": "Tears (Hyper Potions Remix)",
+   "artists": "Minecraft, Hyper Potions"
+  },
+  {
+   "title": "otherside (Turbo Remix)",
+   "artists": "Minecraft, Turbo"
+  },
+  {
+   "title": "Left to Bloom (EX-LYD Remix)",
+   "artists": "Minecraft, EX-LYD"
+  },
+  {
+   "title": "Aerie (meganeko Remix)",
+   "artists": "Minecraft, meganeko"
+  },
+  {
+   "title": "Minecraft: Lava Chicken - Original Game Soundtrack",
+   "artists": "Minecraft, Hyper Potions"
+  },
+  {
+   "title": "Lilypad",
+   "artists": "Minecraft, Amos Roddy"
+  },
+  {
+   "title": "Below and Above",
+   "artists": "Minecraft, Amos Roddy"
+  },
+  {
+   "title": "O's Piano",
+   "artists": "Minecraft, Amos Roddy"
+  },
+  {
+   "title": "Broken Clocks",
+   "artists": "Minecraft, Amos Roddy"
+  },
+  {
+   "title": "Fireflies",
+   "artists": "Minecraft, Amos Roddy"
+  },
+  {
+   "title": "Tears",
+   "artists": "Minecraft, Amos Roddy"
+  },
+  {
+   "title": "Memories of Dalarna",
+   "artists": "Minecraft, Hyper Potions"
+  },
+  {
+   "title": "Legends from the Otherside",
+   "artists": "Minecraft, Hyper Potions"
+  },
+  {
+   "title": "Arch-Illager's Pigstep",
+   "artists": "Minecraft, Hyper Potions"
+  },
+  {
+   "title": "Featherfall (Hyper Potions Remix)",
+   "artists": "Minecraft, Hyper Potions"
+  },
+  {
+   "title": "Watcher (Synthion Remix)",
+   "artists": "Minecraft, Synthion"
+  },
+  {
+   "title": "Puzzlebox (AIKA Remix)",
+   "artists": "Minecraft, AIKA"
+  },
+  {
+   "title": "komorebi (AIKA Remix)",
+   "artists": "Minecraft, AIKA"
+  },
+  {
+   "title": "pokopoko (Synthion Remix)",
+   "artists": "Minecraft, Synthion"
+  },
+  {
+   "title": "yakusoku (leon chang Remix)",
+   "artists": "Minecraft, leon chang"
+  },
+  {
+   "title": "Infinite Amethyst (Snail's House Remix)",
+   "artists": "Minecraft, Snail's House"
+  },
+  {
+   "title": "Deeper (Elliot Hsu Remix)",
+   "artists": "Minecraft, Elliot Hsu"
+  },
+  {
+   "title": "Eld Unknown (Elliot Hsu Remix)",
+   "artists": "Minecraft, Elliot Hsu"
+  },
+  {
+   "title": "Endless (Anamanaguchi Remix)",
+   "artists": "Minecraft, Anamanaguchi"
+  },
+  {
+   "title": "Creator (leon chang Remix)",
+   "artists": "Minecraft, leon chang"
+  },
+  {
+   "title": "Precipice (Hyper Potions Remix)",
+   "artists": "Minecraft, Hyper Potions"
+  },
+  {
+   "title": "Featherfall",
+   "artists": "Aaron Cherof, Minecraft"
+  },
+  {
+   "title": "Watcher",
+   "artists": "Aaron Cherof, Minecraft"
+  },
+  {
+   "title": "Puzzlebox",
+   "artists": "Aaron Cherof, Minecraft"
+  },
+  {
+   "title": "komorebi",
+   "artists": "Kumi Tanioka, Minecraft"
+  },
+  {
+   "title": "pokopoko",
+   "artists": "Kumi Tanioka, Minecraft"
+  },
+  {
+   "title": "yakusoku",
+   "artists": "Kumi Tanioka, Minecraft"
+  },
+  {
+   "title": "Deeper",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "Eld Unknown",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "Endless",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "Creator",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "Creator - Music Box Version",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "Precipice",
+   "artists": "Aaron Cherof, Minecraft"
+  },
+  {
+   "title": "Echo in the Wind",
+   "artists": "Aaron Cherof, Minecraft"
+  },
+  {
+   "title": "A Familiar Room",
+   "artists": "Aaron Cherof, Minecraft"
+  },
+  {
+   "title": "Bromeliad",
+   "artists": "Aaron Cherof, Minecraft"
+  },
+  {
+   "title": "Crescent Dunes",
+   "artists": "Aaron Cherof, Minecraft"
+  },
+  {
+   "title": "Relic",
+   "artists": "Aaron Cherof, Minecraft"
+  },
+  {
+   "title": "Firebugs",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "Aerie",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "Labyrinthine",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "Five",
+   "artists": "Samuel Åberg, Minecraft"
+  },
+  {
+   "title": "Stand Tall",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "Left to Bloom",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "Ancestry",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "Wending",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "Infinite Amethyst",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "One More Day",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "otherside",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "Floating Dream",
+   "artists": "Kumi Tanioka, Minecraft"
+  },
+  {
+   "title": "Comforting Memories",
+   "artists": "Kumi Tanioka, Minecraft"
+  },
+  {
+   "title": "An Ordinary Day",
+   "artists": "Kumi Tanioka, Minecraft"
+  },
+  {
+   "title": "Chrysopoeia",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "Rubedo",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "So Below",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "Pigstep - Mono Mix",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "Pigstep - Stereo Mix",
+   "artists": "Lena Raine, Minecraft"
+  },
+  {
+   "title": "Axolotl",
+   "artists": "C418"
+  },
+  {
+   "title": "Dragon Fish",
+   "artists": "C418"
+  },
+  {
+   "title": "Shuniji",
+   "artists": "C418"
+  },
+  {
+   "title": "Beginning 2",
+   "artists": "C418"
+  },
+  {
+   "title": "Floating Trees",
+   "artists": "C418"
+  },
+  {
+   "title": "Moog City 2",
+   "artists": "C418"
+  },
+  {
+   "title": "Mutation",
+   "artists": "C418"
+  },
+  {
+   "title": "Clark",
+   "artists": "C418"
+  },
+  {
+   "title": "Danny",
+   "artists": "C418"
+  },
+  {
+   "title": "Dry Hands",
+   "artists": "C418"
+  },
+  {
+   "title": "Haggstrom",
+   "artists": "C418"
+  },
+  {
+   "title": "Key",
+   "artists": "C418"
+  },
+  {
+   "title": "Living Mice",
+   "artists": "C418"
+  },
+  {
+   "title": "Mice on Venus",
+   "artists": "C418"
+  },
+  {
+   "title": "Minecraft",
+   "artists": "C418"
+  },
+  {
+   "title": "Oxygène",
+   "artists": "C418"
+  },
+  {
+   "title": "Subwoofer Lullaby",
+   "artists": "C418"
+  },
+  {
+   "title": "Sweden",
+   "artists": "C418"
+  },
+  {
+   "title": "Wet Hands",
+   "artists": "C418"
+  },
+  {
+   "title": "Aria Math",
+   "artists": "C418"
+  },
+  {
+   "title": "Biome Fest",
+   "artists": "C418"
+  },
+  {
+   "title": "Blind Spots",
+   "artists": "C418"
+  },
+  {
+   "title": "Dreiton",
+   "artists": "C418"
+  },
+  {
+   "title": "Haunt Muskie",
+   "artists": "C418"
+  },
+  {
+   "title": "Taswell",
+   "artists": "C418"
+  }
+ ]
+}

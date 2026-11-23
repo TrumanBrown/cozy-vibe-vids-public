@@ -1,0 +1,106 @@
+{
+ "_note": "Painted transients to remove from the key art (tools/plate_clean.py); written by tools/analyze_plate.py, edit freely.",
+ "source": "assets/keyart/spruce-clock-cabin/hero_gpt-image-2-5-sunburst_20261106-131205_2.png",
+ "items": [
+  {
+   "name": "fireplace_flames_flames",
+   "kind": "fire",
+   "box": [
+    0.1983,
+    0.384,
+    0.3087,
+    0.5902
+   ],
+   "shape": "ellipse",
+   "what": "Flames and glowing logs behind the fireplace grate",
+   "behind": "logs on a grate in the stone fireplace"
+  },
+  {
+   "name": "lift_pendulum",
+   "kind": "other",
+   "polys": [
+    [
+     [
+      0.53646,
+      0.3463
+     ],
+     [
+      0.53385,
+      0.34815
+     ],
+     [
+      0.53385,
+      0.47222
+     ],
+     [
+      0.53021,
+      0.47315
+     ],
+     [
+      0.52865,
+      0.48148
+     ],
+     [
+      0.52604,
+      0.48241
+     ],
+     [
+      0.52604,
+      0.51574
+     ],
+     [
+      0.52865,
+      0.51667
+     ],
+     [
+      0.52969,
+      0.52407
+     ],
+     [
+      0.54375,
+      0.52407
+     ],
+     [
+      0.54479,
+      0.51667
+     ],
+     [
+      0.54792,
+      0.51481
+     ],
+     [
+      0.54844,
+      0.48704
+     ],
+     [
+      0.54792,
+      0.48241
+     ],
+     [
+      0.54427,
+      0.47685
+     ],
+     [
+      0.54427,
+      0.47315
+     ],
+     [
+      0.54219,
+      0.4713
+     ],
+     [
+      0.54167,
+      0.34815
+     ],
+     [
+      0.54115,
+      0.3463
+     ]
+    ]
+   ],
+   "what": "the clock's gold pendulum rod and its gold bob",
+   "behind": "the plain dark wooden back panel inside the tall clock case, seen through its glass door, with the same faint vertical wood grain and the same dark brown color as the panel around it",
+   "_auto": "tools/vine_layers.py"
+  }
+ ]
+}

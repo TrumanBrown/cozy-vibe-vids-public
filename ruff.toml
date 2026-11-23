@@ -1,0 +1,6 @@
+# A linter that finds bugs and changes nothing else (TASKS.md T23): undefined and unused names, redefinitions and bare
+# except (pyflakes' checks, and E722). No formatter and no style rules: the render fingerprint and the caches hash the
+# source bytes, so a reformat would invalidate every render and cache.
+#   .venv\Scripts\python -m ruff check tools tests      (tests/test_lint.py runs it)
+[lint]
+select = ["F", "E722"]

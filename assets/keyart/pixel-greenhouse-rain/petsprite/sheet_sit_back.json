@@ -1,0 +1,21 @@
+{
+ "sheet": "sit_back",
+ "prompt": "Pixel-art sprite sheet of this same dog sitting, seen from behind and a little above, looking straight ahead and a little up (at a glass door in front of it): we see its back, the back of its head, its two ears and its tail on the floor behind it. in exactly the same 16-bit pixel-art style as the reference: the same chunky pixel size, the same golden-brown fur colors and shading, the same face, floppy ears, nose and proportions. Four frames of the tail wagging: 1 tail swept to the left, 2 tail straight behind, 3 tail swept to the right, 4 tail straight behind. The body and head stay exactly the same in all four frames. Transparent background. No ground, no floor line, no shadow, no text, no numbers, no frame borders or grid lines. Every frame shows the whole dog with a little space around it, all frames the same size and standing on the same invisible ground line, evenly spaced in one row.",
+ "reference": "ref.png (the painted pet cut from clean.png)",
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-21",
+ "usage": {
+  "input_tokens": 1247,
+  "input_tokens_details": {
+   "image_tokens": 1024,
+   "text_tokens": 223
+  },
+  "output_tokens": 1372,
+  "output_tokens_details": {
+   "image_tokens": 1372,
+   "text_tokens": 0
+  },
+  "total_tokens": 2619
+ },
+ "mode": "RGBA"
+}

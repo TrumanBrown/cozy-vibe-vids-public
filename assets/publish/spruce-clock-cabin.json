@@ -1,0 +1,43 @@
+{
+ "_note": "Drafted by tools/finish_video.py on 2026-11-06: the title, the opening and the hashtags by the chat model in Truman's form (model), from scenes/spruce-clock-cabin/brief.json and his published videos (docs/records/*/published.md), checked with upload_package's rules. Edit freely: the tool never overwrites this spec. Once it's live, record what he changed (master-render skill, Upload checklist step 9).",
+ "slug": "spruce-clock-cabin",
+ "name": "Spruce Clock Cabin",
+ "render": "out/spruce-clock-cabin/render/10h_v1",
+ "video": "master_music.mp4",
+ "thumbnails": "assets/thumbnails/spruce-clock-cabin.json",
+ "thumbnail": "pixel-dog",
+ "test_and_compare": [
+  "pixel-dog",
+  "pixel-place-card",
+  "pixel-polaroid"
+ ],
+ "draft_text": false,
+ "titles": [
+  "4K snowy spruce cabin with calm Minecraft music and crackling fire, no ads (10 hours)",
+  "4K snowy cabin night with calm Minecraft music and a ticking clock, no ads (10 hours)",
+  "Calm Music Spruce Clock Cabin. Study and relax by the fire. 4K, 10 hours, no Ads"
+ ],
+ "_titles_note": "The first two follow the form of his two published Minecraft room videos (docs/records/autumn-treetop and moonvine-temple-night: '4K <place> with calm Minecraft music and <its sound>, no ads (10 hours)'); the model drafted the ramen alley's form, kept third.",
+ "description": [
+  "Come relax with snow on the spruce trees outside a cozy log cabin at night, with calm Minecraft music and a crackling fire. 10 hours of 4K, calming ambience with smooth music. Never interrupting with ads."
+ ],
+ "hashtags": [
+  "#minecraftmusic",
+  "#firesounds",
+  "#studymusic",
+  "#study",
+  "#relaxing",
+  "#relax",
+  "#4k",
+  "#10hours"
+ ],
+ "tags": [],
+ "category": "Film & Animation",
+ "blurb": [
+  "I put videos like these on the TV while I work from home, so I started making my own. Each video is one scene I designed for this channel. Excited to continue to develop more.",
+  "",
+  "All my animation is made by myself and rendered frame by frame, and the ambience (wind, the crackling fire and every other effect) is synthesized in my engine. I love making these videos, so please let me know what you would like to see next.",
+  "",
+  "No stock footage, recordings or sound-effect libraries."
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "source": "out/tidepool-fog/render/sample_v9 (approved 2026-11-05)",
+ "refs": {
+  "keyart__key_art": {
+   "file": "keyart__key_art.jpg",
+   "label": "key art",
+   "lessons": [
+    "L03",
+    "L06",
+    "L07",
+    "L60",
+    "L71"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\tidepool-fog\\render\\sample_v9",
+   "note": "approved as it is, with the 10 h next (2026-11-05, on v9, after round 3's fixes: the crab whole, the moth from behind the lantern, a wave every 20 s with the new spray, no band around the oystercatcher)"
+  },
+  "steam_cup": {
+   "file": "steam_cup.jpg",
+   "label": "steam over cocoa mug",
+   "lessons": [
+    "L06",
+    "L12",
+    "L18",
+    "L25",
+    "L32",
+    "L35"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\tidepool-fog\\render\\sample_v9",
+   "note": "approved as it is, with the 10 h next (2026-11-05, on v9, after round 3's fixes: the crab whole, the moth from behind the lantern, a wave every 20 s with the new spray, no band around the oystercatcher)"
+  },
+  "pet_dry": {
+   "file": "pet_dry.jpg",
+   "label": "the pet (black oystercatcher)",
+   "lessons": [
+    "L10",
+    "L19",
+    "L31"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\tidepool-fog\\render\\sample_v9",
+   "note": "approved as it is, with the 10 h next (2026-11-05, on v9, after round 3's fixes: the crab whole, the moth from behind the lantern, a wave every 20 s with the new spray, no band around the oystercatcher)"
+  },
+  "intro_title": {
+   "file": "intro_title.jpg",
+   "label": "the opening line",
+   "lessons": [
+    "L04",
+    "L55"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\tidepool-fog\\render\\sample_v9",
+   "note": "approved as it is, with the 10 h next (2026-11-05, on v9, after round 3's fixes: the crab whole, the moth from behind the lantern, a wave every 20 s with the new spray, no band around the oystercatcher)"
+  },
+  "events__event__critter": {
+   "file": "events__event__critter.jpg",
+   "label": "event: critter",
+   "lessons": [
+    "L16",
+    "L20",
+    "L23",
+    "L28",
+    "L40",
+    "L41",
+    "L42",
+    "L49",
+    "L181",
+    "L182",
+    "L185"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\tidepool-fog\\render\\sample_v9",
+   "note": "approved as it is, with the 10 h next (2026-11-05, on v9, after round 3's fixes: the crab whole, the moth from behind the lantern, a wave every 20 s with the new spray, no band around the oystercatcher)"
+  },
+  "events__event__moth__behind_the_lamp_": {
+   "file": "events__event__moth__behind_the_lamp_.jpg",
+   "label": "event: moth (behind the lamp)",
+   "lessons": [
+    "L16",
+    "L20",
+    "L23",
+    "L28",
+    "L40",
+    "L41",
+    "L42",
+    "L49",
+    "L181",
+    "L182",
+    "L185"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\tidepool-fog\\render\\sample_v9",
+   "note": "approved as it is, with the 10 h next (2026-11-05, on v9, after round 3's fixes: the crab whole, the moth from behind the lantern, a wave every 20 s with the new spray, no band around the oystercatcher)"
+  },
+  "events__event__surf": {
+   "file": "events__event__surf.jpg",
+   "label": "event: surf",
+   "lessons": [
+    "L16",
+    "L20",
+    "L23",
+    "L28",
+    "L40",
+    "L41",
+    "L42",
+    "L49",
+    "L181",
+    "L182",
+    "L185"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\tidepool-fog\\render\\sample_v9",
+   "note": "approved as it is, with the 10 h next (2026-11-05, on v9, after round 3's fixes: the crab whole, the moth from behind the lantern, a wave every 20 s with the new spray, no band around the oystercatcher)"
+  }
+ }
+}

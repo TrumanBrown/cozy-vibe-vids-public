@@ -1,0 +1,55 @@
+{
+ "source": "out/jungle-temple-night/render/sample_v8 (approved 2026-10-27)",
+ "refs": {
+  "keyart__key_art": {
+   "file": "keyart__key_art.jpg",
+   "label": "key art",
+   "lessons": [
+    "L03",
+    "L06",
+    "L07",
+    "L60",
+    "L71"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\jungle-temple-night\\render\\sample_v8",
+   "note": "approved, with praise for the frog (2026-10-27, on v8; he asked for the frog in a lot of the video, L173, and the 10 h)"
+  },
+  "pet_dry": {
+   "file": "pet_dry.jpg",
+   "label": "the pet (sleeping ocelot)",
+   "lessons": [
+    "L10",
+    "L19",
+    "L31"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\jungle-temple-night\\render\\sample_v8",
+   "note": "approved, with praise for the frog (2026-10-27, on v8; he asked for the frog in a lot of the video, L173, and the 10 h)"
+  },
+  "intro_title": {
+   "file": "intro_title.jpg",
+   "label": "the opening line",
+   "lessons": [
+    "L04",
+    "L55"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\jungle-temple-night\\render\\sample_v8",
+   "note": "approved, with praise for the frog (2026-10-27, on v8; he asked for the frog in a lot of the video, L173, and the 10 h)"
+  },
+  "events__event__moth": {
+   "file": "events__event__moth.jpg",
+   "label": "event: moth",
+   "lessons": [
+    "L16",
+    "L20",
+    "L23",
+    "L28",
+    "L40",
+    "L41",
+    "L42",
+    "L49"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\jungle-temple-night\\render\\sample_v8",
+   "note": "approved, with praise for the frog (2026-10-27, on v8; he asked for the frog in a lot of the video, L173, and the 10 h)"
+  }
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "creature": "snail",
+ "prompt": "A single a small garden snail crawling to the right, seen from the side: a glossy spiral shell, brown with darker bands, on its back; its soft grey-brown body stretched out low along the ground in front of the shell, two long eye stalks up and two short feelers at the front, wet and shiny. Painted to match this art style: Wide 16:9 cinematic anime background art, detailed and atmospheric like a film still, rich neon night colors, soft glow and wet reflections.. Lighting to match the scene: Warm red and orange lantern light against a cool blue-violet night, soft glow, wet reflections. The whole creature is in view, centered, with a little space around it. Transparent background, no ground, no shadow, no other objects, no text.",
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-16",
+ "usage": {
+  "input_tokens": 167,
+  "input_tokens_details": {
+   "image_tokens": 0,
+   "text_tokens": 167
+  },
+  "output_tokens": 1756,
+  "output_tokens_details": {
+   "image_tokens": 1756,
+   "text_tokens": 0
+  },
+  "total_tokens": 1923
+ },
+ "size": [
+  1024,
+  1024
+ ],
+ "bbox": [
+  47,
+  282,
+  1004,
+  739
+ ],
+ "foot_y": 736,
+ "front_x": 1004,
+ "back_x": 47,
+ "shell_x": [
+  151,
+  600
+ ],
+ "lum": 0.3102
+}

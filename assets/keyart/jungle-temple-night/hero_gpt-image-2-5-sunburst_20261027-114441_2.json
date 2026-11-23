@@ -1,0 +1,23 @@
+{
+  "id": "hero",
+  "prompt": "Wide 16:9 cinematic screenshot of a cozy Minecraft scene with a shader pack: blocky voxel world, high-quality block textures, volumetric light, soft bloom and soft shadows. The scene: One locked-off wide Minecraft-style voxel shot from beneath a mossy jungle temple overhang, looking past hanging vines toward a distant waterfall. The entrance is open to the sky; no humans.. Foreground: dry moss-edged stone blocks, the carved threshold, and the sleeping ocelot tucked safely under the overhang. Midground: a vine-framed temple entrance with a warm lantern and glimpses of fireflies among jungle leaves. Background: a pale waterfall dropping into an open pool beneath a starry sky. Also in view: hanging vines beyond the stone overhang; flat carved temple threshold in the lower left; open plunge pool beneath the waterfall; hanging lantern at the entrance. cool moonlight on stone and water, balanced by a small pool of warm lantern light. Locked-off camera at eye level, wide 16:9 composition with a clear foreground, midground and background. Leave open, uncluttered areas around the light sources, the windows and the animal so they can be animated. No people anywhere: no pedestrians or silhouettes outside, no portraits, posters or statues of people. No other animals besides the one pet: no birds, insects, snails or frogs anywhere (small creatures are animated in afterwards). No lightning bolts. Things that move are animated afterwards, so do not paint them frozen: no visible steam or smoke plumes, no water drops hanging from edges and no streams of dripping water; surfaces may look wet. No text, no letters, no logos, no watermark, no user interface.",
+  "deployment": "gpt-image-2-5-sunburst",
+  "size": "2560x1440",
+  "quality": "high",
+  "created": 1793126680,
+  "revised_prompt": null,
+  "usage": {
+    "input_tokens": 1412,
+    "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 1412
+    },
+    "output_tokens": 7370,
+    "output_tokens_details": {
+      "image_tokens": 7370,
+      "text_tokens": 0
+    },
+    "total_tokens": 8782
+  },
+  "generated_at": "20261027-114441"
+}

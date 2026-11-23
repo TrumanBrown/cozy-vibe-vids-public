@@ -1,0 +1,615 @@
+{
+  "_note": "Draft written by tools/analyze_plate.py; tune freely (it is not overwritten unless --force-scene). Keys: src/library/autoscene.js.",
+  "name": "skyrim-village-night",
+  "title": "A Nord village inn under the northern lights",
+  "aesthetic": "skyrim-village",
+  "plate": "skyrim-village-night",
+  "seed": 7,
+  "fps": 30,
+  "loopSeconds": 120,
+  "duration": 36000,
+  "plate_fx": {
+    "flicker": 0.02,
+    "mist": 0.0,
+    "ripple": 0.0006,
+    "horizon": 0.55,
+    "lightning": {
+      "color": "#b9c8ff",
+      "sky": 2.0,
+      "land": 0.8,
+      "roomNear": 0.35,
+      "roomAmbient": 0.06,
+      "farColor": "#c9c4f2"
+    },
+    "rings": [
+      0,
+      0
+    ],
+    "mistDry": true,
+    "_mist": "0 on a clear night, as on Northlight Mill: drifting mist covers the far terrain and the sky alike and grayed the starry sky (a try at 0.1, 2026-11-15); the painting's own haze over the mountains stays",
+    "moon": {
+      "path": [
+        [
+          0.12,
+          0.34
+        ],
+        [
+          0.2,
+          0.2
+        ],
+        [
+          0.3186,
+          0.0956
+        ],
+        [
+          0.45,
+          0.1
+        ],
+        [
+          0.58,
+          0.105
+        ],
+        [
+          0.69,
+          0.14
+        ],
+        [
+          0.78,
+          0.22
+        ],
+        [
+          0.86,
+          0.34
+        ]
+      ],
+      "halo": 0,
+      "_note": "Masser and Secunda cross the sky together once per 20 minute loop, as the jungle temple's moon does (L168): at the painted spot at 0:00, east to west under the porch beam and behind the aurora, setting behind the right mountains and the mill's roof, a few minutes gone, rising from behind the left house's roof. No halo: neither has a painted glow. clouds false: the bright sky here is the aurora, which is see-through and in front of them (with clouds on they faded out crossing it)",
+      "clouds": false
+    }
+  },
+  "regions": {
+    "dry_grass_by_brazier": {
+      "sway": {
+        "amp": 3.0,
+        "hz": 0.12,
+        "gust": 1.2
+      }
+    },
+    "evergreen_branches_upper": {
+      "sway": {
+        "amp": 3.0,
+        "hz": 0.12,
+        "gust": 1.2
+      }
+    },
+    "riverbank_shrubs": {
+      "sway": {
+        "amp": 3.0,
+        "hz": 0.12,
+        "gust": 1.2
+      }
+    }
+  },
+  "layers": [
+    {
+      "type": "aurora",
+      "_note": "the painted northern lights rippling (hand.json aurora; cozy/plate/aurora.py, src/library/aurora.js)"
+    },
+    {
+      "type": "wheel",
+      "_note": "the sawmill's waterwheel turning, one turn in 16 s (hand.json wheel; tools/wheel_layer.py, src/library/wheel.js)",
+      "turn": 16,
+      "vary": 0.03,
+      "water": {
+        "radius": 2.4
+      },
+      "_water_note": "water off the paddles (wheel.js water): each paddle sheds what it lifted as it comes up out of the river, drops fall at the wheel's scale and ring the water; a few splash up as a paddle goes in"
+    },
+    {
+      "type": "fire",
+      "regions": "kind:fire"
+    },
+    {
+      "type": "particles",
+      "mode": "embers",
+      "regions": "kind:fire",
+      "rate": 0.45
+    },
+    {
+      "type": "birds",
+      "disp": 0.02,
+      "haze": 0.35
+    },
+    {
+      "type": "dragon",
+      "disp": 0.02,
+      "haze": 0.3,
+      "_note": "silent; in front of the far mountains and the aurora, behind everything nearer (dragon.js)"
+    },
+    {
+      "type": "particles",
+      "mode": "stars"
+    },
+    {
+      "type": "moth",
+      "lamp": "hanging_porch_lantern",
+      "center": [
+        0.8839,
+        0.1674
+      ],
+      "unit": 110,
+      "size": 28,
+      "unitM": 0.2,
+      "color": [
+        1.0,
+        0.498,
+        0.188
+      ],
+      "_auto": "drafted by tools/plate_features.py",
+      "detail": true,
+      "shutter": 0.005,
+      "covered": true,
+      "_note": "unit 110 px, the lantern body's half width: drafted from the candle's lit glass (61 px), the moth's orbit (about 2 units) brushed the lantern's sides and it came into view on its face, not round its side (the critic on sample v4); 28 px with wing shapes (a 4.5 cm moth by a 40 cm lantern near the camera); covered: the lantern hangs under the porch roof"
+    },
+    {
+      "type": "smoke",
+      "sources": [
+        {
+          "x": 0.391,
+          "y": 0.327,
+          "w": 1.06,
+          "ppm": 122.7,
+          "drift": 0.25,
+          "density": 2.6,
+          "life": 14,
+          "thin": false
+        }
+      ],
+      "_auto": "drafted by tools/plate_features.py",
+      "_note": "the forge's chimney: thin false, since the plume rises in front of a far dark pine forest whose needles the thin-dark test took for twigs in front and cut it into dots (sample v1); a calm night, drift 0.25"
+    },
+    {
+      "type": "fish",
+      "camera": {
+        "focalPx": 2700.0,
+        "horizon": 0.55,
+        "height": 5.1
+      },
+      "_auto": "drafted by tools/plate_features.py"
+    },
+    {
+      "type": "ant",
+      "paths": [
+        [
+          [
+            0.7202,
+            0.7555
+          ],
+          [
+            0.749,
+            0.799
+          ],
+          [
+            0.757,
+            0.805
+          ],
+          [
+            0.769,
+            0.81
+          ],
+          [
+            0.782,
+            0.814
+          ],
+          [
+            0.794,
+            0.817
+          ],
+          [
+            0.806,
+            0.815
+          ],
+          [
+            0.82,
+            0.809
+          ],
+          [
+            0.834,
+            0.801
+          ],
+          [
+            0.848,
+            0.795
+          ],
+          [
+            0.862,
+            0.79
+          ]
+        ]
+      ],
+      "size": 32,
+      "horizon": 0.55,
+      "_auto": "drafted by tools/plate_features.py",
+      "_size_note": "32 px, about 1.6 times life by the sweetroll's scale (about 280 px for a 10 cm roll): the drafted 19 px was life size and read as an 8 px smudge on the dim table at night (review: draws nothing alone on black)",
+      "behind": [
+        "sweetroll"
+      ],
+      "_path_note": "from over the table's far edge, across the table, onto the plate and out of sight behind the sweetroll (its traced region, `behind`): the critic on sample v4 saw the ant end as a dark upright mark at the plate's rim, which the outdoor mask had taken in; the far end lies 85 px (2.7 body lengths) past the table's far edge, so a 32 px ant walks over it and down out of sight (it ended upright against the snow when the end lay 10 px past it, the critic on sample v5)",
+      "carry": "#efe6d6",
+      "_carry_note": "an ant walking back from the sweetroll carries a crumb of its icing home (ant.js carry), so the theft reads"
+    },
+    {
+      "type": "critter",
+      "creature": "ladybug",
+      "path": [
+        [
+          0.309,
+          0.844
+        ],
+        [
+          0.352,
+          0.855
+        ],
+        [
+          0.409,
+          0.864
+        ],
+        [
+          0.471,
+          0.869
+        ],
+        [
+          0.531,
+          0.866
+        ],
+        [
+          0.585,
+          0.859
+        ],
+        [
+          0.6411,
+          0.8497
+        ]
+      ],
+      "size": 26.0,
+      "_auto": "drafted by tools/plate_features.py",
+      "gait": true,
+      "_path_note": "its end lies inside the post's upright (x 2430-2475 at this row), not at its edge: its last sliver faded in view beside the post (the critic on sample v5)",
+      "_size_note": "size is the whole sprite, legs and antennae with it (critters.js scales the sprite's bbox): the red shell is 14 px, about twice life by the porch planks (about 150 px a plank). The drafted 18 px was a 10 px fleck the critic couldn't make out against the dim planks (sample v7), as the ants were (L235, L239)"
+    },
+    {
+      "type": "critter",
+      "creature": "shieldbug",
+      "path": [
+        [
+          0.6729,
+          0.8412
+        ],
+        [
+          0.692,
+          0.846
+        ],
+        [
+          0.701,
+          0.848
+        ],
+        [
+          0.71,
+          0.85
+        ],
+        [
+          0.719,
+          0.852
+        ],
+        [
+          0.729,
+          0.854
+        ]
+      ],
+      "size": 44.0,
+      "_auto": "drafted by tools/plate_features.py",
+      "track": 1,
+      "gait": true,
+      "_size_note": "size is the whole sprite, legs and antennae with it (critters.js scales the sprite's bbox), and this sprite's shell is 0.44 of it: at 44 px the shell is 19 px, about twice life by the porch planks (about 150 px a plank). At 28 px its 12 px olive shell was a fleck on the dim planks the critic couldn't make out (sample v8, L239)"
+    },
+    {
+      "type": "critter",
+      "creature": "beetle",
+      "path": [
+        [
+          0.27,
+          1.035
+        ],
+        [
+          0.296,
+          0.99
+        ],
+        [
+          0.33,
+          0.958
+        ],
+        [
+          0.382,
+          0.946
+        ],
+        [
+          0.473,
+          0.953
+        ],
+        [
+          0.575,
+          0.961
+        ],
+        [
+          0.677,
+          0.968
+        ],
+        [
+          0.779,
+          0.975
+        ]
+      ],
+      "size": 43.4,
+      "_auto": "drafted by tools/plate_features.py",
+      "track": 2,
+      "sizeEnd": 45.9,
+      "_path_note": "comes in from under the frame's bottom edge: the drafted start beside the pelt had nothing to hide behind (L49)",
+      "gait": true
+    }
+  ],
+  "wind": {
+    "mean": 0.05,
+    "gust": 0.25,
+    "turb": 0.3,
+    "gustCycles": 5,
+    "fronts": 0.6
+  },
+  "runoff": [],
+  "events": {
+    "ember": {
+      "perHour": 14,
+      "minGap": 90,
+      "startAfter": 8
+    },
+    "birds": {
+      "perHour": 80,
+      "minGap": 40,
+      "startAfter": 4,
+      "band": [
+        0.009,
+        0.037,
+        0.999,
+        0.337
+      ],
+      "size": [
+        27.6,
+        44.9
+      ],
+      "count": [
+        1,
+        5
+      ],
+      "first": 6,
+      "intro": [
+        300,
+        1.5
+      ]
+    },
+    "gutter": {
+      "perHour": 12,
+      "minGap": 300,
+      "startAfter": 30,
+      "depth": 0.55,
+      "first": 60
+    },
+    "pet": {
+      "sigh": 30,
+      "minGap": 30,
+      "first": 45
+    },
+    "star": {
+      "perHour": 3,
+      "minGap": 400,
+      "startAfter": 15,
+      "box": [
+        0.00937,
+        0.0,
+        0.99948,
+        0.37407
+      ]
+    },
+    "rareGap": 45,
+    "strikeBusy": [
+      30,
+      30
+    ],
+    "moth": {
+      "perHour": 24,
+      "dur": [
+        45,
+        140
+      ],
+      "lands": 2,
+      "startAfter": 15,
+      "first": 30,
+      "intro": [
+        300,
+        1.5
+      ],
+      "keepFirst": true,
+      "hide": "lamp"
+    },
+    "fish": {
+      "perHour": 20,
+      "minGap": 60,
+      "jump": 0.5,
+      "zones": [
+        [
+          0.658,
+          0.601,
+          0.852,
+          0.645,
+          1.0
+        ],
+        [
+          0.824,
+          0.645,
+          0.885,
+          0.695,
+          1.4
+        ]
+      ],
+      "startAfter": 5,
+      "first": 15,
+      "intro": [
+        300,
+        2
+      ]
+    },
+    "ant": {
+      "perHour": 24,
+      "dur": [
+        16,
+        28
+      ],
+      "paths": 1,
+      "startAfter": 5,
+      "first": 25,
+      "intro": [
+        300,
+        3
+      ],
+      "file": 0.8,
+      "keepFirst": true,
+      "_note": "mostly files of ants: someone is stealing your sweetroll"
+    },
+    "critter": [
+      {
+        "perHour": 7,
+        "dur": [
+          203,
+          275
+        ],
+        "startAfter": 4,
+        "first": 6,
+        "keepFirst": true,
+        "walk": {
+          "stops": [
+            3,
+            6
+          ],
+          "stop": [
+            1.2,
+            4.5
+          ]
+        }
+      },
+      {
+        "perHour": 7,
+        "dur": [
+          40,
+          54
+        ],
+        "startAfter": 12,
+        "first": 20,
+        "keepFirst": true,
+        "walk": {
+          "stops": [
+            3,
+            6
+          ],
+          "stop": [
+            1.2,
+            4.5
+          ]
+        }
+      },
+      {
+        "perHour": 7,
+        "dur": [
+          136,
+          184
+        ],
+        "startAfter": 20,
+        "first": 34,
+        "keepFirst": true,
+        "walk": {
+          "stops": [
+            3,
+            6
+          ],
+          "stop": [
+            1.2,
+            4.5
+          ]
+        }
+      }
+    ],
+    "windows": {
+      "pass": 15,
+      "dim": 6,
+      "away": 4,
+      "minGap": 20,
+      "minSize": 10
+    },
+    "loop": {
+      "period": 1200
+    },
+    "dragon": {
+      "perHour": 3,
+      "minGap": 600,
+      "startAfter": 20,
+      "first": 45,
+      "dur": [
+        30,
+        40
+      ],
+      "span": [
+        140,
+        175
+      ],
+      "rows": [
+        0.09,
+        0.17
+      ],
+      "from": [
+        -0.04,
+        1.04
+      ],
+      "_note": "a dragon far off, once per 20 minute loop and early in it (the opening): between the porch beam and the mountain tops, from behind one post to behind the other"
+    }
+  },
+  "audio": {
+    "bed": "river_night",
+    "lufs": -20,
+    "fire_pan": -0.47,
+    "wheel": {
+      "turn_s": 16,
+      "vary": 0.03,
+      "paddles": 23,
+      "phase": -1.08557,
+      "dir": 1,
+      "entry_deg": 244,
+      "exit_deg": -64,
+      "pan": 0.55
+    },
+    "music": {
+      "order": "smooth",
+      "body_db": 6,
+      "crossfade": 8,
+      "fit": true,
+      "opener": "sk_far_horizons.mp3",
+      "_opener_note": "pinned to the opener he approved (the sample and the first 10 h opened with Far Horizons): the plan is seeded by the exact track set, so taking Tundra out after its Content ID claim (2026-11-16) reshuffled it and opened on A Chance Meeting"
+    }
+  },
+  "intro": {
+    "lines": [
+      "Welcome to the Sleeping Hound Inn.",
+      "Warm up by the fire, traveler."
+    ],
+    "pos": [
+      0.5,
+      0.5
+    ]
+  }
+}

@@ -1,0 +1,550 @@
+{
+  "_note": "Draft written by tools/analyze_plate.py; tune freely (it is not overwritten unless --force-scene). Keys: src/library/autoscene.js.",
+  "name": "enchanter-tower-goldenhour",
+  "title": "4K enchanter's tower at golden hour with calm Minecraft music and crackling fire, no ads (10 hours)",
+  "aesthetic": "minecraft-voxel",
+  "plate": "enchanter-tower-goldenhour",
+  "seed": 7,
+  "fps": 30,
+  "loopSeconds": 120,
+  "duration": 36000,
+  "plate_fx": {
+    "flicker": 0.02,
+    "mist": 0.0,
+    "ripple": 0.0006,
+    "horizon": 0.49,
+    "rings": [
+      0,
+      0
+    ],
+    "mistDry": true
+  },
+  "regions": {
+    "left_hanging_lantern": {
+      "pendulum": null
+    },
+    "right_hanging_lantern": {
+      "pendulum": null
+    },
+    "tank_kelp": {
+      "sway": {
+        "amp": 3.0,
+        "hz": 0.12,
+        "gust": 0
+      }
+    },
+    "sunset_clouds": {
+      "flow": {
+        "dir": [
+          0.005,
+          0
+        ],
+        "period": 60,
+        "vary": 0.5
+      }
+    }
+  },
+  "layers": [
+    {
+      "type": "fire",
+      "regions": "kind:fire"
+    },
+    {
+      "type": "particles",
+      "mode": "embers",
+      "regions": "kind:fire",
+      "rate": 0.45
+    },
+    {
+      "type": "birds",
+      "disp": 0.01,
+      "haze": 0.35
+    },
+    {
+      "type": "particles",
+      "mode": "dust",
+      "regions": "kind:dust",
+      "count": 120
+    },
+    {
+      "type": "fish",
+      "camera": {
+        "focalPx": 2700.0,
+        "horizon": 0.483,
+        "height": 4.7
+      },
+      "_auto": "drafted by tools/plate_features.py",
+      "model": "blocky",
+      "palette": "salmon",
+      "splash": 1.5,
+      "_note": "salmon leaping far out on the lake (fish3d.js), the lake camera fitted by plate_features"
+    },
+    {
+      "type": "critter",
+      "creature": "silverfish",
+      "path": [
+        [
+          0.4401,
+          0.6921
+        ],
+        [
+          0.4089,
+          0.6935
+        ],
+        [
+          0.3802,
+          0.6935
+        ],
+        [
+          0.3542,
+          0.6926
+        ],
+        [
+          0.3359,
+          0.6912
+        ],
+        [
+          0.3216,
+          0.6806
+        ]
+      ],
+      "size": 48,
+      "_auto": "placed by hand 2026-11-22: from behind the table's left side along the sunlit floor to the book lying on the floor, and in under it (the signature: the book bug hiding under a book)",
+      "gait": true
+    },
+    {
+      "type": "critter",
+      "creature": "beetle",
+      "path": [
+        [
+          0.558,
+          0.687
+        ],
+        [
+          0.574,
+          0.69
+        ],
+        [
+          0.593,
+          0.693
+        ],
+        [
+          0.613,
+          0.691
+        ],
+        [
+          0.632,
+          0.687
+        ],
+        [
+          0.6797,
+          0.677
+        ]
+      ],
+      "size": 44,
+      "_auto": "drafted by tools/plate_features.py",
+      "track": 1,
+      "gait": true
+    },
+    {
+      "type": "enchant",
+      "at": [
+        1915,
+        1374
+      ],
+      "size": 170,
+      "lift": 200,
+      "horizon": 1150,
+      "focal": 1700,
+      "sun": [
+        2193,
+        781
+      ],
+      "table": [
+        [
+          1728,
+          1347
+        ],
+        [
+          2106,
+          1347
+        ],
+        [
+          2147,
+          1400
+        ],
+        [
+          1681,
+          1400
+        ]
+      ],
+      "glyphs": {
+        "sources": [
+          [
+            900,
+            500,
+            1280,
+            1300
+          ],
+          [
+            2640,
+            500,
+            3020,
+            1250
+          ]
+        ],
+        "rate": 3.0,
+        "size": 34,
+        "life": [
+          2.4,
+          3.2
+        ],
+        "gain": 1.2
+      },
+      "_note": "the enchanting table's book floats, turns and flips its pages; glyphs drift in from the bookshelves (Truman 2026-11-22)"
+    },
+    {
+      "type": "brew",
+      "bottles": [
+        {
+          "c": [
+            607,
+            1198
+          ],
+          "r": [
+            22,
+            19
+          ],
+          "top": 1180,
+          "n": 5
+        },
+        {
+          "c": [
+            746,
+            1196
+          ],
+          "r": [
+            21,
+            18
+          ],
+          "top": 1179,
+          "n": 5
+        }
+      ],
+      "size": [
+        6,
+        10
+      ],
+      "speed": 16,
+      "light": [
+        0.6,
+        -0.8
+      ],
+      "_note": "bubbles rising in the brewing stand's two potions (Truman 2026-11-22); the bottles' bodies measured at 4x on the plate: red x 584-630, y 1177-1218, yellow x 724-769, y 1176-1214"
+    },
+    {
+      "type": "aquarium",
+      "focal": 1700,
+      "horizon": 1150,
+      "tank": {
+        "quad": [
+          [
+            0,
+            135
+          ],
+          [
+            780,
+            545
+          ],
+          [
+            780,
+            1163
+          ],
+          [
+            0,
+            1170
+          ]
+        ],
+        "height": 3,
+        "depth": 1.0,
+        "length": 3.25,
+        "floor": [
+          [
+            0,
+            0.26
+          ],
+          [
+            0.25,
+            0.26
+          ],
+          [
+            0.32,
+            0.17
+          ],
+          [
+            0.75,
+            0.12
+          ],
+          [
+            1,
+            0.12
+          ]
+        ],
+        "surface": 0.9,
+        "front": [
+          "brewing_stand",
+          "tank_vine"
+        ]
+      },
+      "fish": 5,
+      "axolotl": {
+        "spots": [
+          [
+            0.37,
+            0.15,
+            0.188
+          ],
+          [
+            0.559,
+            0.2,
+            0.196
+          ],
+          [
+            0.259,
+            0.25,
+            0.279
+          ]
+        ],
+        "scale": 0.5
+      },
+      "bubbles": {
+        "at": [
+          0.562,
+          0.45
+        ],
+        "rate": 2.5,
+        "size": [
+          7,
+          14
+        ]
+      },
+      "caustics": 0.07,
+      "_note": "blocky tropical fish, a pink axolotl and a stream of bubbles in the wall tank (Truman 2026-11-22); the front glass measured on the plate"
+    },
+    {
+      "type": "ghast",
+      "sun": [
+        2193,
+        781
+      ],
+      "horizon": 1150,
+      "focal": 1700,
+      "disp": 0.02,
+      "haze": 0.15,
+      "skyBox": [
+        1650,
+        150,
+        2350,
+        450
+      ],
+      "bounce": [
+        1500,
+        1100,
+        2500,
+        1330
+      ],
+      "_note": "a happy ghast far off drifting past the window once a loop, stopping to look in (Truman 2026-11-22)"
+    }
+  ],
+  "wind": {
+    "mean": 0.05,
+    "gust": 0.25,
+    "turb": 0.3,
+    "gustCycles": 5,
+    "fronts": 0.6
+  },
+  "runoff": [],
+  "events": {
+    "ember": {
+      "perHour": 14,
+      "minGap": 90,
+      "startAfter": 8
+    },
+    "birds": {
+      "perHour": 80,
+      "minGap": 40,
+      "startAfter": 4,
+      "band": [
+        0.456,
+        0.104,
+        0.626,
+        0.274
+      ],
+      "size": [
+        24.6,
+        39.9
+      ],
+      "count": [
+        1,
+        5
+      ],
+      "first": 6,
+      "intro": [
+        300,
+        1.5
+      ]
+    },
+    "gutter": {
+      "perHour": 12,
+      "minGap": 300,
+      "startAfter": 30,
+      "depth": 0.55,
+      "first": 60
+    },
+    "pet": {
+      "sigh": 30,
+      "minGap": 30,
+      "first": 45
+    },
+    "rareGap": 45,
+    "strikeBusy": [
+      30,
+      30
+    ],
+    "fish": {
+      "perHour": 20,
+      "minGap": 60,
+      "jump": 0.6,
+      "zones": [
+        [
+          0.54,
+          0.494,
+          0.627,
+          0.56,
+          1.0
+        ],
+        [
+          0.503,
+          0.56,
+          0.569,
+          0.621,
+          1.4
+        ]
+      ],
+      "startAfter": 5,
+      "first": 15,
+      "intro": [
+        300,
+        2
+      ],
+      "leap": {
+        "h": [
+          0.5,
+          0.9
+        ],
+        "d": [
+          0.8,
+          1.4
+        ],
+        "turn": 0.5
+      },
+      "dist": 200
+    },
+    "critter": [
+      {
+        "perHour": 14,
+        "dur": [
+          40,
+          55
+        ],
+        "startAfter": 4,
+        "first": 6,
+        "keepFirst": true,
+        "walk": {
+          "stops": [
+            3,
+            6
+          ],
+          "stop": [
+            1.2,
+            4.5
+          ]
+        }
+      },
+      {
+        "perHour": 8,
+        "dur": [
+          75,
+          95
+        ],
+        "startAfter": 12,
+        "first": 20,
+        "keepFirst": true,
+        "walk": {
+          "stops": [
+            3,
+            6
+          ],
+          "stop": [
+            1.2,
+            4.5
+          ]
+        }
+      }
+    ],
+    "loop": {
+      "period": 1200
+    },
+    "ghast": {
+      "perHour": 3,
+      "minGap": 600,
+      "startAfter": 20,
+      "first": 60,
+      "dur": [
+        80,
+        100
+      ],
+      "span": [
+        100,
+        125
+      ],
+      "rows": [
+        0.16,
+        0.24
+      ],
+      "from": [
+        0.345,
+        0.68
+      ],
+      "hold": [
+        6,
+        10
+      ]
+    }
+  },
+  "audio": {
+    "bed": "quiet_night",
+    "lufs": -20,
+    "extra_db": {
+      "fire": -2.0,
+      "howl": -28.0
+    },
+    "fire_pan": 0.68,
+    "music": {
+      "order": "smooth",
+      "body_db": 6,
+      "crossfade": 8,
+      "fit": true
+    }
+  },
+  "intro": {
+    "lines": [
+      "Welcome to the Enchanter's Tower.",
+      "Come watch the lake turn gold."
+    ],
+    "pos": [
+      0.5,
+      0.5
+    ]
+  }
+}

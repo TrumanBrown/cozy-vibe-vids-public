@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>cozy-vibe-vids renderer</title>
+  <style>html,body{margin:0;background:#000}canvas{display:block;width:100vw;height:auto}</style>
+  <script type="importmap">
+    { "imports": {
+        "three": "/node_modules/three/build/three.module.js",
+        "three/addons/": "/node_modules/three/examples/jsm/"
+    } }
+  </script>
+  <script>
+    // What stops page.js's import graph (a module that won't parse, a missing export, a file the server refuses), so
+    // electron-main.cjs ends the run with it instead of waiting for window.cvv forever.
+    window.cvvStartErrors = [];
+    addEventListener('error', (e) => cvvStartErrors.push(e.message || `couldn't load ${e.target?.src || 'a module'}`), true);
+  </script>
+</head>
+<body>
+  <script type="module" src="./page.js"></script>
+</body>
+</html>

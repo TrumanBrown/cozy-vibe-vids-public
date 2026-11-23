@@ -1,0 +1,23 @@
+{
+  "id": "hero",
+  "prompt": "Wide 16:9 cinematic screenshot of a cozy Minecraft scene with a shader pack: blocky voxel world, high-quality block textures, volumetric light, soft bloom and soft shadows. The scene: One locked-off Minecraft-style voxel shot inside a cozy enchanter's study at the top of a stone tower, framed close so the room's details and the view fill the picture. A huge arched window in the back wall, nearly floor to ceiling, looks out over a mountain lake with the sun low over the water. Packed bookshelves stand on both sides of the window, an enchanting table stands on a rug in front of it, a glass-block aquarium is built into the wall at the left and a stone fireplace is set in the wall at the right. No humans. Foreground: a big patterned wool rug covering most of the floor, with stacks of books, a small chest, potted plants and candles along the edges of the frame, and the fox curled up asleep on a cushion by the fireplace at the right, its ears and tail visible; only a narrow strip of floor shows at the bottom of the frame. Midground: the enchanting table (a dark obsidian base with diamond corners and a red cloth top) on the rug a few steps in front of the window, with nothing on it or floating above it, packed bookshelves with hanging plants on both sides of the window, the glass-block aquarium built into the wall at the left, large and seen nearly face-on (clear blue water with kelp, seagrass, coral and sand, and no fish, axolotls or other creatures in it), a brewing stand on a stone counter beside the aquarium with three bottles of colored potion, the stone fireplace with a low fire at the right, lanterns hanging on chains and a few lit candles. Background: through the huge arched window with clear glass, a wide view: a calm mountain lake with forested shores and a small island, layered snowy mountains, the low sun just above the far ridge laying a golden path across the water, and a big open sky with a few soft clouds (birds are animated afterwards, so none are painted). Also in view: the floor at the foot of a bookshelf, with a closed book lying flat on it; the glass-block aquarium at the left; the mountain lake and open sky beyond the huge window. low golden sunlight pours through the arch in long warm beams across the floor; the fireplace, the candles and the lantern add an amber glow; soft cool shadows in the corners. framed close: the back wall with the huge window fills most of the frame, and the window alone takes up about the middle third of the width and most of the height, so the lake and the sky fill a big part of the picture; the enchanting table sits a few steps in front of the window, large enough to read clearly; the aquarium on the left and the fireplace with the fox on the right are both fully in frame; the floor is only a narrow strip at the bottom, mostly covered by the rug; no large empty areas anywhere in the frame. Locked-off camera at eye level, wide 16:9 composition with a clear foreground, midground and background. Leave open, uncluttered areas around the light sources, the windows and the animal so they can be animated. No people anywhere: no pedestrians or silhouettes outside, no portraits, posters or statues of people. No other animals besides the one pet: no birds, insects, snails or frogs anywhere (small creatures are animated in afterwards). No lightning bolts. Things that move are animated afterwards, so do not draw them at all: no water pouring from a spout, pipe or gutter or over a small ledge (draw it dry, and the water under it calm: no splash, foam or rings), no visible steam or smoke plumes, no water drops hanging from edges and no streams of dripping water; surfaces may look wet. No text, no letters, no logos, no watermark, no user interface.",
+  "deployment": "gpt-image-2-5-sunburst",
+  "size": "2560x1440",
+  "quality": "high",
+  "created": 1795374573,
+  "revised_prompt": null,
+  "usage": {
+    "input_tokens": 4944,
+    "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 4944
+    },
+    "output_tokens": 11055,
+    "output_tokens_details": {
+      "image_tokens": 11055,
+      "text_tokens": 0
+    },
+    "total_tokens": 15999
+  },
+  "generated_at": "20261122-110936"
+}

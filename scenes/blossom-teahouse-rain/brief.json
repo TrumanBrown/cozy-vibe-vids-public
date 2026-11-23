@@ -1,0 +1,67 @@
+{
+  "scene": "blossom-teahouse-rain",
+  "aesthetic": "minecraft-voxel",
+  "created": "2026-10-22",
+  "setting": "One locked-off wide Minecraft-style voxel shot from a cherry blossom tea house veranda beside a pond. Open eaves frame the garden; no humans.",
+  "time": "spring morning",
+  "weather": "gentle rain",
+  "pet": "a small dog asleep on a cushion under the eaves, with its ears and tail visible",
+  "props": [
+    "a steaming ceramic tea cup",
+    "a lit hanging lantern",
+    "folded indigo floor cushions"
+  ],
+  "signature": "cherry petals drift from the overhanging tree and settle on the rain-dimpled pond",
+  "signature_detail": "a tiny gecko crawls along the flat stone pond ledge at the lower right, then peeks into a square notch",
+  "stages": [
+    "cherry tree in blossom",
+    "open pond",
+    "flat stone pond ledge",
+    "low tea table with a cup"
+  ],
+  "foreground": "dry veranda floorboards, the sleeping dog, and a low tea table",
+  "midground": "the pond ledge and open water beneath flowering branches",
+  "background": "a rain-softened garden path and distant blocky bamboo",
+  "light": "soft overcast morning light with a warm lantern glow under the eaves",
+  "title_idea": "Rainy Morning at Blossom Veranda | 10 Hours of Minecraft Ambience",
+  "place_name": "Blossom Veranda",
+  "intro_lines": [
+    "Welcome to the Blossom Veranda, come sit with me and listen to the rain"
+  ],
+  "pick_scores": [
+    {
+      "index": 1,
+      "composition": 9,
+      "animatable": 7,
+      "artifacts": 9,
+      "brief": 8,
+      "note": "Calm, layered veranda view with a clear pond and overhanging blossoms. Dog, cup, and lantern are distinct, but no cup steam is visible; cushions are not indigo."
+    },
+    {
+      "index": 2,
+      "composition": 9,
+      "animatable": 8,
+      "artifacts": 9,
+      "brief": 8,
+      "note": "Strong foreground-to-garden depth. The sleeping dog and hanging lantern are easy to isolate for animation, though the cup is small and has no visible steam."
+    },
+    {
+      "index": 3,
+      "composition": 8,
+      "animatable": 7,
+      "artifacts": 9,
+      "brief": 8,
+      "note": "Pond and drifting petals read well, but the large foreground light competes with the scene and the cup is pushed to the edge. No visible steam or indigo cushions."
+    },
+    {
+      "index": 4,
+      "composition": 9,
+      "animatable": 8,
+      "artifacts": 9,
+      "brief": 9,
+      "note": "Best-balanced locked-off view: dog, cup, lantern, overhanging blossoms, and pond are clearly separated. Steam is not visible and the cushions are not indigo."
+    }
+  ],
+  "hero": "assets/keyart/blossom-teahouse-rain/hero_gpt-image-2-5-sunburst_20261022-143454_4.png",
+  "status": "plate"
+}

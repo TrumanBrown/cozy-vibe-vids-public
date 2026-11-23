@@ -1,0 +1,41 @@
+{
+  "scene": "rainy-cafe",
+  "aesthetic": "rainy-cafe",
+  "created": "2026-10-16",
+  "setting": "a corner table by the big front window of a small cozy jazz café at night in heavy rain",
+  "time": "night",
+  "weather": "heavy rain",
+  "pet": "a ginger cat asleep curled up on a cushioned wooden chair",
+  "props": [
+    "a steaming latte in a white ceramic cup",
+    "a candle in a glass holder",
+    "Edison bulb pendant lamps",
+    "a neon sign across the street"
+  ],
+  "signature": "cars passing on the wet street outside while rain runs down the café window",
+  "foreground": "a small round wooden table by the window with a steaming latte in a white ceramic cup on a saucer, an open notebook and a small lit candle in a glass holder; next to it a ginger cat asleep curled up on a cushioned wooden chair, its ears and tail clearly visible",
+  "midground": "three warm Edison bulb pendant lamps hanging above, a wooden counter with an espresso machine on the right, plants on shelves",
+  "background": "a large café front window taking up most of the left half of the frame, the glass clean and clear; outside a dark wet city street running left to right with glowing reflections on the asphalt, rain falling, a softly glowing neon sign shaped like a coffee cup on the building across the street, warm lit shop windows",
+  "light": "Warm amber light inside, cool blue-teal street outside, gentle bokeh, cinematic color grade",
+  "title_idea": "Rainy night at a jazz café window, with the sound of rain and passing cars",
+  "pick_scores": [
+    {
+      "index": 1,
+      "composition": 9,
+      "animatable": 8,
+      "artifacts": 9,
+      "brief": 8,
+      "note": "Calm, readable corner-table scene with clear glass, steam, candle, bulbs, and cat. Cars are small and distant, making the passing-traffic signature less prominent."
+    },
+    {
+      "index": 2,
+      "composition": 8,
+      "animatable": 9,
+      "artifacts": 8,
+      "brief": 9,
+      "note": "Clearer car, steam, candle, and sleeping cat provide strong animation targets. The foreground chair crowds the frame, and the wall art depicts people."
+    }
+  ],
+  "hero": "assets/keyart/rainy-cafe/hero_gpt-image-2-5-sunburst_20261016-193105_2.png",
+  "status": "plate"
+}

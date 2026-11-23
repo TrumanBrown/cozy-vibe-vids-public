@@ -1,0 +1,40 @@
+{
+ "_note": "Drafted by tools/finish_video.py on 2026-10-26: the title, the opening and the hashtags by the chat model in Truman's form (model), from scenes/leaf-campfire-rain/brief.json and his published videos (docs/records/*/published.md), checked with upload_package's rules. Edit freely: the tool never overwrites this spec. Once it's live, record what he changed (master-render skill, Upload checklist step 9). Title: Truman's pick, 2026-10-26 (his words, no emoji). Blurb: his standard one with \"thunder\" swapped for \"the crackling fire\" (this video has no thunder; its sound bed is rain, wind and the fire). Opening reworded so it says rain once and names the fire. The opening names the cast's species (Truman 2026-10-26).",
+ "slug": "rainy-burdock-shelter",
+ "name": "Burdock Shelter",
+ "render": "out/leaf-campfire-rain/render/10h_v1",
+ "video": "master_music.mp4",
+ "thumbnails": "assets/thumbnails/leaf-campfire-rain.json",
+ "thumbnail": "field-guide",
+ "test_and_compare": [
+  "field-guide",
+  "watercolor-title",
+  "storybook"
+ ],
+ "draft_text": false,
+ "titles": [
+  "Welcome Home, Critter. Come rest with your PNW friends in the rain. 4K, 10 hours"
+ ],
+ "description": [
+  "Come relax with rain on a tiny camp under a burdock leaf at night, with gentle lofi music and a little campfire crackling. A polyphemus moth, a pygmy short-horned lizard and a northwestern garter snake wait for their soup by the fire, and a western red-backed salamander keeps watch out in the rain with its lantern. All four are native to the Pacific Northwest. 10 hours of 4K, calming ambience with smooth music. Never interrupting with ads."
+ ],
+ "hashtags": [
+  "#lofi",
+  "#rainsounds",
+  "#studymusic",
+  "#study",
+  "#relaxing",
+  "#relax",
+  "#4k",
+  "#10hours"
+ ],
+ "tags": [],
+ "category": "Film & Animation",
+ "blurb": [
+  "I put videos like these on the TV while I work from home, so I started making my own. Each video is one scene I designed for this channel. Excited to continue to develop more.",
+  "",
+  "All my animation is made by myself and rendered frame by frame, and the ambience (rain, wind, the crackling fire and every other effect) is synthesized in my engine. I love making these videos, so please let me know what you would like to see next.",
+  "",
+  "No stock footage, recordings or sound-effect libraries."
+ ]
+}

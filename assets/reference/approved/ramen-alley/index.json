@@ -1,0 +1,127 @@
+{
+ "source": "out/ramen-alley/render/10h_v1/master.mp4 (approved and published 2026-10-20)",
+ "refs": {
+  "steam_bowl": {
+   "file": "steam_bowl.jpg",
+   "box": [
+    0.08,
+    0.35,
+    0.38,
+    0.85
+   ],
+   "video_times_s": [
+    600.0,
+    600.4,
+    600.8
+   ],
+   "scale": 0.451,
+   "lessons": "L12 L18 L25 L32"
+  },
+  "steam_cup": {
+   "file": "steam_cup.jpg",
+   "box": [
+    0.31,
+    0.55,
+    0.44,
+    0.86
+   ],
+   "video_times_s": [
+    600.0,
+    600.4,
+    600.8
+   ],
+   "scale": 0.723,
+   "lessons": "L26 L35"
+  },
+  "stool_gaps_rain": {
+   "file": "stool_gaps_rain.jpg",
+   "box": [
+    0.7,
+    0.76,
+    0.92,
+    1.0
+   ],
+   "video_times_s": [
+    601.0,
+    601.3,
+    601.6
+   ],
+   "scale": 0.616,
+   "lessons": "L02 L24 L33 L57"
+  },
+  "pet_dry": {
+   "file": "pet_dry.jpg",
+   "box": [
+    0.72,
+    0.62,
+    0.9,
+    0.86
+   ],
+   "video_times_s": [
+    602.0,
+    604.0
+   ],
+   "scale": 0.751,
+   "lessons": "L10 L19 L31"
+  },
+  "ant_on_counter": {
+   "file": "ant_on_counter.jpg",
+   "box": [
+    0.34,
+    0.79,
+    0.45,
+    0.88
+   ],
+   "video_times_s": [
+    24.0,
+    30.0,
+    36.0
+   ],
+   "scale": 0.991,
+   "lessons": "L28 L29 L34"
+  },
+  "birds_on_wire": {
+   "file": "birds_on_wire.jpg",
+   "box": [
+    0.64,
+    0.16,
+    0.75,
+    0.25
+   ],
+   "video_times_s": [
+    262.0,
+    272.0
+   ],
+   "scale": 0.991,
+   "lessons": "L17 L20"
+  },
+  "intro_title": {
+   "file": "intro_title.jpg",
+   "box": [
+    0.26,
+    0.84,
+    0.8,
+    0.98
+   ],
+   "video_times_s": [
+    5.0
+   ],
+   "scale": 0.482,
+   "lessons": "L55"
+  },
+  "full_frame_strike": {
+   "file": "full_frame_strike.jpg",
+   "box": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "video_times_s": [
+    792.95
+   ],
+   "scale": 0.333,
+   "lessons": "L01 L15 L36 L37"
+  }
+ }
+}

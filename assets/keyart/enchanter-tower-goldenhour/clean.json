@@ -1,0 +1,36 @@
+{
+ "source": "assets/keyart/enchanter-tower-goldenhour/hero_gpt-image-2-5-sunburst_20261122-110936_4.png",
+ "deployment": "gpt-image-2-5-sunburst",
+ "items": [
+  {
+   "name": "fireplace_flames_flames",
+   "kind": "fire",
+   "prompt": "Remove the flames of the Low fire behind the fireplace grate. Show the fuel without flames: logs on an iron grate in the stone fireplace, as dark logs with a few glowing orange embers, lit warmly from within, with the same warm light on the surroundings. No flames, no smoke, no grey haze or ash cloud, nothing white. Any pot, kettle or creature stays exactly as it is. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     1536,
+     302,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1151,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 127
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2907
+    }
+   ],
+   "date": "2026-11-22"
+  }
+ ],
+ "_note": "AI edit of the key art (painted transients removed); see tools/plate_clean.py"
+}

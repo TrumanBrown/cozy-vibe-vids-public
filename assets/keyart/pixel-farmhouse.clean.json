@@ -1,0 +1,19 @@
+{
+ "_note": "Painted flames to remove (tools/plate_clean.py); fire.js draws live flames on the logs.",
+ "source": "assets/keyart/pixel-farmhouse/hero_gpt-image-2-5-sunburst_20261016-193412_1.png",
+ "items": [
+  {
+   "name": "fireplace_flames_flames",
+   "kind": "fire",
+   "box": [
+    0.8417,
+    0.3426,
+    0.9273,
+    0.5461
+   ],
+   "shape": "ellipse",
+   "what": "Flames and glowing logs inside the stone fireplace.",
+   "behind": "the split logs on the grate glowing orange with embers between them and a dark sooty back wall lit warm, in the same chunky pixel art style on the same pixel grid"
+  }
+ ]
+}

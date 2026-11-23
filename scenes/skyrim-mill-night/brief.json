@@ -1,0 +1,32 @@
+{
+  "scene": "skyrim-mill-night",
+  "aesthetic": "skyrim-nordic",
+  "created": "2026-11-08",
+  "setting": "one locked-off wide shot at standing eye height from the covered timber porch of a log house in a Riverwood-style Nordic river village, looking out across a calm river to a log sawmill with its big wooden waterwheel, a pine forest and snowcapped mountains under the northern lights. The porch has no railing: two thick timber posts and the roof beam frame the view",
+  "time": "night",
+  "weather": "clear night with the northern lights",
+  "pet": "a big shaggy gray Nordic hound curled up asleep on a wolf fur on the porch planks, its ears and its tail over its paws clearly visible",
+  "props": [
+    "a black iron brazier on three legs with a small, low fire, standing at the porch's front edge a little right of center",
+    "a lit iron lantern hanging from the porch's roof beam on a short chain, with open dark space around it",
+    "the sawmill's big wooden undershot waterwheel"
+  ],
+  "signature": "the sawmill's waterwheel turns nonstop on the river under the rippling northern lights",
+  "signature_detail": "a small mudcrab scuttles sideways along the level gravel bank below the porch, from behind one mossy boulder to the other, stopping now and then; added in animation, not painted in the image",
+  "stages": [],
+  "foreground": "rough porch planks with carved beam ends above; the hound asleep on its wolf fur at the lower left, an arm's length from the brazier, so the fire and the dog stay apart; the brazier's fire low and calm",
+  "midground": "below the porch a low, level bank of gravel and flat stones runs along the water's edge from left to right, with a mossy boulder at each end; then the dark, calm river, and on its far bank the log sawmill at the right of center with its undershot waterwheel at its side: the wheel's hub, spokes and paddles stand out clearly against the mill's dark wall, its lowest paddles dip into the river and no water pours onto it from above; two log houses of the village further along the far bank with a few warmly lit small windows",
+  "background": "a dark pine forest rising to snowcapped mountains; above them the northern lights: soft green curtains with faint violet upper edges across the upper part of the sky, open clear night sky with a few stars around them, no moon; the river faintly mirrors the green of the lights",
+  "light": "Real darkness: deep blue night over most of the frame; the brazier's small fire and the lantern light the porch warmly and fall off within a few meters; the northern lights cast a faint cold green on the snow, the mill's roof and the river",
+  "title_idea": "Calm music at Northlight Mill, the northern lights over a Nordic village",
+  "place_name": "Northlight Mill",
+  "intro_lines": [
+    "Welcome to Northlight Mill.",
+    "Rest by the fire and watch the lights."
+  ],
+  "weather_why": "his answer before the key art",
+  "composition": "The porch posts frame the view at both sides; the waterwheel and the northern lights are the focal point, a little right of center; the hound and the brazier sit low in the frame, apart from each other; quiet open sky and calm water around the wheel and the lights",
+  "movers_note": "Truman 2026-11-08 picked the waterwheel turning nonstop, a mudcrab on the riverbank and the northern lights rippling (new aurora layer)",
+  "hero": "assets/keyart/skyrim-mill-night/hero_gpt-image-2_20261108-150535_1.png",
+  "status": "approved"
+}

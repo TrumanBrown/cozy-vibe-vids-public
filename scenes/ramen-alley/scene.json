@@ -1,0 +1,1119 @@
+{
+ "_note": "Draft written by tools/analyze_plate.py; tune freely (it is not overwritten unless --force-scene). Keys: src/library/autoscene.js.",
+ "name": "ramen-alley",
+ "title": "Rainy night at a ramen stall in a Tokyo alley, with rain and quiet city sounds",
+ "aesthetic": "ramen-alley",
+ "plate": "ramen-alley",
+ "seed": 7,
+ "fps": 30,
+ "loopSeconds": 120,
+ "duration": 36000,
+ "plate_fx": {
+  "flicker": 0.02,
+  "mist": 0.14,
+  "ripple": 0.0003,
+  "horizon": 0.45,
+  "lightning": {
+   "color": "#b9c8ff",
+   "sky": 2.0,
+   "land": 0.9,
+   "roomNear": 0.3,
+   "roomAmbient": 0.05,
+   "farColor": "#c9c4f2"
+  },
+  "rippleXY": [
+   0.9,
+   0.5
+  ],
+  "rings": [
+   0,
+   0
+  ],
+  "ground": {
+   "horizon": 0.45,
+   "refract": 8,
+   "highlight": 0.7,
+   "cells": 24,
+   "density": 0.85
+  },
+  "mistColor": "#5a3f5d"
+ },
+ "regions": {
+  "right_stall_plant": {
+   "sway": {
+    "amp": 7.0,
+    "hz": 0.13,
+    "gust": 1.5
+   }
+  },
+  "right_awning_side_cloth": {
+   "sway": {
+    "amp": 16.0,
+    "hz": 0.12,
+    "gust": 1.8
+   }
+  },
+  "canal_beyond_railing": {
+   "river": {
+    "amp": 12,
+    "glint": 0.6,
+    "period": 30,
+    "speed": 40,
+    "cycle": 2
+   }
+  },
+  "left_paper_lantern": {
+   "pendulum": {
+    "amp": 2.4,
+    "hz": 0.24,
+    "gust": 1.2
+   },
+   "flicker": {
+    "style": "candle",
+    "amp": 0.11,
+    "spill": 0.05,
+    "sigma": 0.06
+   }
+  },
+  "middle_paper_lantern": {
+   "pendulum": {
+    "amp": 2.4,
+    "hz": 0.24,
+    "gust": 1.2
+   },
+   "flicker": {
+    "style": "candle",
+    "amp": 0.11,
+    "spill": 0.05,
+    "sigma": 0.06
+   }
+  },
+  "right_paper_lantern": {
+   "pendulum": {
+    "amp": 2.4,
+    "hz": 0.24,
+    "gust": 1.2
+   },
+   "flicker": {
+    "style": "candle",
+    "amp": 0.11,
+    "spill": 0.05,
+    "sigma": 0.06
+   }
+  },
+  "distant_lantern_one": {
+   "pendulum": {
+    "amp": 1.6,
+    "hz": 0.3,
+    "gust": 1.4
+   },
+   "flicker": {
+    "style": "candle",
+    "amp": 0.12
+   }
+  },
+  "distant_lantern_two": {
+   "pendulum": {
+    "amp": 1.6,
+    "hz": 0.3,
+    "gust": 1.4
+   },
+   "flicker": {
+    "style": "candle",
+    "amp": 0.12
+   }
+  },
+  "distant_lantern_three": {
+   "pendulum": {
+    "amp": 1.6,
+    "hz": 0.3,
+    "gust": 1.4
+   },
+   "flicker": {
+    "style": "candle",
+    "amp": 0.12
+   }
+  },
+  "distant_lantern_four": {
+   "pendulum": {
+    "amp": 1.6,
+    "hz": 0.3,
+    "gust": 1.4
+   },
+   "flicker": {
+    "style": "candle",
+    "amp": 0.12
+   }
+  },
+  "small_alley_post_lamp": {
+   "flicker": {
+    "style": "candle",
+    "amp": 0.05
+   }
+  },
+  "near_railing_lamp": {
+   "flicker": {
+    "style": "candle",
+    "amp": 0.05
+   }
+  },
+  "left_ground_lamp": {
+   "flicker": {
+    "style": "candle",
+    "amp": 0.05
+   }
+  },
+  "left_wall_light": {
+   "flicker": {
+    "style": "candle",
+    "amp": 0.05
+   }
+  },
+  "ramen_icon_neon": {
+   "flicker": {
+    "style": "neon",
+    "amp": 0.05
+   }
+  },
+  "cat_icon_neon": {
+   "flicker": {
+    "style": "neon",
+    "amp": 0.05
+   }
+  },
+  "cherry_tree": {
+   "sway": {
+    "amp": 2.5,
+    "hz": 0.14,
+    "gust": 1.3
+   }
+  }
+ },
+ "layers": [
+  {
+   "type": "rain",
+   "count": 6500,
+   "depth": [
+    3,
+    40
+   ],
+   "depthPower": 1.3,
+   "dropRange": [
+    0.5,
+    3.2
+   ],
+   "dropLambda": 2.4,
+   "focalPx": 2700,
+   "shutter": 0.00909090909090909,
+   "alphaRef": 0.35,
+   "farBoost": 0.3,
+   "maxAlpha": 0.85,
+   "minWidth": 3.0,
+   "focus": 12,
+   "coc": 10,
+   "skyGain": 2.0,
+   "envMix": 0.85,
+   "warm": "#ffad63",
+   "warmGain": 0.35,
+   "clumps": {
+    "amount": 1.0,
+    "strength": 0.5,
+    "cycles": 13,
+    "across": 3,
+    "drift": 1
+   }
+  },
+  {
+   "type": "steam",
+   "regions": "kind:steam",
+   "opacity": 0.8,
+   "lean": -0.2,
+   "drafts": true,
+   "per": {
+    "tea_cup": {
+     "opacity": 0.7
+    }
+   },
+   "_per": "2026-10-19 round 4 (Truman: the bowl's steam was right, but the tea's steam still showed two separate streams): the cup steams from its whole surface like the bowl, from its own simulated plume (steam_sim.py, scaled to the cup; it shows from about 1 cm above the tea, so the tea stays visible). Opacity 0.7: at the bowl's 0.5 the small plume over the bright wet street was almost gone at times"
+  },
+  {
+   "type": "liquid",
+   "regions": [
+    "tea_cup"
+   ],
+   "per": {
+    "tea_cup": {
+     "depth": 0.55
+    }
+   },
+   "_note": "2026-10-19 (Truman: show a little amount of tea): the cup was painted empty; tea a little under the rim"
+  },
+  {
+   "type": "drips",
+   "size": 5.5,
+   "period": [
+    4,
+    11
+   ]
+  },
+  {
+   "type": "drips",
+   "sources": "strands",
+   "size": 4.5,
+   "period": [
+    3,
+    9
+   ]
+  },
+  {
+   "type": "boat",
+   "occlude": {
+    "ratio": 0.5,
+    "below": 0.487
+   },
+   "haze": {
+    "hull": [
+     40,
+     190
+    ],
+    "lantern": [
+     90,
+     230,
+     0.7
+    ]
+   },
+   "model": "sampan",
+   "lanternColor": "#ff5a26",
+   "ease": 0
+  },
+  {
+   "type": "smoke",
+   "sources": [
+    {
+     "x": 0.6763,
+     "y": 0.2625,
+     "w": 0.5,
+     "ppm": 20,
+     "drift": 0.5,
+     "density": 2.5,
+     "life": 12
+    }
+   ],
+   "_sources": "2026-10-19: the stove pipe on the lower house across the canal (12 px wide, ~0.6 m at ~20 px/m: depth8 0.098)"
+  },
+  {
+   "type": "petals",
+   "tree": "cherry_tree"
+  },
+  {
+   "type": "moth",
+   "lamp": "near_railing_lamp",
+   "center": [
+    0.709,
+    0.438
+   ],
+   "unit": 32,
+   "size": 11,
+   "_lamp": "2026-10-19: the light's center is the lit panes (x 0.700-0.718, y 0.421-0.455); one lamp unit = the panes' half width (32 px)"
+  },
+  {
+   "type": "birds",
+   "haze": 0.25,
+   "dispPerPx": 0.002,
+   "_depth": "each bird's disparity from its wingspan (a 25 px pole, ~0.3 m, at disparity 0.042 -> 0.002 per px of a 25 cm wingspan), at least 0.048: every bird passes in front of the far pole and its wires in the middle of the sky, and leaves behind the right pole and buildings (0.075-0.1) (2026-10-19)",
+   "dispMin": 0.048
+  },
+  {
+   "type": "perch",
+   "perches": [
+    {
+     "name": "wire_right_of_far_pole",
+     "pts": [
+      [
+       0.66927,
+       0.2109
+      ],
+      [
+       0.67617,
+       0.21189
+      ],
+      [
+       0.68307,
+       0.21295
+      ],
+      [
+       0.68997,
+       0.21408
+      ],
+      [
+       0.69688,
+       0.2153
+      ],
+      [
+       0.70378,
+       0.21659
+      ],
+      [
+       0.71068,
+       0.21795
+      ],
+      [
+       0.71758,
+       0.21939
+      ],
+      [
+       0.72448,
+       0.22091
+      ]
+     ],
+     "slots": [
+      0.68021,
+      0.68802,
+      0.69583,
+      0.71224,
+      0.71927
+     ],
+     "size": 18,
+     "lift": 0
+    },
+    {
+     "name": "far_pole_crossarm",
+     "pts": [
+      [
+       0.62083,
+       0.15755
+      ],
+      [
+       0.65365,
+       0.15866
+      ]
+     ],
+     "slots": [
+      0.62708,
+      0.63594,
+      0.64844
+     ],
+     "size": 18,
+     "lift": 0
+    }
+   ],
+   "disp": 0.05,
+   "haze": 0.25,
+   "_perches": "traced on the plate 2026-10-19: the lower wire from the far pole to the right pole (clear of the junction at x 2695-2715 px and the crossings left of 2600), and the top edge of the far pole's upper crossarm between its insulators"
+  },
+  {
+   "type": "critter",
+   "creature": "snail",
+   "path": [
+    [
+     0.205,
+     0.5838
+    ],
+    [
+     0.23,
+     0.5834
+    ],
+    [
+     0.25,
+     0.5818
+    ],
+    [
+     0.27,
+     0.5795
+    ],
+    [
+     0.285,
+     0.578
+    ],
+    [
+     0.3,
+     0.5768
+    ],
+    [
+     0.315,
+     0.5745
+    ],
+    [
+     0.33,
+     0.5712
+    ],
+    [
+     0.345,
+     0.5697
+    ],
+    [
+     0.36,
+     0.5692
+    ]
+   ],
+   "size": 30
+  },
+  {
+   "type": "critter",
+   "creature": "snail",
+   "track": 1,
+   "path": [
+    [
+     0.418,
+     0.784
+    ],
+    [
+     0.44,
+     0.786
+    ],
+    [
+     0.47,
+     0.79
+    ],
+    [
+     0.5,
+     0.796
+    ],
+    [
+     0.53,
+     0.804
+    ],
+    [
+     0.555,
+     0.813
+    ],
+    [
+     0.572,
+     0.824
+    ],
+    [
+     0.584,
+     0.836
+    ]
+   ],
+   "size": 56,
+   "sizeEnd": 60,
+   "_path": "the near street (2026-10-19): from behind the cup, across the wet paving, out of sight behind the counter's far edge"
+  },
+  {
+   "type": "critter",
+   "creature": "snail",
+   "track": 2,
+   "path": [
+    [
+     0.71,
+     0.808
+    ],
+    [
+     0.69,
+     0.814
+    ],
+    [
+     0.672,
+     0.825
+    ],
+    [
+     0.662,
+     0.838
+    ],
+    [
+     0.657,
+     0.852
+    ]
+   ],
+   "size": 58,
+   "sizeEnd": 60,
+   "_path": "the near street (2026-10-19): from behind the cat's stool, out of sight behind the counter's far edge"
+  },
+  {
+   "type": "ant",
+   "paths": [
+    [
+     [
+      0.575,
+      0.838
+     ],
+     [
+      0.565,
+      0.866
+     ],
+     [
+      0.54,
+      0.868
+     ],
+     [
+      0.51,
+      0.862
+     ],
+     [
+      0.475,
+      0.85
+     ],
+     [
+      0.44,
+      0.84
+     ],
+     [
+      0.41,
+      0.836
+     ],
+     [
+      0.38,
+      0.83
+     ],
+     [
+      0.36,
+      0.828
+     ]
+    ],
+    [
+     [
+      0.37,
+      0.832
+     ],
+     [
+      0.405,
+      0.842
+     ],
+     [
+      0.44,
+      0.846
+     ],
+     [
+      0.48,
+      0.852
+     ],
+     [
+      0.52,
+      0.86
+     ],
+     [
+      0.56,
+      0.87
+     ],
+     [
+      0.6,
+      0.878
+     ],
+     [
+      0.625,
+      0.868
+     ],
+     [
+      0.63,
+      0.855
+     ]
+    ],
+    [
+     [
+      0.7,
+      0.878
+     ],
+     [
+      0.69,
+      0.905
+     ],
+     [
+      0.665,
+      0.912
+     ],
+     [
+      0.635,
+      0.905
+     ],
+     [
+      0.6,
+      0.89
+     ],
+     [
+      0.575,
+      0.875
+     ],
+     [
+      0.565,
+      0.86
+     ],
+     [
+      0.56,
+      0.84
+     ]
+    ]
+   ],
+   "size": 30,
+   "_paths": [
+    "up over the far edge right of the cup, along the edge, behind the cup",
+    "from behind the cup, along the far edge, back over it",
+    "up over the far edge on the right, a short wander, back over it"
+   ]
+  }
+ ],
+ "wind": {
+  "mean": 0.05,
+  "gust": 0.25,
+  "gustCycles": 5,
+  "fronts": 0.6,
+  "turb": 0.3
+ },
+ "runoff": [
+  {
+   "x": 0.3052,
+   "y": 0.0741,
+   "z": 3.2,
+   "d": 4.0,
+   "rate": 0.98,
+   "flow": 0.85,
+   "burst": 0.15,
+   "burstCycles": 3,
+   "neck": 0,
+   "spread": 0.015,
+   "warm": 1.2,
+   "bright": 1.2
+  },
+  {
+   "x": 0.3469,
+   "y": 0.0713,
+   "z": 3.2,
+   "d": 4.6,
+   "rate": 34,
+   "flow": 0.6,
+   "burst": 0.3,
+   "burstCycles": 5,
+   "neck": 0.04,
+   "spread": 0.015,
+   "warm": 1.2,
+   "bright": 1.2
+  },
+  {
+   "x": 0.4094,
+   "y": 0.0806,
+   "z": 3.2,
+   "d": 4.0,
+   "rate": 0.75,
+   "flow": 0.85,
+   "burst": 0.15,
+   "burstCycles": 4,
+   "neck": 0,
+   "spread": 0.015,
+   "warm": 1.2,
+   "bright": 1.2
+  },
+  {
+   "x": 0.5552,
+   "y": 0.0852,
+   "z": 3.2,
+   "d": 4.0,
+   "rate": 1.37,
+   "flow": 0.85,
+   "burst": 0.15,
+   "burstCycles": 4,
+   "neck": 0,
+   "spread": 0.015,
+   "warm": 1.2,
+   "bright": 1.2
+  },
+  {
+   "x": 0.6031,
+   "y": 0.0815,
+   "z": 3.2,
+   "d": 4.6,
+   "rate": 34,
+   "flow": 0.6,
+   "burst": 0.3,
+   "burstCycles": 3,
+   "neck": 0.04,
+   "spread": 0.015,
+   "warm": 1.2,
+   "bright": 1.2
+  },
+  {
+   "x": 0.6615,
+   "y": 0.087,
+   "z": 3.2,
+   "d": 4.0,
+   "rate": 0.78,
+   "flow": 0.85,
+   "burst": 0.15,
+   "burstCycles": 5,
+   "neck": 0,
+   "spread": 0.015,
+   "warm": 1.2,
+   "bright": 1.2
+  },
+  {
+   "x": 0.7094,
+   "y": 0.0852,
+   "z": 3.2,
+   "d": 4.0,
+   "rate": 1.43,
+   "flow": 0.85,
+   "burst": 0.15,
+   "burstCycles": 4,
+   "neck": 0,
+   "spread": 0.015,
+   "warm": 1.2,
+   "bright": 1.2
+  }
+ ],
+ "events": {
+  "birds": {
+   "perHour": 80,
+   "minGap": 14,
+   "startAfter": 4,
+   "band": [
+    0.47,
+    0.1,
+    0.76,
+    0.3
+   ],
+   "size": [
+    20,
+    46
+   ],
+   "count": [
+    1,
+    6
+   ],
+   "first": 6,
+   "intro": [
+    300,
+    1.5
+   ]
+  },
+  "critter": [
+   {
+    "perHour": 4,
+    "dur": [
+     450,
+     600
+    ],
+    "startAfter": 4,
+    "first": 6
+   },
+   {
+    "perHour": 3,
+    "dur": [
+     480,
+     660
+    ],
+    "startAfter": 12,
+    "first": 20,
+    "forward": 0.6
+   },
+   {
+    "perHour": 3,
+    "dur": [
+     260,
+     380
+    ],
+    "startAfter": 60,
+    "first": 40
+   }
+  ],
+  "weather": {
+   "dt": 5,
+   "rainAmp": 1.25,
+   "windAmp": 1,
+   "stormRain": 0.18,
+   "stormWind": 0.25,
+   "stormHalfWidth": 360,
+   "streamLag": 90
+  },
+  "flurry": {
+   "perHour": 6,
+   "minGap": 240,
+   "dur": [
+    5,
+    9
+   ],
+   "amp": [
+    0.35,
+    0.7
+   ],
+   "leaves": [
+    0,
+    0
+   ],
+   "prevailing": 1,
+   "startAfter": 40
+  },
+  "neon": {
+   "perHour": 30,
+   "minGap": 45,
+   "startAfter": 10,
+   "first": 20,
+   "intro": [
+    300,
+    2
+   ]
+  },
+  "gutter": {
+   "perHour": 12,
+   "minGap": 150,
+   "startAfter": 30,
+   "depth": 0.55,
+   "first": 60
+  },
+  "pet": {
+   "ear": 0,
+   "tail": 0,
+   "sigh": 30,
+   "thunderEar": 0,
+   "minGap": 20,
+   "first": 45
+  },
+  "rareGap": 45,
+  "strikeBusy": [
+   20,
+   25
+  ],
+  "windows": {
+   "pass": 15,
+   "dim": 6,
+   "away": 4,
+   "minGap": 20,
+   "minSize": 20
+  },
+  "ant": {
+   "perHour": 20,
+   "dur": [
+    16,
+    28
+   ],
+   "paths": 3,
+   "startAfter": 5,
+   "first": 25,
+   "intro": [
+    300,
+    3
+   ],
+   "file": 0.45,
+   "_note": "2026-10-19 round 3 (Truman liked the ant and wanted it more often, or more ants): 12 -> 20 visits an hour, and in about half of them 2-3 ants come along the same trail one after another"
+  },
+  "lightning": {
+   "_note": "2026-10-19 (Truman: lightning slightly more often): 14/h -> 18/h in clusters of 3-4, quiet spells capped at 15 min; the opening 5 min has 3 strikes",
+   "perHour": 18,
+   "cluster": [
+    3,
+    4
+   ],
+   "withinCluster": [
+    35,
+    100
+   ],
+   "minGap": 70,
+   "maxGap": 900,
+   "startAfter": 30,
+   "first": 20,
+   "endBefore": 45,
+   "delay": [
+    2,
+    6
+   ],
+   "brightness": 0.85
+  },
+  "farflash": {
+   "perHour": 54,
+   "minGap": 18,
+   "startAfter": 15,
+   "first": 10,
+   "delay": [
+    3,
+    6
+   ],
+   "power": [
+    0.35,
+    0.7
+   ],
+   "x": [
+    0.45,
+    0.7
+   ],
+   "y": [
+    0.12,
+    0.3
+   ],
+   "clear": 18,
+   "intro": [
+    300,
+    1.5
+   ]
+  },
+  "perch": {
+   "perHour": 20,
+   "slots": [
+    5,
+    3
+   ],
+   "group": [
+    1,
+    4
+   ],
+   "stay": [
+    90,
+    420
+   ],
+   "together": 0.35,
+   "atStart": 3,
+   "startAfter": 4,
+   "first": 10,
+   "intro": [
+    300,
+    2
+   ]
+  },
+  "petals": {
+   "tree": {
+    "perMinute": 40,
+    "box": [
+     0.418,
+     0.268,
+     0.49,
+     0.385
+    ],
+    "fall": 6
+   },
+   "near": {
+    "perMinute": 5,
+    "depth": [
+     2.5,
+     7
+    ],
+    "x": [
+     0.3,
+     0.7
+    ],
+    "stay": [
+     20,
+     40
+    ]
+   },
+   "flurry": {
+    "tree": [
+     14,
+     28
+    ],
+    "near": [
+     4,
+     9
+    ]
+   },
+   "gustBoost": 1.4,
+   "startAfter": 2,
+   "_petals": "2026-10-19: specks drifting down from the cherry tree (its canopy box), now and then a near petal that lands on the street, a burst in every gust flurry"
+  },
+  "moth": {
+   "perHour": 24,
+   "dur": [
+    45,
+    140
+   ],
+   "lands": 2,
+   "startAfter": 15,
+   "first": 30
+  },
+  "boat": {
+   "ambient": true,
+   "dur": [
+    130,
+    170
+   ],
+   "startAfter": 2,
+   "first": 4,
+   "route": {
+    "camera": {
+     "focalPx": 2700,
+     "horizon": 0.45,
+     "height": 2.2
+    },
+    "path": [
+     [
+      0.596,
+      0.4705
+     ],
+     [
+      0.62,
+      0.4712
+     ],
+     [
+      0.645,
+      0.4725
+     ],
+     [
+      0.663,
+      0.4755
+     ],
+     [
+      0.675,
+      0.48
+     ],
+     [
+      0.685,
+      0.4855
+     ],
+     [
+      0.695,
+      0.4905
+     ],
+     [
+      0.712,
+      0.4935
+     ],
+     [
+      0.735,
+      0.4955
+     ]
+    ],
+    "fade": [
+     10,
+     8
+    ],
+    "lanes": 3,
+    "ease": 0
+   },
+   "_route": "2026-10-19: lantern sampans on the canal as everyday traffic, out about 85% of the time. The open water is narrow (the left lamp at x 0.607, the pole 0.639-0.649, the near lamp post from 0.695), so the route crosses the pole sideways out in the mist and then comes toward the camera until it is behind the near lamp post: seen in 79% of each pass (the first route, straight along the canal, crept behind the pole for a third of it). Camera 2.2 m above the water: the depth map's water rows fit it",
+   "idle": [
+    10,
+    45
+   ],
+   "atStart": true
+  },
+  "loop": {
+   "period": 1200
+  },
+  "_loop": "2026-10-19 (Truman: a looped 10 to 20 minute render is enough, as long as nothing jumps on screen where it loops): the timeline repeats every 20 min (src/library/timeline.js loopTimeline), so a 20 min window looped 30 times is the 10 h video with no visible join"
+ },
+ "audio": {
+  "bed": "street_rain",
+  "lufs": -20,
+  "thunder": {
+   "over_bed_db": [
+    2.0,
+    5.5
+   ],
+   "peak_dbfs": -6.0
+  },
+  "_thunder": "2026-10-19 (Truman: the thunder a little louder): the mix rises 2.0-5.5 dB over the rain at a strike (default 1.2-4.5) and the thunder's own limiter sits at -6 dBFS (default -8, which held the rise back); measured on the opening strikes about +2 dB of thunder; QA limit 6 dB over the bed",
+  "events": {
+   "boat_db": -20.0,
+   "lap_db": -45.0
+  },
+  "_events": "2026-10-19: boats pass every few minutes 60-150 m away on the canal: a faint hull wash, no wake laps (the canal wall is far from the stall)",
+  "music": {
+   "order": "smooth",
+   "opener": "openlofi_moon-through-bamboo.mp3",
+   "body_db": 6,
+   "crossfade": 8,
+   "fit": true
+  },
+  "_music": "2026-10-19 (Truman on the lofi clips: 6 first, then 3, curate around that sound, with smooth transitions): music/lofi-night holds 28 tracks picked by likeness to Moon Through Bamboo (06) and Hooptie With The Windows Down (03) (tools/music_like.py, CLAP); the video opens with Moon Through Bamboo; smooth order keeps neighbours alike in tempo and vibe; each track plays its body only (body_db 6) and every change is fitted to its two tracks (fit): the level across a change drops no more than inside a track (median 1.8 dB, max 4.5, vs 2.0 and 9.6 inside)"
+ },
+ "intro": {
+  "lines": [
+   {
+    "text": "いらっしゃいませ",
+    "scale": 0.62
+   },
+   "welcome in, have some ramen and relax"
+  ],
+  "pos": [
+   0.53,
+   0.93
+  ]
+ },
+ "_intro": "2026-10-19 (Truman: a short opening line in a small font, made for this video, for example 'welcome, have some ramen and relax', in a font of its own that suits the look): irasshaimase, what a ramen shop calls out when you walk in, small above the line; the look's font (Klee One); tools/intro_title.py. Placed by eye low on the counter, under its far edge (auto placement picked the street, too busy behind the text)"
+}

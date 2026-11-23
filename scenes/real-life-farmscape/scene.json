@@ -1,0 +1,449 @@
+{
+  "_note": "Draft written by tools/analyze_plate.py; tune freely (it is not overwritten unless --force-scene). Keys: src/library/autoscene.js.",
+  "name": "real-life-farmscape",
+  "title": "Gentle Rain at Farmhouse Porch | 10 Hours of Cozy Farm Ambience",
+  "aesthetic": "winter-cabin",
+  "plate": "real-life-farmscape",
+  "seed": 7,
+  "fps": 30,
+  "loopSeconds": 120,
+  "duration": 36000,
+  "plate_fx": {
+    "flicker": 0.02,
+    "mist": 0.14,
+    "ripple": 0.0003,
+    "horizon": 0.4,
+    "lightning": {
+      "color": "#b9c8ff",
+      "sky": 2.0,
+      "land": 0.8,
+      "roomNear": 0.35,
+      "roomAmbient": 0.06,
+      "farColor": "#c9c4f2"
+    },
+    "mistColor": "#566278",
+    "rippleXY": [
+      0.9,
+      0.5
+    ],
+    "rings": [
+      0,
+      0
+    ],
+    "ground": {
+      "horizon": 0.4,
+      "refract": 8,
+      "highlight": 0.7,
+      "cells": 24,
+      "density": 0.85
+    }
+  },
+  "regions": {
+    "foliage_large_tree": {
+      "sway": {
+        "amp": 6.0,
+        "hz": 0.1,
+        "gust": 1.5
+      }
+    },
+    "blankets_draped_rocking": {
+      "sway": {
+        "amp": 3.2,
+        "hz": 0.08,
+        "gust": 1.2
+      }
+    },
+    "blanket_draped_cloth": {
+      "sway": {
+        "amp": 3.2,
+        "hz": 0.08,
+        "gust": 1.2
+      }
+    }
+  },
+  "layers": [
+    {
+      "type": "rain",
+      "count": 4500,
+      "depth": [
+        3,
+        40
+      ],
+      "depthPower": 1.3,
+      "dropRange": [
+        0.5,
+        2.4
+      ],
+      "dropLambda": 3.4,
+      "focalPx": 2700,
+      "shutter": 0.00909090909090909,
+      "alphaRef": 0.25,
+      "farBoost": 0.15,
+      "maxAlpha": 0.85,
+      "minWidth": 2.0,
+      "focus": 12,
+      "coc": 10,
+      "skyGain": 2.0,
+      "envMix": 0.85,
+      "warm": "#ffc47a",
+      "warmGain": 0.35,
+      "clumps": {
+        "amount": 1.0,
+        "strength": 0.5,
+        "cycles": 13,
+        "across": 3,
+        "drift": 1
+      },
+      "_gentle": "2026-10-21: the brief's gentle rain; the critic, twice: bright, thick streaks over the dark trees. Fewer, smaller drops (4500, lambda 3.4, at most 2.4 mm), then thinner and dimmer far streaks (minWidth 3 to 2 px, farBoost 0.3 to 0.15, alphaRef 0.25)"
+    },
+    {
+      "type": "steam",
+      "regions": "kind:steam",
+      "opacity": 0.7,
+      "drafts": true,
+      "per": {
+        "enamel_mug": {
+          "opacity": 0.7
+        }
+      },
+      "_per": "2026-10-21: the plume leaned hard left (steam_sim's old default lean -0.2, now 0), so the right half of the opening looked empty; re-simulated straight, at the ramen cup's 0.7"
+    },
+    {
+      "type": "drips",
+      "size": 5.5,
+      "period": [
+        4,
+        11
+      ]
+    },
+    {
+      "type": "drips",
+      "sources": "strands",
+      "size": 3.5,
+      "period": [
+        3,
+        9
+      ]
+    },
+    {
+      "type": "birds",
+      "disp": 0.02,
+      "haze": 0.35
+    },
+    {
+      "type": "critter",
+      "creature": "snail",
+      "path": [
+        [
+          0.07,
+          0.727
+        ],
+        [
+          0.116,
+          0.757
+        ],
+        [
+          0.174,
+          0.791
+        ],
+        [
+          0.253,
+          0.826
+        ],
+        [
+          0.367,
+          0.839
+        ],
+        [
+          0.526,
+          0.852
+        ],
+        [
+          0.751,
+          0.877
+        ],
+        [
+          1.0,
+          0.908
+        ]
+      ],
+      "size": 60.0,
+      "_auto": "drafted by tools/plate_features.py (replaced the draft's path)"
+    },
+    {
+      "type": "moth",
+      "lamp": "hanging_porch_lantern",
+      "center": [
+        0.7234,
+        0.1202
+      ],
+      "unit": 52,
+      "size": 31,
+      "_auto": "drafted by tools/plate_features.py",
+      "covered": true,
+      "unitM": 0.075,
+      "color": [
+        1.0,
+        0.482,
+        0.182
+      ]
+    },
+    {
+      "type": "liquid",
+      "regions": [
+        "enamel_mug"
+      ],
+      "_auto": "drafted by tools/plate_features.py"
+    },
+    {
+      "type": "fish",
+      "camera": {
+        "focalPx": 2700.0,
+        "horizon": 0.4,
+        "height": 5.5
+      },
+      "_auto": "drafted by tools/plate_features.py"
+    }
+  ],
+  "wind": {
+    "mean": 0.05,
+    "gust": 0.25,
+    "turb": 0.3,
+    "gustCycles": 5,
+    "fronts": 0.6
+  },
+  "runoff": [
+    {
+      "x": 0.4448,
+      "y": 0.0111,
+      "z": 3.2,
+      "d": 3.2,
+      "rate": 0.39,
+      "flow": 0.85,
+      "burst": 0.15,
+      "burstCycles": 3,
+      "neck": 0,
+      "spread": 0.015,
+      "warm": 1.2,
+      "bright": 1.0
+    },
+    {
+      "x": 0.4656,
+      "y": 0.0194,
+      "z": 3.2,
+      "d": 3.2,
+      "rate": 0.5,
+      "flow": 0.85,
+      "burst": 0.15,
+      "burstCycles": 5,
+      "neck": 0,
+      "spread": 0.015,
+      "warm": 1.2,
+      "bright": 1.0
+    },
+    {
+      "x": 0.5031,
+      "y": 0.0333,
+      "z": 3.2,
+      "d": 3.2,
+      "rate": 0.3,
+      "flow": 0.85,
+      "burst": 0.15,
+      "burstCycles": 4,
+      "neck": 0,
+      "spread": 0.015,
+      "warm": 1.2,
+      "bright": 1.0
+    },
+    {
+      "x": 0.524,
+      "y": 0.0407,
+      "z": 3.2,
+      "d": 3.2,
+      "rate": 0.55,
+      "flow": 0.85,
+      "burst": 0.15,
+      "burstCycles": 4,
+      "neck": 0,
+      "spread": 0.015,
+      "warm": 1.2,
+      "bright": 1.0
+    },
+    {
+      "x": 0.549,
+      "y": 0.05,
+      "z": 3.2,
+      "d": 3.2,
+      "rate": 0.5,
+      "flow": 0.85,
+      "burst": 0.15,
+      "burstCycles": 3,
+      "neck": 0,
+      "spread": 0.015,
+      "warm": 1.2,
+      "bright": 1.0
+    },
+    {
+      "x": 0.5844,
+      "y": 0.063,
+      "z": 3.2,
+      "d": 3.2,
+      "rate": 0.31,
+      "flow": 0.85,
+      "burst": 0.15,
+      "burstCycles": 5,
+      "neck": 0,
+      "spread": 0.015,
+      "warm": 1.2,
+      "bright": 1.0
+    },
+    {
+      "x": 0.6094,
+      "y": 0.0722,
+      "z": 3.2,
+      "d": 3.2,
+      "rate": 0.57,
+      "flow": 0.85,
+      "burst": 0.15,
+      "burstCycles": 4,
+      "neck": 0,
+      "spread": 0.015,
+      "warm": 1.2,
+      "bright": 1.0
+    }
+  ],
+  "events": {
+    "birds": {
+      "perHour": 80,
+      "minGap": 40,
+      "startAfter": 4,
+      "band": [
+        0.143,
+        0.034,
+        0.671,
+        0.303
+      ],
+      "size": [
+        27.6,
+        44.9
+      ],
+      "count": [
+        1,
+        5
+      ],
+      "first": 6,
+      "intro": [
+        300,
+        1.5
+      ]
+    },
+    "critter": {
+      "perHour": 3,
+      "dur": [
+        765,
+        1035
+      ],
+      "startAfter": 20
+    },
+    "weather": {
+      "dt": 5,
+      "rainAmp": 1.25,
+      "windAmp": 1,
+      "stormRain": 0,
+      "stormWind": 0,
+      "stormHalfWidth": 420,
+      "streamLag": 90
+    },
+    "flurry": {
+      "perHour": 6,
+      "minGap": 300,
+      "dur": [
+        5,
+        9
+      ],
+      "amp": [
+        0.35,
+        0.7
+      ],
+      "leaves": [
+        0,
+        0
+      ],
+      "prevailing": 1,
+      "startAfter": 40
+    },
+    "gutter": {
+      "perHour": 12,
+      "minGap": 300,
+      "startAfter": 30,
+      "depth": 0.55,
+      "first": 60
+    },
+    "pet": {
+      "ear": 0,
+      "tail": 0,
+      "sigh": 8,
+      "thunderEar": 0,
+      "minGap": 30
+    },
+    "rareGap": 45,
+    "strikeBusy": [
+      30,
+      30
+    ],
+    "moth": {
+      "perHour": 24,
+      "dur": [
+        45,
+        140
+      ],
+      "lands": 2,
+      "startAfter": 15,
+      "first": 30,
+      "intro": [
+        300,
+        1.5
+      ]
+    },
+    "loop": {
+      "period": 1200
+    },
+    "fish": {
+      "perHour": 20,
+      "minGap": 60,
+      "jump": 0.5,
+      "zones": [
+        [
+          0.366,
+          0.441,
+          0.574,
+          0.494,
+          1.0
+        ]
+      ],
+      "startAfter": 5,
+      "first": 15,
+      "intro": [
+        300,
+        2
+      ]
+    }
+  },
+  "audio": {
+    "bed": "porch_rain",
+    "lufs": -20,
+    "music": {
+      "order": "smooth",
+      "body_db": 6,
+      "crossfade": 8,
+      "fit": true
+    }
+  },
+  "intro": {
+    "lines": [
+      "Welcome to the porch, come listen to the rain with us"
+    ],
+    "pos": "auto"
+  },
+  "_runoff": "2026-10-21: gentle rain: the eave drips, it doesn't pour (the critic, three times: thick bright streaks in columns over the far trees)"
+}

@@ -1,0 +1,37 @@
+{
+ "creature": "snail",
+ "prompt": "A single a small garden snail crawling to the right, seen from the side: a glossy spiral shell, brown with darker bands, on its back; its soft grey-brown body stretched out low along the ground in front of the shell, two long eye stalks up and two short feelers at the front, wet and shiny. Painted to match this art style: Wide 16:9 cinematic screenshot of a cozy Minecraft scene with a shader pack: blocky voxel world, high-quality block textures, volumetric light, soft bloom and soft shadows.. Lighting to match the scene: soft overcast morning light with a warm lantern glow under the eaves. The whole creature is in view, centered, with a little space around it. Transparent background, no ground, no shadow, no other objects, no text.",
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-22",
+ "usage": {
+  "input_tokens": 170,
+  "input_tokens_details": {
+   "image_tokens": 0,
+   "text_tokens": 170
+  },
+  "output_tokens": 1756,
+  "output_tokens_details": {
+   "image_tokens": 1756,
+   "text_tokens": 0
+  },
+  "total_tokens": 1926
+ },
+ "size": [
+  1024,
+  1024
+ ],
+ "bbox": [
+  46,
+  247,
+  1007,
+  804
+ ],
+ "foot_y": 802,
+ "front_x": 1007,
+ "back_x": 46,
+ "shell_x": [
+  85,
+  824
+ ],
+ "lum": 0.3016
+}

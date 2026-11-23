@@ -1,0 +1,26 @@
+{
+  "src": "assets/keyart/yuzu-spring-snow/round1/hero_gpt-image-2_20261112-151801_2.png",
+  "tag": "redraw_a",
+  "steps": [
+    {
+      "kind": "redraw",
+      "model": "gpt-image-2",
+      "prompt": "Draw this picture again as a new drawing, keeping its composition, its light, its colors and its style exactly: colored pencils and a little white gouache on matte black paper, visible hatched pencil strokes layered in one direction, the bare black paper as the night, no outlines, a form ending where its light ends. Everything stays where it is, with one change: the mandarin duck and the little yellow toy rubber duck are gone, and no other bird, animal or toy takes their place. There are three friends. The snow monkey sits in the water up to its chest left of center, its folded white towel on its head, its two small black dot eyes open. The long snow-white stoat lies draped along the snowy rocks behind the monkey, its tiny folded white towel on its head, its chin on its crossed front paws on a rock just right of the monkey; its long tail hangs down over the rocks near the far left and ends in a clear black tip. The yuzu sprite, a round yellow-orange yuzu fruit with a tiny face (two dot eyes and a small smile) and one green leaf on its stem, floats in front of the monkey and a little to its right, and four ordinary yuzu fruits without faces float around the pool. Right of the friends the pool is open, calm dark water, with the lantern's warm light lying on it as a broken reflection of short horizontal pencil strokes. The paper lantern on its bent bamboo pole, the lantern-lit snowy ledge, the bamboo spout pouring a thin stream into the pool at the right, the snowy boulders along the bottom, the dark trunks and the snowy spruce branches stay as they are. The air is clear: no steam, mist or smoke over the water, no falling snowflakes, no moon or stars, no text."
+    }
+  ],
+  "usage": {
+    "input_tokens": 1885,
+    "input_tokens_details": {
+      "image_tokens": 1508,
+      "text_tokens": 377
+    },
+    "output_tokens": 7370,
+    "output_tokens_details": {
+      "image_tokens": 7370,
+      "text_tokens": 0
+    },
+    "total_tokens": 9255
+  },
+  "made": "2026-11-12T15:43:22",
+  "note": "tools/keyart_revise.py --redraw: the whole picture drawn again with the source as its reference; nothing composited"
+}

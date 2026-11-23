@@ -1,0 +1,37 @@
+{
+ "creature": "frog",
+ "prompt": "A single a small green frog sitting facing right, seen from the side, wet and shiny. Painted to match this art style: Wide 16:9 cinematic screenshot of a cozy Minecraft scene with a shader pack: blocky voxel world, high-quality block textures, volumetric light, soft bloom and soft shadows.. Lighting to match the scene: cool moonlight on stone and water, balanced by a small pool of warm lantern light. The whole creature is in view, centered, with a little space around it. Transparent background, no ground, no shadow, no other objects, no text.",
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-27",
+ "usage": {
+  "input_tokens": 125,
+  "input_tokens_details": {
+   "image_tokens": 0,
+   "text_tokens": 125
+  },
+  "output_tokens": 1756,
+  "output_tokens_details": {
+   "image_tokens": 1756,
+   "text_tokens": 0
+  },
+  "total_tokens": 1881
+ },
+ "size": [
+  1024,
+  1024
+ ],
+ "bbox": [
+  142,
+  213,
+  906,
+  825
+ ],
+ "foot_y": 815,
+ "front_x": 906,
+ "back_x": 142,
+ "shell_x": [
+  293,
+  843
+ ],
+ "lum": 0.3034
+}

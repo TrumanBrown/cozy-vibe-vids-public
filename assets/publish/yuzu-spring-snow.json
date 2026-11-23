@@ -1,0 +1,42 @@
+{
+ "_note": "Drafted by tools/finish_video.py on 2026-11-15: the title, the opening and the hashtags by the chat model in Truman's form (model), from scenes/yuzu-spring-snow/brief.json and his published videos (docs/records/*/published.md), checked with upload_package's rules. Edit freely: the tool never overwrites this spec. Once it's live, record what he changed (master-render skill, Upload checklist step 9).",
+ "slug": "yuzu-spring-snow",
+ "name": "Yuzu Spring",
+ "render": "out/yuzu-spring-snow/render/10h_v1",
+ "video": "master_music.mp4",
+ "thumbnails": "assets/thumbnails/yuzu-spring-snow.json",
+ "thumbnail": "watercolor-title",
+ "test_and_compare": [
+  "watercolor-title",
+  "field-guide",
+  "storybook"
+ ],
+ "draft_text": false,
+ "titles": [
+  "4K snowy woodland hot spring with calm Minecraft music and soft wind, no ads (10 hours)",
+  "4K snowy hot spring at night with calm Minecraft music and pouring water, no ads (10 hours)",
+  "4K quiet hot spring in the snow with calm Minecraft music and soft wind, no ads (10 hours)"
+ ],
+ "description": [
+  "Come relax with snow on the rocks at Yuzu Spring, where a Japanese macaque soaks in the hot water and a stoat lies along the snowy rim, with calm Minecraft music and soft wind. 10 hours of 4K, calming ambience with smooth music. Never interrupting with ads."
+ ],
+ "hashtags": [
+  "#minecraftmusic",
+  "#windsounds",
+  "#studymusic",
+  "#study",
+  "#relaxing",
+  "#relax",
+  "#4k",
+  "#10hours"
+ ],
+ "tags": [],
+ "category": "Film & Animation",
+ "blurb": [
+  "I put videos like these on the TV while I work from home, so I started making my own. Each video is one scene I designed for this channel. Excited to continue to develop more.",
+  "",
+  "All my animation is made by myself and rendered frame by frame, and the ambience (wind and every other effect) is synthesized in my engine. I love making these videos, so please let me know what you would like to see next.",
+  "",
+  "No stock footage, recordings or sound-effect libraries."
+ ]
+}

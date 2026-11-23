@@ -1,0 +1,113 @@
+{
+ "pose": "sit",
+ "base": "awake",
+ "prompt": "This is a 16-bit pixel-art greenhouse. A golden-brown puppy sits up on a woven mat facing right: its head is held up and its rump and hind leg rest on the mat, but the rest of its body is missing. Repaint only the masked area: paint the rest of this same puppy, sitting upright and joining its head to its rump: its neck under its head, its chest, its two front legs straight down with the front paws on the mat, and its back curving down from the shoulders to the rump, in the same fluffy golden fur with the same small shades and warm highlights as its head and rump, its edge the same soft dark brown, the same pixel size as the rest of the picture and lit by the same warm light. Its head and rump stay exactly as they are. Around it the wooden wall, the raised bed and the woven mat continue as they are. Nothing else changes.",
+ "window4": [
+  72,
+  624,
+  1536,
+  1536
+ ],
+ "boxes": [
+  [
+   440,
+   870,
+   745,
+   1186
+  ],
+  [
+   395,
+   920,
+   440,
+   1010
+  ]
+ ],
+ "move": {
+  "poly": [
+   [
+    570,
+    990
+   ],
+   [
+    590,
+    965
+   ],
+   [
+    622,
+    947
+   ],
+   [
+    668,
+    947
+   ],
+   [
+    688,
+    963
+   ],
+   [
+    692,
+    998
+   ],
+   [
+    716,
+    1003
+   ],
+   [
+    725,
+    1040
+   ],
+   [
+    703,
+    1055
+   ],
+   [
+    650,
+    1061
+   ],
+   [
+    612,
+    1063
+   ],
+   [
+    612,
+    1104
+   ],
+   [
+    590,
+    1106
+   ],
+   [
+    567,
+    1080
+   ]
+  ],
+  "by": [
+   -6,
+   -18
+  ],
+  "cells": "pose_sit_move.png"
+ },
+ "warp": [
+  1.0003,
+  0.0,
+  -0.1247,
+  0.0001,
+  1.0001,
+  -0.015
+ ],
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-21",
+ "usage": {
+  "input_tokens": 1228,
+  "input_tokens_details": {
+   "image_tokens": 1024,
+   "text_tokens": 204
+  },
+  "output_tokens": 1756,
+  "output_tokens_details": {
+   "image_tokens": 1756,
+   "text_tokens": 0
+  },
+  "total_tokens": 2984
+ }
+}

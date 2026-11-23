@@ -1,0 +1,96 @@
+{
+ "source": "out/skyrim-village-night/render/sample_v11 (approved 2026-11-15)",
+ "refs": {
+  "keyart__key_art": {
+   "file": "keyart__key_art.jpg",
+   "label": "key art",
+   "lessons": [
+    "L03",
+    "L06",
+    "L07",
+    "L60",
+    "L71"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\skyrim-village-night\\render\\sample_v11",
+   "note": "Truman okayed sample v11 for the 10 hours: the dragon far off, the moons crossing, water off the wheel and the ants carrying crumbs, on top of v10 he called good (2026-11-15)"
+  },
+  "pet_dry": {
+   "file": "pet_dry.jpg",
+   "label": "the pet (sleeping husky)",
+   "lessons": [
+    "L10",
+    "L19",
+    "L31"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\skyrim-village-night\\render\\sample_v11",
+   "note": "Truman okayed sample v11 for the 10 hours: the dragon far off, the moons crossing, water off the wheel and the ants carrying crumbs, on top of v10 he called good (2026-11-15)"
+  },
+  "intro_title": {
+   "file": "intro_title.jpg",
+   "label": "the opening line",
+   "lessons": [
+    "L04",
+    "L55"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\skyrim-village-night\\render\\sample_v11",
+   "note": "Truman okayed sample v11 for the 10 hours: the dragon far off, the moons crossing, water off the wheel and the ants carrying crumbs, on top of v10 he called good (2026-11-15)"
+  },
+  "events__event__ant": {
+   "file": "events__event__ant.jpg",
+   "label": "event: ant",
+   "lessons": [
+    "L16",
+    "L20",
+    "L23",
+    "L28",
+    "L40",
+    "L41",
+    "L42",
+    "L49",
+    "L181",
+    "L182",
+    "L185"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\skyrim-village-night\\render\\sample_v11",
+   "note": "Truman okayed sample v11 for the 10 hours: the dragon far off, the moons crossing, water off the wheel and the ants carrying crumbs, on top of v10 he called good (2026-11-15)"
+  },
+  "events__event__dragon": {
+   "file": "events__event__dragon.jpg",
+   "label": "event: dragon",
+   "lessons": [
+    "L16",
+    "L20",
+    "L23",
+    "L28",
+    "L40",
+    "L41",
+    "L42",
+    "L49",
+    "L181",
+    "L182",
+    "L185"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\skyrim-village-night\\render\\sample_v11",
+   "note": "Truman okayed sample v11 for the 10 hours: the dragon far off, the moons crossing, water off the wheel and the ants carrying crumbs, on top of v10 he called good (2026-11-15)"
+  },
+  "events__event__moth__behind_the_lamp_": {
+   "file": "events__event__moth__behind_the_lamp_.jpg",
+   "label": "event: moth (behind the lamp)",
+   "lessons": [
+    "L16",
+    "L20",
+    "L23",
+    "L28",
+    "L40",
+    "L41",
+    "L42",
+    "L49",
+    "L181",
+    "L182",
+    "L185"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\skyrim-village-night\\render\\sample_v11",
+   "note": "Truman okayed sample v11 for the 10 hours: the dragon far off, the moons crossing, water off the wheel and the ants carrying crumbs, on top of v10 he called good (2026-11-15)"
+  }
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "_note": "Painted transients to remove from the key art (tools/plate_clean.py); written by tools/analyze_plate.py, edit freely.",
+ "source": "assets/keyart/blossom-teahouse-rain/hero_gpt-image-2-5-sunburst_20261022-143454_4.png",
+ "items": [
+  {
+   "name": "edge_drips",
+   "kind": "drips",
+   "what": "left eaves and upper eaves and the hanging lanterns",
+   "behind": "the scene behind them as it continues"
+  },
+  {
+   "name": "painted_strands",
+   "kind": "strands",
+   "what": "roof eaves, signs, lanterns and leaves",
+   "behind": "the walls, windows and leaves behind them",
+   "boxes": [],
+   "found": []
+  }
+ ]
+}

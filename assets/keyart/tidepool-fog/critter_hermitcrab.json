@@ -1,0 +1,37 @@
+{
+ "creature": "hermitcrab",
+ "prompt": "A single hermitcrab. Painted to match this art style: Style: a hand-made picture-book illustration, inked and painted. Line art in dark umber and deep forest-green ink, never pure black: the lines vary in weight, taper at their ends and sometimes break off or stop short of closing a shape. Colors are opaque gouache with visible dry-brush strokes and the grain of watercolor paper showing through. The characters are inked carefully; the background is painted looser, with fewer lines, soft brush edges and simple masses. Wood grain, knit and cloth are suggested with a few confident strokes, not rendered everywhere. Muted, earthy palette: rust, ochre, moss green, slate blue and warm brown, with cool blue-gray shadows.. Lighting to match the scene: blue hour in fog: the fog glows a soft, cool blue-gray, palest low over the sea, and the rocks, the pool and the friends' backs sit in cool slate-blue shadow. One warm light: the paper lantern hanging from the lean-to, lighting the underside of the driftwood, the fronts of the otter, the sea star and the crab, the thermos and the near edge of the pool, and fading softly and evenly into the cool dusk within about the lean-to's width, with no hard edge. The puffin catches only a little of it, a dark shape with a pale face against the pale water, and the oystercatcher is a dark silhouette against the fog. No glow halos; about half the frame is dim. The whole creature is in view, centered, with a little space around it. Transparent background, no ground, no shadow, no other objects, no text.",
+ "deployment": "gpt-image-2",
+ "date": "2026-11-05",
+ "usage": {
+  "input_tokens": 354,
+  "input_tokens_details": {
+   "image_tokens": 0,
+   "text_tokens": 354
+  },
+  "output_tokens": 7024,
+  "output_tokens_details": {
+   "image_tokens": 7024,
+   "text_tokens": 0
+  },
+  "total_tokens": 7378
+ },
+ "size": [
+  1024,
+  1024
+ ],
+ "bbox": [
+  25,
+  134,
+  1001,
+  857
+ ],
+ "foot_y": 820,
+ "front_x": 1001,
+ "back_x": 25,
+ "shell_x": [
+  225,
+  730
+ ],
+ "lum": 0.3713
+}

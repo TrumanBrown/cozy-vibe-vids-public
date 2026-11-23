@@ -1,0 +1,167 @@
+{
+  "scene": "scenes/treetop-plate",
+  "out": "out/treetop-plate/thumbnails",
+  "badges": [
+    {"x": 0.04, "y": 0.085, "px": 21, "gap": 3, "items": [
+      {"text": "4K", "style": "chip"}, {"text": "10 HR", "style": "chip"}, {"text": "NO ADS", "style": "chip"}]}
+  ],
+  "variants": [
+    {
+      "name": "let-it-rain",
+      "frame": 875981, "zoom": 1.1, "center": [0.53, 0.42],
+      "text": [
+        {"text": "♫ calm minecraft music", "px": 18, "y": 0.28, "style": "kicker"},
+        {"text": "let it rain", "px": 42, "y": 0.4, "bold": true}
+      ]
+    },
+    {
+      "name": "place-card-cat",
+      "frame": 877690, "zoom": 1.1, "center": [0.53, 0.42],
+      "insets": [{"x": 0.17, "y": 0.755, "w": 0.24, "span": 0.13, "center": [0.792, 0.648]}],
+      "text": [
+        {"text": "Autumn Treetop", "px": 33, "y": 0.25, "style": "amber", "rules": [6, 3]},
+        {"text": "♫ calm minecraft music", "px": 18, "y": 0.365, "style": "badge"},
+        {"text": "🌧 rain & distant thunder", "px": 15, "y": 0.463, "style": "chip"}
+      ]
+    },
+    {
+      "name": "place-card-cat-b",
+      "frame": 877690, "zoom": 1.1, "center": [0.53, 0.42],
+      "insets": [{"x": 0.17, "y": 0.755, "w": 0.24, "span": 0.13, "center": [0.792, 0.648]}],
+      "text": [
+        {"text": "Autumn Treetop", "px": 33, "y": 0.25, "style": "amber", "rules": [6, 3]},
+        {"text": "♫ calm minecraft music", "px": 18, "y": 0.365, "style": "badge"},
+        {"text": "+ rain & distant thunder", "px": 15, "y": 0.455, "bold": true}
+      ]
+    },
+    {
+      "name": "place-card-magnify",
+      "frame": 877690, "zoom": 1.1, "center": [0.53, 0.42],
+      "insets": [{"x": 0.83, "y": 0.29, "w": 0.21, "span": 0.12, "center": [0.792, 0.648], "shape": "circle", "callout": true}],
+      "text": [
+        {"text": "Autumn Treetop", "px": 30, "x": 0.05, "y": 0.27, "align": "left", "style": "amber"},
+        {"text": "♫ calm minecraft music", "px": 15, "x": 0.05, "y": 0.38, "align": "left", "style": "badge"}
+      ]
+    },
+    {
+      "name": "lantern",
+      "frame": 877690, "zoom": 2.67, "center": [0.66, 0.19],
+      "text": [
+        {"text": "Autumn Treetop", "px": 30, "x": 0.05, "y": 0.66, "align": "left", "style": "amber"},
+        {"text": "♫ calm minecraft music & rain", "px": 15, "x": 0.05, "y": 0.78, "align": "left", "style": "badge"}
+      ]
+    },
+    {
+      "name": "now-playing",
+      "frame": 875981, "zoom": 1.1, "center": [0.53, 0.42],
+      "panels": [{"x0": 0.04, "y0": 0.62, "x1": 0.69, "y1": 0.94, "fill": "#120b18", "alpha": 0.82, "border": "#ffd88a"}],
+      "text": [
+        {"text": "▶ Autumn Treetop", "px": 21, "x": 0.07, "y": 0.69, "align": "left", "style": "label", "bold": true},
+        {"text": "minecraft music + rain", "px": 15, "x": 0.07, "y": 0.78, "align": "left", "style": "amber", "glow_alpha": 0, "bold": true},
+        {"text": "▬▬▬▬▬▬▬▬▬●", "px": 12, "x": 0.07, "y": 0.87, "align": "left", "style": "label", "tracking": 0,
+         "fill": "#ffd88a", "fill2": "#ffd88a", "shadow_alpha": 0},
+        {"text": "──────────────────", "px": 12, "x": 0.226, "y": 0.87, "align": "left", "style": "label", "tracking": 0,
+         "fill": "#8a7f95", "fill2": "#8a7f95", "shadow_alpha": 0}
+      ]
+    },
+    {
+      "name": "pin-chips",
+      "frame": 877690, "zoom": 1.1, "center": [0.53, 0.42],
+      "text": [
+        {"text": "📍 autumn treetop", "px": 21, "x": 0.05, "y": 0.215, "align": "left", "style": "chip"}
+      ],
+      "chips": [
+        {"x": 0.05, "y": 0.77, "px": 18, "items": [{"text": "♫ calm minecraft music", "style": "badge"}]},
+        {"x": 0.05, "y": 0.885, "px": 18, "items": [{"text": "⚡ thunder"}, {"text": "🐱 cat asleep"}]}
+      ]
+    },
+    {
+      "name": "polaroid",
+      "frame": 877690, "zoom": 1.1, "center": [0.53, 0.45],
+      "mat": {"color": "#efe4cf", "margin": [0.035, 0.06, 0.035, 0.25]},
+      "text": [
+        {"text": "autumn treetop", "px": 30, "x": 0.06, "y": 0.83, "align": "left", "style": "ink", "bold": true},
+        {"text": "♫ calm minecraft music & rain", "px": 15, "x": 0.06, "y": 0.925, "align": "left", "style": "ink",
+         "fill": "#7a5534", "fill2": "#7a5534", "bold": true}
+      ]
+    },
+    {
+      "name": "sign",
+      "frame": 877690, "zoom": 1.1, "center": [0.53, 0.42],
+      "text": [
+        {"text": "Autumn Treetop", "px": 21, "x": 0.36, "y": 0.2, "style": "sign"},
+        {"text": "♫ minecraft music", "px": 15, "x": 0.36, "y": 0.35, "style": "sign",
+         "box": {"fill": "#7a5230", "alpha": 1.0, "border": "#3a2414", "planks": 4, "pad": [3, 2], "hang": 0.26}}
+      ]
+    },
+    {
+      "name": "cat-music",
+      "frame": 875984, "zoom": 3.4, "center": [0.792, 0.648],
+      "badges": [{"x": 0.03, "y": 0.085, "px": 18, "gap": 3, "items": [
+        {"text": "4K", "style": "chip"}, {"text": "10 HR", "style": "chip"}, {"text": "NO ADS", "style": "chip"}]}],
+      "text": [
+        {"text": "z", "px": 27, "x": 0.48, "y": 0.4, "bold": true, "opacity": 0.75},
+        {"text": "z", "px": 36, "x": 0.54, "y": 0.28, "bold": true, "opacity": 0.88},
+        {"text": "Z", "px": 48, "x": 0.61, "y": 0.14, "bold": true},
+        {"text": "♫ calm minecraft music", "px": 18, "x": 0.05, "y": 0.88, "align": "left", "style": "badge"}
+      ]
+    },
+    {
+      "name": "place-card",
+      "frame": 877690, "zoom": 1.1, "center": [0.53, 0.42],
+      "text": [
+        {"text": "Autumn Treetop", "px": 33, "y": 0.37, "style": "amber", "rules": [6, 3]},
+        {"text": "♫ calm minecraft music", "px": 18, "y": 0.5, "style": "badge"}
+      ]
+    },
+    {
+      "name": "cat-asleep",
+      "frame": 875984, "zoom": 3.4, "center": [0.792, 0.648],
+      "badges": [{"x": 0.03, "y": 0.085, "px": 18, "gap": 3, "items": [
+        {"text": "4K", "style": "chip"}, {"text": "10 HR", "style": "chip"}, {"text": "NO ADS", "style": "chip"}]}],
+      "text": [
+        {"text": "z", "px": 27, "x": 0.48, "y": 0.4, "bold": true, "opacity": 0.75},
+        {"text": "z", "px": 36, "x": 0.54, "y": 0.28, "bold": true, "opacity": 0.88},
+        {"text": "Z", "px": 48, "x": 0.61, "y": 0.14, "bold": true}
+      ]
+    },
+    {
+      "name": "rain-poster",
+      "frame": 875981, "zoom": 1.1, "center": [0.53, 0.42],
+      "text": [
+        {"text": "RAIN", "px": 90, "y": 0.3, "bold": true},
+        {"text": "& MINECRAFT MUSIC", "px": 27, "y": 0.56, "style": "amber", "bold": true}
+      ]
+    },
+    {
+      "name": "letterbox",
+      "frame": 877690,
+      "badges": [{"x": 0.047, "y": 0.785, "px": 21, "gap": 3, "items": [
+        {"text": "4K", "style": "chip"}, {"text": "10 HR", "style": "chip"}, {"text": "NO ADS", "style": "chip"}]}],
+      "bands": [{"y0": 0, "y1": 0.14, "color": "#0a070d"}, {"y0": 0.86, "y1": 1, "color": "#0a070d"}],
+      "text": [
+        {"text": "AUTUMN TREETOP", "px": 27, "x": 0.05, "y": 0.07, "align": "left", "style": "label", "tracking": 3},
+        {"text": "♫ calm minecraft music & rain", "px": 15, "x": 0.05, "y": 0.93, "align": "left", "style": "amber", "bold": true, "glow_alpha": 0}
+      ]
+    },
+    {
+      "name": "count-the-seconds",
+      "frame": 877690, "zoom": 1.1, "center": [0.53, 0.42],
+      "bands": [{"y0": 0.72, "y1": 1.0, "feather": 0.22, "alpha": 0.72, "color": "#0b0710"}],
+      "text": [
+        {"text": "⚡ 1.1 km", "px": 18, "x": 0.645, "y": 0.205, "style": "label", "bold": true,
+         "box": {"fill": "#120b18", "alpha": 0.7, "border": "#ffd88a", "pad": [3, 2]}},
+        {"text": "♫ calm minecraft music", "px": 15, "x": 0.05, "y": 0.58, "align": "left", "style": "badge"},
+        {"text": "count the\nseconds", "px": 33, "x": 0.05, "y": 0.79, "align": "left", "bold": true}
+      ]
+    },
+    {
+      "name": "status",
+      "frame": 875981, "zoom": 1.1, "center": [0.53, 0.42],
+      "text": [
+        {"text": "music: calm minecraft\nrain: all night\nthunder: far away\ncat: asleep", "px": 18, "x": 0.05, "y": 0.72,
+         "align": "left", "style": "label", "bold": true, "box": {"fill": "#120b18", "alpha": 0.8, "border": "#ffd88a", "pad": [4, 3]}}
+      ]
+    }
+  ]
+}

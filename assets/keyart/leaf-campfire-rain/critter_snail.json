@@ -1,0 +1,37 @@
+{
+ "creature": "snail",
+ "prompt": "A single a small garden snail crawling to the right, seen from the side: a glossy spiral shell, brown with darker bands, on its back; its soft grey-brown body stretched out low along the ground in front of the shell, two long eye stalks up and two short feelers at the front, wet and shiny. Painted to match this art style: Style: a hand-made picture-book illustration, inked and painted. Line art in dark umber and deep forest-green ink, never pure black: the lines vary in weight, taper at their ends and sometimes break off or stop short of closing a shape. Colors are opaque gouache with visible dry-brush strokes and the grain of watercolor paper showing through. The characters are inked carefully; the background is painted looser, with fewer lines, soft brush edges and simple masses. Wood grain, knit and cloth are suggested with a few confident strokes, not rendered everywhere. Muted, earthy palette: rust, ochre, moss green, slate blue and warm brown, with cool blue-gray shadows.. Lighting to match the scene: two separate warm lights in the dark: the campfire under the leaf, lighting a small circle of moss, the three friends' fronts and the underside of the burdock leaf, and the salamander's lantern out in the rain, lighting a small pool of wet ground, its leaf from below and its face. Between the two pools lies a stretch of dark ground; each light fades softly and evenly into the dark, with no hard edge. Most of the forest stays in cool, dark blue-green; about two thirds of the frame is dark. The whole creature is in view, centered, with a little space around it. Transparent background, no ground, no shadow, no other objects, no text.",
+ "deployment": "gpt-image-2",
+ "date": "2026-10-25",
+ "usage": {
+  "input_tokens": 369,
+  "input_tokens_details": {
+   "image_tokens": 0,
+   "text_tokens": 369
+  },
+  "output_tokens": 7024,
+  "output_tokens_details": {
+   "image_tokens": 7024,
+   "text_tokens": 0
+  },
+  "total_tokens": 7393
+ },
+ "size": [
+  1024,
+  1024
+ ],
+ "bbox": [
+  24,
+  283,
+  1008,
+  751
+ ],
+ "foot_y": 745,
+ "front_x": 1008,
+ "back_x": 24,
+ "shell_x": [
+  120,
+  569
+ ],
+ "lum": 0.3448
+}

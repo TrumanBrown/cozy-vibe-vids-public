@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Colors</title>
+<style>
+  :root { --bg: #0b0b0c; --panel: #161618; --line: #2a2a2e; --text: #ececef; --dim: #9b9ba3; --accent: #f5c451; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
+    font: 14px/1.35 "Segoe UI", system-ui, -apple-system, sans-serif; }
+  #app { display: grid; grid-template-columns: minmax(0, 1fr) 330px; grid-template-rows: auto minmax(0, 1fr) auto; height: 100vh; }
+  header { grid-column: 1; display: flex; align-items: center; gap: 8px; padding: 9px 14px; border-bottom: 1px solid var(--line); }
+  header h1 { font-size: 15px; font-weight: 600; margin: 0 10px 0 0; white-space: nowrap; }
+  #when { color: var(--dim); margin-right: auto; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  button { background: #222226; color: var(--text); border: 1px solid #34343a; border-radius: 8px; padding: 6px 11px;
+    font: inherit; cursor: pointer; white-space: nowrap; }
+  button:hover { background: #2b2b30; }
+  button:disabled { opacity: .5; cursor: default; }
+  button.on { background: #3a3320; border-color: var(--accent); color: var(--accent); }
+  button.primary { background: var(--accent); color: #1c1606; border-color: var(--accent); font-weight: 600; }
+  button.primary:hover { background: #ffd36b; }
+  #view { grid-column: 1; position: relative; overflow: hidden; background: #050506; min-width: 0; min-height: 0; }
+  #gl { position: absolute; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; }
+  #gl.pan { cursor: grab; }
+  #gl.panning { cursor: grabbing; }
+  #busy { position: absolute; left: 50%; top: 14px; transform: translateX(-50%); display: none; padding: 6px 14px;
+    border-radius: 16px; background: rgba(20,20,22,.85); color: var(--dim); font-size: 13px; }
+  #side { grid-column: 2; grid-row: 1 / 4; background: var(--panel); border-left: 1px solid var(--line); padding: 12px 16px 14px;
+    overflow: auto; display: flex; flex-direction: column; gap: 10px; scrollbar-color: #3a3a40 transparent; }
+  #side h2 { font-size: 13px; font-weight: 600; color: var(--dim); margin: 2px 0 0; letter-spacing: .02em; }
+  #sliders { display: flex; flex-direction: column; gap: 3px; }
+  .row { display: grid; grid-template-columns: 1fr auto; user-select: none; }
+  .row label { cursor: default; }
+  .row .val { color: var(--dim); font-variant-numeric: tabular-nums; text-align: right; min-width: 4ch; }
+  .row .val.moved { color: var(--accent); }
+  .row input { grid-column: 1 / 3; }
+  input[type=range] { -webkit-appearance: none; appearance: none; height: 20px; background: transparent; width: 100%; margin: 0; cursor: pointer; }
+  input[type=range]:focus { outline: none; }
+  input[type=range]::-webkit-slider-runnable-track { height: 4px; border-radius: 2px; background: var(--track, #3a3a40); }
+  input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 16px; height: 16px; border-radius: 50%; background: #f4f4f6;
+    margin-top: -6px; border: 0; box-shadow: 0 1px 3px rgba(0,0,0,.6); }
+  input[type=range]:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 3px rgba(245,196,81,.45); }
+  input[type=range]::-moz-range-track { height: 4px; border-radius: 2px; background: var(--track, #3a3a40); }
+  input[type=range]::-moz-range-thumb { width: 16px; height: 16px; border-radius: 50%; background: #f4f4f6; border: 0; }
+  footer { grid-column: 1; border-top: 1px solid var(--line); padding: 8px 14px 10px; }
+  #moments { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; scrollbar-color: #3a3a40 transparent; }
+  .m { flex: 0 0 auto; width: 132px; cursor: pointer; color: var(--dim); font-size: 12px; text-align: center; }
+  .m img { width: 132px; height: 74px; object-fit: cover; border-radius: 6px; border: 2px solid transparent; display: block; background: #1d1d20; }
+  .m.sel { color: var(--accent); }
+  .m.sel img { border-color: var(--accent); }
+  #scrubrow { display: flex; align-items: center; gap: 10px; color: var(--dim); font-size: 12px; }
+  #scrub { flex: 1; }
+  #hist { width: 100%; height: 92px; background: #0e0e10; border-radius: 8px; display: block; }
+  .hint { color: var(--dim); font-size: 12px; }
+  #clipinfo { color: var(--dim); font-size: 12px; }
+  .btns { display: flex; gap: 8px; flex-wrap: wrap; }
+  .btns button { flex: 1; }
+  #status { color: var(--text); font-size: 13px; min-height: 2.6em; white-space: pre-wrap; word-break: break-word;
+    background: #101012; border-radius: 8px; padding: 8px 10px; }
+  #status:empty { display: none; }
+  #nogl { display: none; padding: 40px; font-size: 16px; }
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1 id="title">Colors</h1>
+    <span id="when"></span>
+    <button id="fit" class="on" title="The whole frame (F)">Fit</button>
+    <button id="one" title="4K pixels 1:1 (1). Scroll to zoom, drag to look around">100%</button>
+    <button id="split" title="As shot on the left, your look on the right; drag the line (S)">Split</button>
+    <button id="clip" title="Red: shows as pure white. Blue: shows as pure black (C)">Clipping</button>
+    <button id="orig" title="Hold to see it as shot (or hold Space)">Hold: as shot</button>
+  </header>
+  <div id="view"><canvas id="gl"></canvas><div id="busy">Loading the frame</div><div id="nogl"></div></div>
+  <footer>
+    <div id="moments"></div>
+    <div id="scrubrow"><span>0:00</span><input id="scrub" type="range" min="0" max="999" step="1" value="0" title="Any moment of the loop"><span id="loopend"></span></div>
+  </footer>
+  <aside id="side">
+    <h2>ADJUST</h2>
+    <div id="sliders"></div>
+    <canvas id="hist" width="600" height="184" title="Brightness of the picture, dark to light. Outline: as shot. Gold: your look. The spike at the right edge is what shows as pure white."></canvas>
+    <div id="clipinfo"></div>
+    <div class="btns"><button id="reset" title="Every slider to 0 (as shot)">Reset all</button><button id="revert" title="The look saved in footage.json">Back to saved</button></div>
+    <div class="btns"><button id="save" class="primary">Save look</button><button id="makeclip">Preview clip</button></div>
+    <div id="status"></div>
+    <div class="hint">Double-click a slider's name to put it back to 0. After a click on a slider, the arrow keys move it one step.</div>
+  </aside>
+</div>
+<script>
+"use strict";
+const $ = (id) => document.getElementById(id);
+let S = null;                 // /api/state
+const vals = {};              // the sliders
+let saved = {};               // the look in footage.json
+let frame = null;             // {k, w, h, cw, video_s, source_s}
+let gl = null, prog = null, U = {}, texY = null, texU = null, texV = null, texL = null, lutN = 0, mip = false;
+const view = { mode: "fit", z: 1, x: 0, y: 0 };   // z: canvas px per image px; x, y: the image's top-left in canvas px
+let split = -1, showOrig = false, showClip = false, momentSel = 0;
+
+const fmt = (s, round) => { s = Math.max(0, round ? Math.round(s) : Math.floor(s + 1e-6)); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`; };
+const gradeObj = () => { const g = {}; for (const [k] of S.sliders) if (vals[k]) g[k] = vals[k]; return g; };
+const key = (g) => JSON.stringify(Object.keys(g).sort().map((k) => [k, g[k]]));
+const isDirty = () => key(gradeObj()) !== key(saved);
+const setStatus = (t) => { $("status").textContent = t; };
+// Every call to the editor's server: a stopped server, an error page or a refused request each end as one plain sentence.
+async function api(url, body) {
+  let res;
+  try {
+    res = await fetch(url, body === undefined ? undefined
+      : { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+  } catch {
+    throw new Error("the editor isn't answering. Is color_edit.py still running?");
+  }
+  if (res.ok) return res;
+  let msg = `${res.status} ${res.statusText}`;
+  try { msg = (await res.json()).error || msg; } catch { /* not JSON: the status says it */ }
+  throw new Error(msg);
+}
+
+// ---------------------------------------------------------------- sliders
+function buildSliders() {
+  for (const [k, label] of S.sliders) {
+    if (k === "sharpness") {
+      const h = document.createElement("h2");
+      h.textContent = "DETAIL";
+      h.style.marginTop = "6px";
+      $("sliders").appendChild(h);
+    }
+    const row = document.createElement("div");
+    row.className = "row";
+    if (S.help && S.help[k]) row.title = S.help[k];
+    row.innerHTML = `<label for="s_${k}">${label}</label><span class="val" id="v_${k}">0</span>` +
+      `<input type="range" min="-100" max="100" step="1" value="0" id="s_${k}">`;
+    $("sliders").appendChild(row);
+    const inp = row.querySelector("input");
+    inp.addEventListener("input", () => { vals[k] = +inp.value; paint(k); changed(33); });
+    inp.addEventListener("change", () => changed(65));
+    row.querySelector("label").addEventListener("dblclick", () => { setSlider(k, 0); changed(65); });
+  }
+}
+function paint(k) {
+  const v = vals[k] || 0, lab = $("v_" + k);
+  lab.textContent = v > 0 ? "+" + v : String(v);
+  lab.classList.toggle("moved", v !== 0);
+  const lo = Math.min(50, 50 + v / 2), hi = Math.max(50, 50 + v / 2);
+  $("s_" + k).style.setProperty("--track", v === 0
+    ? "linear-gradient(90deg, #3a3a40 49.6%, #6a6a72 49.6%, #6a6a72 50.4%, #3a3a40 50.4%)"
+    : `linear-gradient(90deg, #3a3a40 ${lo}%, #f5c451 ${lo}%, #f5c451 ${hi}%, #3a3a40 ${hi}%)`);
+}
+function setSlider(k, v) { vals[k] = v; $("s_" + k).value = v; paint(k); }
+function setAll(g) { for (const [k] of S.sliders) setSlider(k, g[k] || 0); }
+function changed(n) {
+  $("save").textContent = isDirty() ? "Save look \u2022" : "Save look";
+  requestLut(n);
+  redraw();
+}
+
+// ---------------------------------------------------------------- WebGL
+// Pass 1 (look): the whole 4K frame with the look, as the render makes it: Sharpness as the same integer kernel on the
+// luma (edges mirrored as ffmpeg mirrors them), then the colors through the LUT, into an RGBA8 texture (alpha: 1 where
+// it shows as pure white, 0 where pure black). Pass 2 (display): that texture, or the frame as shot, at any zoom.
+const VS = `#version 300 es
+out vec2 uv;
+void main() {
+  vec2 p = vec2(float((gl_VertexID & 1) << 2) - 1.0, float((gl_VertexID & 2) << 1) - 1.0);
+  uv = vec2((p.x + 1.0) * 0.5, 1.0 - (p.y + 1.0) * 0.5);
+  gl_Position = vec4(p, 0.0, 1.0);
+}`;
+const RGB709 = `
+vec3 rgb709(vec3 c) {
+  float y = (c.x - 64.0) / 876.0, cb = (c.y - 512.0) / 896.0, cr = (c.z - 512.0) / 896.0;
+  return vec3(y + 1.5748 * cr, y - 0.187324 * cb - 0.468124 * cr, y + 1.8556 * cb);
+}`;
+const LOOK_FS = `#version 300 es
+precision highp float;
+precision highp int;
+precision highp sampler3D;
+uniform sampler2D tY, tU, tV;
+uniform sampler3D tL;
+uniform float uN, uRdiv;
+uniform float uK[49];
+uniform int uSharp;
+uniform ivec2 uSize;
+out vec4 o;
+${RGB709}
+int mir(int i, int n) { return i < 0 ? -i : (i >= n ? 2 * n - 2 - i : i); }
+void main() {
+  ivec2 p = ivec2(gl_FragCoord.xy);
+  float y;
+  if (uSharp == 1) {
+    float s = 0.0;
+    for (int j = 0; j < 7; j++) {
+      int yy = mir(p.y + j - 3, uSize.y);
+      for (int i = 0; i < 7; i++) s += texelFetch(tY, ivec2(mir(p.x + i - 3, uSize.x), yy), 0).r * uK[j * 7 + i];
+    }
+    y = clamp(floor(s * uRdiv + 0.5), 0.0, 1023.0);
+  } else {
+    y = texelFetch(tY, p, 0).r;
+  }
+  vec2 t = (vec2(p) + 0.5) / vec2(uSize);
+  vec3 g = vec3(y, textureLod(tU, t, 0.0).r, textureLod(tV, t, 0.0).r);
+  if (uN > 1.0) g = texture(tL, clamp(g / 1023.0, 0.0, 1.0) * ((uN - 1.0) / uN) + 0.5 / uN).rgb * 1023.0;
+  o = vec4(clamp(rgb709(g), 0.0, 1.0), 0.5 + (g.x > 940.5 ? 0.5 : 0.0) - (g.x < 64.5 ? 0.5 : 0.0));
+}`;
+const FS = `#version 300 es
+precision highp float;
+uniform sampler2D tY, tU, tV, tOut;
+uniform vec4 uMap;
+uniform vec2 uPx;
+uniform float uSplit;
+uniform int uOrig, uClip, uLook;
+in vec2 uv;
+out vec4 o;
+${RGB709}
+void main() {
+  vec2 t = uv * uMap.xy + uMap.zw;
+  if (t.x < 0.0 || t.y < 0.0 || t.x > 1.0 || t.y > 1.0) { o = vec4(0.02, 0.02, 0.024, 1.0); return; }
+  bool before = uOrig == 1 || (uSplit >= 0.0 && uv.x < uSplit);
+  vec3 r;
+  float cw, cb;
+  if (!before && uLook == 1) {
+    vec4 s = texture(tOut, t);
+    r = s.rgb;
+    cw = clamp((s.a - 0.5) * 2.0, 0.0, 1.0);
+    cb = clamp((0.5 - s.a) * 2.0, 0.0, 1.0);
+  } else {
+    vec3 c = vec3(texture(tY, t).r, texture(tU, t).r, texture(tV, t).r);
+    r = clamp(rgb709(c), 0.0, 1.0);
+    cw = c.x > 940.5 ? 1.0 : 0.0;
+    cb = c.x < 64.5 ? 1.0 : 0.0;
+  }
+  if (uClip == 1) {
+    r = mix(r, vec3(1.0, 0.12, 0.12), 0.8 * cw);
+    r = mix(r, vec3(0.15, 0.4, 1.0), 0.8 * cb);
+  }
+  if (uSplit >= 0.0 && abs(uv.x - uSplit) * uPx.x < 1.5) r = vec3(0.96, 0.77, 0.32);
+  o = vec4(r, 1.0);
+}`;
+let progLook = null, UL = {}, texOut = null, fbo = null, outW = 0, outH = 0, kern = null, hasColor = false, lookOK = false;
+function initGL() {
+  gl = $("gl").getContext("webgl2", { antialias: false, depth: false, preserveDrawingBuffer: true });
+  if (!gl) return false;
+  mip = !!gl.getExtension("EXT_color_buffer_float");
+  const sh = (type, src) => {
+    const s = gl.createShader(type);
+    gl.shaderSource(s, src);
+    gl.compileShader(s);
+    if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(s));
+    return s;
+  };
+  const link = (fs) => {
+    const p = gl.createProgram();
+    gl.attachShader(p, sh(gl.VERTEX_SHADER, VS));
+    gl.attachShader(p, sh(gl.FRAGMENT_SHADER, fs));
+    gl.linkProgram(p);
+    if (!gl.getProgramParameter(p, gl.LINK_STATUS)) throw new Error(gl.getProgramInfoLog(p));
+    return p;
+  };
+  prog = link(FS);
+  for (const n of ["tY", "tU", "tV", "tOut", "uMap", "uPx", "uSplit", "uOrig", "uClip", "uLook"]) U[n] = gl.getUniformLocation(prog, n);
+  gl.useProgram(prog);
+  gl.uniform1i(U.tY, 0); gl.uniform1i(U.tU, 1); gl.uniform1i(U.tV, 2); gl.uniform1i(U.tOut, 4);
+  progLook = link(LOOK_FS);
+  for (const n of ["tY", "tU", "tV", "tL", "uN", "uRdiv", "uK", "uSharp", "uSize"]) UL[n] = gl.getUniformLocation(progLook, n);
+  gl.useProgram(progLook);
+  gl.uniform1i(UL.tY, 0); gl.uniform1i(UL.tU, 1); gl.uniform1i(UL.tV, 2); gl.uniform1i(UL.tL, 3);
+  return true;
+}
+function plane(w, h, data) {
+  const t = gl.createTexture();
+  gl.bindTexture(gl.TEXTURE_2D, t);
+  gl.pixelStorei(gl.UNPACK_ALIGNMENT, 2);
+  gl.texImage2D(gl.TEXTURE_2D, 0, gl.R16F, w, h, 0, gl.RED, gl.HALF_FLOAT, data);
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+  let minf = gl.LINEAR;
+  if (mip) {
+    gl.generateMipmap(gl.TEXTURE_2D);
+    if (gl.getError() === gl.NO_ERROR) minf = gl.LINEAR_MIPMAP_LINEAR; else mip = false;
+  }
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, minf);
+  return t;
+}
+function setLut(n, data) {
+  if (!texL) texL = gl.createTexture();
+  gl.bindTexture(gl.TEXTURE_3D, texL);
+  gl.pixelStorei(gl.UNPACK_ALIGNMENT, 2);
+  gl.texImage3D(gl.TEXTURE_3D, 0, gl.RGB16F, n, n, n, 0, gl.RGB, gl.HALF_FLOAT, data);
+  for (const p of [gl.TEXTURE_WRAP_S, gl.TEXTURE_WRAP_T, gl.TEXTURE_WRAP_R]) gl.texParameteri(gl.TEXTURE_3D, p, gl.CLAMP_TO_EDGE);
+  gl.texParameteri(gl.TEXTURE_3D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+  gl.texParameteri(gl.TEXTURE_3D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+  lutN = n;
+}
+function bindPlanes() {
+  [texY, texU, texV].forEach((t, i) => { gl.activeTexture(gl.TEXTURE0 + i); gl.bindTexture(gl.TEXTURE_2D, t); });
+}
+function renderLook() {
+  // pass 1, whenever the frame, the LUT or the kernel changes
+  if (!gl || !frame || !texY || !texL) return;
+  if (!texOut || outW !== frame.w || outH !== frame.h) {
+    if (texOut) gl.deleteTexture(texOut);
+    if (fbo) gl.deleteFramebuffer(fbo);
+    texOut = gl.createTexture();
+    gl.bindTexture(gl.TEXTURE_2D, texOut);
+    gl.texStorage2D(gl.TEXTURE_2D, 1 + Math.floor(Math.log2(Math.max(frame.w, frame.h))), gl.RGBA8, frame.w, frame.h);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_LINEAR);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+    fbo = gl.createFramebuffer();
+    gl.bindFramebuffer(gl.FRAMEBUFFER, fbo);
+    gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, texOut, 0);
+    outW = frame.w; outH = frame.h;
+  }
+  gl.bindFramebuffer(gl.FRAMEBUFFER, fbo);
+  gl.viewport(0, 0, frame.w, frame.h);
+  gl.useProgram(progLook);
+  bindPlanes();
+  gl.activeTexture(gl.TEXTURE3);
+  gl.bindTexture(gl.TEXTURE_3D, texL);
+  gl.uniform1f(UL.uN, hasColor ? lutN : 0);
+  gl.uniform1i(UL.uSharp, kern ? 1 : 0);
+  gl.uniform1fv(UL.uK, kern ? kern.k : new Float32Array(49));
+  gl.uniform1f(UL.uRdiv, kern ? kern.rdiv : 1);
+  gl.uniform2i(UL.uSize, frame.w, frame.h);
+  gl.drawArrays(gl.TRIANGLES, 0, 3);
+  gl.bindFramebuffer(gl.FRAMEBUFFER, null);
+  gl.bindTexture(gl.TEXTURE_2D, texOut);
+  gl.generateMipmap(gl.TEXTURE_2D);
+  lookOK = true;
+}
+function draw() {
+  if (!gl || !frame) return;
+  const c = gl.canvas;
+  gl.viewport(0, 0, c.width, c.height);
+  gl.useProgram(prog);
+  bindPlanes();
+  gl.activeTexture(gl.TEXTURE4);
+  gl.bindTexture(gl.TEXTURE_2D, texOut);
+  const W = frame.w * view.z, H = frame.h * view.z;
+  gl.uniform4f(U.uMap, c.width / W, c.height / H, -view.x / W, -view.y / H);
+  gl.uniform2f(U.uPx, c.width, c.height);
+  gl.uniform1i(U.uLook, Object.keys(gradeObj()).length && lookOK ? 1 : 0);
+  gl.uniform1f(U.uSplit, split);
+  gl.uniform1i(U.uOrig, showOrig ? 1 : 0);
+  gl.uniform1i(U.uClip, showClip ? 1 : 0);
+  gl.drawArrays(gl.TRIANGLES, 0, 3);
+}
+let raf = 0;
+function redraw() { if (!raf) raf = requestAnimationFrame(() => { raf = 0; draw(); }); }
+
+// ---------------------------------------------------------------- view: fit, 100%, zoom, pan, split
+function resize() {
+  const c = $("gl"), d = window.devicePixelRatio || 1;
+  const w = Math.max(1, Math.round(c.clientWidth * d)), h = Math.max(1, Math.round(c.clientHeight * d));
+  if (c.width !== w || c.height !== h) {
+    const cx = c.width / 2, cy = c.height / 2;
+    c.width = w; c.height = h;
+    if (view.mode === "fit") fit(); else { view.x += w / 2 - cx; view.y += h / 2 - cy; }
+  }
+  redraw();
+}
+function fit() {
+  if (!frame) return;
+  const c = $("gl");
+  view.mode = "fit";
+  view.z = Math.min(c.width / frame.w, c.height / frame.h);
+  view.x = (c.width - frame.w * view.z) / 2;
+  view.y = (c.height - frame.h * view.z) / 2;
+  buttons();
+  redraw();
+}
+function zoomAt(z, cx, cy, mode) {
+  const ix = (cx - view.x) / view.z, iy = (cy - view.y) / view.z;
+  view.z = z;
+  view.x = cx - ix * z;
+  view.y = cy - iy * z;
+  view.mode = mode || "free";
+  buttons();
+  redraw();
+}
+function buttons() {
+  $("fit").classList.toggle("on", view.mode === "fit");
+  $("one").classList.toggle("on", view.mode === "one");
+  $("split").classList.toggle("on", split >= 0);
+  $("clip").classList.toggle("on", showClip);
+  $("gl").classList.toggle("pan", view.mode !== "fit");
+}
+$("fit").onclick = fit;
+$("one").onclick = () => { const c = $("gl"); zoomAt(1, c.width / 2, c.height / 2, "one"); };
+$("split").onclick = () => { split = split >= 0 ? -1 : 0.5; buttons(); redraw(); };
+$("clip").onclick = () => { showClip = !showClip; buttons(); redraw(); };
+const holdOrig = (on) => { showOrig = on; $("orig").classList.toggle("on", on); redraw(); };
+$("orig").addEventListener("pointerdown", () => holdOrig(true));
+for (const ev of ["pointerup", "pointerleave", "pointercancel"]) $("orig").addEventListener(ev, () => holdOrig(false));
+
+let drag = null;
+$("gl").addEventListener("pointerdown", (e) => {
+  const c = $("gl"), d = window.devicePixelRatio || 1, x = e.offsetX * d;
+  if (split >= 0 && Math.abs(x - split * c.width) < 12 * d) drag = { kind: "split" };
+  else if (view.mode !== "fit") drag = { kind: "pan", x0: e.clientX, y0: e.clientY, vx: view.x, vy: view.y };
+  else return;
+  c.setPointerCapture(e.pointerId);
+  c.classList.add("panning");
+});
+$("gl").addEventListener("pointermove", (e) => {
+  const c = $("gl"), d = window.devicePixelRatio || 1;
+  if (!drag) {
+    c.style.cursor = split >= 0 && Math.abs(e.offsetX * d - split * c.width) < 12 * d ? "ew-resize" : "";
+    return;
+  }
+  if (drag.kind === "split") split = Math.min(0.98, Math.max(0.02, e.offsetX * d / c.width));
+  else { view.x = drag.vx + (e.clientX - drag.x0) * d; view.y = drag.vy + (e.clientY - drag.y0) * d; }
+  redraw();
+});
+for (const ev of ["pointerup", "pointercancel"]) $("gl").addEventListener(ev, () => { drag = null; $("gl").classList.remove("panning"); });
+$("gl").addEventListener("wheel", (e) => {
+  e.preventDefault();
+  if (!frame) return;
+  const c = $("gl"), d = window.devicePixelRatio || 1;
+  const fz = Math.min(c.width / frame.w, c.height / frame.h);
+  const z = Math.min(8, Math.max(fz, view.z * Math.pow(1.0015, -e.deltaY)));
+  if (z <= fz + 1e-9) fit(); else zoomAt(z, e.offsetX * d, e.offsetY * d, Math.abs(z - 1) < 0.02 ? "one" : "free");
+}, { passive: false });
+$("gl").addEventListener("dblclick", (e) => {
+  const d = window.devicePixelRatio || 1;
+  if (view.mode === "fit") zoomAt(1, e.offsetX * d, e.offsetY * d, "one"); else fit();
+});
+new ResizeObserver(resize).observe($("gl"));
+
+addEventListener("keydown", (e) => {
+  if (e.target.tagName === "INPUT" && e.key !== " ") return;
+  if (e.key === " ") { e.preventDefault(); if (!e.repeat) holdOrig(true); }
+  else if (e.key === "f" || e.key === "F") fit();
+  else if (e.key === "1") $("one").onclick();
+  else if (e.key === "s" || e.key === "S") $("split").onclick();
+  else if (e.key === "c" || e.key === "C") $("clip").onclick();
+});
+addEventListener("keyup", (e) => { if (e.key === " ") holdOrig(false); });
+addEventListener("blur", () => holdOrig(false));
+addEventListener("beforeunload", (e) => { if (S && isDirty()) { e.preventDefault(); e.returnValue = ""; } });
+
+// ---------------------------------------------------------------- data from the server
+function unpack(buf) {
+  const n = new DataView(buf).getUint32(0, true);
+  return [JSON.parse(new TextDecoder().decode(new Uint8Array(buf, 4, n))), 4 + n];
+}
+let frameReq = 0;
+async function loadFrame(k) {
+  const my = ++frameReq;
+  $("busy").style.display = "block";
+  try {
+    const res = await api(`/api/frame?k=${k}`);
+    const buf = await res.arrayBuffer();
+    if (my !== frameReq) return;
+    const [h, off] = unpack(buf);
+    const ny = h.w * h.h, nc = h.cw * h.h;
+    const Y = new Uint16Array(buf, off, ny), Uc = new Uint16Array(buf, off + 2 * ny, nc), Vc = new Uint16Array(buf, off + 2 * ny + 2 * nc, nc);
+    for (const t of [texY, texU, texV]) if (t) gl.deleteTexture(t);
+    texY = plane(h.w, h.h, Y); texU = plane(h.cw, h.h, Uc); texV = plane(h.cw, h.h, Vc);
+    const first = !frame;
+    frame = h;
+    lookOK = false;
+    renderLook();
+    if (first || view.mode === "fit") fit();
+    $("when").textContent = `${fmt(h.video_s)} into the video (it repeats every ${fmt(S.loop_s, true)}), ${S.source} at ${fmt(h.source_s)}`;
+    requestLut(65);
+    redraw();
+  } catch (e) {
+    setStatus("The frame didn't load: " + e.message);
+  } finally {
+    if (my === frameReq) $("busy").style.display = "none";
+  }
+}
+let lutBusy = false, lutWant = 0;
+function requestLut(n) { lutWant = n; pumpLut(); }
+async function pumpLut() {
+  if (lutBusy || !frame) return;
+  lutBusy = true;
+  try {
+    while (lutWant) {
+      const n = lutWant;
+      lutWant = 0;
+      const res = await api("/api/lut", { grade: gradeObj(), n, k: frame.k });
+      const buf = await res.arrayBuffer();
+      const [h, off] = unpack(buf);
+      setLut(h.n, new Uint16Array(buf, off, h.n * h.n * h.n * 3));
+      kern = h.sharp ? { k: new Float32Array(h.sharp.k), rdiv: h.sharp.rdiv } : null;
+      hasColor = !!h.color;
+      renderLook();
+      if (h.hist) hist(h);
+      redraw();
+    }
+  } catch (e) {
+    setStatus("The look didn't update: " + e.message);
+  } finally {
+    lutBusy = false;
+  }
+}
+function hist(h) {
+  const c = $("hist"), x = c.getContext("2d"), W = c.width, H = c.height, n = h.hist.length;
+  x.clearRect(0, 0, W, H);
+  const top = Math.max(...h.hist.slice(0, n - 1), ...h.hist0.slice(0, n - 1), 1e-9);
+  const yOf = (v) => H - 4 - Math.min(1, Math.sqrt(v / top)) * (H - 12);
+  x.beginPath();
+  x.moveTo(0, H);
+  h.hist.forEach((v, i) => x.lineTo(((i + 0.5) / n) * W, yOf(v)));
+  x.lineTo(W, H);
+  x.closePath();
+  x.fillStyle = "rgba(245,196,81,.5)";
+  x.fill();
+  x.beginPath();
+  h.hist0.forEach((v, i) => (i ? x.lineTo : x.moveTo).call(x, ((i + 0.5) / n) * W, yOf(v)));
+  x.strokeStyle = "rgba(255,255,255,.6)";
+  x.lineWidth = 2;
+  x.stroke();
+  $("clipinfo").textContent = `Shows as pure white: ${h.white0.toFixed(2)}% of the picture as shot, ${h.white.toFixed(2)}% with this look.` +
+    (h.white0 > 0.05 && h.white0 - h.white < 0.02 ? " Highlights below 0 brings it back." : "");
+}
+
+// ---------------------------------------------------------------- moments
+function buildMoments() {
+  S.moments.forEach((m, i) => {
+    const d = document.createElement("div");
+    d.className = "m";
+    d.innerHTML = `<img alt="" src="/api/thumb/${m.i}"><div>${fmt(m.video_s)}</div>`;
+    d.onclick = () => pickMoment(i);
+    $("moments").appendChild(d);
+  });
+  $("scrub").max = Math.floor(S.loop_s) - 1;
+  $("loopend").textContent = fmt(S.loop_s, true);
+}
+function pickMoment(i) {
+  momentSel = i;
+  [...$("moments").children].forEach((d, j) => d.classList.toggle("sel", j === i));
+  $("scrub").value = Math.floor(S.moments[i].video_s);
+  loadFrame(S.moments[i].frame);
+}
+$("scrub").addEventListener("change", () => {
+  [...$("moments").children].forEach((d) => d.classList.remove("sel"));
+  const L = S.loop, m = Math.round(+$("scrub").value * S.fps);
+  loadFrame(L.s + ((L.o + m) % L.N));
+});
+$("scrub").addEventListener("input", () => { $("when").textContent = `${fmt(+$("scrub").value)} into the video (let go to load it)`; });
+
+// ---------------------------------------------------------------- save, revert, clip
+$("reset").onclick = () => { setAll({}); changed(65); };
+$("revert").onclick = () => { setAll(saved); changed(65); };
+$("save").onclick = async () => {
+  $("save").disabled = true;
+  setStatus("Saving, and making a before and after through the render's own filters ...");
+  try {
+    const r = await (await api("/api/save", { grade: gradeObj(), k: frame ? frame.k : null })).json();
+    if (!r.ok) throw new Error(r.error);
+    saved = r.grade;
+    changed(65);
+    setStatus(`Saved: ${r.describe}.\nThe 10 hour video takes it when it's rerendered (ask Copilot to rerender the aquarium).\n` +
+      `Before and after: ${r.compare}`);
+  } catch (e) {
+    setStatus("It didn't save: " + e.message);
+  } finally {
+    $("save").disabled = false;
+  }
+};
+$("makeclip").onclick = async () => {
+  if (!frame) return;
+  try {
+    const r = await (await api("/api/clip", { grade: gradeObj(), k: frame.k, seconds: S.clip_s })).json();
+    if (!r.ok) throw new Error(r.error);
+    $("makeclip").disabled = true;
+    pollJob();
+  } catch (e) {
+    setStatus("The clip didn't start: " + e.message);
+  }
+};
+let jobMisses = 0;
+async function pollJob() {
+  let j;
+  try {
+    j = await (await api("/api/job")).json();
+    jobMisses = 0;
+  } catch (e) {
+    if (++jobMisses < 10) {                    // a server that's busy or restarting gets 30 s before the page gives up
+      setStatus(`${e.message} Trying again ...`);
+      setTimeout(pollJob, 3000);
+      return;
+    }
+    jobMisses = 0;
+    $("makeclip").disabled = false;
+    setStatus("Lost track of the clip: " + e.message);
+    return;
+  }
+  if (j.state === "running") {
+    setStatus(`Making a ${S.clip_s} s 4K clip from here with ${j.describe}: ${Math.round((100 * j.done) / j.total)}%`);
+    setTimeout(pollJob, 1000);
+    return;
+  }
+  $("makeclip").disabled = false;
+  if (j.state === "done") setStatus(`The clip is ready${j.opened ? " and opened in your player" : ""} (${j.describe}):\n${j.path}`);
+  else if (j.state === "error") setStatus("The clip failed: " + j.error);
+}
+
+// ---------------------------------------------------------------- start
+(async () => {
+  try {
+    if (!initGL()) {
+      $("nogl").style.display = "block";
+      $("nogl").textContent = "This browser has no WebGL2. Open the page in Chrome or Edge.";
+      return;
+    }
+    S = await (await api("/api/state")).json();
+    document.title = `${S.name} \u00b7 colors`;
+    $("title").textContent = `${S.name} \u00b7 colors`;
+    buildSliders();
+    saved = S.grade;
+    setAll(saved);
+    changed(65);
+    buildMoments();
+    resize();
+    if (!Object.keys(saved).length) setStatus("Showing it as shot. Highlights around -20 to -30 brings the rock's white back into range.");
+    pickMoment(0);
+  } catch (e) {
+    setStatus("The editor didn't start: " + e.message);
+  }
+})();
+</script>
+</body>
+</html>

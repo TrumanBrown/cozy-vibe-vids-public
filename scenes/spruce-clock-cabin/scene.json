@@ -1,0 +1,349 @@
+{
+  "_note": "Draft written by tools/analyze_plate.py; tune freely (it is not overwritten unless --force-scene). Keys: src/library/autoscene.js.",
+  "name": "spruce-clock-cabin",
+  "title": "Minecraft Spruce Clock Cabin | Snowy Night by the Fire | 10 Hours",
+  "aesthetic": "minecraft-voxel",
+  "plate": "spruce-clock-cabin",
+  "seed": 7,
+  "fps": 30,
+  "loopSeconds": 120,
+  "duration": 36000,
+  "plate_fx": {
+    "flicker": 0.02,
+    "mist": 0.14,
+    "ripple": 0.0,
+    "horizon": 0.55,
+    "lightning": {
+      "color": "#b9c8ff",
+      "sky": 2.0,
+      "land": 0.8,
+      "roomNear": 0.35,
+      "roomAmbient": 0.06,
+      "farColor": "#c9c4f2"
+    },
+    "mistColor": "#533941",
+    "mistDry": true
+  },
+  "regions": {
+    "clock_pendulum": null,
+    "mantel_lantern": {
+      "flicker": {
+        "style": "candle",
+        "amp": 0.08,
+        "spill": 0.04,
+        "sigma": 0.06
+      }
+    },
+    "wall_sconce": {
+      "flicker": {
+        "style": "candle",
+        "amp": 0.08,
+        "spill": 0.04,
+        "sigma": 0.06
+      }
+    },
+    "outside_lamp_right": {
+      "flicker": {
+        "style": "candle",
+        "amp": 0.1,
+        "spill": 0.05,
+        "sigma": 0.05
+      }
+    },
+    "outside_lamp_left": {
+      "flicker": {
+        "style": "candle",
+        "amp": 0.1,
+        "spill": 0.05,
+        "sigma": 0.05
+      }
+    }
+  },
+  "layers": [
+    {
+      "type": "particles",
+      "mode": "snow",
+      "count": 16000,
+      "depth": [
+        5,
+        40
+      ],
+      "depthBias": 1.0,
+      "size": [
+        4,
+        18
+      ],
+      "fall": 0.9,
+      "flutter": 0.14,
+      "density": 0.85,
+      "warm": "#ffad56",
+      "focalPx": 3000,
+      "_note": "the snow falls outside the windows, so its nearest flakes are at the glass (about 5 to 6 blocks off): from 1.5 m they would be big blurry blobs as if right at the camera. Seen through a room's windows the view is in focus, as painted: focus 10 m with little blur (coc 8), where the outdoor default (25 m, 34) blurred the flakes by the glass to almost nothing; 16000 flakes of 4 to 18 mm, lit whiter by the sky (skyGain 3.4), so it reads as snowing at 1:1 (the critic was unsure on sample v4: too sparse to judge)",
+      "coc": 8,
+      "focus": 10,
+      "skyGain": 3.4
+    },
+    {
+      "type": "fire",
+      "regions": "kind:fire"
+    },
+    {
+      "type": "particles",
+      "mode": "embers",
+      "regions": "kind:fire",
+      "rate": 0.45
+    },
+    {
+      "type": "particles",
+      "mode": "dust",
+      "regions": "kind:dust",
+      "count": 120
+    },
+    {
+      "type": "vines",
+      "strands": {
+        "clock_pendulum": {
+          "rigid": true,
+          "deg": 3.3,
+          "hz": 0.5,
+          "phase": 0,
+          "shift": [
+            -8,
+            0
+          ]
+        }
+      },
+      "_note": "the clock's pendulum, lifted off the plate (tools/vine_layers.py, hand.json lift, matte bright) and swung as one piece: a seconds pendulum, one swing a second, 3.3 degrees, drawn 8 px left so it hangs in the middle of its case (the painting has it off center); audio.clock ticks with it"
+    },
+    {
+      "type": "rabbit",
+      "palette": "snow",
+      "key": {
+        "dir": [
+          -0.65,
+          0.45,
+          -0.6
+        ],
+        "color": "#ffd2aa",
+        "intensity": 4.0
+      },
+      "fill": {
+        "dir": [
+          0.75,
+          0.4,
+          -0.35
+        ],
+        "color": "#b4c2e6",
+        "intensity": 0.3
+      },
+      "reflect": 0.18,
+      "reflectFade": 0.6,
+      "_note": "the signature: a blocky snow rabbit (rabbit3d.js) on the plank floor, lit by the fire from the left and the windows from the right, a faint reflection in the waxed planks. Its light is the plate's around it pulled toward gray (ambientSat) and raised (ambient), so it reads as white as the painted wolf (its front fur about 131, 92, 90). In the fire's pool of light in front of the hearth that glowed: the plate's light grows only with its square root above ambientKnee, the fire's key grows at most to keyMax (keyRef 0.25 kept it from growing with the moonlit floor by the windows, where it clipped), and the shoulder keeps any highlight under the bloom",
+      "ambient": 20,
+      "ambientSat": 0.25,
+      "keyRef": 0.25,
+      "ambientKnee": 0.03,
+      "keyMax": 0.6,
+      "shoulder": [
+        0.45,
+        0.85
+      ]
+    }
+  ],
+  "wind": {
+    "mean": 0.1,
+    "gust": 0.8,
+    "turb": 0.35,
+    "gustCycles": 5,
+    "fronts": 0.6
+  },
+  "runoff": [],
+  "events": {
+    "ember": {
+      "perHour": 14,
+      "minGap": 90,
+      "startAfter": 8
+    },
+    "weather": {
+      "dt": 5,
+      "rainAmp": 1.4,
+      "windAmp": 1,
+      "stormRain": 0,
+      "stormWind": 0,
+      "stormHalfWidth": 420,
+      "streamLag": 90
+    },
+    "flurry": {
+      "perHour": 6,
+      "minGap": 300,
+      "dur": [
+        5,
+        9
+      ],
+      "amp": [
+        1.0,
+        2.2
+      ],
+      "leaves": [
+        0,
+        0
+      ],
+      "prevailing": 1,
+      "startAfter": 40
+    },
+    "gutter": {
+      "perHour": 12,
+      "minGap": 300,
+      "startAfter": 30,
+      "depth": 0.55,
+      "first": 60
+    },
+    "pet": {
+      "sigh": 30,
+      "minGap": 30,
+      "first": 45
+    },
+    "rareGap": 45,
+    "strikeBusy": [
+      30,
+      30
+    ],
+    "rabbit": {
+      "rest": [
+        35,
+        80
+      ],
+      "dur": [
+        290,
+        340
+      ],
+      "startAfter": 2,
+      "first": 3,
+      "horizon": 0.5,
+      "size": 460,
+      "sizeY": 0.9,
+      "focal": 3000,
+      "enter": [
+        [
+          1.1,
+          0.745
+        ],
+        [
+          -0.1,
+          0.8
+        ]
+      ],
+      "exit": [
+        [
+          1.1,
+          0.765
+        ],
+        [
+          -0.1,
+          0.82
+        ]
+      ],
+      "spots": [
+        [
+          0.47,
+          0.725
+        ],
+        [
+          0.38,
+          0.78
+        ],
+        [
+          0.6,
+          0.715
+        ],
+        [
+          0.73,
+          0.745
+        ],
+        [
+          0.55,
+          0.8
+        ]
+      ],
+      "spotsPer": [
+        2,
+        3
+      ],
+      "avoid": [
+        [
+          0.26,
+          0.55,
+          0.46,
+          0.7
+        ],
+        [
+          0.92,
+          0.55,
+          1.0,
+          0.72
+        ],
+        [
+          0.0,
+          0.5,
+          0.11,
+          0.72
+        ]
+      ],
+      "minY": 0.69,
+      "sit": [
+        40,
+        90
+      ],
+      "fill": true,
+      "acts": [
+        3,
+        6
+      ],
+      "actGap": [
+        4,
+        12
+      ],
+      "burst": [
+        2,
+        5
+      ],
+      "hopLen": [
+        0.7,
+        1.3
+      ],
+      "_note": "the floor measured from the plank seams' vanishing point (row 0.50, the eye line of a camera about half a block up); 540 px at row 0.9 is a snow rabbit's size against the wolf; it comes in and leaves past the side edges, never the bottom (with the camera that low it would fill the frame there); visits chained as the jungle frog's (L173), on screen most of each loop, the first at 2 to 5 s"
+    },
+    "loop": {
+      "period": 1200
+    }
+  },
+  "audio": {
+    "bed": "cabin_snow",
+    "lufs": -20,
+    "fire_pan": -0.4,
+    "clock": {
+      "hz": 0.5,
+      "phase": 0,
+      "pan": 0.06,
+      "db": -24,
+      "_note": "the pendulum's ticks: the vines layer's clock_pendulum hz and phase (keep them the same)"
+    },
+    "music": {
+      "order": "smooth",
+      "body_db": 6,
+      "crossfade": 8,
+      "fit": true
+    }
+  },
+  "_regions_note": "the lanterns hold flames: a candle's flicker, no swing indoors (the analysis read them as steady lamps); the clock's pendulum is the vines layer's",
+  "intro": {
+    "lines": [
+      "Welcome to the Spruce Clock Cabin.",
+      "Come warm up by the fire."
+    ],
+    "pos": [
+      0.5,
+      0.5
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+ "_note": "Drafted by tools/finish_video.py on 2026-11-05: the title, the opening and the hashtags by the chat model in Truman's form (model), from scenes/tidepool-fog/brief.json and his published videos (docs/records/*/published.md), checked with upload_package's rules. Edit freely: the tool never overwrites this spec. Once it's live, record what he changed (master-render skill, Upload checklist step 9). Edited 2026-11-05 after the draft: the draft named fog and soft wind as the sound, but the bed is mostly the ocean waves (with the sea's roar and a breeze), so the opening, a hashtag and the blurb name the waves (L174); the oystercatcher faces the shore, not the sea; the first title is in the form Truman picked for the Burdock Shelter, the same series, the other two in the ramen alley's form. The opening names the cast's species and the hermit crab, the signature detail.",
+ "slug": "driftwood-shelter",
+ "name": "Driftwood Shelter",
+ "render": "out/tidepool-fog/render/10h_v1",
+ "video": "master_music.mp4",
+ "thumbnails": "assets/thumbnails/tidepool-fog.json",
+ "thumbnail": "watercolor-title",
+ "test_and_compare": [
+  "watercolor-title",
+  "field-guide",
+  "storybook"
+ ],
+ "draft_text": false,
+ "titles": [
+  "Welcome Home, Critter. Come rest with your PNW friends by the tide pool. 4K, 10 hours",
+  "Lofi Driftwood Shelter. Study and relax with ocean waves. 4K, 10 hours, no Ads",
+  "Lofi Driftwood Shelter. Relax by a foggy tide pool with ocean waves. 4K, 10 hours"
+ ],
+ "description": [
+  "Come relax with ocean waves on the rocks by a foggy tide pool at dusk, with gentle lofi music and a paper lantern glowing from the driftwood. A northern sea otter warms up with a mug of cocoa next to an ochre sea star, a graceful decorator crab sits under the lantern with a little garden on its back, a tufted puffin carries its fishing rod over its shoulder, and a black oystercatcher in a straw hat stands out on the rocks. All five are native to the Pacific Northwest, and now and then a tiny hermit crab climbs out of the tide pool. 10 hours of 4K, calming ambience with smooth music. Never interrupting with ads."
+ ],
+ "hashtags": [
+  "#lofi",
+  "#oceanwaves",
+  "#studymusic",
+  "#study",
+  "#relaxing",
+  "#relax",
+  "#4k",
+  "#10hours"
+ ],
+ "tags": [],
+ "category": "Film & Animation",
+ "blurb": [
+  "I put videos like these on the TV while I work from home, so I started making my own. Each video is one scene I designed for this channel. Excited to continue to develop more.",
+  "",
+  "All my animation is made by myself and rendered frame by frame, and the ambience (the waves, the sea breeze and every other effect) is synthesized in my engine. I love making these videos, so please let me know what you would like to see next.",
+  "",
+  "No stock footage, recordings or sound-effect libraries."
+ ]
+}

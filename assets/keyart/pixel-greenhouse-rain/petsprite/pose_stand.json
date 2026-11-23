@@ -1,0 +1,42 @@
+{
+ "pose": "stand",
+ "base": "sit",
+ "prompt": "This is a 16-bit pixel-art greenhouse. A golden-brown puppy faces right on a woven mat: its head, chest and front legs are there, but the back half of its body is missing. Repaint only the masked area: paint the rest of this same puppy standing up on all four legs: its back level from the shoulders to the rump, its belly, its two hind legs straight down with the hind paws on the mat, and its tail hanging down relaxed behind, in the same fluffy golden fur with the same small shades and warm highlights as its head and chest, its edge the same soft dark brown, the same pixel size as the rest of the picture and lit by the same warm light. Its head, chest and front legs stay exactly as they are. Under its belly and behind it the woven mat, the floor and the wall continue as they are. Nothing else changes.",
+ "window4": [
+  72,
+  624,
+  1536,
+  1536
+ ],
+ "boxes": [
+  [
+   318,
+   900,
+   556,
+   1186
+  ]
+ ],
+ "warp": [
+  1.0002,
+  -0.0001,
+  -0.0627,
+  0.0,
+  1.0002,
+  -0.0143
+ ],
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-21",
+ "usage": {
+  "input_tokens": 1221,
+  "input_tokens_details": {
+   "image_tokens": 1024,
+   "text_tokens": 197
+  },
+  "output_tokens": 1756,
+  "output_tokens_details": {
+   "image_tokens": 1756,
+   "text_tokens": 0
+  },
+  "total_tokens": 2977
+ }
+}

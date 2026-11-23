@@ -1,0 +1,37 @@
+{
+ "creature": "snail",
+ "prompt": "A single a small garden snail crawling to the right, seen from the side: a glossy spiral shell, brown with darker bands, on its back; its soft grey-brown body stretched out low along the ground in front of the shell, two long eye stalks up and two short feelers at the front, wet and shiny. Painted to match this art style: Wide 16:9 16-bit pixel art in the style of Stardew Valley, chunky square pixels of one consistent size, limited cozy palette, crisp hard edges, no blur, no anti-aliasing.. Lighting to match the scene: soft blue dawn light through the panes, warmed by one amber lantern; crisp, consistently sized pixels with no blur or anti-aliasing. The whole creature is in view, centered, with a little space around it. Transparent background, no ground, no shadow, no other objects, no text.",
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-21",
+ "usage": {
+  "input_tokens": 189,
+  "input_tokens_details": {
+   "image_tokens": 0,
+   "text_tokens": 189
+  },
+  "output_tokens": 1756,
+  "output_tokens_details": {
+   "image_tokens": 1756,
+   "text_tokens": 0
+  },
+  "total_tokens": 1945
+ },
+ "size": [
+  1024,
+  1024
+ ],
+ "bbox": [
+  74,
+  304,
+  992,
+  764
+ ],
+ "foot_y": 764,
+ "front_x": 992,
+ "back_x": 74,
+ "shell_x": [
+  165,
+  834
+ ],
+ "lum": 0.3476
+}

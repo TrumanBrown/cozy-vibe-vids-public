@@ -1,0 +1,378 @@
+{
+  "_note": "Draft written by tools/analyze_plate.py; tune freely (it is not overwritten unless --force-scene). Keys: src/library/autoscene.js.",
+  "name": "leaf-campfire-rain",
+  "title": "Come rest at the Burdock Shelter",
+  "aesthetic": "ink-gouache",
+  "plate": "leaf-campfire-rain",
+  "seed": 7,
+  "fps": 30,
+  "loopSeconds": 120,
+  "duration": 36000,
+  "plate_fx": {
+    "flicker": 0.02,
+    "mist": 0.14,
+    "ripple": 0.0003,
+    "horizon": 0.48,
+    "lightning": {
+      "color": "#b9c8ff",
+      "sky": 2.0,
+      "land": 0.8,
+      "roomNear": 0.35,
+      "roomAmbient": 0.06,
+      "farColor": "#c9c4f2"
+    },
+    "mistColor": "#151a1b",
+    "rippleXY": [
+      0.9,
+      0.5
+    ],
+    "rings": [
+      0,
+      0
+    ],
+    "ground": {
+      "horizon": 0.48,
+      "refract": 8,
+      "highlight": 0.7,
+      "cells": 24,
+      "density": 0.85
+    }
+  },
+  "regions": {
+    "lizard_sagebrush": {
+      "sway": {
+        "amp": 1.5,
+        "hz": 0.11,
+        "gust": 0.6
+      }
+    },
+    "snake_fern_sprout": {
+      "sway": {
+        "amp": 1.5,
+        "hz": 0.13,
+        "gust": 0.6
+      }
+    },
+    "snake_scarf": {
+      "sway": {
+        "amp": 2.0,
+        "hz": 0.08,
+        "gust": 0.8
+      }
+    },
+    "salamander_salal_leaf": {
+      "sway": {
+        "amp": 2.5,
+        "hz": 0.16,
+        "gust": 1.2
+      }
+    },
+    "large_burdock_leaves": {
+      "sway": {
+        "amp": 1.8,
+        "hz": 0.1,
+        "gust": 1.2
+      }
+    },
+    "tall_reeds_right": {
+      "sway": {
+        "amp": 4.0,
+        "hz": 0.12,
+        "gust": 1.2
+      }
+    }
+  },
+  "layers": [
+    {
+      "type": "blink"
+    },
+    {
+      "type": "rain",
+      "count": 6500,
+      "depth": [
+        3,
+        40
+      ],
+      "depthPower": 1.3,
+      "dropRange": [
+        0.5,
+        3.2
+      ],
+      "dropLambda": 2.4,
+      "focalPx": 2700,
+      "shutter": 0.00909090909090909,
+      "alphaRef": 0.35,
+      "farBoost": 0.3,
+      "maxAlpha": 0.85,
+      "minWidth": 3.0,
+      "focus": 12,
+      "coc": 10,
+      "skyGain": 2.0,
+      "envMix": 0.85,
+      "minContrast": 0.08,
+      "warm": "#f5b85e",
+      "warmGain": 0.35,
+      "clumps": {
+        "amount": 1.0,
+        "strength": 0.5,
+        "cycles": 13,
+        "across": 3,
+        "drift": 1
+      }
+    },
+    {
+      "type": "steam",
+      "regions": "kind:steam",
+      "opacity": 0.7,
+      "drafts": true
+    },
+    {
+      "type": "fire",
+      "regions": "kind:fire"
+    },
+    {
+      "type": "particles",
+      "mode": "embers",
+      "regions": "kind:fire",
+      "rate": 0.45
+    },
+    {
+      "type": "moth",
+      "lamp": "salamander_paper_lantern",
+      "center": [
+        0.8609,
+        0.5408
+      ],
+      "unit": 73,
+      "size": 48,
+      "unitM": 0.03,
+      "color": [
+        1.0,
+        0.531,
+        0.151
+      ],
+      "_auto": "drafted by tools/plate_features.py",
+      "detail": true,
+      "shutter": 0.005,
+      "covered": true
+    },
+    {
+      "type": "critter",
+      "creature": "beetle",
+      "path": [
+        [
+          0.9997,
+          0.962
+        ],
+        [
+          0.9688,
+          0.95
+        ],
+        [
+          0.9375,
+          0.9398
+        ],
+        [
+          0.9062,
+          0.9306
+        ],
+        [
+          0.8906,
+          0.919
+        ],
+        [
+          0.8672,
+          0.9111
+        ],
+        [
+          0.8438,
+          0.9083
+        ],
+        [
+          0.8255,
+          0.913
+        ],
+        [
+          0.8099,
+          0.9213
+        ],
+        [
+          0.7865,
+          0.9236
+        ],
+        [
+          0.763,
+          0.9236
+        ],
+        [
+          0.7396,
+          0.9236
+        ],
+        [
+          0.7188,
+          0.9236
+        ],
+        [
+          0.7031,
+          0.9236
+        ]
+      ],
+      "size": 52.0,
+      "_auto": "drafted by tools/plate_features.py",
+      "sizeEnd": 50.0,
+      "_path_note": "by hand 2026-10-25 (L144): in from the right edge, over the big blue rock, across the moss in front of the grass sprout, behind the lower rock's right end"
+    },
+    {
+      "type": "critter",
+      "creature": "snail",
+      "path": [
+        [
+          0.6615,
+          0.9037
+        ],
+        [
+          0.6719,
+          0.8912
+        ],
+        [
+          0.6875,
+          0.8843
+        ],
+        [
+          0.7031,
+          0.8796
+        ],
+        [
+          0.7156,
+          0.8769
+        ]
+      ],
+      "size": 60.0,
+      "_auto": "drafted by tools/plate_features.py",
+      "track": 1,
+      "_path_note": "by hand 2026-10-25 (L144): out from behind the lower rock, up to the middle-right rock and behind it; the drafted end hid in a patch of leaf litter"
+    }
+  ],
+  "wind": {
+    "mean": 0.05,
+    "gust": 0.25,
+    "turb": 0.3,
+    "gustCycles": 5,
+    "fronts": 0.6
+  },
+  "runoff": [],
+  "events": {
+    "ember": {
+      "perHour": 14,
+      "minGap": 90,
+      "startAfter": 8
+    },
+    "weather": {
+      "dt": 5,
+      "rainAmp": 1.25,
+      "windAmp": 1,
+      "stormRain": 0,
+      "stormWind": 0,
+      "stormHalfWidth": 420,
+      "streamLag": 90
+    },
+    "flurry": {
+      "perHour": 6,
+      "minGap": 300,
+      "dur": [
+        5,
+        9
+      ],
+      "amp": [
+        0.35,
+        0.7
+      ],
+      "leaves": [
+        0,
+        0
+      ],
+      "prevailing": 1,
+      "startAfter": 40
+    },
+    "gutter": {
+      "perHour": 12,
+      "minGap": 300,
+      "startAfter": 30,
+      "depth": 0.55,
+      "first": 60
+    },
+    "pet": {
+      "ear": 0,
+      "tail": 0,
+      "sigh": 30,
+      "thunderEar": 0,
+      "minGap": 30,
+      "first": 45
+    },
+    "rareGap": 45,
+    "strikeBusy": [
+      30,
+      30
+    ],
+    "moth": {
+      "perHour": 24,
+      "dur": [
+        45,
+        140
+      ],
+      "lands": 2,
+      "startAfter": 15,
+      "first": 30,
+      "intro": [
+        300,
+        1.5
+      ]
+    },
+    "critter": [
+      {
+        "perHour": 10,
+        "dur": [
+          51,
+          68
+        ],
+        "startAfter": 4,
+        "first": 6
+      },
+      {
+        "perHour": 10,
+        "dur": [
+          95,
+          130
+        ],
+        "startAfter": 12,
+        "first": 20
+      }
+    ],
+    "loop": {
+      "period": 1200
+    }
+  },
+  "audio": {
+    "bed": "cottage_rain",
+    "lufs": -20,
+    "fire_pan": -0.27,
+    "music": {
+      "order": "smooth",
+      "body_db": 6,
+      "crossfade": 8,
+      "fit": true
+    }
+  },
+  "intro": {
+    "lines": [
+      "Welcome home, critter.",
+      "Come rest with your PNW friends."
+    ],
+    "pos": [
+      0.5,
+      0.5
+    ]
+  },
+  "_runoff_note": "2026-10-25 (L149): the 7 streams analyze_plate drafted hung from the lower edge of its 'canopy' cover, which SAM had traced as the strip of forest above the burdock leaf: with that forest open they poured from open air",
+  "_drips_note": "2026-10-25 (L149): no drips layers. The only wet edges are the salal leaf, held over the salamander and its lantern (every drop from its edge, the tip too, lands on one of them: keep_off_dry), and the burdock leaf, over the camp and the snake; the two drafted layers drew nothing"
+}

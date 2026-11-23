@@ -1,0 +1,152 @@
+{
+ "source": "assets/keyart/jungle-temple-night/hero_gpt-image-2-5-sunburst_20261027-114441_3.png",
+ "deployment": "gpt-image-2-5-sunburst",
+ "items": [
+  {
+   "name": "lift_upper",
+   "kind": "other",
+   "prompt": "Remove the long hanging jungle vine strands. Where it was, show what is behind it: the dark blue starry night sky with pale blocky clouds, the mossy stone overhang's edge and dark blocky jungle treetops. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     1036,
+     0,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1118,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 94
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2874
+    }
+   ],
+   "date": "2026-10-27"
+  },
+  {
+   "name": "lift_lower",
+   "kind": "other",
+   "prompt": "Remove the long hanging jungle vine strands. Where it was, show what is behind it: the dark night jungle of blocky trees and leaves and the moonlit stone temple ruins with small warm lit windows. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     905,
+     311,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1111,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 87
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2867
+    }
+   ],
+   "date": "2026-10-27"
+  },
+  {
+   "name": "lift_right_upper",
+   "kind": "other",
+   "prompt": "Remove the a curtain of hanging jungle vines at the right edge. Where it was, show what is behind it: the dark blue starry night sky with pale blocky clouds, and the moonlit stone temple ruins with small warm lit windows on the jungle cliff. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     1536,
+     0,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1123,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 99
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2879
+    }
+   ],
+   "date": "2026-10-27"
+  },
+  {
+   "name": "lift_right_lower",
+   "kind": "other",
+   "prompt": "Remove the a curtain of hanging jungle vines at the right edge. Where it was, show what is behind it: the moonlit jungle cliff with blocky trees and stone ruins, and the calm blue pool below it, continuing the scene beside them. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     1536,
+     320,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1120,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 96
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2876
+    }
+   ],
+   "date": "2026-10-27"
+  },
+  {
+   "name": "moon_sky",
+   "kind": "moon",
+   "prompt": "Remove the glowing square moon and the bright glow around it from the sky. Where it was, show the night sky as it is around it: the dark blue night sky with small scattered stars, as dark and even as the open sky further from it. No moon, no glow and no bright light anywhere there. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     1536,
+     0,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1133,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 109
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2889
+    }
+   ],
+   "date": "2026-10-27"
+  }
+ ],
+ "_note": "AI edit of the key art (painted transients removed); see tools/plate_clean.py"
+}

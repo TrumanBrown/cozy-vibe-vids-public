@@ -1,0 +1,205 @@
+{
+ "_note": "Made by tools/finish_video.py on 2026-10-22. Frame 37350: the fullest second of the window's busiest minute (0:00 into the window). First and suggested: pixel-dog, the channel's pixel concept Truman picked on both published videos (a big sleeping dog with the place name and the music tag). The others are pixel concepts too (a pixel look). Every one says 4K and the length. Text colors and shades were chosen against what's behind each line (lessons L65). Edit freely: the tool never overwrites this spec.",
+ "_finish": {
+  "suggested": "pixel-dog",
+  "test_and_compare": [
+   "pixel-dog",
+   "pixel-place-card",
+   "pixel-polaroid"
+  ],
+  "frame": 37350,
+  "hero": "sleeping_dog",
+  "measured": [
+   "pixel-dog: behind 'Blossom Veranda' brightness 0.33 (80th percentile 0.40), hue 32, shaded",
+   "pixel-place-card: behind 'Blossom Veranda' brightness 0.33 (80th percentile 0.43), hue 16, shaded"
+  ]
+ },
+ "scene": "scenes/blossom-teahouse-rain",
+ "out": "out/blossom-teahouse-rain/thumbnails",
+ "badges": [
+  {
+   "x": 0.04,
+   "y": 0.085,
+   "px": 21,
+   "gap": 3,
+   "items": [
+    {
+     "text": "4K",
+     "style": "chip"
+    },
+    {
+     "text": "10 HR",
+     "style": "chip"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "name": "pixel-dog",
+   "frame": 37350,
+   "zoom": 3.344,
+   "center": [
+    0.1729,
+    0.5905
+   ],
+   "text": [
+    {
+     "text": "Blossom Veranda",
+     "px": 27,
+     "y": 0.27,
+     "style": "amber",
+     "x": 0.95,
+     "align": "right"
+    },
+    {
+     "text": "♫ calm minecraft music & rain",
+     "px": 12,
+     "y": 0.38,
+     "style": "badge",
+     "x": 0.95,
+     "align": "right"
+    }
+   ],
+   "scrims": [
+    {
+     "x": 0.655,
+     "y": 0.283,
+     "rx": 0.345,
+     "ry": 0.116,
+     "alpha": 0.5
+    }
+   ]
+  },
+  {
+   "name": "pixel-place-card",
+   "frame": 37350,
+   "zoom": 1.05,
+   "center": [
+    0.5,
+    0.47
+   ],
+   "text": [
+    {
+     "text": "Blossom Veranda",
+     "px": 30,
+     "style": "amber",
+     "rules": [
+      5,
+      3
+     ],
+     "y": 0.56
+    },
+    {
+     "text": "♫ calm minecraft music",
+     "px": 18,
+     "y": 0.665,
+     "style": "badge"
+    },
+    {
+     "text": "🌧 gentle rain",
+     "px": 15,
+     "style": "chip",
+     "y": 0.755
+    }
+   ],
+   "insets": [
+    {
+     "x": 0.83,
+     "y": 0.3,
+     "w": 0.24,
+     "span": 0.278,
+     "center": [
+      0.131,
+      0.6593
+     ]
+    }
+   ],
+   "scrims": [
+    {
+     "x": 0.5,
+     "y": 0.574,
+     "rx": 0.441,
+     "ry": 0.122,
+     "alpha": 0.5
+    }
+   ]
+  },
+  {
+   "name": "pixel-polaroid",
+   "frame": 37350,
+   "zoom": 1.05,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "mat": {
+    "color": "#efe4cf",
+    "margin": [
+     0.035,
+     0.06,
+     0.035,
+     0.25
+    ]
+   },
+   "text": [
+    {
+     "text": "blossom veranda, a rainy morning",
+     "x": 0.06,
+     "y": 0.83,
+     "align": "left",
+     "style": "ink",
+     "bold": true,
+     "px": 15
+    },
+    {
+     "text": "♫ calm minecraft music & rain",
+     "x": 0.06,
+     "y": 0.925,
+     "align": "left",
+     "style": "ink",
+     "fill": "#7a5534",
+     "fill2": "#7a5534",
+     "bold": true,
+     "px": 15
+    }
+   ]
+  },
+  {
+   "name": "pixel-sign",
+   "frame": 37350,
+   "zoom": 1.1,
+   "center": [
+    0.5,
+    0.45
+   ],
+   "text": [
+    {
+     "text": "Blossom Veranda",
+     "px": 21,
+     "x": 0.62,
+     "y": 0.2,
+     "style": "sign"
+    },
+    {
+     "text": "♫ calm minecraft music",
+     "px": 15,
+     "x": 0.62,
+     "y": 0.35,
+     "style": "sign",
+     "box": {
+      "fill": "#7a5230",
+      "alpha": 1.0,
+      "border": "#3a2414",
+      "planks": 4,
+      "pad": [
+       3,
+       2
+      ],
+      "hang": 0.26
+     }
+    }
+   ]
+  }
+ ]
+}

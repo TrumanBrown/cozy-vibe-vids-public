@@ -1,0 +1,341 @@
+{
+ "_note": "Hand fixes for the Northlight Mill (Skyrim look), 2026-11-08. aurora: the painted northern lights' box in the sky and their green on the river (cozy/plate/aurora.py, the aurora layer). wheel: the waterwheel's measurements in 4K px (tools/wheel_layer.py, the wheel layer): a first guess of the front rim's ellipse, two points on each visible spoke (the hub is where they meet), the spoke every spoke is drawn from (the clean upright one), the back rim's offset, what stands in front (the A-frame trestle and the hub cap: SAM points), the waterline, one turn in 16 s counterclockwise as seen (the river runs right), 110 px of water mirroring it.",
+ "aurora": {
+  "box": [
+   0.155,
+   0.05,
+   0.865,
+   0.4
+  ],
+  "reflect": [
+   0.16,
+   0.575,
+   0.8,
+   0.72
+  ]
+ },
+ "wheel": {
+  "rim": [
+   2436.9,
+   1225.6,
+   137.4,
+   215.3,
+   0.03
+  ],
+  "spoke_lines": [
+   [
+    [
+     2431,
+     1195
+    ],
+    [
+     2430,
+     1048
+    ]
+   ],
+   [
+    [
+     2445,
+     1205
+    ],
+    [
+     2525,
+     1120
+    ]
+   ],
+   [
+    [
+     2415,
+     1192
+    ],
+    [
+     2355,
+     1112
+    ]
+   ],
+   [
+    [
+     2405,
+     1219
+    ],
+    [
+     2325,
+     1216
+    ]
+   ],
+   [
+    [
+     2452,
+     1224
+    ],
+    [
+     2540,
+     1225
+    ]
+   ],
+   [
+    [
+     2445,
+     1245
+    ],
+    [
+     2520,
+     1330
+    ]
+   ]
+  ],
+  "ref_spoke": 0,
+  "spokes": 8,
+  "depth": [
+   107.5,
+   12.5
+  ],
+  "rim_arc": [
+   0,
+   180
+  ],
+  "occluders": [
+   {
+    "box": [
+     2388,
+     1192,
+     2448,
+     1256
+    ],
+    "points": [
+     [
+      2405,
+      1225
+     ],
+     [
+      2430,
+      1232
+     ],
+     [
+      2420,
+      1205
+     ]
+    ],
+    "neg": [
+     [
+      2470,
+      1222
+     ],
+     [
+      2378,
+      1214
+     ]
+    ]
+   },
+   {
+    "box": [
+     2358,
+     1244,
+     2416,
+     1356
+    ],
+    "points": [
+     [
+      2400,
+      1300
+     ],
+     [
+      2398,
+      1340
+     ],
+     [
+      2380,
+      1258
+     ],
+     [
+      2402,
+      1262
+     ]
+    ],
+    "neg": [
+     [
+      2372,
+      1305
+     ],
+     [
+      2430,
+      1336
+     ]
+    ],
+    "poly": [
+     [
+      2387,
+      1248
+     ],
+     [
+      2416,
+      1248
+     ],
+     [
+      2416,
+      1356
+     ],
+     [
+      2387,
+      1356
+     ]
+    ]
+   },
+   {
+    "box": [
+     2316,
+     1262,
+     2382,
+     1356
+    ],
+    "points": [
+     [
+      2350,
+      1308
+     ],
+     [
+      2336,
+      1335
+     ],
+     [
+      2363,
+      1281
+     ]
+    ],
+    "neg": [
+     [
+      2328,
+      1290
+     ],
+     [
+      2372,
+      1336
+     ]
+    ],
+    "poly": [
+     [
+      2361,
+      1279
+     ],
+     [
+      2373,
+      1283
+     ],
+     [
+      2333,
+      1358
+     ],
+     [
+      2319,
+      1358
+     ]
+    ]
+   },
+   {
+    "box": [
+     2405,
+     1260,
+     2480,
+     1358
+    ],
+    "points": [
+     [
+      2424,
+      1288
+     ],
+     [
+      2444,
+      1318
+     ],
+     [
+      2460,
+      1344
+     ]
+    ],
+    "neg": [
+     [
+      2468,
+      1292
+     ],
+     [
+      2428,
+      1340
+     ]
+    ],
+    "poly": [
+     [
+      2410,
+      1262
+     ],
+     [
+      2425,
+      1262
+     ],
+     [
+      2472,
+      1357
+     ],
+     [
+      2455,
+      1357
+     ]
+    ]
+   },
+   {
+    "box": [
+     2358,
+     1246,
+     2394,
+     1272
+    ],
+    "points": [
+     [
+      2372,
+      1258
+     ],
+     [
+      2384,
+      1259
+     ]
+    ],
+    "neg": [
+     [
+      2366,
+      1240
+     ]
+    ],
+    "poly": [
+     [
+      2361,
+      1249
+     ],
+     [
+      2390,
+      1249
+     ],
+     [
+      2390,
+      1268
+     ],
+     [
+      2361,
+      1268
+     ]
+    ]
+   }
+  ],
+  "waterline": [
+   [
+    2250,
+    1352
+   ],
+   [
+    2720,
+    1353
+   ]
+  ],
+  "turn_s": 16,
+  "dir": 1,
+  "reflect": 110
+ }
+}

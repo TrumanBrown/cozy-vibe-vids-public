@@ -1,0 +1,38 @@
+{
+ "creature": "silverfish",
+ "prompt": "A single silverfish. Painted to match this art style: Wide 16:9 cinematic screenshot of a cozy Minecraft scene with a shader pack: blocky voxel world, high-quality block textures, volumetric light, soft bloom and soft shadows.. Lighting to match the scene: low golden sunlight pours through the arch in long warm beams across the floor; the fireplace, the candles and the lantern add an amber glow; soft cool shadows in the corners. The whole creature is in view, centered, with a little space around it. Transparent background, no ground, no shadow, no other objects, no text.",
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-11-22",
+ "usage": {
+  "input_tokens": 128,
+  "input_tokens_details": {
+   "image_tokens": 0,
+   "text_tokens": 128
+  },
+  "output_tokens": 1756,
+  "output_tokens_details": {
+   "image_tokens": 1756,
+   "text_tokens": 0
+  },
+  "total_tokens": 1884
+ },
+ "size": [
+  1024,
+  1024
+ ],
+ "bbox": [
+  20,
+  221,
+  987,
+  855
+ ],
+ "foot_y": 781,
+ "front_x": 987,
+ "back_x": 20,
+ "shell_x": [
+  248,
+  721
+ ],
+ "lum": 0.4128,
+ "_note": "mirrored left to right on 2026-11-22: drawn from its name alone (critter.py had no look for it), it came out facing left, and critters.js takes the right end for the head; the light now comes from its right, as the window and the fire do in the room"
+}

@@ -1,0 +1,68 @@
+{
+ "source": "C:\\dev\\cozy-vibe-vids\\out\\treetop-plate\\render\\1h_at8h_seed11_v5",
+ "source_tag": "1h_at8h_seed11_v5",
+ "window": [
+  28800,
+  32400
+ ],
+ "times": 10,
+ "xfade_s": 3.0,
+ "offset_s": 300,
+ "duration_s": 36000,
+ "created": "2026-10-16T18:03:53",
+ "kept": [],
+ "music": {
+  "tracks": 30,
+  "plays": 138,
+  "music_dir": "C:\\dev\\cozy-vibe-vids\\music",
+  "plan_sha1": "f706b55a70ca5ba9"
+ },
+ "qa": {
+  "pass": true,
+  "checks": {
+   "length_sync": {
+    "pass": true,
+    "frames": 1080000,
+    "expected": 1080000,
+    "video_s": 36000.0,
+    "audio_s": 36000.0
+   },
+   "hour_join_frames": {
+    "pass": true,
+    "at_s": 3300,
+    "detail": "the 2 frames each side of the first join decode identical to the source hour's end/start"
+   },
+   "hour_join_audio": {
+    "pass": true,
+    "level_dip_db": 0.82,
+    "step_vs_p999": 0.73,
+    "at_s": 3300
+   },
+   "loudness": {
+    "pass": true,
+    "lufs": -19.9,
+    "lra": 2.0,
+    "true_peak": -4.7
+   },
+   "music_length_sync": {
+    "pass": true,
+    "frames": 1080000,
+    "expected": 1080000,
+    "video_s": 36000.0,
+    "audio_s": 36000.0
+   },
+   "music_hour_join_audio": {
+    "pass": true,
+    "step_vs_p999": 0.69,
+    "at_s": 3300
+   },
+   "music_loudness": {
+    "pass": true,
+    "lufs": -16.2,
+    "lra": 8.6,
+    "true_peak": -2.4,
+    "target": "-16.9..-13.9 LUFS (music bus -16.5, ambience -2 dB), true peak <= -1.5 dBTP"
+   }
+  }
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "_note": "Made by tools/finish_video.py on 2026-10-27. Frame 41940: the fullest second of the window's busiest minute (3:00 into the window). First and suggested: pixel-ocelot, the channel's pixel concept Truman picked on both published videos (a big sleeping ocelot with the place name and the music tag). The others are pixel concepts too (a pixel look). Every one says 4K and the length. Text colors and shades were chosen against what's behind each line (lessons L65). Edit freely: the tool never overwrites this spec. pixel-frog added by hand on 2026-10-27 and suggested first: the hopping frog Truman praised, sitting and facing the camera in the firelight (frame 59700, 33:10 into the video's timeline, between its croaks), in the same pixel concept; Test & compare puts it against the ocelot and the place card.",
+ "_finish": {
+  "suggested": "pixel-frog",
+  "test_and_compare": [
+   "pixel-frog",
+   "pixel-ocelot",
+   "pixel-place-card"
+  ],
+  "frame": 41940,
+  "hero": "sleeping_ocelot",
+  "measured": [
+   "pixel-ocelot: behind 'Moonvine Temple' brightness 0.21 (80th percentile 0.24), hue 44",
+   "pixel-place-card: behind 'Moonvine Temple' brightness 0.23 (80th percentile 0.31), hue 109"
+  ]
+ },
+ "scene": "scenes/jungle-temple-night",
+ "out": "out/jungle-temple-night/thumbnails",
+ "badges": [
+  {
+   "x": 0.04,
+   "y": 0.085,
+   "px": 21,
+   "gap": 3,
+   "items": [
+    {
+     "text": "4K",
+     "style": "chip"
+    },
+    {
+     "text": "10 HR",
+     "style": "chip"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "name": "pixel-frog",
+   "frame": 59700,
+   "zoom": 5.5,
+   "center": [
+    0.3475,
+    0.8686
+   ],
+   "text": [
+    {
+     "text": "Moonvine Temple",
+     "px": 27,
+     "y": 0.27,
+     "style": "amber",
+     "x": 0.95,
+     "align": "right"
+    },
+    {
+     "text": "calm minecraft music",
+     "px": 15,
+     "y": 0.38,
+     "style": "badge",
+     "x": 0.95,
+     "align": "right"
+    }
+   ]
+  },
+  {
+   "name": "pixel-ocelot",
+   "frame": 41940,
+   "zoom": 3.4,
+   "center": [
+    0.1581,
+    0.7062
+   ],
+   "text": [
+    {
+     "text": "Moonvine Temple",
+     "px": 27,
+     "y": 0.27,
+     "style": "amber",
+     "x": 0.95,
+     "align": "right"
+    },
+    {
+     "text": "calm minecraft music",
+     "px": 15,
+     "y": 0.38,
+     "style": "badge",
+     "x": 0.95,
+     "align": "right"
+    }
+   ]
+  },
+  {
+   "name": "pixel-place-card",
+   "frame": 41940,
+   "zoom": 1.05,
+   "center": [
+    0.5,
+    0.47
+   ],
+   "text": [
+    {
+     "text": "Moonvine Temple",
+     "px": 30,
+     "style": "amber",
+     "rules": [
+      5,
+      3
+     ],
+     "y": 0.58
+    },
+    {
+     "text": "calm minecraft music",
+     "px": 18,
+     "y": 0.685,
+     "style": "badge"
+    },
+    {
+     "text": "clear night & fireflies",
+     "px": 15,
+     "style": "chip",
+     "y": 0.775
+    }
+   ],
+   "insets": [
+    {
+     "x": 0.83,
+     "y": 0.3,
+     "w": 0.24,
+     "span": 0.24,
+     "center": [
+      0.1169,
+      0.7752
+     ]
+    }
+   ]
+  },
+  {
+   "name": "pixel-polaroid",
+   "frame": 41940,
+   "zoom": 1.05,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "mat": {
+    "color": "#efe4cf",
+    "margin": [
+     0.035,
+     0.06,
+     0.035,
+     0.25
+    ]
+   },
+   "text": [
+    {
+     "text": "moonvine temple, a clear night",
+     "x": 0.06,
+     "y": 0.83,
+     "align": "left",
+     "style": "ink",
+     "bold": true,
+     "px": 18
+    },
+    {
+     "text": "calm minecraft music",
+     "x": 0.06,
+     "y": 0.925,
+     "align": "left",
+     "style": "ink",
+     "fill": "#7a5534",
+     "fill2": "#7a5534",
+     "bold": true,
+     "px": 15
+    }
+   ]
+  },
+  {
+   "name": "pixel-sign",
+   "frame": 41940,
+   "zoom": 1.1,
+   "center": [
+    0.5,
+    0.45
+   ],
+   "text": [
+    {
+     "text": "Moonvine Temple",
+     "px": 21,
+     "x": 0.62,
+     "y": 0.2,
+     "style": "sign"
+    },
+    {
+     "text": "calm minecraft music",
+     "px": 15,
+     "x": 0.62,
+     "y": 0.35,
+     "style": "sign",
+     "box": {
+      "fill": "#7a5230",
+      "alpha": 1.0,
+      "border": "#3a2414",
+      "planks": 4,
+      "pad": [
+       3,
+       2
+      ],
+      "hang": 0.26
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "source": "out/spruce-clock-cabin/render/sample_v5 (approved 2026-11-06)",
+ "refs": {
+  "keyart__key_art": {
+   "file": "keyart__key_art.jpg",
+   "label": "key art",
+   "lessons": [
+    "L03",
+    "L06",
+    "L07",
+    "L60",
+    "L71"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\spruce-clock-cabin\\render\\sample_v5",
+   "note": "that looks good, generate 10 hours"
+  },
+  "pet_dry": {
+   "file": "pet_dry.jpg",
+   "label": "the pet (sleeping wolf)",
+   "lessons": [
+    "L10",
+    "L19",
+    "L31"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\spruce-clock-cabin\\render\\sample_v5",
+   "note": "that looks good, generate 10 hours"
+  },
+  "frames__weather_at_the_glass_and_what_stands_in_": {
+   "file": "frames__weather_at_the_glass_and_what_stands_in_.jpg",
+   "label": "weather at the glass and what stands in front of it (upper middle, right)",
+   "lessons": [
+    "L57",
+    "L92",
+    "L100"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\spruce-clock-cabin\\render\\sample_v5",
+   "note": "that looks good, generate 10 hours"
+  },
+  "snow__the_snow": {
+   "file": "snow__the_snow.jpg",
+   "label": "the snow",
+   "lessons": [
+    "L01",
+    "L100",
+    "L121"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\spruce-clock-cabin\\render\\sample_v5",
+   "note": "that looks good, generate 10 hours"
+  },
+  "intro_title": {
+   "file": "intro_title.jpg",
+   "label": "the opening line",
+   "lessons": [
+    "L04",
+    "L55"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\spruce-clock-cabin\\render\\sample_v5",
+   "note": "that looks good, generate 10 hours"
+  },
+  "events__event__rabbit": {
+   "file": "events__event__rabbit.jpg",
+   "label": "event: rabbit",
+   "lessons": [
+    "L16",
+    "L20",
+    "L23",
+    "L28",
+    "L40",
+    "L41",
+    "L42",
+    "L49",
+    "L181",
+    "L182",
+    "L185"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\spruce-clock-cabin\\render\\sample_v5",
+   "note": "that looks good, generate 10 hours"
+  }
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "source": "assets/keyart/skyrim-mill-night/hero_gpt-image-2_20261108-150535_1.png",
+ "deployment": "gpt-image-2-5-sunburst",
+ "items": [
+  {
+   "name": "brazier_fire_flames",
+   "kind": "fire",
+   "prompt": "Remove the flames of the Small, low flames and embers within the black iron brazier.. Show the fuel without flames: small logs and embers in a three-legged black iron brazier, as dark logs with a few glowing orange embers, lit warmly from within, with the same warm light on the surroundings. No flames, no smoke, no grey haze or ash cloud, nothing white. Any pot, kettle or creature stays exactly as it is. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     1536,
+     416,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1162,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 138
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2918
+    }
+   ],
+   "date": "2026-11-08"
+  },
+  {
+   "name": "waterwheel",
+   "kind": "other",
+   "prompt": "Remove the wooden waterwheel (its rim, spokes and paddles) and its reflection in the water. Where it was, show what is behind it: the mill's dark wall of rough horizontal logs over a foundation of rounded stones, and the calm dark water of the mill race below it with soft ripples; the wooden trestle that holds the axle and the round hub cap on it stay exactly as they are. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     1147,
+     308,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1155,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 131
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2911
+    }
+   ],
+   "date": "2026-11-08"
+  }
+ ],
+ "_note": "AI edit of the key art (painted transients removed); see tools/plate_clean.py"
+}

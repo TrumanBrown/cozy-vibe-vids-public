@@ -1,0 +1,35 @@
+{
+ "patch": "half",
+ "prompt": "This is a 16-bit pixel-art greenhouse with a golden-brown dog on a woven mat, its head up. Repaint only the masked area: the dog lowers its head halfway back toward its front paws, its chin a little above them, eyes open and sleepy, still facing toward the right. The top of its head ends well below where it is now; where the head was, the wooden wall and the floor behind it continue as they are around it. Its body, back and tail stay exactly as they are, curled on the woven mat. Same pixel-art style, pixel size, colors and warm lantern light as the rest of the picture. Nothing else changes.",
+ "mask": "head",
+ "window": [
+  47,
+  416,
+  1024,
+  1024
+ ],
+ "references": [],
+ "base": "patch_awake_edit.png (the edit window of the awake patch, edited)",
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-21",
+ "usage": {
+  "input_tokens": 1176,
+  "input_tokens_details": {
+   "image_tokens": 1024,
+   "text_tokens": 152
+  },
+  "output_tokens": 1756,
+  "output_tokens_details": {
+   "image_tokens": 1756,
+   "text_tokens": 0
+  },
+  "total_tokens": 2932
+ },
+ "placed": {
+  "file": "patch_half.png",
+  "x": 829,
+  "y": 1408,
+  "w": 348,
+  "h": 357
+ }
+}

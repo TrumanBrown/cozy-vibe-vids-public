@@ -1,0 +1,19 @@
+{
+ "_note": "Painted flames to remove (tools/plate_clean.py); fire.js draws live flames on the logs.",
+ "source": "assets/keyart/snowy-cottage/hero_gpt-image-2-5-sunburst_20261016-193210_2.png",
+ "items": [
+  {
+   "name": "hearth_fire_flames",
+   "kind": "fire",
+   "box": [
+    0.007,
+    0.2229,
+    0.152,
+    0.6038
+   ],
+   "shape": "ellipse",
+   "what": "Flames and glowing logs inside the stone hearth",
+   "behind": "the split logs on the grate glowing orange with embers between them and a dark sooty back wall lit warm"
+  }
+ ]
+}

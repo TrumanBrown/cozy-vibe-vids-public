@@ -1,0 +1,17 @@
+{
+  "name": "cozy-vibe-vids",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Code-animated 10-hour cozy ambience videos, one key-art image per scene.",
+  "scripts": {
+    "still": "node src/cli.mjs still",
+    "preview": "node src/cli.mjs preview",
+    "palette": "node src/cli.mjs palette"
+  },
+  "dependencies": {
+    "electron": "44.9.3",
+    "three": "0.186.1"
+  }
+}

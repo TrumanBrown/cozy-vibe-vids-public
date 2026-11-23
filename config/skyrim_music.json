@@ -1,0 +1,266 @@
+{
+ "about": "The Elder Scrolls V: Skyrim soundtrack tracks that may go under the Skyrim look's videos (Truman 2026-11-08, his own copy of the soundtrack album; docs/DECISIONS.md 'Skyrim music'). An allowlist: tools/skyrim_music.py imports only the tracks below with \"use\": true into music/skyrim, and only the Skyrim look may play them (tools/music.py refuses a franchise's tracks for any other look). Bethesda's fan video policy allows music from its games in fan videos, YouTube Partner Program included; Content ID claims can still come, so a video goes up Private and is published only once YouTube's copyright check is clear. A track a claim matched is 'use' false with its 'claim' (who, what, where it matched): third parties who sample a piece register their own tracks with Content ID, which then claims the piece itself (Tundra, 2026-11-16). 'use' is false for the combat, choir and tense pieces (a study and sleep video stays calm) and for what the audio screen heard as unsteady or distracting (the audio screen, music/_candidates/skyrim/screen.json, and the loudness of each track's body: no rise of 14 dB or more within 4 s).",
+ "policy_url": "https://bethesda.net/en-US/news/bethesda-video-policy",
+ "policy_phrases": [
+  "fan service tributes using gameplay and music from our games",
+  "YouTube partner program"
+ ],
+ "verified": "2026-11-08",
+ "source_dir": null,
+ "_source_dir": "His album folder is this machine's: config/skyrim_music.local.json {\"source_dir\": \"...\"}, never committed (the repo goes public), or --src.",
+ "album": "The Elder Scrolls V: Skyrim (Original Game Soundtrack)",
+ "sidecar": {
+  "artist": "Jeremy Soule",
+  "source": "The Elder Scrolls V: Skyrim Original Game Soundtrack (Bethesda Softworks)",
+  "license": "Bethesda fan video policy: music from Bethesda's games in fan videos, YouTube Partner Program allowed",
+  "license_url": "https://bethesda.net/en-US/news/bethesda-video-policy",
+  "attribution": "Music from The Elder Scrolls V: Skyrim by Jeremy Soule, courtesy of Bethesda Softworks",
+  "franchise": "The Elder Scrolls V: Skyrim"
+ },
+ "tracks": {
+  "CD1/01 Jeremy Soule - Dragonborn.mp3": {
+   "title": "Dragonborn",
+   "use": false,
+   "why": "the main theme: a full male choir, epic"
+  },
+  "CD1/02 Jeremy Soule - Awake.mp3": {
+   "title": "Awake",
+   "use": false,
+   "why": "the opening cart ride: builds tension"
+  },
+  "CD1/03 Jeremy Soule - From Past to Present.mp3": {
+   "title": "From Past to Present",
+   "use": true
+  },
+  "CD1/04 Jeremy Soule - Unbroken Road.mp3": {
+   "title": "Unbroken Road",
+   "use": true
+  },
+  "CD1/05 Jeremy Soule - Ancient Stones.mp3": {
+   "title": "Ancient Stones",
+   "use": true
+  },
+  "CD1/06 Jeremy Soule - The City Gates.mp3": {
+   "title": "The City Gates",
+   "use": true
+  },
+  "CD1/07 Jeremy Soule - Silent Footsteps.mp3": {
+   "title": "Silent Footsteps",
+   "use": false,
+   "why": "swells 16.3 dB within 4 s inside its body (a sleep video stays steady; the limit is 14)"
+  },
+  "CD1/08 Jeremy Soule - Dragonsreach.mp3": {
+   "title": "Dragonsreach",
+   "use": true
+  },
+  "CD1/09 Jeremy Soule - Tooth and Claw.mp3": {
+   "title": "Tooth and Claw",
+   "use": false,
+   "why": "combat"
+  },
+  "CD1/10 Jeremy Soule - Under an Ancient Sun.mp3": {
+   "title": "Under an Ancient Sun",
+   "use": true
+  },
+  "CD1/11 Jeremy Soule - Death or Sovngarde.mp3": {
+   "title": "Death or Sovngarde",
+   "use": false,
+   "why": "combat"
+  },
+  "CD1/12 Jeremy Soule - Masser.mp3": {
+   "title": "Masser",
+   "use": true
+  },
+  "CD1/13 Jeremy Soule - Distant Horizons.mp3": {
+   "title": "Distant Horizons",
+   "use": true
+  },
+  "CD1/14 Jeremy Soule - Dawn.mp3": {
+   "title": "Dawn",
+   "use": true
+  },
+  "CD1/15 Jeremy Soule - The Jerall Mountains.mp3": {
+   "title": "The Jerall Mountains",
+   "use": false,
+   "why": "swells 15.4 dB within 4 s inside its body (a sleep video stays steady; the limit is 14)"
+  },
+  "CD1/16 Jeremy Soule - Steel on Steel.mp3": {
+   "title": "Steel on Steel",
+   "use": false,
+   "why": "combat"
+  },
+  "CD1/17 Jeremy Soule - Secunda.mp3": {
+   "title": "Secunda",
+   "use": true
+  },
+  "CD1/18 Jeremy Soule - Imperial Throne.mp3": {
+   "title": "Imperial Throne",
+   "use": true
+  },
+  "CD2/01 Jeremy Soule - Frostfall.mp3": {
+   "title": "Frostfall",
+   "use": false,
+   "why": "swells 16.8 dB within 4 s inside its body (a sleep video stays steady; the limit is 14)"
+  },
+  "CD2/02 Jeremy Soule - Night without Stars.mp3": {
+   "title": "Night without Stars",
+   "use": false,
+   "why": "the audio screen heard an ominous choir and percussion"
+  },
+  "CD2/03 Jeremy Soule - Into Darkness.mp3": {
+   "title": "Into Darkness",
+   "use": false,
+   "why": "swells 20.7 dB within 4 s inside its body (a sleep video stays steady; the limit is 14)"
+  },
+  "CD2/04 Jeremy Soule - Kyne's Peace.mp3": {
+   "title": "Kyne's Peace",
+   "use": true
+  },
+  "CD2/05 Jeremy Soule - Unbound.mp3": {
+   "title": "Unbound",
+   "use": false,
+   "why": "the escape from Helgen: tense"
+  },
+  "CD2/06 Jeremy Soule - Far Horizons.mp3": {
+   "title": "Far Horizons",
+   "use": true
+  },
+  "CD2/07 Jeremy Soule - A Winter's Tale.mp3": {
+   "title": "A Winter's Tale",
+   "use": true
+  },
+  "CD2/08 Jeremy Soule - The Bannered Mare.mp3": {
+   "title": "The Bannered Mare",
+   "use": true
+  },
+  "CD2/09 Jeremy Soule - The Streets of Whiterun.mp3": {
+   "title": "The Streets of Whiterun",
+   "use": true
+  },
+  "CD2/10 Jeremy Soule - One They Fear.mp3": {
+   "title": "One They Fear",
+   "use": false,
+   "why": "combat"
+  },
+  "CD2/11 Jeremy Soule - The White River.mp3": {
+   "title": "The White River",
+   "use": false,
+   "why": "swells 16.5 dB within 4 s inside its body (a sleep video stays steady; the limit is 14)"
+  },
+  "CD2/12 Jeremy Soule - Silence Unbroken.mp3": {
+   "title": "Silence Unbroken",
+   "use": true
+  },
+  "CD2/13 Jeremy Soule - Standing Stones.mp3": {
+   "title": "Standing Stones",
+   "use": true
+  },
+  "CD2/14 Jeremy Soule - Beneath the Ice.mp3": {
+   "title": "Beneath the Ice",
+   "use": true
+  },
+  "CD2/15 Jeremy Soule - Tundra.mp3": {
+   "title": "Tundra",
+   "use": false,
+   "why": "a third party's track samples it and is registered with Content ID: both Skyrim videos were claimed on every Tundra play (2026-11-16)",
+   "claim": {
+    "date": "2026-11-16",
+    "work": "F1 (Izman x 404NR)",
+    "claimant": "Interstreet Recordings on behalf of 404NR",
+    "type": "Copyright - Audio",
+    "matched": "0:36-1:04 and 2:58-3:16 into Tundra, on all six of its plays in each 10 h video",
+    "videos": ["skyrim-mill-night (Northlight Mill)", "skyrim-village-night (Sleeping Hound Inn)"]
+   }
+  },
+  "CD2/16 Jeremy Soule - Journey's End.mp3": {
+   "title": "Journey's End",
+   "use": false,
+   "why": "swells 14.3 dB within 4 s inside its body (a sleep video stays steady; the limit is 14)"
+  },
+  "CD3/01 Jeremy Soule - Before the Storm.mp3": {
+   "title": "Before the Storm",
+   "use": false,
+   "why": "tense, short"
+  },
+  "CD3/02 Jeremy Soule - A Chance Meeting.mp3": {
+   "title": "A Chance Meeting",
+   "use": true
+  },
+  "CD3/03 Jeremy Soule - Out of the Cold.mp3": {
+   "title": "Out of the Cold",
+   "use": true
+  },
+  "CD3/04 Jeremy Soule - Around the Fire.mp3": {
+   "title": "Around the Fire",
+   "use": true
+  },
+  "CD3/05 Jeremy Soule - Shadows and Echoes.mp3": {
+   "title": "Shadows and Echoes",
+   "use": false,
+   "why": "swells 20.5 dB within 4 s inside its body (a sleep video stays steady; the limit is 14)"
+  },
+  "CD3/06 Jeremy Soule - Caught off Guard.mp3": {
+   "title": "Caught off Guard",
+   "use": false,
+   "why": "combat"
+  },
+  "CD3/07 Jeremy Soule - Aurora.mp3": {
+   "title": "Aurora",
+   "use": false,
+   "why": "swells 14.2 dB within 4 s inside its body (a sleep video stays steady; the limit is 14)"
+  },
+  "CD3/08 Jeremy Soule - Blood and Steel.mp3": {
+   "title": "Blood and Steel",
+   "use": false,
+   "why": "combat"
+  },
+  "CD3/09 Jeremy Soule - Towers and Shadows.mp3": {
+   "title": "Towers and Shadows",
+   "use": false,
+   "why": "the audio screen heard sudden brass swells"
+  },
+  "CD3/10 Jeremy Soule - Seven Thousand Steps.mp3": {
+   "title": "Seven Thousand Steps",
+   "use": true
+  },
+  "CD3/11 Jeremy Soule - Solitude.mp3": {
+   "title": "Solitude",
+   "use": true
+  },
+  "CD3/12 Jeremy Soule - Watch the Skies.mp3": {
+   "title": "Watch the Skies",
+   "use": false,
+   "why": "loud and dense throughout (-10.9 LUFS, the loudness range of a battle cue)"
+  },
+  "CD3/13 Jeremy Soule - The Gathering Storm.mp3": {
+   "title": "The Gathering Storm",
+   "use": true
+  },
+  "CD3/14 Jeremy Soule - Sky Above, Voice Within.mp3": {
+   "title": "Sky Above, Voice Within",
+   "use": true
+  },
+  "CD3/15 Jeremy Soule - Death in the Darkness.mp3": {
+   "title": "Death in the Darkness",
+   "use": true
+  },
+  "CD3/16 Jeremy Soule - Shattered Shields.mp3": {
+   "title": "Shattered Shields",
+   "use": true
+  },
+  "CD3/17 Jeremy Soule - Sovngarde.mp3": {
+   "title": "Sovngarde",
+   "use": false,
+   "why": "a full choir, epic"
+  },
+  "CD3/18 Jeremy Soule - Wind Guide You.mp3": {
+   "title": "Wind Guide You",
+   "use": true
+  },
+  "CD4/cd4 01 Jeremy Soule - Skyrim Atmospheres.mp3": {
+   "title": "Skyrim Atmospheres",
+   "use": false,
+   "why": "swells 17.3 dB within 4 s inside its body (a sleep video stays steady; the limit is 14)"
+  }
+ }
+}

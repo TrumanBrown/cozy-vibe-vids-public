@@ -1,0 +1,372 @@
+{
+  "_note": "Draft written by tools/analyze_plate.py; tune freely (it is not overwritten unless --force-scene). Keys: src/library/autoscene.js.",
+  "name": "tidepool-fog",
+  "title": "Come rest at the Driftwood Shelter",
+  "aesthetic": "ink-gouache",
+  "plate": "tidepool-fog",
+  "seed": 7,
+  "fps": 30,
+  "loopSeconds": 120,
+  "duration": 36000,
+  "plate_fx": {
+    "flicker": 0.02,
+    "mist": 0.3,
+    "ripple": 0,
+    "horizon": 0.44,
+    "mistColor": "#768191",
+    "rings": [
+      0,
+      0
+    ],
+    "surf": {
+      "_note": "the painted foam comes in with each wave of events.surf (cozy/plate/surf.py, plate.js); defaults in plate.js"
+    },
+    "mistDry": true,
+    "_mistDry": "2026-11-05: the mist reaches each character's traced outline (a light ring around the oystercatcher otherwise)"
+  },
+  "regions": {
+    "sea_stack_fog": null,
+    "otter_kelp_ends": {
+      "sway": {
+        "amp": 2.5,
+        "hz": 0.12,
+        "gust": 1.2
+      }
+    },
+    "seastar_sea_lettuce": {
+      "sway": {
+        "amp": 2.0,
+        "hz": 0.14,
+        "gust": 1.0
+      }
+    },
+    "crab_garden": {
+      "sway": {
+        "amp": 1.5,
+        "hz": 0.13,
+        "gust": 1.0
+      }
+    },
+    "oystercatcher_hat_ribbons": {
+      "sway": {
+        "amp": 2.0,
+        "hz": 0.15,
+        "gust": 1.4
+      }
+    },
+    "kelp_strip_ridge": {
+      "sway": {
+        "amp": 4.0,
+        "hz": 0.1,
+        "gust": 1.6
+      }
+    },
+    "kelp_drape_left": {
+      "sway": {
+        "amp": 8.0,
+        "hz": 0.09,
+        "gust": 1.6
+      },
+      "_amp": "px at the strands' tips; the drape on the log moves about 1.5 px at its lower edge, as before"
+    },
+    "hanging_fishing_float": {
+      "pendulum": {
+        "amp": 1.4,
+        "hz": 0.55,
+        "gust": 1.5
+      }
+    }
+  },
+  "layers": [
+    {
+      "type": "blink"
+    },
+    {
+      "type": "steam",
+      "regions": "kind:steam",
+      "opacity": 0.7,
+      "drafts": true,
+      "per": {
+        "cocoa_mug": {
+          "opacity": 0.7
+        }
+      },
+      "_per": "2026-11-05: the ramen tea cup's approved 0.7 (the simulation runs at 0.5 otherwise; the layer's opacity is the wisps' and the veil's): the critic read the faint plume over the otter's dark fur as steaming on one side only"
+    },
+    {
+      "type": "birds",
+      "disp": 0.02,
+      "haze": 0.35
+    },
+    {
+      "type": "surf",
+      "addSpots": [
+        {
+          "x": 0.8594,
+          "y": 0.5093,
+          "w": 200,
+          "h": 80,
+          "min": 0.6
+        },
+        {
+          "x": 0.974,
+          "y": 0.4935,
+          "w": 180,
+          "h": 75,
+          "min": 0.6
+        }
+      ],
+      "_note": "2026-11-05: the spray and white water of each wave (src/library/surf.js), on the rocks surf.json found plus the oystercatcher's rock by hand (its wet top is too light to read as rock): Truman saw no waves on the far rocks while the surf roared"
+    },
+    {
+      "type": "moth",
+      "lamp": "paper_lantern",
+      "center": [
+        0.3959,
+        0.3343
+      ],
+      "unit": 80,
+      "size": 48,
+      "unitM": 0.07,
+      "detail": true,
+      "shutter": 0.005,
+      "color": [
+        1.0,
+        0.734,
+        0.482
+      ],
+      "covered": true,
+      "_auto": "drafted by tools/plate_features.py"
+    },
+    {
+      "type": "critter",
+      "creature": "periwinklesnail",
+      "path": [
+        [
+          -0.02,
+          0.7325
+        ],
+        [
+          0.047,
+          0.7644
+        ],
+        [
+          0.122,
+          0.799
+        ],
+        [
+          0.137,
+          0.805
+        ],
+        [
+          0.152,
+          0.811
+        ],
+        [
+          0.163,
+          0.8352
+        ],
+        [
+          0.1599,
+          0.8602
+        ]
+      ],
+      "size": 60.0,
+      "_auto": "drafted by tools/plate_features.py",
+      "_path_note": "by hand 2026-11-05: in from the left edge (the drafted start lay in the open, L49), over the barnacles and in behind the big mussel"
+    },
+    {
+      "type": "critter",
+      "creature": "hermitcrab",
+      "path": [
+        [
+          0.3286,
+          0.6565
+        ],
+        [
+          0.3411,
+          0.6648
+        ],
+        [
+          0.3568,
+          0.6787
+        ],
+        [
+          0.375,
+          0.6981
+        ],
+        [
+          0.3932,
+          0.7093
+        ],
+        [
+          0.4141,
+          0.7093
+        ],
+        [
+          0.4349,
+          0.7009
+        ],
+        [
+          0.4544,
+          0.687
+        ],
+        [
+          0.4714,
+          0.6769
+        ],
+        [
+          0.4849,
+          0.675
+        ],
+        [
+          0.4922,
+          0.6796
+        ]
+      ],
+      "size": 56.0,
+      "track": 1,
+      "_path_note": "by hand 2026-11-05, the signature detail; v6: out of the tide pool where the ledge slopes into the water, across the lantern-lit ledge in front of the decorator crab's feet, and out of sight behind the otter's hind foot (v5 came out from under the decorator crab's body, which stands on legs, so Truman saw it appear out of nowhere)",
+      "gait": true,
+      "occ": [
+        "tide_pool"
+      ],
+      "_gait_note": "2026-11-05: a hermit crab walks in bursts, each step lifting and rocking its shell (critters.js GAITS.crab); Truman: it moved in a flat line"
+    }
+  ],
+  "wind": {
+    "mean": 0.05,
+    "gust": 0.25,
+    "turb": 0.3,
+    "gustCycles": 5,
+    "fronts": 0.6
+  },
+  "runoff": [],
+  "events": {
+    "birds": {
+      "perHour": 80,
+      "minGap": 40,
+      "startAfter": 4,
+      "band": [
+        0.0,
+        0.048,
+        0.999,
+        0.428
+      ],
+      "size": [
+        27.6,
+        44.9
+      ],
+      "count": [
+        1,
+        5
+      ],
+      "first": 6,
+      "intro": [
+        300,
+        1.5
+      ]
+    },
+    "gutter": {
+      "perHour": 12,
+      "minGap": 300,
+      "startAfter": 30,
+      "depth": 0.55,
+      "first": 60
+    },
+    "pet": {
+      "sigh": 30,
+      "minGap": 30,
+      "first": 45
+    },
+    "rareGap": 45,
+    "strikeBusy": [
+      30,
+      30
+    ],
+    "moth": {
+      "perHour": 24,
+      "dur": [
+        45,
+        140
+      ],
+      "lands": 2,
+      "startAfter": 15,
+      "first": 30,
+      "intro": [
+        300,
+        1.5
+      ],
+      "keepFirst": true,
+      "hide": "lamp"
+    },
+    "critter": [
+      {
+        "perHour": 4,
+        "dur": [
+          228,
+          308
+        ],
+        "startAfter": 4,
+        "first": 6,
+        "keepFirst": true
+      },
+      {
+        "perHour": 16,
+        "dur": [
+          30,
+          46
+        ],
+        "startAfter": 4,
+        "first": 8,
+        "keepFirst": true,
+        "walk": {
+          "stops": [
+            4,
+            7
+          ],
+          "stop": [
+            1.2,
+            4.5
+          ]
+        }
+      }
+    ],
+    "loop": {
+      "period": 1200
+    },
+    "surf": {
+      "perHour": 180,
+      "minGap": 9,
+      "amp": [
+        0.55,
+        0.85
+      ],
+      "sets": 100,
+      "first": 2,
+      "_note": "2026-11-05: 330 an hour (one every 11 s) was too often for Truman; 180 is one every 20 s, in sets"
+    }
+  },
+  "audio": {
+    "bed": "coast_fog",
+    "lufs": -21.8,
+    "music": {
+      "order": "smooth",
+      "body_db": 6,
+      "crossfade": 8,
+      "fit": true
+    },
+    "_lufs": "2026-11-05: the bed is mostly the waves, and its loudness is normalized: at 180 waves an hour instead of 330 the same -20 LUFS made every wave 1.8 dB louder. -21.8 keeps v6's master gain (-17.9 dB), so each wave sounds as loud as before, only less often (the music is on its own bus)"
+  },
+  "intro": {
+    "lines": [
+      "Welcome home, critter.",
+      "The tide's out and the cocoa's warm."
+    ],
+    "pos": [
+      0.5,
+      0.5
+    ]
+  },
+  "_regions_note": "the sea stacks are off as fog (a drift would smear the rock: the mist moves the fog); the analysis's sea is dropped in hand.json (the surf moves it)"
+}

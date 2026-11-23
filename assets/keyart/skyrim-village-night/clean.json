@@ -1,0 +1,152 @@
+{
+ "source": "assets/keyart/skyrim-village-night/hero_gpt-image-2-5-sunburst_20261115-125418_1.png",
+ "deployment": "gpt-image-2-5-sunburst",
+ "items": [
+  {
+   "name": "brazier_fire_flames",
+   "kind": "fire",
+   "prompt": "Remove the flames of the Small, low flame within the three-legged iron brazier.. Show the fuel without flames: a few glowing logs in the iron brazier, as dark logs with a few glowing orange embers, lit warmly from within, with the same warm light on the surroundings. No flames, no smoke, no grey haze or ash cloud, nothing white. Any pot, kettle or creature stays exactly as it is. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     25,
+     416,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1156,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 132
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2912
+    }
+   ],
+   "date": "2026-11-15"
+  },
+  {
+   "name": "brazier_flame_tips",
+   "kind": "fire",
+   "prompt": "Remove the flames of the the tips of the brazier's flames showing just over its front iron band (the fire region and its animated flames stop at the band). Show the fuel without flames: the far inner side of the dark iron brazier basket and its back rim, lit warm orange from the fire below, as dark logs with a few glowing orange embers, lit warmly from within, with the same warm light on the surroundings. No flames, no smoke, no grey haze or ash cloud, nothing white. Any pot, kettle or creature stays exactly as it is. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     24,
+     416,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1186,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 162
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2942
+    }
+   ],
+   "date": "2026-11-15"
+  },
+  {
+   "name": "forge_fire_flames",
+   "kind": "fire",
+   "prompt": "Remove the flames of the Low fire glowing in the blacksmith's forge across the street.. Show the fuel without flames: glowing logs and coals in the stone forge, as dark logs with a few glowing orange embers, lit warmly from within, with the same warm light on the surroundings. No flames, no smoke, no grey haze or ash cloud, nothing white. Any pot, kettle or creature stays exactly as it is. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     502,
+     262,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1157,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 133
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2913
+    }
+   ],
+   "date": "2026-11-15"
+  },
+  {
+   "name": "waterwheel",
+   "kind": "other",
+   "prompt": "Remove the wooden waterwheel (its rim, spokes and paddles) and its reflection in the water. Where it was, show what is behind it: the mill's dark wall of rough horizontal logs over a foundation of rounded stones, and the calm dark water of the mill race below it with soft ripples; the wooden trestle that holds the axle and the round hub cap on it stay exactly as they are. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     1536,
+     258,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1155,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 131
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2911
+    }
+   ],
+   "date": "2026-11-15"
+  },
+  {
+   "name": "moons",
+   "kind": "moon",
+   "prompt": "Remove the two moons, a large pale red one and a small white one, from the sky. Where it was, show the night sky as it is around it: the same deep blue night sky with small scattered stars, a little lighter toward the mountains. No moon, no glow and no bright light anywhere there. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     308,
+     0,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1134,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 110
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2890
+    }
+   ],
+   "date": "2026-11-15"
+  }
+ ],
+ "_note": "AI edit of the key art (painted transients removed); see tools/plate_clean.py"
+}

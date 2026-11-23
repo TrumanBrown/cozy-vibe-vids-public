@@ -1,0 +1,371 @@
+{
+ "_note": "Made by tools/finish_video.py on 2026-11-08. Frame 37350: the fullest second of the window's busiest minute (0:00 into the window). First and suggested: pixel-dog, the channel's pixel concept Truman picked on both published videos (a big sleeping nordic hound with the place name and the music tag). Then concepts in the look's fonts (cinzel, im-fell-english, cormorant-garamond) and motifs, and more pixel options last. Every one says 4K and the length. Text colors and shades were chosen against what's behind each line (lessons L65). Edit freely: the tool never overwrites this spec.",
+ "_finish": {
+  "suggested": "pixel-dog",
+  "test_and_compare": [
+   "pixel-dog",
+   "carved-runestone",
+   "polaroid-note"
+  ],
+  "frame": 37350,
+  "hero": "sleeping_nordic_hound",
+  "measured": [
+   "pixel-dog: behind 'Northlight Mill' brightness 0.16 (80th percentile 0.21), hue 199",
+   "carved-runestone: 'a carved runestone with the place name' as a wood card on the left",
+   "dog-note: behind \"shh, the hound's asleep\" brightness 0.13 (80th percentile 0.17), hue 193",
+   "place-name: behind 'Northlight Mill' brightness 0.13 (80th percentile 0.17), hue 203, shaded",
+   "pixel-place-card: behind 'Northlight Mill' brightness 0.18 (80th percentile 0.26), hue 201",
+   "pixel-fire: behind 'Northlight Mill' brightness 0.15 (80th percentile 0.22), hue 33"
+  ]
+ },
+ "scene": "scenes/skyrim-mill-night",
+ "out": "out/skyrim-mill-night/thumbnails",
+ "badges": [
+  {
+   "x": 0.04,
+   "y": 0.085,
+   "px": 21,
+   "gap": 3,
+   "items": [
+    {
+     "text": "4K",
+     "style": "chip"
+    },
+    {
+     "text": "10 HR",
+     "style": "chip"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "name": "pixel-dog",
+   "frame": 37350,
+   "zoom": 2.049,
+   "center": [
+    0.2945,
+    0.7396
+   ],
+   "text": [
+    {
+     "text": "Northlight Mill",
+     "px": 30,
+     "y": 0.27,
+     "style": "amber",
+     "x": 0.95,
+     "align": "right"
+    },
+    {
+     "text": "calm skyrim music",
+     "px": 15,
+     "y": 0.38,
+     "style": "badge",
+     "x": 0.95,
+     "align": "right"
+    }
+   ]
+  },
+  {
+   "name": "carved-runestone",
+   "frame": 37350,
+   "zoom": 1.05,
+   "center": [
+    0.5,
+    0.47
+   ],
+   "badges": [],
+   "cards": [
+    {
+     "x": 0.215,
+     "y": 0.43,
+     "w": 1240,
+     "h": 780,
+     "rotate": -6,
+     "fill": "#6b4428",
+     "fill2": "#4e2f1a",
+     "grain": 0.06,
+     "radius": 22,
+     "shadow": {
+      "alpha": 0.6,
+      "blur": 28,
+      "off": [
+       16,
+       26
+      ]
+     },
+     "lines": [
+      {
+       "text": "northlight mill",
+       "font": "cinzel",
+       "size": 116,
+       "x": 0.5,
+       "y": 0.37,
+       "style": "ink",
+       "fill": "#ffe9c2"
+      },
+      {
+       "text": "calm skyrim music",
+       "font": "cinzel",
+       "size": 76,
+       "x": 0.5,
+       "y": 0.55,
+       "style": "ink",
+       "fill": "#e8cfa2"
+      },
+      {
+       "text": "10 HR",
+       "font": "im-fell-english",
+       "size": 160,
+       "x": 0.09,
+       "y": 0.81,
+       "align": "left",
+       "style": "ink",
+       "fill": "#ffe9c2"
+      },
+      {
+       "text": "4K",
+       "font": "im-fell-english",
+       "size": 110,
+       "x": 0.81,
+       "y": 0.79,
+       "style": "stamp",
+       "rotate": 14,
+       "fill": "#ffcf6b",
+       "box": {
+        "fill": "#000000",
+        "alpha": 0.0,
+        "border": "#ffcf6b",
+        "border_w": 0.09,
+        "radius": 9,
+        "pad": [
+         0.34,
+         0.34
+        ]
+       }
+      }
+     ],
+     "border": "#2e1a0d",
+     "border_w": 12
+    }
+   ]
+  },
+  {
+   "name": "dog-note",
+   "frame": 37350,
+   "zoom": 2.377,
+   "center": [
+    0.2103,
+    0.7797
+   ],
+   "badges": [
+    {
+     "x": 0.035,
+     "y": 0.08,
+     "font": "im-fell-english",
+     "size": 190,
+     "gap": 40,
+     "style": "chip",
+     "items": [
+      {
+       "text": "4K"
+      },
+      {
+       "text": "10 HR"
+      }
+     ]
+    }
+   ],
+   "text": [
+    {
+     "text": "shh, the hound's asleep",
+     "font": "cinzel",
+     "size": 230,
+     "x": 0.5,
+     "y": 0.2,
+     "style": "soft"
+    },
+    {
+     "text": "calm music",
+     "font": "im-fell-english",
+     "size": 120,
+     "style": "tag",
+     "x": 0.95,
+     "y": 0.33,
+     "align": "right"
+    }
+   ]
+  },
+  {
+   "name": "polaroid-note",
+   "frame": 37350,
+   "zoom": 1.1,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "mat": {
+    "color": "#f1e8d6",
+    "margin": [
+     0.035,
+     0.06,
+     0.035,
+     0.25
+    ]
+   },
+   "badges": [
+    {
+     "x": 0.06,
+     "y": 0.13,
+     "font": "im-fell-english",
+     "size": 150,
+     "gap": 40,
+     "style": "chip",
+     "items": [
+      {
+       "text": "4K"
+      },
+      {
+       "text": "10 HR"
+      }
+     ]
+    }
+   ],
+   "text": [
+    {
+     "text": "northlight mill, a clear night",
+     "font": "cinzel",
+     "size": 170,
+     "x": 0.06,
+     "y": 0.83,
+     "align": "left",
+     "style": "ink"
+    },
+    {
+     "text": "calm skyrim music",
+     "font": "cinzel",
+     "size": 110,
+     "x": 0.06,
+     "y": 0.925,
+     "align": "left",
+     "style": "ink",
+     "fill": "#7a5534"
+    }
+   ]
+  },
+  {
+   "name": "place-name",
+   "frame": 37350,
+   "zoom": 1.05,
+   "center": [
+    0.5,
+    0.47
+   ],
+   "badges": [
+    {
+     "x": 0.035,
+     "y": 0.08,
+     "font": "im-fell-english",
+     "size": 190,
+     "gap": 40,
+     "style": "chip",
+     "items": [
+      {
+       "text": "4K"
+      },
+      {
+       "text": "10 HR"
+      }
+     ]
+    }
+   ],
+   "text": [
+    {
+     "text": "Northlight Mill",
+     "font": "cinzel",
+     "size": 295,
+     "x": 0.5,
+     "y": 0.48,
+     "style": "soft"
+    },
+    {
+     "text": "calm skyrim music",
+     "font": "im-fell-english",
+     "size": 130,
+     "x": 0.5,
+     "y": 0.619,
+     "style": "tag"
+    }
+   ],
+   "scrims": [
+    {
+     "x": 0.5,
+     "y": 0.48,
+     "rx": 0.4,
+     "ry": 0.11,
+     "alpha": 0.4
+    }
+   ]
+  },
+  {
+   "name": "pixel-place-card",
+   "frame": 37350,
+   "zoom": 1.05,
+   "center": [
+    0.5,
+    0.47
+   ],
+   "text": [
+    {
+     "text": "Northlight Mill",
+     "px": 30,
+     "style": "amber",
+     "rules": [
+      5,
+      3
+     ],
+     "y": 0.42
+    },
+    {
+     "text": "calm skyrim music",
+     "px": 18,
+     "y": 0.525,
+     "style": "badge"
+    },
+    {
+     "text": "clear night & northern lights",
+     "px": 15,
+     "style": "chip",
+     "y": 0.615
+    }
+   ]
+  },
+  {
+   "name": "pixel-fire",
+   "frame": 37350,
+   "zoom": 3.4,
+   "center": [
+    0.8452,
+    0.7132
+   ],
+   "text": [
+    {
+     "text": "Northlight Mill",
+     "px": 30,
+     "y": 0.27,
+     "style": "amber",
+     "x": 0.95,
+     "align": "right"
+    },
+    {
+     "text": "calm skyrim music",
+     "px": 15,
+     "y": 0.38,
+     "style": "badge",
+     "x": 0.95,
+     "align": "right"
+    }
+   ]
+  }
+ ]
+}

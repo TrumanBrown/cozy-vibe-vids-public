@@ -1,0 +1,49 @@
+{
+ "_note": "Painted transients to remove from the key art (tools/plate_clean.py); written by tools/analyze_plate.py, edit freely.",
+ "source": "assets/keyart/real-life-farmscape/hero_gpt-image-2-5-sunburst_20261020-231600_4.png",
+ "items": [
+  {
+   "name": "enamel_mug_plume",
+   "kind": "steam",
+   "box": [
+    0.7902,
+    0.3417,
+    0.8238,
+    0.4053
+   ],
+   "shape": "ellipse",
+   "what": "steam rising from the Hot enamel mug on the side table",
+   "behind": "the shaded porch wall and warm-lit window area",
+   "protect": [
+    "enamel_mug"
+   ]
+  },
+  {
+   "name": "edge_drips",
+   "kind": "drips",
+   "what": "porch roof edge and left porch column",
+   "behind": "the scene behind them as it continues"
+  },
+  {
+   "name": "painted_strands",
+   "kind": "strands",
+   "what": "roof eaves, signs, lanterns and leaves",
+   "behind": "the walls, windows and leaves behind them",
+   "boxes": [],
+   "found": []
+  },
+  {
+   "name": "painted_snail",
+   "kind": "other",
+   "box": [
+    0.205,
+    0.778,
+    0.285,
+    0.878
+   ],
+   "shape": "ellipse",
+   "what": "small snail painted on the wet porch boards, its reflection and the faint brown smudge left under it",
+   "behind": "the wet, weathered porch boards with their soft reflections, continuing the boards around it"
+  }
+ ]
+}

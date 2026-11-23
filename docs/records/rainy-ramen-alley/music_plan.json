@@ -1,0 +1,2612 @@
+{
+ "version": 1,
+ "seed": 7,
+ "duration": 36000,
+ "cfg": {
+  "lufs": -16.5,
+  "crossfade": 8,
+  "max_crossfade": 12.0,
+  "fade_in": 4.0,
+  "fade_out": 8.0,
+  "silence_db": -60.0,
+  "ambience_db": -2.0,
+  "thunder_db": 0.0,
+  "opener_lead": 5.0,
+  "trim_intro": 40.0,
+  "order": "smooth",
+  "opener": "openlofi_moon-through-bamboo.mp3",
+  "body_db": 6,
+  "fit": true
+ },
+ "tracks": [
+  {
+   "file": "music\\lofi-night\\holiznacc0_blue-skies.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\holiznacc0_blue-skies.mp3",
+   "title": "Blue Skies",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/lazy-summer-lofi-1/blue-skiesmp3/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/XpOthDGLRLQULX4ayE2hezIK43FqPYAo69N5xxhn.mp3 (license read on the track's page 2026-10-19)",
+   "vibe": [
+    0.4337,
+    -0.3213
+   ],
+   "hash": "8fdd10a884803dd28f20",
+   "in": 336001,
+   "out": 7992001,
+   "dur": 159.5,
+   "lufs": -11.43,
+   "gain_db": -5.07,
+   "tail": 0.0,
+   "lead": 8.0,
+   "intro_cut": 7.0,
+   "outro_cut": 8.3,
+   "tempo": 109.22
+  },
+  {
+   "file": "music\\lofi-night\\holiznacc0_busking-in-the-sunlight.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\holiznacc0_busking-in-the-sunlight.mp3",
+   "title": "Busking In the SunLight",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/city-slacker/busking-in-the-sunlight/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/kdmUgfaajJ783BvFpHmMWgdLMzVmuxhF1PFDFMCl.mp3 (license read on the track's page 2026-10-19)",
+   "vibe": [
+    -0.2777,
+    0.6465
+   ],
+   "hash": "c8d932ae5206c6cda0c5",
+   "in": 336028,
+   "out": 12264028,
+   "dur": 248.5,
+   "lufs": -9.73,
+   "gain_db": -6.77,
+   "tail": 0.5,
+   "lead": 8.0,
+   "intro_cut": 7.0,
+   "outro_cut": 7.0,
+   "tempo": 62.5
+  },
+  {
+   "file": "music\\lofi-night\\holiznacc0_cyber-anxiety.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\holiznacc0_cyber-anxiety.mp3",
+   "title": "Cyber Anxiety",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/waves-of-nostalgia-2/cyber-anxiety/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/aMnXXiVF5hW9DxadJ8xUOsEccZjO1UAlJDl9BjOP.mp3 (license read on the track's page 2026-10-19)",
+   "vibe": [
+    -0.2069,
+    0.6435
+   ],
+   "hash": "616ddeeab4119a553c8d",
+   "in": 0,
+   "out": 8136000,
+   "dur": 169.5,
+   "lufs": -13.07,
+   "gain_db": -3.43,
+   "tail": 0.0,
+   "lead": 0.5,
+   "intro_cut": 0.0,
+   "outro_cut": 0.4,
+   "tempo": 107.14
+  },
+  {
+   "file": "music\\lofi-night\\holiznacc0_everything-you-ever-dreamed.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\holiznacc0_everything-you-ever-dreamed.mp3",
+   "title": "Everything You Ever Dreamed",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/everything-you-ever-dreamed/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/yFLu7P69mDjxhW2aF5MS16GVCqpw4oCqSKw4eSVN.mp3 (license read on the track's page 2026-10-19)",
+   "vibe": [
+    -0.228,
+    0.7604
+   ],
+   "hash": "1dc5bcbd4bab3acbf3db",
+   "in": 1584,
+   "out": 10129584,
+   "dur": 211.0,
+   "lufs": -10.63,
+   "gain_db": -5.87,
+   "tail": 0.5,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 4.0,
+   "tempo": 119.68
+  },
+  {
+   "file": "music\\lofi-night\\holiznacc0_hooptie-with-the-windows-down.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\holiznacc0_hooptie-with-the-windows-down.mp3",
+   "title": "Hooptie With The Windows Down",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/city-slacker/hooptie-with-the-windows-down/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/St1iQIVKqpwhbOQztN0hdX0g3oF6uMZ6fUhBBnNd.mp3 (license read on the track's page 2026-10-19)",
+   "vibe": [
+    -0.0918,
+    1.0
+   ],
+   "hash": "5f3cd4e7a32182a7e6f1",
+   "in": 288012,
+   "out": 10488012,
+   "dur": 212.5,
+   "lufs": -13.8,
+   "gain_db": -2.7,
+   "tail": 0.0,
+   "lead": 7.0,
+   "intro_cut": 6.0,
+   "outro_cut": 4.2,
+   "tempo": 79.23
+  },
+  {
+   "file": "music\\lofi-night\\holiznacc0_lucid-lofi-dreamy-chill.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\holiznacc0_lucid-lofi-dreamy-chill.mp3",
+   "title": "Lucid ( Lofi , Dreamy , Chill )",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/lucid-lofi-dreamy-chill-1/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/uNE1yUbEKgTGgXS5GBcisqhN3NGOdVue3jFN26LW.mp3 (license read on the track's page 2026-10-19)",
+   "vibe": [
+    0.5429,
+    -0.0104
+   ],
+   "hash": "a555137dc31a40711911",
+   "in": 38,
+   "out": 6744038,
+   "dur": 140.5,
+   "lufs": -10.33,
+   "gain_db": -6.17,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 4.3,
+   "tempo": 75.0
+  },
+  {
+   "file": "music\\lofi-night\\holiznacc0_morning-coffee.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\holiznacc0_morning-coffee.mp3",
+   "title": "Morning Coffee",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/morning-coffee/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/3oECfGbiMKRefansiQFDoumFo0fXknIhsLtlE3x4.mp3 (license read on the track's page 2026-10-19)",
+   "vibe": [
+    0.4461,
+    -0.3481
+   ],
+   "hash": "2957ad6e2f9370fba591",
+   "in": 49778,
+   "out": 8809778,
+   "dur": 182.5,
+   "lufs": -12.24,
+   "gain_db": -4.26,
+   "tail": 0.0,
+   "lead": 2.0,
+   "intro_cut": 1.0,
+   "outro_cut": 8.3,
+   "tempo": 85.23
+  },
+  {
+   "file": "music\\lofi-night\\holiznacc0_mundane.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\holiznacc0_mundane.mp3",
+   "title": "Mundane",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/mundane/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/O6KDPWo1JOIOwsdqMIA4kidFWmy029ZvVjQDJngh.mp3 (license read on the track's page 2026-10-19)",
+   "vibe": [
+    -0.1805,
+    0.8031
+   ],
+   "hash": "b10e0622c1ae69ba2df4",
+   "in": 1162,
+   "out": 7345162,
+   "dur": 153.0,
+   "lufs": -14.62,
+   "gain_db": -1.88,
+   "tail": 0.0,
+   "lead": 1.0,
+   "intro_cut": 0.0,
+   "outro_cut": 5.0,
+   "tempo": 85.23
+  },
+  {
+   "file": "music\\lofi-night\\holiznacc0_ocean-memory.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\holiznacc0_ocean-memory.mp3",
+   "title": "Ocean Memory",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/ocean-memory-lo-fi-chill/ocean-memory/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/jkiKJYaKX3gCpdz1GF8UuNr17z0h0WAf8bIFY409.mp3 (license read on the track's page 2026-10-19)",
+   "vibe": [
+    0.401,
+    -0.2068
+   ],
+   "hash": "57e9b73267182b8f0626",
+   "in": 265020,
+   "out": 7033020,
+   "dur": 141.0,
+   "lufs": -13.93,
+   "gain_db": -2.57,
+   "tail": 0.5,
+   "lead": 6.5,
+   "intro_cut": 5.5,
+   "outro_cut": 4.1,
+   "tempo": 67.77
+  },
+  {
+   "file": "music\\lofi-night\\holiznacc0_sky-scrapers.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\holiznacc0_sky-scrapers.mp3",
+   "title": "Sky Scrapers",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/city-slacker/sky-scrapers/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/JhXcLguUHstucNDm9lJZmK9WD9ZQpDHqI73fXLFr.mp3 (license read on the track's page 2026-10-19)",
+   "vibe": [
+    -0.4432,
+    0.5807
+   ],
+   "hash": "0f4539244e5db9843971",
+   "in": 13,
+   "out": 6072013,
+   "dur": 126.5,
+   "lufs": -9.27,
+   "gain_db": -7.23,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 11.5,
+   "tempo": 85.23
+  },
+  {
+   "file": "music\\lofi-night\\holiznacc0_something-in-the-air.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\holiznacc0_something-in-the-air.mp3",
+   "title": "Something In the Air",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/something-in-the-air/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/wuk3O930psKilYVATDrGLTiu5RpokFDrza69zKb9.mp3 (license read on the track's page 2026-10-19)",
+   "vibe": [
+    -0.2675,
+    0.6877
+   ],
+   "hash": "7a06424e7c0f11c5ea07",
+   "in": 116,
+   "out": 6216116,
+   "dur": 129.5,
+   "lufs": -13.0,
+   "gain_db": -3.5,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 2.3,
+   "tempo": 78.12
+  },
+  {
+   "file": "music\\lofi-night\\holiznacc0_street-lights-passing-by.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\holiznacc0_street-lights-passing-by.mp3",
+   "title": "Street Lights Passing By",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/waves-of-nostalgia-2/street-lights-passing-by/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/Dic7e8LgNkbdqdsX1jjETsRfbgLdxBLn9rllznl1.mp3 (license read on the track's page 2026-10-19)",
+   "vibe": [
+    -0.4904,
+    0.7184
+   ],
+   "hash": "cadbc7eea85fe07d6d4f",
+   "in": 360188,
+   "out": 9768188,
+   "dur": 196.0,
+   "lufs": -12.38,
+   "gain_db": -4.12,
+   "tail": 0.0,
+   "lead": 8.5,
+   "intro_cut": 7.5,
+   "outro_cut": 10.8,
+   "tempo": 90.73
+  },
+  {
+   "file": "music\\lofi-night\\holiznacc0_transient-lofi-nostalgic.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\holiznacc0_transient-lofi-nostalgic.mp3",
+   "title": "Transient ( LoFi , Nostalgic )",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/transient-lofi-nostalgic-mp3/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/pWffJMWaygHLNlmFdUcviCsvakZzUne5QSkfgGv9.mp3 (license read on the track's page 2026-10-19)",
+   "vibe": [
+    0.5102,
+    -0.4482
+   ],
+   "hash": "a7c6bf53c67c0bf9e0fe",
+   "in": 384029,
+   "out": 7488029,
+   "dur": 148.0,
+   "lufs": -13.87,
+   "gain_db": -2.63,
+   "tail": 0.0,
+   "lead": 9.0,
+   "intro_cut": 8.0,
+   "outro_cut": 7.6,
+   "tempo": 81.52
+  },
+  {
+   "file": "music\\lofi-night\\holiznacc0_warm-fuzz-lofi-retro.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\holiznacc0_warm-fuzz-lofi-retro.mp3",
+   "title": "Warm Fuzz ( LoFi , Retro )",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/warm-fuzz-lofi-retro/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/Qrd0JkjTC7XXJwtS6LvCHIJ9K1FLXewdrYOQHhc5.mp3 (license read on the track's page 2026-10-19)",
+   "vibe": [
+    0.4279,
+    -0.2757
+   ],
+   "hash": "0d2b3e8f89b53d853a21",
+   "in": 23,
+   "out": 8112023,
+   "dur": 169.0,
+   "lufs": -14.14,
+   "gain_db": -2.36,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 1.6,
+   "tempo": 63.2
+  },
+  {
+   "file": "music\\lofi-night\\holiznacc0_wave-maker-lofi-dreamy-retro.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\holiznacc0_wave-maker-lofi-dreamy-retro.mp3",
+   "title": "Wave Maker ( Lofi , Dreamy , Retro )",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/wave-maker-lofi-dreamy-retro/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/SbPJTWMnBmT5yBsXP4jLfp6RsvWLhfOnbw2PxXol.mp3 (license read on the track's page 2026-10-19)",
+   "vibe": [
+    0.4893,
+    -0.3874
+   ],
+   "hash": "3ea61afd93a03f2126a3",
+   "in": 122,
+   "out": 8712122,
+   "dur": 181.5,
+   "lufs": -13.84,
+   "gain_db": -2.66,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 3.8,
+   "tempo": 89.29
+  },
+  {
+   "file": "music\\lofi-night\\holiznacc0_yesterday.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\holiznacc0_yesterday.mp3",
+   "title": "Yesterday",
+   "artist": "HoliznaCC0",
+   "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/yesterday-1/",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": null,
+   "origin": "Free Music Archive, https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/fgYbnjY4YMYoSScwkRcLxltEHHJViy0DKlY6OLAt.mp3 (license read on the track's page 2026-10-19)",
+   "vibe": [
+    -0.2604,
+    0.5886
+   ],
+   "hash": "00943739981e1a8b795e",
+   "in": 97045,
+   "out": 6841045,
+   "dur": 140.5,
+   "lufs": -11.47,
+   "gain_db": -5.03,
+   "tail": 0.0,
+   "lead": 3.0,
+   "intro_cut": 2.0,
+   "outro_cut": 8.2,
+   "tempo": 70.31
+  },
+  {
+   "file": "music\\lofi-night\\openlofi_bamboo-shadow-waltz.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\openlofi_bamboo-shadow-waltz.mp3",
+   "title": "Bamboo Shadow Waltz",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), bamboo-shadow-waltz.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "vibe": [
+    0.4003,
+    -0.295
+   ],
+   "hash": "8d9e14b4270af3c322ce",
+   "in": 0,
+   "out": 7656000,
+   "dur": 159.5,
+   "lufs": -13.39,
+   "gain_db": -3.11,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 2.1,
+   "tempo": 96.98
+  },
+  {
+   "file": "music\\lofi-night\\openlofi_bells-before-sunrise.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\openlofi_bells-before-sunrise.mp3",
+   "title": "Bells Before Sunrise",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), bells-before-sunrise.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "vibe": [
+    0.518,
+    -0.421
+   ],
+   "hash": "a314ad864568f5c507d8",
+   "in": 0,
+   "out": 6718078,
+   "dur": 139.95995833333333,
+   "lufs": -14.56,
+   "gain_db": -1.94,
+   "tail": 0.46,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "tempo": 90.73
+  },
+  {
+   "file": "music\\lofi-night\\openlofi_cathedral-hiss.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\openlofi_cathedral-hiss.mp3",
+   "title": "Cathedral Hiss",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), cathedral-hiss.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "vibe": [
+    0.417,
+    -0.5231
+   ],
+   "hash": "a46a8e8cd8538401b589",
+   "in": 0,
+   "out": 9600000,
+   "dur": 200.0,
+   "lufs": -14.94,
+   "gain_db": -1.56,
+   "tail": 0.0,
+   "lead": 0.5,
+   "intro_cut": 0.0,
+   "outro_cut": 5.6,
+   "tempo": 67.77
+  },
+  {
+   "file": "music\\lofi-night\\openlofi_exhale-the-morning.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\openlofi_exhale-the-morning.mp3",
+   "title": "Exhale the Morning",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), exhale-the-morning.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "vibe": [
+    -0.2192,
+    0.5762
+   ],
+   "hash": "f3667018d7802eb200ae",
+   "in": 2,
+   "out": 9288002,
+   "dur": 193.5,
+   "lufs": -11.86,
+   "gain_db": -4.64,
+   "tail": 0.0,
+   "lead": 0.5,
+   "intro_cut": 0.0,
+   "outro_cut": 6.4,
+   "tempo": 110.29
+  },
+  {
+   "file": "music\\lofi-night\\openlofi_lanterns-in-slow-motion.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\openlofi_lanterns-in-slow-motion.mp3",
+   "title": "Lanterns in Slow Motion",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), lanterns-in-slow-motion.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "vibe": [
+    0.4875,
+    0.0651
+   ],
+   "hash": "c8488a19c7441628cd81",
+   "in": 0,
+   "out": 6984000,
+   "dur": 145.5,
+   "lufs": -15.13,
+   "gain_db": -1.37,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 3.6,
+   "tempo": 66.96
+  },
+  {
+   "file": "music\\lofi-night\\openlofi_moon-through-bamboo.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\openlofi_moon-through-bamboo.mp3",
+   "title": "Moon Through Bamboo",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), moon-through-bamboo.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "vibe": [
+    1.0,
+    -0.0918
+   ],
+   "hash": "4ad03649147f2f1f055e",
+   "in": 0,
+   "out": 8088000,
+   "dur": 168.5,
+   "lufs": -12.99,
+   "gain_db": -3.51,
+   "tail": 0.0,
+   "lead": 1.0,
+   "intro_cut": 0.0,
+   "outro_cut": 2.6,
+   "tempo": 72.12
+  },
+  {
+   "file": "music\\lofi-night\\openlofi_moonlit-moss.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\openlofi_moonlit-moss.mp3",
+   "title": "Moonlit Moss",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), moonlit-moss.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "vibe": [
+    -0.2751,
+    0.5791
+   ],
+   "hash": "9400bcd430119c2a0af6",
+   "in": 0,
+   "out": 7272000,
+   "dur": 151.5,
+   "lufs": -13.25,
+   "gain_db": -3.25,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 1.1,
+   "tempo": 66.96
+  },
+  {
+   "file": "music\\lofi-night\\openlofi_morning-pages.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\openlofi_morning-pages.mp3",
+   "title": "Morning Pages",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), morning-pages.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "vibe": [
+    0.4567,
+    -0.4703
+   ],
+   "hash": "a257ec48f87089f62359",
+   "in": 0,
+   "out": 6312000,
+   "dur": 131.5,
+   "lufs": -13.27,
+   "gain_db": -3.23,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 1.8,
+   "tempo": 70.31
+  },
+  {
+   "file": "music\\lofi-night\\openlofi_platform-after-rain.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\openlofi_platform-after-rain.mp3",
+   "title": "Platform After Rain",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), platform-after-rain.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "vibe": [
+    -0.4389,
+    0.6702
+   ],
+   "hash": "d7b14f169025e254f1f8",
+   "in": 2,
+   "out": 8325756,
+   "dur": 173.45320833333332,
+   "lufs": -12.63,
+   "gain_db": -3.87,
+   "tail": 0.45,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "tempo": 68.6
+  },
+  {
+   "file": "music\\lofi-night\\openlofi_record-player-embrace.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\openlofi_record-player-embrace.mp3",
+   "title": "Record Player Embrace",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), record-player-embrace.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "vibe": [
+    0.4649,
+    -0.2804
+   ],
+   "hash": "1d409d60d4efa0dfde33",
+   "in": 0,
+   "out": 5496000,
+   "dur": 114.5,
+   "lufs": -14.02,
+   "gain_db": -2.48,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 2.5,
+   "tempo": 72.12
+  },
+  {
+   "file": "music\\lofi-night\\openlofi_snow-on-the-needle.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\openlofi_snow-on-the-needle.mp3",
+   "title": "Snow on the Needle",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), snow-on-the-needle.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "vibe": [
+    0.5081,
+    -0.291
+   ],
+   "hash": "c41f4bff991f71299bf8",
+   "in": 0,
+   "out": 6384000,
+   "dur": 133.0,
+   "lufs": -13.85,
+   "gain_db": -2.65,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 2.3,
+   "tempo": 64.66
+  },
+  {
+   "file": "music\\lofi-night\\openlofi_underwater-dreamscape.mp3",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\lofi-night\\openlofi_underwater-dreamscape.mp3",
+   "title": "Underwater Dreamscape",
+   "artist": "Open Lo-Fi",
+   "source": "https://github.com/btahir/open-lofi",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://github.com/btahir/open-lofi/blob/main/LICENSE",
+   "attribution": null,
+   "origin": "openlofi.zip (https://github.com/btahir/open-lofi/releases/latest/download/openlofi.zip, fetched 2026-10-19), underwater-dreamscape.mp3; made with Suno v5 by the repo's author, who dedicated it to the public domain (CC0)",
+   "vibe": [
+    -0.1541,
+    0.6899
+   ],
+   "hash": "06ef8d93624d36c05572",
+   "in": 0,
+   "out": 9336000,
+   "dur": 194.5,
+   "lufs": -13.17,
+   "gain_db": -3.33,
+   "tail": 0.0,
+   "lead": 0.0,
+   "intro_cut": 0.0,
+   "outro_cut": 17.0,
+   "tempo": 110.29
+  }
+ ],
+ "entries": [
+  {
+   "track": 21,
+   "start": 0.0,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.05
+  },
+  {
+   "track": 23,
+   "start": 161.5,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 4.34
+  },
+  {
+   "track": 8,
+   "start": 280.0,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.09
+  },
+  {
+   "track": 20,
+   "start": 414.0,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.67
+  },
+  {
+   "track": 18,
+   "start": 547.5,
+   "xfade": 8.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.9
+  },
+  {
+   "track": 13,
+   "start": 734.5,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.99
+  },
+  {
+   "track": 25,
+   "start": 892.5,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.92
+  },
+  {
+   "track": 26,
+   "start": 1000.0,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.39
+  },
+  {
+   "track": 1,
+   "start": 1123.0,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 22,
+   "start": 1359.5,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 3.05
+  },
+  {
+   "track": 3,
+   "start": 1503.0,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 2,
+   "start": 1703.0,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 27,
+   "start": 1865.5,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.64
+  },
+  {
+   "track": 0,
+   "start": 2048.0,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 19,
+   "start": 2200.5,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.47
+  },
+  {
+   "track": 16,
+   "start": 2388.0,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 2.93
+  },
+  {
+   "track": 6,
+   "start": 2539.5,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 2.41
+  },
+  {
+   "track": 12,
+   "start": 2714.0,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 14,
+   "start": 2851.0,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.27
+  },
+  {
+   "track": 17,
+   "start": 3020.5,
+   "xfade": 10.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 3.17
+  },
+  {
+   "track": 9,
+   "start": 3145.459958,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 3.64
+  },
+  {
+   "track": 7,
+   "start": 3262.959958,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.15
+  },
+  {
+   "track": 11,
+   "start": 3409.959958,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 3.45
+  },
+  {
+   "track": 10,
+   "start": 3596.959958,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.13
+  },
+  {
+   "track": 24,
+   "start": 3712.459958,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.53
+  },
+  {
+   "track": 15,
+   "start": 3874.913167,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.66
+  },
+  {
+   "track": 4,
+   "start": 4007.413167,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 3.49
+  },
+  {
+   "track": 5,
+   "start": 4211.913167,
+   "xfade": 10.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 4.59
+  },
+  {
+   "track": 23,
+   "start": 4336.413167,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 4.73
+  },
+  {
+   "track": 18,
+   "start": 4459.913167,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.8
+  },
+  {
+   "track": 26,
+   "start": 4650.913167,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.98
+  },
+  {
+   "track": 20,
+   "start": 4774.913167,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.36
+  },
+  {
+   "track": 8,
+   "start": 4907.413167,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 22,
+   "start": 5041.413167,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.02
+  },
+  {
+   "track": 1,
+   "start": 5178.913167,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.32
+  },
+  {
+   "track": 13,
+   "start": 5416.413167,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.86
+  },
+  {
+   "track": 3,
+   "start": 5575.413167,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.46
+  },
+  {
+   "track": 27,
+   "start": 5776.413167,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 19,
+   "start": 5964.913167,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 0,
+   "start": 6152.413167,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 2,
+   "start": 6301.913167,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.75
+  },
+  {
+   "track": 7,
+   "start": 6463.413167,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.15
+  },
+  {
+   "track": 11,
+   "start": 6610.413167,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.43
+  },
+  {
+   "track": 14,
+   "start": 6795.413167,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.56
+  },
+  {
+   "track": 16,
+   "start": 6966.913167,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.94
+  },
+  {
+   "track": 17,
+   "start": 7118.413167,
+   "xfade": 10.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 3.17
+  },
+  {
+   "track": 9,
+   "start": 7243.373125,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.47
+  },
+  {
+   "track": 4,
+   "start": 7360.873125,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.89
+  },
+  {
+   "track": 15,
+   "start": 7563.373125,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.17
+  },
+  {
+   "track": 10,
+   "start": 7694.873125,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.13
+  },
+  {
+   "track": 24,
+   "start": 7810.373125,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.15
+  },
+  {
+   "track": 25,
+   "start": 7972.826333,
+   "xfade": 10.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.84
+  },
+  {
+   "track": 21,
+   "start": 8072.326333,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.73
+  },
+  {
+   "track": 12,
+   "start": 8231.826333,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.61
+  },
+  {
+   "track": 6,
+   "start": 8371.826333,
+   "xfade": 8.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 4.83
+  },
+  {
+   "track": 5,
+   "start": 8544.326333,
+   "xfade": 10.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 7.16
+  },
+  {
+   "track": 8,
+   "start": 8669.826333,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.09
+  },
+  {
+   "track": 20,
+   "start": 8801.826333,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.67
+  },
+  {
+   "track": 18,
+   "start": 8935.326333,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.52
+  },
+  {
+   "track": 23,
+   "start": 9126.326333,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 4.1
+  },
+  {
+   "track": 26,
+   "start": 9250.826333,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.46
+  },
+  {
+   "track": 13,
+   "start": 9373.826333,
+   "xfade": 8.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.8
+  },
+  {
+   "track": 0,
+   "start": 9532.826333,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 19,
+   "start": 9683.326333,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 3.96
+  },
+  {
+   "track": 3,
+   "start": 9870.826333,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.46
+  },
+  {
+   "track": 27,
+   "start": 10071.826333,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.66
+  },
+  {
+   "track": 2,
+   "start": 10258.326333,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.63
+  },
+  {
+   "track": 16,
+   "start": 10420.826333,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 14,
+   "start": 10571.326333,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.27
+  },
+  {
+   "track": 17,
+   "start": 10741.826333,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 11,
+   "start": 10868.786292,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 3.76
+  },
+  {
+   "track": 9,
+   "start": 11058.786292,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.84
+  },
+  {
+   "track": 10,
+   "start": 11178.286292,
+   "xfade": 10.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.36
+  },
+  {
+   "track": 4,
+   "start": 11292.786292,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 3.84
+  },
+  {
+   "track": 7,
+   "start": 11498.286292,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.66
+  },
+  {
+   "track": 12,
+   "start": 11645.286292,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.61
+  },
+  {
+   "track": 6,
+   "start": 11785.286292,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 2.0,
+   "fit_dip_db": 2.28
+  },
+  {
+   "track": 25,
+   "start": 11958.786292,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.84
+  },
+  {
+   "track": 21,
+   "start": 12061.286292,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.94
+  },
+  {
+   "track": 15,
+   "start": 12220.786292,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.2
+  },
+  {
+   "track": 24,
+   "start": 12351.286292,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 4.12
+  },
+  {
+   "track": 5,
+   "start": 12516.7395,
+   "xfade": 10.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 4.6
+  },
+  {
+   "track": 22,
+   "start": 12641.2395,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.02
+  },
+  {
+   "track": 1,
+   "start": 12781.7395,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.23
+  },
+  {
+   "track": 3,
+   "start": 13021.2395,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.46
+  },
+  {
+   "track": 27,
+   "start": 13222.2395,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 19,
+   "start": 13410.7395,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 0,
+   "start": 13598.2395,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 2,
+   "start": 13747.7395,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.75
+  },
+  {
+   "track": 7,
+   "start": 13909.2395,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.15
+  },
+  {
+   "track": 11,
+   "start": 14056.2395,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.97
+  },
+  {
+   "track": 17,
+   "start": 14243.2395,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.06
+  },
+  {
+   "track": 14,
+   "start": 14372.199458,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.56
+  },
+  {
+   "track": 16,
+   "start": 14543.699458,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 3.01
+  },
+  {
+   "track": 9,
+   "start": 14695.199458,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.47
+  },
+  {
+   "track": 4,
+   "start": 14814.699458,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.89
+  },
+  {
+   "track": 10,
+   "start": 15017.199458,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 6.75
+  },
+  {
+   "track": 5,
+   "start": 15139.699458,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 4.59
+  },
+  {
+   "track": 23,
+   "start": 15267.199458,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 4.73
+  },
+  {
+   "track": 18,
+   "start": 15390.699458,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.3
+  },
+  {
+   "track": 8,
+   "start": 15577.699458,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.09
+  },
+  {
+   "track": 20,
+   "start": 15712.699458,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.65
+  },
+  {
+   "track": 26,
+   "start": 15849.199458,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.57
+  },
+  {
+   "track": 22,
+   "start": 15973.199458,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.33
+  },
+  {
+   "track": 15,
+   "start": 16115.699458,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.2
+  },
+  {
+   "track": 24,
+   "start": 16247.199458,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.89
+  },
+  {
+   "track": 1,
+   "start": 16410.652667,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.32
+  },
+  {
+   "track": 13,
+   "start": 16648.152667,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.98
+  },
+  {
+   "track": 21,
+   "start": 16805.152667,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.65
+  },
+  {
+   "track": 25,
+   "start": 16964.652667,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.32
+  },
+  {
+   "track": 12,
+   "start": 17070.152667,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.61
+  },
+  {
+   "track": 6,
+   "start": 17211.152667,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.38
+  },
+  {
+   "track": 14,
+   "start": 17385.652667,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.27
+  },
+  {
+   "track": 17,
+   "start": 17555.152667,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.5
+  },
+  {
+   "track": 0,
+   "start": 17683.112625,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 19,
+   "start": 17834.612625,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 27,
+   "start": 18022.112625,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 2.87
+  },
+  {
+   "track": 3,
+   "start": 18208.612625,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 2,
+   "start": 18408.612625,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.63
+  },
+  {
+   "track": 16,
+   "start": 18570.112625,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 3.01
+  },
+  {
+   "track": 9,
+   "start": 18721.612625,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.47
+  },
+  {
+   "track": 11,
+   "start": 18841.112625,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.04
+  },
+  {
+   "track": 4,
+   "start": 19029.112625,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 3.84
+  },
+  {
+   "track": 7,
+   "start": 19232.612625,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 3.42
+  },
+  {
+   "track": 10,
+   "start": 19377.612625,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.44
+  },
+  {
+   "track": 15,
+   "start": 19493.112625,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.11
+  },
+  {
+   "track": 1,
+   "start": 19623.612625,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.32
+  },
+  {
+   "track": 13,
+   "start": 19860.112625,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.08
+  },
+  {
+   "track": 26,
+   "start": 20019.112625,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 4.58
+  },
+  {
+   "track": 18,
+   "start": 20144.112625,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.3
+  },
+  {
+   "track": 8,
+   "start": 20331.112625,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.38
+  },
+  {
+   "track": 23,
+   "start": 20465.112625,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 4.4
+  },
+  {
+   "track": 20,
+   "start": 20583.612625,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.23
+  },
+  {
+   "track": 25,
+   "start": 20721.112625,
+   "xfade": 10.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.84
+  },
+  {
+   "track": 21,
+   "start": 20820.612625,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.73
+  },
+  {
+   "track": 12,
+   "start": 20980.112625,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.61
+  },
+  {
+   "track": 6,
+   "start": 21120.112625,
+   "xfade": 8.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 4.83
+  },
+  {
+   "track": 5,
+   "start": 21292.612625,
+   "xfade": 10.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 6.12
+  },
+  {
+   "track": 24,
+   "start": 21418.112625,
+   "xfade": 8.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 22,
+   "start": 21580.565833,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.33
+  },
+  {
+   "track": 15,
+   "start": 21722.065833,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.11
+  },
+  {
+   "track": 1,
+   "start": 21851.565833,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.32
+  },
+  {
+   "track": 13,
+   "start": 22088.065833,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.13
+  },
+  {
+   "track": 18,
+   "start": 22246.065833,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.8
+  },
+  {
+   "track": 26,
+   "start": 22434.065833,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.01
+  },
+  {
+   "track": 8,
+   "start": 22558.065833,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.32
+  },
+  {
+   "track": 0,
+   "start": 22690.065833,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.4
+  },
+  {
+   "track": 27,
+   "start": 22840.565833,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 2.87
+  },
+  {
+   "track": 3,
+   "start": 23027.065833,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 2,
+   "start": 23227.065833,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 19,
+   "start": 23389.565833,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.47
+  },
+  {
+   "track": 16,
+   "start": 23576.065833,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 14,
+   "start": 23726.565833,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.27
+  },
+  {
+   "track": 17,
+   "start": 23897.065833,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 2.67
+  },
+  {
+   "track": 6,
+   "start": 24026.025792,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.84
+  },
+  {
+   "track": 7,
+   "start": 24199.525792,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.15
+  },
+  {
+   "track": 11,
+   "start": 24346.525792,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.04
+  },
+  {
+   "track": 4,
+   "start": 24533.525792,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.89
+  },
+  {
+   "track": 10,
+   "start": 24736.025792,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 5.73
+  },
+  {
+   "track": 9,
+   "start": 24851.525792,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.47
+  },
+  {
+   "track": 12,
+   "start": 24971.025792,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 4.3
+  },
+  {
+   "track": 5,
+   "start": 25109.025792,
+   "xfade": 10.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 5.82
+  },
+  {
+   "track": 25,
+   "start": 25233.525792,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.38
+  },
+  {
+   "track": 23,
+   "start": 25336.025792,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.84
+  },
+  {
+   "track": 21,
+   "start": 25454.525792,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.08
+  },
+  {
+   "track": 20,
+   "start": 25616.025792,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 22,
+   "start": 25752.525792,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.03
+  },
+  {
+   "track": 24,
+   "start": 25893.025792,
+   "xfade": 10.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.4
+  },
+  {
+   "track": 8,
+   "start": 26052.479,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.06
+  },
+  {
+   "track": 18,
+   "start": 26183.479,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 0.9
+  },
+  {
+   "track": 13,
+   "start": 26369.479,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.08
+  },
+  {
+   "track": 26,
+   "start": 26527.479,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.53
+  },
+  {
+   "track": 0,
+   "start": 26651.479,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 19,
+   "start": 26801.979,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 27,
+   "start": 26989.479,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 2.87
+  },
+  {
+   "track": 3,
+   "start": 27175.979,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 2,
+   "start": 27375.979,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 1,
+   "start": 27538.479,
+   "xfade": 8.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 22,
+   "start": 27775.979,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.33
+  },
+  {
+   "track": 15,
+   "start": 27917.479,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.17
+  },
+  {
+   "track": 10,
+   "start": 28047.979,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 5.73
+  },
+  {
+   "track": 9,
+   "start": 28163.479,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.47
+  },
+  {
+   "track": 4,
+   "start": 28282.979,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 3.84
+  },
+  {
+   "track": 7,
+   "start": 28486.479,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.31
+  },
+  {
+   "track": 14,
+   "start": 28631.479,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.56
+  },
+  {
+   "track": 16,
+   "start": 28802.979,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 2.93
+  },
+  {
+   "track": 6,
+   "start": 28954.479,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 4.83
+  },
+  {
+   "track": 5,
+   "start": 29127.979,
+   "xfade": 10.0,
+   "skip": 2.0,
+   "trim": 3.0,
+   "fit_dip_db": 5.82
+  },
+  {
+   "track": 25,
+   "start": 29253.479,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.15
+  },
+  {
+   "track": 20,
+   "start": 29357.979,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.98
+  },
+  {
+   "track": 24,
+   "start": 29493.479,
+   "xfade": 8.0,
+   "skip": 1.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.27
+  },
+  {
+   "track": 21,
+   "start": 29655.932208,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.05
+  },
+  {
+   "track": 23,
+   "start": 29814.432208,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.77
+  },
+  {
+   "track": 12,
+   "start": 29932.932208,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.04
+  },
+  {
+   "track": 17,
+   "start": 30073.932208,
+   "xfade": 8.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 11,
+   "start": 30200.892167,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 3.76
+  },
+  {
+   "track": 9,
+   "start": 30390.892167,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 3.64
+  },
+  {
+   "track": 7,
+   "start": 30510.392167,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 3.42
+  },
+  {
+   "track": 10,
+   "start": 30655.392167,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.36
+  },
+  {
+   "track": 4,
+   "start": 30770.892167,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 2.45
+  },
+  {
+   "track": 6,
+   "start": 30975.392167,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.38
+  },
+  {
+   "track": 14,
+   "start": 31150.892167,
+   "xfade": 8.0,
+   "skip": 1.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.09
+  },
+  {
+   "track": 0,
+   "start": 31320.392167,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.4
+  },
+  {
+   "track": 27,
+   "start": 31469.892167,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.66
+  },
+  {
+   "track": 2,
+   "start": 31656.392167,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 2.79
+  },
+  {
+   "track": 3,
+   "start": 31816.892167,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 19,
+   "start": 32018.892167,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 1,
+   "start": 32206.392167,
+   "xfade": 8.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 22,
+   "start": 32444.892167,
+   "xfade": 10.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.03
+  },
+  {
+   "track": 24,
+   "start": 32585.392167,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.44
+  },
+  {
+   "track": 20,
+   "start": 32747.845375,
+   "xfade": 10.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 1.36
+  },
+  {
+   "track": 8,
+   "start": 32879.345375,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.06
+  },
+  {
+   "track": 18,
+   "start": 33010.345375,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.8
+  },
+  {
+   "track": 26,
+   "start": 33198.345375,
+   "xfade": 6.0,
+   "skip": 2.0,
+   "trim": 1.0,
+   "fit_dip_db": 0.82
+  },
+  {
+   "track": 23,
+   "start": 33322.345375,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 3.84
+  },
+  {
+   "track": 21,
+   "start": 33440.845375,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.94
+  },
+  {
+   "track": 15,
+   "start": 33603.345375,
+   "xfade": 10.0,
+   "skip": 2.0,
+   "trim": 2.0,
+   "fit_dip_db": 5.15
+  },
+  {
+   "track": 5,
+   "start": 33729.845375,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 6.64
+  },
+  {
+   "track": 13,
+   "start": 33857.345375,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.99
+  },
+  {
+   "track": 25,
+   "start": 34017.345375,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 1.32
+  },
+  {
+   "track": 12,
+   "start": 34122.845375,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 2.04
+  },
+  {
+   "track": 17,
+   "start": 34262.845375,
+   "xfade": 6.0,
+   "skip": 3.0,
+   "trim": 0.0,
+   "fit_dip_db": 1.79
+  },
+  {
+   "track": 16,
+   "start": 34393.805333,
+   "xfade": 8.0,
+   "skip": 0.0,
+   "trim": 2.0,
+   "fit_dip_db": 0.26
+  },
+  {
+   "track": 11,
+   "start": 34543.305333,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.55
+  },
+  {
+   "track": 7,
+   "start": 34733.305333,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.89
+  },
+  {
+   "track": 4,
+   "start": 34880.305333,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.27
+  },
+  {
+   "track": 24,
+   "start": 35084.805333,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.89
+  },
+  {
+   "track": 1,
+   "start": 35248.258542,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.0
+  },
+  {
+   "track": 19,
+   "start": 35490.758542,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 0.0,
+   "fit_dip_db": 0.32
+  },
+  {
+   "track": 21,
+   "start": 35678.258542,
+   "xfade": 6.0,
+   "skip": 0.0,
+   "trim": 1.0,
+   "fit_dip_db": 1.05
+  },
+  {
+   "track": 23,
+   "start": 35839.758542,
+   "xfade": 10.0,
+   "skip": 0.0,
+   "trim": 3.0,
+   "fit_dip_db": 4.34
+  },
+  {
+   "track": 8,
+   "start": 35958.258542,
+   "xfade": 6.0,
+   "skip": 1.0,
+   "trim": 0.0,
+   "fit_dip_db": 2.09
+  }
+ ],
+ "scene": "ramen-alley",
+ "dirs": [
+  "music/lofi-night"
+ ],
+ "minecraft": false
+}

@@ -1,0 +1,9 @@
+numpy
+pillow>=13.0.0
+opencv-python-headless
+requests
+diffusers>=0.41
+transformers>=4.50
+accelerate
+safetensors
+ftfy

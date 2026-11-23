@@ -1,0 +1,38 @@
+{
+  "scene": "enchanter-tower-goldenhour",
+  "aesthetic": "minecraft-voxel",
+  "created": "2026-11-22",
+  "setting": "One locked-off Minecraft-style voxel shot inside a cozy enchanter's study at the top of a stone tower, framed close so the room's details and the view fill the picture. A huge arched window in the back wall, nearly floor to ceiling, looks out over a mountain lake with the sun low over the water. Packed bookshelves stand on both sides of the window, an enchanting table stands on a rug in front of it, a glass-block aquarium is built into the wall at the left and a stone fireplace is set in the wall at the right. No humans",
+  "time": "golden hour",
+  "weather": "clear golden hour, the sun low over the lake",
+  "pet": "a fox curled up asleep on a wool rug in front of the fireplace, with its ears and tail visible",
+  "props": [
+    "an enchanting table (a dark obsidian base with diamond corners and a red cloth top) on the floor in front of the window, with nothing on it or floating above it: its book is animated afterwards",
+    "a brewing stand on a stone counter, its three glass bottles full of colored potion, with no steam or bubbles painted",
+    "a glass-block aquarium built into the left wall: clear blue water with kelp, seagrass, coral and sand, and no fish, axolotls or any other creatures in it (they are animated afterwards)",
+    "a stone fireplace with a low fire",
+    "a few candles and a hanging lantern"
+  ],
+  "signature": "the enchanting table's book floats above it, turning slowly and flipping its pages, while small glowing glyphs drift in from the bookshelves; blocky fish and an axolotl swim in the wall aquarium",
+  "signature_detail": "a silverfish, the small silvery book bug, scurries in bursts along the stone floor at the foot of the bookshelves, stops to nibble at the corner of a book lying on the floor, and slips away behind the shelf (a sprite animated in code, never painted in the image)",
+  "stages": [
+    "the floor at the foot of a bookshelf, with a closed book lying flat on it",
+    "the glass-block aquarium at the left",
+    "the mountain lake and open sky beyond the huge window"
+  ],
+  "foreground": "a thin strip of a patterned wool rug along the bottom of the frame, with a stack of books and a candle in the bottom left corner and a potted plant in the bottom right corner, and the fox curled up asleep on a cushion by the fireplace at the lower right, its ears and tail visible and fully in frame",
+  "midground": "the enchanting table (a dark obsidian base with diamond corners and a red cloth top) on the rug a few steps in front of the window, with nothing on it or floating above it, packed bookshelves with hanging plants on both sides of the window, the glass-block aquarium built into the wall at the left, large and seen nearly face-on (clear blue water with kelp, seagrass, coral and sand, and no fish, axolotls or other creatures in it), a brewing stand on a stone counter beside the aquarium with three bottles of colored potion, the stone fireplace with a low fire at the right, lanterns hanging on chains and a few lit candles",
+  "background": "through the huge arched window with clear glass, a wide view: a calm mountain lake with forested shores and a small island, layered snowy mountains, the low sun just above the far ridge laying a golden path across the water, and a big open sky with a few soft clouds (birds are animated afterwards, so none are painted)",
+  "light": "low golden sunlight pours through the arch in long warm beams across the floor; the fireplace, the candles and the lantern add an amber glow; soft cool shadows in the corners",
+  "title_idea": "4K enchanter's tower at golden hour with calm Minecraft music and crackling fire, no ads (10 hours)",
+  "place_name": "Enchanter's Tower",
+  "intro_lines": [
+    "Welcome to the Enchanter's Tower, come watch the lake turn gold."
+  ],
+  "weather_why": "his answer before the key art",
+  "composition": "a small, intimate room framed close: the back wall with the huge window is only a few steps from the camera, so the floor shows only as a thin strip along the bottom of the frame, no more than a sixth of its height; the window fills the middle third of the frame from near the floor to near the ceiling, so the lake, the mountains and the sky take up a big part of the picture; the enchanting table stands just in front of the window, large and clearly readable, its top in the lower middle of the frame; the aquarium at the left and the fireplace with the fox at the right fill the sides; every part of the frame holds detail, with no large empty areas",
+  "status": "plate",
+  "hero": "assets/keyart/enchanter-tower-goldenhour/hero_gpt-image-2-5-sunburst_20261122-110936_4.png",
+  "hero_note": "Truman's pick 2026-11-22: round 2 candidate 4, as it is. Round 2 was framed closer after his note on round 1 (too much empty floor; more detail or more of the view wanted); round 1 is in assets/keyart/enchanter-tower-goldenhour/round1/",
+  "keyart_note": "one fox asleep on the red cushion, curled up with its white-tipped tail wrapped round its front (one fox: the white tail tip is not a second face)"
+}

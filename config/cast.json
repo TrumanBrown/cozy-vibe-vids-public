@@ -1,0 +1,216 @@
+{
+  "_note": "The channel's own recurring creatures (Truman 2026-10-25: original made-up creatures, a recurring cast, awake doing something quiet with breathing and blinks drawn in code). Each is based on a Pacific Northwest animal and has one silly, unrealistic touch the code can animate: a lantern that glows and swings, a scarf blowing in the wind, plants growing on it (never completely realistic). Each 'prompt' is pasted into key-art prompts word for word (tools/new_video.py cast_text) so a creature looks the same in every video: change it only with his OK. 'status': approved (in the cast), candidate (in a lineup, not picked yet), dropped. 'role': the cast slot. One lantern per scene (Truman 2026-10-25: only one holds a lantern; other items, or nothing, look better), held by whoever fits the story; it is a scene prop in the brief, not part of anyone's design (the Burdock Shelter: the salamander, holding its leaf and the lantern, one in each hand, as if searching for something). Lineups: out/style_explore/round3 to round5. 'animates': what the code can bring to life on it besides breathing and blinks. \"species\": the real Pacific Northwest species each approved character is based on, by its common name; a video's description names them (user 2026-10-26: descriptions name the species). A second troupe (\"troupe\": \"snowy-night\", Truman 2026-11-12) belongs to the look pencil-night (colored pencil on black paper): silly, cute friends of the snowy mountains, three real animals with one silly touch each and the made-up yuzu sprite (no species: \"based_on\" says what it is), picked from the round 8 lineups (out/style_explore/round8).",
+  "cast": {
+    "mothling": {
+      "status": "replaced",
+      "approved": "2026-10-25 (he liked the moth); a PNW version may replace this design (round 4 lineup)",
+      "prompt": "a mothling: a round cream-white puff of fluff about the size of a teacup, with a fluffy collar, two large feathery antennae the color of dry grass, dusty brown wings folded behind it like a short cape, and two tiny black dot eyes without shine.",
+      "animates": "antennae sway a little in a draft",
+      "role": "moth",
+      "replaced": "2026-10-25: a Pacific Northwest version took the role (round 4 lineup)"
+    },
+    "stone-toad": {
+      "status": "dropped",
+      "prompt": "a stone toad: a round toad shaped like a smooth river stone, slate blue-gray with a paler belly, a three-leaf clover sprout growing from the top of its head, short stubby legs, and two tiny black dot eyes without shine.",
+      "animates": "the clover sprout sways",
+      "dropped": "2026-10-25: he found lineup designs 2 and 5 too alike; an insect takes the slot (round 4 lineup)"
+    },
+    "lantern-gecko": {
+      "status": "replaced",
+      "prompt": "a lantern gecko: a small leaf-green gecko with big round toe pads, two tiny black dot eyes without shine, and a curled tail whose round tip glows a soft amber like a tiny paper lantern.",
+      "animates": "the tail's glow pulses softly and lights what is near it",
+      "role": "lizard",
+      "approved": "2026-10-25, the role and its silly touch; its PNW species to be picked from the round 4 lineup",
+      "replaced": "2026-10-25: a Pacific Northwest version took the role (round 4 lineup)"
+    },
+    "teacup-crab": {
+      "status": "replaced",
+      "prompt": "a teacup hermit crab: a little coral-red hermit crab living in a chipped cream teacup as its shell, its two small claws resting on the rim, and two tiny black dot eyes on short stalks.",
+      "animates": "the eye stalks tilt now and then",
+      "role": "crab",
+      "approved": "2026-10-25, the role and its silly touch; its PNW species to be picked from the round 4 lineup",
+      "replaced": "2026-10-25: a Pacific Northwest version took the role (round 4 lineup)"
+    },
+    "moss-newt": {
+      "status": "dropped",
+      "prompt": "a moss newt: a plump olive-green newt with a speckled orange belly, soft moss and tiny fern fronds growing along its back, and two tiny black dot eyes without shine.",
+      "animates": "the fern fronds on its back sway",
+      "dropped": "2026-10-25: he found lineup designs 2 and 5 too alike; an insect takes the slot (round 4 lineup)"
+    },
+    "scarf-snake": {
+      "status": "replaced",
+      "prompt": "a scarf snake: a long, soft, plump snake, pale lavender with darker plum bands, a round head with two tiny black dot eyes without shine, lying in loose coils like a dropped scarf.",
+      "animates": "its coils rise and fall with its breath",
+      "role": "snake",
+      "approved": "2026-10-25, the role and its silly touch; its PNW species to be picked from the round 4 lineup",
+      "replaced": "2026-10-25: a Pacific Northwest version took the role (round 4 lineup)"
+    },
+    "polyphemus-mothling": {
+      "status": "approved",
+      "role": "moth",
+      "species": "polyphemus moth",
+      "scientific": "Antheraea polyphemus",
+      "approved": "2026-10-25, picked from the round 4 lineup (replaces the cream mothling design); 2026-10-25: the lantern is no longer part of its design (a scene prop, see _note)",
+      "prompt": "a polyphemus mothling: a round tan puff of fluff about the size of a teacup, with a fluffy collar, two whole feathery antennae, wings with big round blue-and-yellow eyespots, and two tiny black dot eyes without shine.",
+      "animates": "the feathery antennae sway in a draft"
+    },
+    "short-horned-lizard": {
+      "status": "approved",
+      "role": "lizard",
+      "species": "pygmy short-horned lizard",
+      "scientific": "Phrynosoma douglasii",
+      "approved": "2026-10-25, picked from the round 4 lineup (replaces the lantern gecko); holds nothing (one lantern in the cast)",
+      "prompt": "a pygmy short-horned lizard: a round, flat, sandy-gray lizard with tiny soft horns around its head, little moss tufts and a sprig of silver sagebrush growing between its spikes, two tiny black dot eyes without shine, holding nothing.",
+      "animates": "the sagebrush sprig and the moss sway"
+    },
+    "decorator-crab": {
+      "status": "approved",
+      "role": "crab",
+      "species": "graceful decorator crab",
+      "scientific": "Oregonia gracilis",
+      "approved": "2026-10-25, picked from the round 4 lineup (replaces the teacup crab); 2026-11-05 reworded with his OK: the old words drew four eyes twice in the round 7 lineup (two on stalks up in its garden and a pair on its face), so its face and its stalked eyes are now one (out/style_explore/round7, crab 11)",
+      "prompt": "a graceful decorator crab: a small crab with long spindly legs whose back is a tiny garden of moss, a curled fern frond and a little mushroom; its face is at the front of its shell, below the garden, with two tiny black dot eyes on short stalks and a small mouth, and it has no other eyes.",
+      "animates": "the fern frond and the moss on its back sway"
+    },
+    "garter-snake": {
+      "status": "approved",
+      "role": "snake",
+      "species": "northwestern garter snake",
+      "scientific": "Thamnophis ordinoides",
+      "approved": "2026-10-25, picked from the round 4 lineup (replaces the lavender scarf snake)",
+      "prompt": "a northwestern garter snake: a soft, plump brown snake with an orange stripe along its back, a small fern sprout growing on its head, two tiny black dot eyes without shine, and a knitted scarf wrapped once around its neck with both ends hanging down in front.",
+      "animates": "the scarf's ends blow in the wind; the fern sprout sways"
+    },
+    "alder-borer": {
+      "status": "approved",
+      "role": "insect",
+      "species": "banded alder borer",
+      "scientific": "Rosalia funebris",
+      "approved": "2026-10-25, picked from the round 4 lineup; the hiking pack drawn right in round 6 (version 2: straps over the shoulders, six legs, whole antennae), his look pending",
+      "prompt": "a banded alder borer: a blue-gray longhorn beetle with black bands, six legs and two tiny black dot eyes without shine, carrying a tiny hiking pack with a rolled bedroll on top; the pack's two straps go over its shoulders and down its front, outside its arms and legs, and both of its very long banded antennae are whole from base to tip, curving up and back clear of the pack.",
+      "animates": "the long antennae sway; the bedroll's strap end flutters"
+    },
+    "red-backed-salamander": {
+      "status": "approved",
+      "role": "salamander",
+      "species": "western red-backed salamander",
+      "scientific": "Plethodon vehiculum",
+      "approved": "2026-10-25 (the red-backed salamander instead of the ensatina, holding a leaf: more recognizable, and it lives under leaves anyway); round 6; 2026-10-25: its mouth had started to look like a lizard's, which is wrong: a salamander's blunt rounded snout and smooth skin in its description",
+      "prompt": "a western red-backed salamander: slender, with dark gray sides speckled with white and one brick-red stripe running down its back from its head to the tip of its tail, a salamander's head with a short, rounded, blunt snout, smooth moist skin without any scales and a soft, wide mouth line (never a lizard's pointed snout), two tiny black dot eyes without shine, standing on its hind legs and holding a big glossy salal leaf over its head like an umbrella by the leaf's stem in one hand, the leaf tilted back so its whole head and face show; nothing on its head.",
+      "animates": "the salal leaf trembles a little in the wind"
+    },
+    "sea-otter": {
+      "status": "approved",
+      "role": "otter",
+      "species": "northern sea otter",
+      "scientific": "Enhydra lutris kenyoni",
+      "approved": "2026-11-05, his pick from the round 7 lineup (the kelp scarf over the pinwheel): sea otters wrap themselves in kelp to stay put",
+      "prompt": "a northern sea otter: round and plump, with thick dark brown fur, a pale cream face and head, small round ears, short whiskers, big webbed hind feet, a short flat tail and two tiny black dot eyes without shine, with a long strand of bull kelp wrapped once around its neck like a scarf, the kelp's round bulb and both long ribbon-like ends hanging down in front of its chest.",
+      "animates": "the kelp scarf's ends and bulb sway in the sea breeze"
+    },
+    "tufted-puffin": {
+      "status": "approved",
+      "role": "seabird",
+      "species": "tufted puffin",
+      "scientific": "Fratercula cirrhata",
+      "approved": "2026-11-05, his pick from the round 7 lineup",
+      "prompt": "a tufted puffin: round and plump, black all over with a white face, a big orange-red bill with a yellow base, orange feet, long straw-yellow tufts sweeping back from behind its eyes and two tiny black dot eyes without shine, holding a tiny fishing rod in one wing with the rod resting on its shoulder, a thin line and a little red-and-white float hanging straight down from the rod's tip, clear of its body.",
+      "animates": "the straw-yellow tufts lift in the breeze; the float swings on its line, or bobs where it rests on the water"
+    },
+    "ochre-sea-star": {
+      "status": "approved",
+      "role": "sea star",
+      "species": "ochre sea star",
+      "scientific": "Pisaster ochraceus",
+      "approved": "2026-11-05, his pick from the round 7 lineup (its purple form)",
+      "prompt": "an ochre sea star: a plump five-armed sea star in deep purple, its skin bumpy with a net of small pale knobs, its small face in its middle with two tiny black dot eyes without shine, and a tuft of frilly green sea lettuce growing from the tip of its top arm like a cowlick.",
+      "animates": "the sea lettuce tuft sways"
+    },
+    "black-oystercatcher": {
+      "status": "approved",
+      "role": "shorebird",
+      "species": "black oystercatcher",
+      "scientific": "Haematopus bachmani",
+      "approved": "2026-11-05, his pick from the round 7 lineup",
+      "prompt": "a black oystercatcher: round and plump, sooty black-brown all over, a long straight bright orange-red bill, pale pink legs and two tiny black dot eyes without shine, each in a thin red ring, wearing a little yellow sou'wester rain hat with two long chin ribbons hanging loose under its bill.",
+      "animates": "the hat's chin ribbons flutter in the breeze"
+    },
+    "snow-monkey": {
+      "status": "approved",
+      "troupe": "snowy-night",
+      "role": "monkey",
+      "species": "Japanese macaque",
+      "scientific": "Macaca fuscata",
+      "approved": "2026-11-12, his pick from the round 8 lineups (animals, 7): snow monkeys really soak in hot springs in winter",
+      "prompt": "a snow monkey: a Japanese macaque, round and plump, with thick shaggy gray-brown winter fur, a bare pink face and pink hands, two tiny black dot eyes without shine and a small calm mouth, and a small folded white towel balanced flat on top of its head.",
+      "animates": "breathing and blinks; the towel rides on its head"
+    },
+    "long-stoat": {
+      "status": "approved",
+      "troupe": "snowy-night",
+      "role": "stoat",
+      "species": "stoat",
+      "scientific": "Mustela erminea",
+      "approved": "2026-11-12, his pick from the round 8 lineups (made-up, 6): a stoat in its white winter coat, comically long",
+      "prompt": "a long stoat in its white winter coat: a slim snow-white stoat, comically long, its body about three times as long as a real stoat's, with short legs, small round ears, a small black nose, a black tip on its tail and two tiny black dot eyes without shine.",
+      "animates": "its breath runs along its whole long body"
+    },
+    "yuzu-sprite": {
+      "status": "approved",
+      "troupe": "snowy-night",
+      "role": "fruit sprite",
+      "based_on": "the yuzu fruit (Citrus junos), floated in Japanese baths at the winter solstice (yuzu-yu); made up, so it has no species",
+      "approved": "2026-11-12, his pick from the round 8 lineups (made-up, 1)",
+      "prompt": "a yuzu sprite: a round, dimpled, yellow-orange yuzu fruit the size of a fist, its skin bumpy like a real yuzu's, with a tiny face (two tiny black dot eyes without shine and a small smile), two stubby little feet and a short stem with one green leaf on top.",
+      "animates": "bobs on the water among the ordinary floating yuzu; its leaf sways"
+    },
+    "mandarin-duck": {
+      "status": "approved",
+      "troupe": "snowy-night",
+      "role": "duck",
+      "species": "mandarin duck",
+      "scientific": "Aix galericulata",
+      "approved": "2026-11-12, his pick from the round 8 lineups (animals, 12); not in the hot spring (Truman 2026-11-12): painted floating on the water it would sit still where a real duck paddles about, so it waits for a scene where it can rest on land",
+      "prompt": "a mandarin duck: a round mandarin drake with orange sail feathers standing up on its back, orange plumes on its cheeks, a white stripe over its eye, a red bill and two tiny black dot eyes without shine, holding a little yellow toy rubber duck under one wing.",
+      "animates": "bobs on the water when it floats, the rubber duck with it"
+    }
+  },
+  "first_video": {
+    "cast": [
+      "polyphemus-mothling",
+      "short-horned-lizard",
+      "garter-snake",
+      "red-backed-salamander"
+    ],
+    "scene": "a tiny campfire under a burdock leaf on the rainy forest floor at night, a pot of soup steaming; style ink-gouache",
+    "picked": "2026-10-25"
+  },
+  "second_video": {
+    "cast": [
+      "sea-otter",
+      "decorator-crab",
+      "tufted-puffin",
+      "ochre-sea-star",
+      "black-oystercatcher"
+    ],
+    "scene": "a tide pool on the Pacific Northwest coast at dusk in fog, no rain: a driftwood lean-to with a lantern hanging from it, cocoa, sea stacks in the fog; style ink-gouache",
+    "picked": "2026-11-05"
+  },
+  "third_video": {
+    "cast": [
+      "snow-monkey",
+      "long-stoat",
+      "yuzu-sprite"
+    ],
+    "scene": "a small natural hot spring in the snowy woods at night, snowing: a paper lantern on a bent bamboo pole, a bamboo spout pouring, yuzu fruits floating; style pencil-night",
+    "picked": "2026-11-12"
+  },
+  "reference_lineup": "assets/reference/styles/cast_lineup_round6.jpg (round 6, version 2: checked at 1:1, no drawing errors)",
+  "reference_lineup_coast": "assets/reference/styles/cast_lineup_round7_coast.jpg (round 7: his five picks for the tide pool, the crab from the eyes test; checked at 1:1)",
+  "reference_lineup_snowy": "assets/reference/styles/cast_lineup_round8_made.jpg and cast_lineup_round8_animal.jpg (round 8: his four picks are made-up 1 and 6 and animals 7 and 12; checked at 1:1)",
+  "native_to": {
+    "_note": "Where a troupe's species are native, for the words that name them (cozy.publish.words cast_region): the first troupe's characters are all Pacific Northwest animals; the snowy-night troupe's aren't from one region (a Japanese macaque, a stoat), so its words name no region (the Yuzu Spring's field-guide thumbnail said 'two creatures of the Pacific Northwest', 2026-11-15).",
+    "": "the Pacific Northwest",
+    "snowy-night": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+ "creature": "gecko",
+ "prompt": "A single a small pale gecko walking to the right, seen from above at a slight angle, its tail curving behind. Painted to match this art style: Wide 16:9 cinematic screenshot of a cozy Minecraft scene with a shader pack: blocky voxel world, high-quality block textures, volumetric light, soft bloom and soft shadows.. Lighting to match the scene: soft overcast morning light with a warm lantern glow under the eaves. The whole creature is in view, centered, with a little space around it. Transparent background, no ground, no shadow, no other objects, no text.",
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-10-22",
+ "usage": {
+  "input_tokens": 129,
+  "input_tokens_details": {
+   "image_tokens": 0,
+   "text_tokens": 129
+  },
+  "output_tokens": 1756,
+  "output_tokens_details": {
+   "image_tokens": 1756,
+   "text_tokens": 0
+  },
+  "total_tokens": 1885
+ },
+ "size": [
+  1024,
+  1024
+ ],
+ "bbox": [
+  49,
+  324,
+  984,
+  744
+ ],
+ "foot_y": 715,
+ "front_x": 984,
+ "back_x": 49,
+ "shell_x": [
+  323,
+  868
+ ],
+ "lum": 0.6268
+}

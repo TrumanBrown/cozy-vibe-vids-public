@@ -1,0 +1,37 @@
+{
+ "creature": "woodmouse",
+ "prompt": "A single a small wood mouse walking to the right, seen from the side: big round ears, big dark eyes, a warm brown back and a pale cream belly, small pale feet mid-step, a long thin tail held out behind it. Painted to match this art style: Style: colored pencils and a little white gouache on matte black paper. The black paper is the night: anything the light doesn't reach is left as bare black paper with its faint tooth showing. Lit things are drawn with visible pencil strokes, hatched in one direction and layered, warm yellow and orange near the lantern, cool blues and lavender on the snow, the strokes thinning out and stopping where the light ends. The snow is dense white pencil, with a few dabs of white gouache where it catches the lantern. No outlines: a form ends where its light ends. The characters are drawn a little more carefully, with soft fur strokes.. Lighting to match the scene: the small paper lantern is the only warm light: it lights the friends from the right, the spout, the nearest rocks and the water just around them in warm yellow and orange, and falls off within a short distance. Everything else is the dim, cool light of snow at night: the snow is pale blue and lavender, the trees and the far woods fade into the bare black paper. There is no moon and there are no stars in view. About half of the frame is dark. The whole creature is in view, centered, with a little space around it. Transparent background, no ground, no shadow, no other objects, no text.",
+ "deployment": "gpt-image-2",
+ "date": "2026-11-12",
+ "usage": {
+  "input_tokens": 329,
+  "input_tokens_details": {
+   "image_tokens": 0,
+   "text_tokens": 329
+  },
+  "output_tokens": 7024,
+  "output_tokens_details": {
+   "image_tokens": 7024,
+   "text_tokens": 0
+  },
+  "total_tokens": 7353
+ },
+ "size": [
+  1024,
+  1024
+ ],
+ "bbox": [
+  50,
+  305,
+  962,
+  694
+ ],
+ "foot_y": 686,
+ "front_x": 962,
+ "back_x": 50,
+ "shell_x": [
+  518,
+  837
+ ],
+ "lum": 0.4561
+}

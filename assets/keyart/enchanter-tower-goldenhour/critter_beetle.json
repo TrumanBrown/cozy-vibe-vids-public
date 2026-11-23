@@ -1,0 +1,38 @@
+{
+ "creature": "beetle",
+ "prompt": "A single a small dark shiny beetle walking to the right, seen from the side, legs visible. Painted to match this art style: Wide 16:9 cinematic screenshot of a cozy Minecraft scene with a shader pack: blocky voxel world, high-quality block textures, volumetric light, soft bloom and soft shadows.. Lighting to match the scene: low golden sunlight pours through the arch in long warm beams across the floor; the fireplace, the candles and the lantern add an amber glow; soft cool shadows in the corners. The whole creature is in view, centered, with a little space around it. Transparent background, no ground, no shadow, no other objects, no text.",
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-11-22",
+ "usage": {
+  "input_tokens": 144,
+  "input_tokens_details": {
+   "image_tokens": 0,
+   "text_tokens": 144
+  },
+  "output_tokens": 1756,
+  "output_tokens_details": {
+   "image_tokens": 1756,
+   "text_tokens": 0
+  },
+  "total_tokens": 1900
+ },
+ "size": [
+  1024,
+  1024
+ ],
+ "bbox": [
+  91,
+  319,
+  996,
+  774
+ ],
+ "foot_y": 764,
+ "front_x": 996,
+ "back_x": 91,
+ "shell_x": [
+  189,
+  718
+ ],
+ "lum": 0.2189,
+ "lift": 0.55
+}

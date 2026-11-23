@@ -1,0 +1,62 @@
+{
+  "_note": "The draft of 2026-10-16. What went live differs (his edits): see docs/records/autumn-treetop/published.md. Its render folder was deleted 2026-10-20, so this spec no longer builds a package.",
+  "slug": "autumn-treetop",
+  "name": "Autumn Treetop",
+  "render": "out/treetop-plate/render/10h_loop_1h_at8h_seed11_v5",
+  "video": "master_music.mp4",
+  "thumbnails": "assets/thumbnails/treetop-plate.json",
+  "thumbnail": "place-card-cat",
+  "test_and_compare": [
+    "place-card-cat",
+    "let-it-rain",
+    "lantern"
+  ],
+  "feed": "docs/reference/thumbnail-feed-2026-10-16.json",
+  "draft_text": false,
+  "titles": [
+    "4K rainy autumn treehouse with calm Minecraft music and distant thunder, no ads (10 hours)",
+    "The cat sleeps through the storm: 4K rain, distant thunder, calm Minecraft music, no ads (10 hours)",
+    "4K treehouse rain with calm Minecraft music and distant thunder, no ads (10 hours)"
+  ],
+  "description": [
+    "Rain outside a treehouse one autumn evening, with calm Minecraft music and a storm passing in the distance. 10 hours, to sleep to or keep on while you work or study.",
+    "",
+    "Most of the lightning is far off, with a low rumble a few seconds later. The cat on the cushion sleeps through all of it.",
+    "",
+    "It's meant for the background, but if you look up now and then, these happen every hour:",
+    "1:37 the closest strike, under a kilometer away. Count the seconds to the thunder",
+    "3:34 another strike, and the cat's ears twitch when the thunder gets there",
+    "7:04 a gust shakes some leaves loose",
+    "8:45 a lantern boat comes down the river out of the mist",
+    "11:58 a heron flies past the mountains",
+    "21:10 the boat heads back up the river into the mist",
+    "43:47 the hanging lantern flickers"
+  ],
+  "hashtags": [
+    "#minecraftmusic",
+    "#rainsounds",
+    "#sleepmusic"
+  ],
+  "tags": [
+    "minecraft music",
+    "calm minecraft music",
+    "minecraft rain",
+    "minecraft ambience",
+    "rain sounds",
+    "rain and thunder",
+    "thunderstorm sounds",
+    "sleep music",
+    "study music",
+    "relaxing music",
+    "autumn ambience",
+    "treehouse",
+    "cozy ambience",
+    "10 hours"
+  ],
+  "category": "Music",
+  "published": {
+    "url": "https://www.youtube.com/watch?v=ftYyRPbOgTU",
+    "date": "2026-10-16",
+    "record": "docs/records/autumn-treetop/published.md"
+  }
+}

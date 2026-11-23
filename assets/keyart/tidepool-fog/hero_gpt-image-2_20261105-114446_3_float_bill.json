@@ -1,0 +1,21 @@
+{
+  "src": "assets/keyart/tidepool-fog/hero_gpt-image-2_20261105-114446_3_float.png",
+  "tag": "bill",
+  "steps": [
+    {
+      "kind": "tint",
+      "points": [
+        [
+          0.8875,
+          0.4194
+        ]
+      ],
+      "color": "#c9502f",
+      "amount": 0.5,
+      "px": 549
+    }
+  ],
+  "usage": null,
+  "made": "2026-11-05T12:00:19",
+  "note": "tools/keyart_revise.py: only the masked pixels changed (edits feathered 2.5 px); the lift is a code adjustment"
+}

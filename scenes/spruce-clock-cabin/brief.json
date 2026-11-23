@@ -1,0 +1,68 @@
+{
+  "scene": "spruce-clock-cabin",
+  "aesthetic": "minecraft-voxel",
+  "created": "2026-11-06",
+  "setting": "One locked-off wide Minecraft-style voxel shot inside a cozy spruce log cabin. A stone fireplace and a tall pendulum clock stand along one wall; big clear-glass windows look onto snowy spruce trees. No humans.",
+  "time": "winter night",
+  "weather": "snowing",
+  "pet": "a wolf asleep on a rug by the fire, with its ears and tail visible",
+  "props": [
+    "a stone fireplace with a glowing fire",
+    "a tall dark oak pendulum clock with a round face and a glass door, its brass pendulum hanging in plain view in front of a plain dark back panel",
+    "a wooden side table with a mug of cocoa"
+  ],
+  "signature": "the clock's pendulum swings steadily behind its glass door while snow falls beyond the windows",
+  "signature_detail": "a white snow rabbit hops in across the open plank floor, sits by the warm hearth twitching its nose and washing its face, then hops away out of sight (a blocky 3D rabbit animated in code, never painted in the image)",
+  "stages": [
+    "open plank floor in front of the hearth",
+    "stone fireplace hearth",
+    "snowy spruce trees beyond the clear windows"
+  ],
+  "foreground": "open spruce plank floor across the lower part of the frame, clear of furniture, and the edge of the wolf's woven rug",
+  "midground": "the warm stone fireplace with the wolf asleep on its rug, and the tall glass-front pendulum clock against the log wall beside it, large enough that its pendulum reads clearly",
+  "background": "big clear windows framing snow-covered spruce trees and snowy ground under a soft moonlit night sky; snow lies on the branches and the sills, and the air is clear (the falling snow is animated afterwards, so no snowflakes painted in the air)",
+  "light": "amber firelight across the logs and floor, balanced by soft blue night light from the windows",
+  "title_idea": "Minecraft Spruce Clock Cabin | Snowy Night by the Fire | 10 Hours",
+  "place_name": "Spruce Clock Cabin",
+  "intro_lines": [
+    "Welcome to the Spruce Clock Cabin, come warm up by the fire"
+  ],
+  "weather_why": "his answer before the key art",
+  "composition": "the fireplace and the tall clock stand along the back or side wall, both fully in frame and well lit; the windows take another part of the view; the lower third of the frame is open plank floor",
+  "pick_scores": [
+    {
+      "index": 1,
+      "composition": 7,
+      "animatable": 7,
+      "artifacts": 9,
+      "brief": 7,
+      "note": "Calm, readable view with clear windows, fire, and pendulum, though the empty foreground dominates. The wolf is small, its tail is hard to distinguish, and there is no cocoa table."
+    },
+    {
+      "index": 2,
+      "composition": 9,
+      "animatable": 9,
+      "artifacts": 9,
+      "brief": 8,
+      "note": "Strong balance and depth; the fire, sleeping wolf, pendulum, and large windows are well separated for animation. The clock face is square rather than round, and the cocoa table is missing."
+    },
+    {
+      "index": 3,
+      "composition": 8,
+      "animatable": 8,
+      "artifacts": 9,
+      "brief": 8,
+      "note": "Clear focal elements and an unobstructed snowy view, but the wolf sits close to the left edge and the foreground is spacious. The clock face is square; no cocoa table is visible."
+    },
+    {
+      "index": 4,
+      "composition": 8,
+      "animatable": 8,
+      "artifacts": 9,
+      "brief": 7,
+      "note": "Cozy, readable grouping with a prominent wolf and visible pendulum. The balcony railing interrupts the snowy view, the clock face is square, and the cocoa table is absent."
+    }
+  ],
+  "hero": "assets/keyart/spruce-clock-cabin/hero_gpt-image-2-5-sunburst_20261106-131205_2.png",
+  "status": "approved"
+}

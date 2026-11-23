@@ -1,0 +1,40 @@
+{
+  "scene": "wizard-library",
+  "aesthetic": "wizard-library",
+  "created": "2026-10-16",
+  "setting": "a vaulted Hogwarts-inspired wizard school library at night during a thunderstorm",
+  "time": "night",
+  "weather": "thunderstorm",
+  "pet": "a fluffy grey cat asleep on a red velvet armchair",
+  "props": [
+    "dozens of lit candles floating under the ceiling",
+    "a stone fireplace with a crackling fire",
+    "a steaming cup of tea"
+  ],
+  "signature": "floating candles bobbing under the vaulted ceiling while a storm passes outside the tall windows",
+  "foreground": "a heavy oak reading table with an open spellbook, a quill in an inkpot and a steaming cup of tea; beside it a fluffy grey cat asleep curled up on a red velvet armchair, its ears and tail clearly visible",
+  "midground": "a large stone fireplace on the right with a bright crackling fire and glowing logs; towering dark wood bookshelves with rolling ladders; about thirty lit candles floating in the air at different heights under the vaulted ceiling, spread out and clearly separated from each other and from the shelves, each with a small warm flame",
+  "background": "three tall arched leaded-glass windows on the left wall with clear glass, a dark blue stormy night outside with distant castle towers and rain falling",
+  "light": "Warm amber candlelight and firelight inside, cool blue storm light from the windows, soft volumetric haze",
+  "title_idea": "A rainy night in a wizard library, with a crackling fire and distant thunder (Hogwarts ambience)",
+  "pick_scores": [
+    {
+      "index": 1,
+      "composition": 8,
+      "animatable": 8,
+      "artifacts": 9,
+      "brief": 9,
+      "note": "Strong depth and clear storm windows, candles, steam, and fire. The cat and armchair are cropped at the right edge, limiting pet animation."
+    },
+    {
+      "index": 2,
+      "composition": 9,
+      "animatable": 8,
+      "artifacts": 9,
+      "brief": 10,
+      "note": "Calm, readable layout with three clear windows and well-separated candle, steam, and fire areas. The sleeping cat is more fully visible, though its tail is hard to distinguish."
+    }
+  ],
+  "hero": "assets/keyart/wizard-library/hero_gpt-image-2-5-sunburst_20261016-193008_2.png",
+  "status": "plate"
+}

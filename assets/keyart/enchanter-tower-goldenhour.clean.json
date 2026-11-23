@@ -1,0 +1,19 @@
+{
+ "_note": "Painted transients to remove from the key art (tools/plate_clean.py); written by tools/analyze_plate.py, edit freely.",
+ "source": "assets/keyart/enchanter-tower-goldenhour/hero_gpt-image-2-5-sunburst_20261122-110936_4.png",
+ "items": [
+  {
+   "name": "fireplace_flames_flames",
+   "kind": "fire",
+   "box": [
+    0.8698,
+    0.4404,
+    0.9752,
+    0.6907
+   ],
+   "shape": "ellipse",
+   "what": "Low fire behind the fireplace grate",
+   "behind": "logs on an iron grate in the stone fireplace"
+  }
+ ]
+}

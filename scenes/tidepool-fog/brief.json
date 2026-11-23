@@ -1,0 +1,228 @@
+{
+  "scene": "tidepool-fog",
+  "aesthetic": "ink-gouache",
+  "created": "2026-11-05",
+  "setting": "a tiny camp on the coast rocks beside a tide pool at low tide, at blue hour in the fog, seen from a crab's height: a little lean-to of three bleached driftwood sticks, with a strip of dried bull kelp laid over its ridge pole, stands on a flat rock ledge at the pool's edge, where five small friends share a thermos of cocoa by a hanging paper lantern while the tide is out; nothing else is there, no buildings, no boats, no lighthouse and no camp clutter",
+  "time": "blue hour at dusk",
+  "weather": "fog, no rain",
+  "cast": [
+    "sea-otter",
+    "decorator-crab",
+    "tufted-puffin",
+    "ochre-sea-star",
+    "black-oystercatcher"
+  ],
+  "pet": "the sea otter sits on the ledge under the lean-to, holding a mug of cocoa on its belly in both paws, watching the puffin's float; the ochre sea star sits beside the otter, leaning a little against it; the decorator crab sits on a small rock just below the lantern, warming its claws in its light; the tufted puffin stands on the near rim of the tide pool right of the lean-to with its rod on its shoulder, its float hanging in the air; farther out on the outer rocks to the right, the black oystercatcher stands small in its yellow sou'wester, looking out to sea. All five are awake and quiet",
+  "props": [
+    "a small paper lantern hanging lit from the front of the lean-to's ridge pole on a short cord",
+    "a dented tin thermos of cocoa standing on the ledge beside the otter",
+    "the otter's clay mug of cocoa",
+    "the puffin's tiny fishing rod resting on its shoulder, the red-and-white float hanging in the air from the line below the rod's tip"
+  ],
+  "signature": "the puffin's float swinging on its line in the sea breeze, while the fog drifts past the sea stacks, the surf washes the far rocks and the lantern sways",
+  "signature_detail": "A tiny hermit crab carrying its barnacled shell climbs up out of the tide pool where the ledge slopes into the water, stops at the waterline, walks across the lantern-lit ledge in front of the decorator crab's feet, stopping now and then, and goes in under the otter's raised hind foot. Added in animation, not in the painting.",
+  "stages": [
+    "the paper lantern hanging from the lean-to's ridge pole",
+    "the flat top of the rock along the tide pool's near rim",
+    "open foggy sky over the sea",
+    "the flat top of a far sea stack",
+    "the still water of the tide pool"
+  ],
+  "composition": "the camera sits low on the rock ledge at the friends' eye level, looking across the tide pool toward the sea. The lean-to's driftwood sticks frame the upper left and roof the friends: the otter and the sea star sit under it left of center, the crab on its small rock just in front of them below the lantern. The puffin stands on the pool's near rim right of center, with the pool in front of it and beyond it. The oystercatcher is small on the outer rocks in the right third, a clear dark shape against the pale fog. Two or three sea stacks stand in the fog in the background, right of center, and quiet open fog fills the upper right. Each friend stands clear of the others and of the lean-to's sticks. Locked-off, wide 16:9",
+  "foreground": "along the bottom edge, the near rim of the tide pool: a few broad, flat, dark rocks crusted with mussels and barnacles, painted simply; on the right, the near part of the tide pool, clear still water over a few green sea anemones and a strand of seaweed",
+  "midground": "on a flat rock ledge left of center, under a little lean-to of three bleached driftwood sticks with a strip of dried bull kelp laid over its ridge pole and a small lit paper lantern hanging from the front of the ridge pole on a short cord: the sea otter sits holding a clay mug of cocoa on its belly in both paws, a dented tin thermos standing on the rock beside it, and the ochre sea star sits next to the otter; the decorator crab sits on a small rock just below the lantern. Right of center the tufted puffin stands on the pool's rim with its rod over its shoulder reaching out over the tide pool, the line hanging straight down from the rod's tip to the red-and-white float resting on the still water. The tide pool is wide, flat and calm, softly mirroring the fog, with a few rocks breaking its surface",
+  "background": "past the pool, low-tide rocks run out toward the sea, and on the outer rocks in the right third stands the black oystercatcher, small, looking out to sea. Beyond them the sea at low tide lies gray-green and calm, with low swells and a thin line of soft white foam where it washes around the base of the far rocks. Two or three tall sea stacks with a few wind-bent spruces on top stand in the fog, the farther ones fading to pale flat shapes, and soft banks of fog lie low over the water. No moon, no stars, no sun and no sunset colors. The air near the camera is clear: no rain",
+  "light": "blue hour in fog: the fog glows a soft, cool blue-gray, palest low over the sea, and the rocks, the pool and the friends' backs sit in cool slate-blue shadow. One warm light: the paper lantern hanging from the lean-to, lighting the underside of the driftwood, the fronts of the otter, the sea star and the crab, the thermos and the near edge of the pool, and fading softly and evenly into the cool dusk within about the lean-to's width, with no hard edge. The puffin catches only a little of it, a dark shape with a pale face against the pale water, and the oystercatcher is a dark silhouette against the fog. No glow halos; about half the frame is dim",
+  "place_name": "Driftwood Shelter",
+  "title_idea": "Come rest at the Driftwood Shelter",
+  "intro_lines": [
+    "Welcome home, critter.",
+    "The tide's out and the cocoa's warm."
+  ],
+  "weather_why": "his answer before the key art (2026-11-05): fog, no rain, blue hour at dusk",
+  "intro_why": "a proposal in the form of his Burdock Shelter line (\"Welcome home, critter. / Come rest with your PNW friends.\"); he can change it on the sample",
+  "request": "Truman 2026-11-05: a new critter video in the Burdock Shelter's ink-gouache style with a new environment and new PNW critters: the tide pool (a driftwood lean-to on the coast rocks at low tide, cocoa by a lantern, sea stacks in fog), blue hour at dusk, fog and no rain, the Burdock Shelter's playlist, his key-art pick before the rest runs. The cast from the round 7 lineup: the sea otter in its kelp scarf, the decorator crab reworded (its eyes in its face), the tufted puffin with its fishing rod, the ochre sea star and the black oystercatcher in its sou'wester; the lantern hangs from the lean-to.",
+  "status": "approved",
+  "pick_scores": [
+    {
+      "index": 1,
+      "composition": 8,
+      "animatable": 7,
+      "artifacts": 3,
+      "brief": 7,
+      "characters": [
+        [
+          0.16,
+          0.28,
+          0.35,
+          0.69
+        ],
+        [
+          0.3,
+          0.36,
+          0.43,
+          0.63
+        ],
+        [
+          0.4,
+          0.54,
+          0.52,
+          0.7
+        ],
+        [
+          0.5,
+          0.39,
+          0.64,
+          0.65
+        ],
+        [
+          0.86,
+          0.46,
+          0.94,
+          0.56
+        ]
+      ],
+      "note": "Calm depth and clear lantern glow, but the float is far from the puffin with no clear connecting line, weakening the signature animation.",
+      "detail_errors": [
+        "crop 1: The bull kelp scarf has no round bulb; its hanging ends are off to one side rather than hanging down the front of the chest.",
+        "crop 1: The kelp scarf has no round bulb, and only one long ribbon-like end hangs down in front.",
+        "crop 1: The kelp scarf has no visible round bulb, and only one long ribbon-like end hangs down; the other end stops near the neck.",
+        "crop 4: The fishing line ends without the red-and-white float.",
+        "crop 4: The fishing line hangs from the rod tip, but the red-and-white float is missing."
+      ]
+    },
+    {
+      "index": 2,
+      "composition": 9,
+      "animatable": 9,
+      "artifacts": 9,
+      "brief": 8,
+      "characters": [
+        [
+          0.1,
+          0.3,
+          0.34,
+          0.71
+        ],
+        [
+          0.27,
+          0.41,
+          0.4,
+          0.65
+        ],
+        [
+          0.37,
+          0.52,
+          0.49,
+          0.7
+        ],
+        [
+          0.52,
+          0.35,
+          0.66,
+          0.66
+        ],
+        [
+          0.86,
+          0.39,
+          0.93,
+          0.51
+        ]
+      ],
+      "note": "Readable, well-separated characters and a visible fishing line and float. The lantern, pool, and fog provide distinct animation areas.",
+      "detail_errors": []
+    },
+    {
+      "index": 3,
+      "composition": 9,
+      "animatable": 9,
+      "artifacts": 3,
+      "brief": 8,
+      "characters": [
+        [
+          0.14,
+          0.32,
+          0.35,
+          0.7
+        ],
+        [
+          0.27,
+          0.35,
+          0.4,
+          0.64
+        ],
+        [
+          0.37,
+          0.57,
+          0.46,
+          0.7
+        ],
+        [
+          0.5,
+          0.37,
+          0.63,
+          0.64
+        ],
+        [
+          0.88,
+          0.38,
+          0.96,
+          0.52
+        ]
+      ],
+      "note": "Strong depth and plenty of unobstructed pool for the bobbing float. The crab is less prominent than in the other candidates.",
+      "detail_errors": [
+        "crop 5: The oystercatcher’s bill is muted brownish pink rather than bright orange-red.",
+        "crop 5: The oystercatcher’s bill is muted brownish-pink rather than bright orange-red.",
+        "crop 5: The oystercatcher’s bill is muted brownish-red rather than bright orange-red."
+      ]
+    },
+    {
+      "index": 4,
+      "composition": 9,
+      "animatable": 9,
+      "artifacts": 3,
+      "brief": 9,
+      "characters": [
+        [
+          0.12,
+          0.27,
+          0.33,
+          0.71
+        ],
+        [
+          0.28,
+          0.35,
+          0.41,
+          0.62
+        ],
+        [
+          0.38,
+          0.48,
+          0.49,
+          0.64
+        ],
+        [
+          0.51,
+          0.33,
+          0.68,
+          0.67
+        ],
+        [
+          0.84,
+          0.42,
+          0.92,
+          0.54
+        ]
+      ],
+      "note": "Best balance of cozy shelter, five readable friends, visible line and float, open tide pool, and foggy sea-stack depth.",
+      "detail_errors": [
+        "crop 3: The crab appears to have only six walking legs plus two claws, rather than eight walking legs plus two claws.",
+        "crop 3: The crab appears to have only six walking legs—three on each side—instead of eight, in addition to its two claws.",
+        "crop 3: The crab appears to have only six walking legs—three on each side—instead of eight, plus its two claws."
+      ]
+    }
+  ],
+  "hero": "assets/keyart/tidepool-fog/hero_gpt-image-2_20261105-114446_3_float_bill.png",
+  "hero_note": "Truman's pick 2026-11-05: candidate 3, revised (tools/keyart_revise.py): the float hung in the air under the rod on the puffin's shoulder (his note: a float on the water under a rod on the shoulder looks weird), the oystercatcher's bill tinted toward its real orange-red (the pick's detail check, 3 of 3)"
+}

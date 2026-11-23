@@ -1,0 +1,65 @@
+{
+ "source": "assets/keyart/spruce-clock-cabin/hero_gpt-image-2-5-sunburst_20261106-131205_2.png",
+ "deployment": "gpt-image-2-5-sunburst",
+ "items": [
+  {
+   "name": "fireplace_flames_flames",
+   "kind": "fire",
+   "prompt": "Remove the flames of the Flames and glowing logs behind the fireplace grate. Show the fuel without flames: logs on a grate in the stone fireplace, as dark logs with a few glowing orange embers, lit warmly from within, with the same warm light on the surroundings. No flames, no smoke, no grey haze or ash cloud, nothing white. Any pot, kettle or creature stays exactly as it is. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     136,
+     188,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1152,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 128
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2908
+    }
+   ],
+   "date": "2026-11-06"
+  },
+  {
+   "name": "lift_pendulum",
+   "kind": "other",
+   "prompt": "Remove the the clock's gold pendulum rod and its gold bob. Where it was, show what is behind it: the plain dark wooden back panel inside the tall clock case, seen through its glass door, with the same faint vertical wood grain and the same dark brown color as the panel around it. Keep everything else exactly as it is: the same painting style, lighting, colors, perspective and level of detail. Do not add any new objects.",
+   "tiles": [
+    [
+     863,
+     114,
+     1024,
+     1024
+    ]
+   ],
+   "usage": [
+    {
+     "input_tokens": 1131,
+     "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 107
+     },
+     "output_tokens": 1756,
+     "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+     },
+     "total_tokens": 2887
+    }
+   ],
+   "date": "2026-11-06"
+  }
+ ],
+ "_note": "AI edit of the key art (painted transients removed); see tools/plate_clean.py"
+}

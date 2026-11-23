@@ -1,0 +1,16 @@
+{
+ "title": "Swale",
+ "author": "Ksd5 (Wikimedia Commons user; the file's license box reads \"Created by Siddharth Patil\")",
+ "source": "https://commons.wikimedia.org/wiki/File:Swale.ogg",
+ "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Swale.ogg",
+ "description": "Small swale trickling into a stream. Recorded 27 February 2011, own work.",
+ "license": "CC0 1.0 Universal",
+ "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+ "attribution": "none (CC0; the author asks for a note on their talk page, not required)",
+ "retrieved": "2026-11-12",
+ "sha1": "4f97748c715d90fda6357073f14a12e68f294d73",
+ "format": "Ogg Vorbis, mono, 48 kHz, 31.0 s, the original file unchanged",
+ "use": "the bamboo spout pouring into the Yuzu Spring's pool: layer 'spout' of the hotspring_snow bed (tools/cozy/audio/recorded.py)",
+ "processing": "decoded to 48 kHz (ffmpeg); 0.5 to 30.5 s used; its wind rumble cut (high-pass near 160 Hz), the low mids lifted a little and the top softened (tools/cozy/audio/recorded.py RECORDINGS eq); cut into two seamless loops from its two halves (12.0 and 11.1 s, loop points chosen by band-energy similarity, 2 s equal-power crossfades); the two loops placed either side of a point right of center; peaks over 15 dB above its RMS limited; the bed blends the two loops with a slow seeded balance and a level breathing about 1 dB",
+ "why_not_freesound": "Freesound answered 403 (blocked) to every request for the rest of the session after a search on 2026-11-12, so this CC0 recording came from Wikimedia Commons; heard blind by the audio model as pouring or flowing water, a real recording, no problems"
+}

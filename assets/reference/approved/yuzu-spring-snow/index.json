@@ -1,0 +1,69 @@
+{
+ "source": "out/yuzu-spring-snow/render/sample_v8 (approved 2026-11-15)",
+ "refs": {
+  "keyart__key_art": {
+   "file": "keyart__key_art.jpg",
+   "label": "key art",
+   "lessons": [
+    "L03",
+    "L06",
+    "L07",
+    "L60",
+    "L71"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\yuzu-spring-snow\\render\\sample_v8",
+   "note": "approved for the 10 h once the water is a touch quieter"
+  },
+  "pet_dry": {
+   "file": "pet_dry.jpg",
+   "label": "the pet (stoat)",
+   "lessons": [
+    "L10",
+    "L19",
+    "L31"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\yuzu-spring-snow\\render\\sample_v8",
+   "note": "approved for the 10 h once the water is a touch quieter"
+  },
+  "snow__the_snow": {
+   "file": "snow__the_snow.jpg",
+   "label": "the snow",
+   "lessons": [
+    "L01",
+    "L100",
+    "L121"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\yuzu-spring-snow\\render\\sample_v8",
+   "note": "approved for the 10 h once the water is a touch quieter"
+  },
+  "intro_title": {
+   "file": "intro_title.jpg",
+   "label": "the opening line",
+   "lessons": [
+    "L04",
+    "L55"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\yuzu-spring-snow\\render\\sample_v8",
+   "note": "approved for the 10 h once the water is a touch quieter"
+  },
+  "events__event__critter": {
+   "file": "events__event__critter.jpg",
+   "label": "event: critter",
+   "lessons": [
+    "L16",
+    "L20",
+    "L23",
+    "L28",
+    "L40",
+    "L41",
+    "L42",
+    "L49",
+    "L181",
+    "L182",
+    "L185"
+   ],
+   "render": "C:\\dev\\cozy-vibe-vids\\out\\yuzu-spring-snow\\render\\sample_v8",
+   "note": "approved for the 10 h once the water is a touch quieter"
+  }
+ }
+}

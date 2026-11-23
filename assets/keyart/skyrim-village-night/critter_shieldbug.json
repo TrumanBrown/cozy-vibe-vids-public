@@ -1,0 +1,37 @@
+{
+ "creature": "shieldbug",
+ "prompt": "A single a small green shield bug walking to the right, seen from the side and a little above: a flat shield-shaped green back with a slightly darker edge, six thin legs and two antennae, legs visible. Painted to match this art style: Style: a wide 16:9 in-game screenshot of The Elder Scrolls V: Skyrim Special Edition, taken in the game's free-camera photo mode with the whole interface hidden, in one of the game's Nord villages at night: the Nord architecture, props, plants, rocks and terrain of the game's world, the way a player standing on that spot would see them. Nord houses as they stand in the game's villages: long timber houses of thick, rough-hewn horizontal logs on a base of rounded gray fieldstone; steep gabled roofs of overlapping split wooden shingles with moss and old snow on them; at the peak of every gable the two roof boards cross and rise into tall carved wooden dragon heads curling outward; heavy carved beam ends under the eaves; small square windows with plank shutters; doors under a small porch roof on carved posts; firewood stacked under the eaves; barrels, crates and sacks. The game's land: rocky ground with tufts of pale tundra grass, gray boulders spotted with pale green lichen, tall dark Skyrim pines, patches of old snow. The game's look at night: hand-made game textures on modeled geometry, soft shadows, cold blue moonlight and starlight, warm firelight that falls off within a few meters, a faint blue haze over the far mountains. Restrained, slightly desaturated color as the game has it: cold blue-gray, slate, pine green and snow white, the warm amber of fire as the one accent.. Lighting to match the scene: Real darkness: deep blue night over most of the frame; cold moonlight on the snow, the roofs and the river; the brazier and the lantern light the porch warmly and fall off within a few meters; the forge glows orange on its stones and the street just in front of it; a few warm windows; the northern lights cast a faint cold green on the snow and the river. The whole creature is in view, centered, with a little space around it. Transparent background, no ground, no shadow, no other objects, no text.",
+ "deployment": "gpt-image-2-5-sunburst",
+ "date": "2026-11-15",
+ "usage": {
+  "input_tokens": 477,
+  "input_tokens_details": {
+   "image_tokens": 0,
+   "text_tokens": 477
+  },
+  "output_tokens": 1756,
+  "output_tokens_details": {
+   "image_tokens": 1756,
+   "text_tokens": 0
+  },
+  "total_tokens": 2233
+ },
+ "size": [
+  1024,
+  1024
+ ],
+ "bbox": [
+  97,
+  272,
+  959,
+  784
+ ],
+ "foot_y": 742,
+ "front_x": 959,
+ "back_x": 97,
+ "shell_x": [
+  254,
+  637
+ ],
+ "lum": 0.3512
+}

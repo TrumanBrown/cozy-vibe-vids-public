@@ -1,0 +1,102 @@
+{
+  "src": "assets/keyart/yuzu-spring-snow/hero_gpt-image-2_20261112-151801_2.png",
+  "tag": "noduck",
+  "steps": [
+    {
+      "kind": "edit",
+      "polygons": [
+        "0.488,0.660,0.494,0.615,0.512,0.588,0.540,0.578,0.565,0.585,0.590,0.600,0.612,0.588,0.640,0.590,0.660,0.612,0.668,0.650,0.672,0.700,0.668,0.760,0.640,0.792,0.560,0.798,0.505,0.788,0.488,0.745",
+        "0.065,0.571,0.085,0.660,0.030,0.668,0.025,0.590"
+      ],
+      "keep": [],
+      "model": "gpt-image-2",
+      "prompt": "Repaint only the two masked areas, in exactly the same style as the rest of the picture: colored pencils on matte black paper with visible pencil strokes. In the larger masked area in the pool: remove the mandarin duck and the little yellow toy rubber duck completely and continue the dark, calm water of the hot spring through the whole area, drawn with fine horizontal pencil strokes in deep blue-black, the lantern's warm yellow-orange reflection continuing as broken horizontal strokes where it falls on the water, and the dark base of the rocky ledge along the area's top edge continuing as it is. Nothing floats there: no duck, no bird, no toy, no fruit, no new object, no steam. In the small masked area at the far left: the end of the stoat's long snow-white tail lies on the dark rocks and ends in a black tip, the last part of the tail drawn in soft dark pencil strokes; the rocks around it stay as they are.",
+      "px": 145631
+    },
+    {
+      "kind": "clone",
+      "polygon": [
+        [
+          0.508,
+          0.586
+        ],
+        [
+          0.515,
+          0.57
+        ],
+        [
+          0.535,
+          0.565
+        ],
+        [
+          0.556,
+          0.57
+        ],
+        [
+          0.56,
+          0.584
+        ],
+        [
+          0.548,
+          0.596
+        ],
+        [
+          0.515,
+          0.597
+        ]
+      ],
+      "from_dx_px": 148,
+      "feather_px": 3.0,
+      "why": "the duck's crown left a thin orange arc at the mask's top edge; the rock base and water beside it cloned over it, in code"
+    },
+    {
+      "kind": "flatten",
+      "polygon": [
+        [
+          0.508,
+          0.586
+        ],
+        [
+          0.515,
+          0.57
+        ],
+        [
+          0.535,
+          0.565
+        ],
+        [
+          0.556,
+          0.57
+        ],
+        [
+          0.56,
+          0.584
+        ],
+        [
+          0.548,
+          0.596
+        ],
+        [
+          0.515,
+          0.597
+        ]
+      ],
+      "why": "the clone repeated a thin waterline highlight 148 px from the original; thin bright strokes inside the patch brought down to the local median + 8"
+    }
+  ],
+  "usage": {
+    "input_tokens": 1710,
+    "input_tokens_details": {
+      "image_tokens": 1508,
+      "text_tokens": 202
+    },
+    "output_tokens": 7370,
+    "output_tokens_details": {
+      "image_tokens": 7370,
+      "text_tokens": 0
+    },
+    "total_tokens": 9080
+  },
+  "made": "2026-11-12T15:32:11",
+  "note": "tools/keyart_revise.py: only the masked pixels changed (edits feathered 2.5 px); the lift is a code adjustment"
+}

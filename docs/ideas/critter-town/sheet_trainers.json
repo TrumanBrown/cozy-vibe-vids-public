@@ -1,0 +1,23 @@
+{
+ "deployment": "gpt-image-2-5-sunburst",
+ "quality": "high",
+ "purpose": "concept:critter-town:sheet_trainers",
+ "tool": "tools/critter_concept.py gen",
+ "prompt": "A sprite sheet of 8 small original human characters as pixel art overworld sprites for a cozy top-down RPG, in a 4 by 2 grid with lots of empty space between them, each one alone in its cell, at the slight top-down angle of 2000s handheld RPG overworld sprites, each drawn about 24 pixels tall with large chunky square pixels, dark outlines, flat colors, simple cute proportions with a big head, transparent background, no ground shadows, no text, no labels. Row 1: a girl in a yellow raincoat with a small backpack walking, facing right; the same girl seen from behind, facing up; a boy in a green cap with a brown satchel walking, facing left; the same boy walking, facing down. Row 2: an old fisherman in a bucket hat and a vest holding a fishing rod out to the right, facing right; a kid in a red knitted scarf and a beanie sitting down, facing down; a teenager in a purple hoodie walking, facing down; a kid sitting cross-legged, facing down, as if riding on something. Original designs that do not resemble any existing game character.",
+ "size": "1536x1024",
+ "background": "transparent",
+ "usage": {
+  "input_tokens": 243,
+  "input_tokens_details": {
+   "image_tokens": 0,
+   "text_tokens": 243
+  },
+  "output_tokens": 1372,
+  "output_tokens_details": {
+   "image_tokens": 1372,
+   "text_tokens": 0
+  },
+  "total_tokens": 1615
+ },
+ "date": "2026-10-21"
+}

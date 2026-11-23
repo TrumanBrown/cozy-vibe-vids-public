@@ -1,0 +1,1311 @@
+{
+ "version": 1,
+ "seed": 11,
+ "duration": 36000,
+ "cfg": {
+  "lufs": -16.5,
+  "crossfade": 6.0,
+  "max_crossfade": 12.0,
+  "fade_in": 4.0,
+  "fade_out": 8.0,
+  "silence_db": -60.0,
+  "ambience_db": -2.0,
+  "thunder_db": 0.0,
+  "opener_lead": 5.0,
+  "trim_intro": 40.0
+ },
+ "tracks": [
+  {
+   "file": "music\\mc_a_familiar_room.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_a_familiar_room.ogg",
+   "title": "A Familiar Room",
+   "artist": "Aaron Cherof",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/a_familiar_room.ogg (asset index 34.json, object 7f77e186063198933a7dd67eb492ae4d74839dd9)",
+   "hash": "7f77e186063198933a7d",
+   "in": 24,
+   "out": 11505103,
+   "dur": 239.68914583333333,
+   "lufs": -17.48,
+   "gain_db": 0.98,
+   "tail": 9.19,
+   "lead": 0.0,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_aerie.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_aerie.ogg",
+   "title": "Aerie",
+   "artist": "Lena Raine",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/swamp/aerie.ogg (asset index 34.json, object 7d2d4b60ec51462992b7429aa861d03048cd43c1)",
+   "hash": "7d2d4b60ec51462992b7",
+   "in": 31457,
+   "out": 14074087,
+   "dur": 292.5547916666667,
+   "lufs": -16.41,
+   "gain_db": -0.09,
+   "tail": 11.05,
+   "lead": 33.5,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_an_ordinary_day.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_an_ordinary_day.ogg",
+   "title": "An Ordinary Day",
+   "artist": "Kumi Tanioka",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/an_ordinary_day.ogg (asset index 34.json, object ac88b24961961f52fbaf8efc55ae7e260b6f4ad2)",
+   "hash": "ac88b24961961f52fbaf",
+   "in": 1789091,
+   "out": 15681614,
+   "dur": 289.4275625,
+   "lufs": -18.12,
+   "gain_db": 1.62,
+   "tail": 20.43,
+   "lead": 40.0,
+   "intro_cut": 37.0
+  },
+  {
+   "file": "music\\mc_below_and_above.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_below_and_above.ogg",
+   "title": "Below and Above",
+   "artist": "Amos Roddy",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/below_and_above.ogg (asset index 34.json, object 29617ea7a07d4c3ed1b98b752b5740b8ca2e7cbf)",
+   "hash": "29617ea7a07d4c3ed1b9",
+   "in": 6139,
+   "out": 10177317,
+   "dur": 211.89954166666666,
+   "lufs": -14.63,
+   "gain_db": -1.87,
+   "tail": 9.9,
+   "lead": 6.5,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_broken_clocks.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_broken_clocks.ogg",
+   "title": "Broken Clocks",
+   "artist": "Amos Roddy",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/broken_clocks.ogg (asset index 34.json, object 6095be3382a6b9897a7d0caf93131436e5cea4d6)",
+   "hash": "6095be3382a6b9897a7d",
+   "in": 5236,
+   "out": 10232892,
+   "dur": 213.07616666666667,
+   "lufs": -12.65,
+   "gain_db": -3.85,
+   "tail": 9.58,
+   "lead": 0.0,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_bromeliad.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_bromeliad.ogg",
+   "title": "Bromeliad",
+   "artist": "Aaron Cherof",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/bromeliad.ogg (asset index 34.json, object 4b7422b5e6324067f24ea7aee2b8f242ce46069b)",
+   "hash": "4b7422b5e6324067f24e",
+   "in": 2924,
+   "out": 14953346,
+   "dur": 311.467125,
+   "lufs": -15.38,
+   "gain_db": -1.12,
+   "tail": 7.47,
+   "lead": 0.0,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_comforting_memories.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_comforting_memories.ogg",
+   "title": "Comforting Memories",
+   "artist": "Kumi Tanioka",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/comforting_memories.ogg (asset index 34.json, object 1c9aa4f2710ac7025a56f99feb132a29cf5a2b64)",
+   "hash": "1c9aa4f2710ac7025a56",
+   "in": 3151039,
+   "out": 13041222,
+   "dur": 206.04547916666667,
+   "lufs": -18.22,
+   "gain_db": 1.72,
+   "tail": 23.05,
+   "lead": 68.5,
+   "intro_cut": 65.5
+  },
+  {
+   "file": "music\\mc_crescent_dunes.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_crescent_dunes.ogg",
+   "title": "Crescent Dunes",
+   "artist": "Aaron Cherof",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/crescent_dunes.ogg (asset index 34.json, object 3de85c831b083e10d906c3ac007d7ca9f36b4075)",
+   "hash": "3de85c831b083e10d906",
+   "in": 1245,
+   "out": 11841377,
+   "dur": 246.66941666666668,
+   "lufs": -15.91,
+   "gain_db": -0.59,
+   "tail": 11.17,
+   "lead": 9.5,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_deeper.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_deeper.ogg",
+   "title": "Deeper",
+   "artist": "Lena Raine",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/deeper.ogg (asset index 34.json, object 8e901a9a5e4daee7e3cbff8a3529d0a4148f8406)",
+   "hash": "8e901a9a5e4daee7e3cb",
+   "in": 23377,
+   "out": 14402351,
+   "dur": 299.56195833333334,
+   "lufs": -10.82,
+   "gain_db": -5.68,
+   "tail": 6.06,
+   "lead": 4.0,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_ebb.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_ebb.ogg",
+   "title": "Ebb",
+   "artist": "fingerspit",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/ebb.ogg (asset index 34.json, object 5e1288786fa59686f2c000ed90c2e3b89d125460)",
+   "hash": "5e1288786fa59686f2c0",
+   "in": 0,
+   "out": 14711336,
+   "dur": 306.4861666666667,
+   "lufs": -12.69,
+   "gain_db": -3.81,
+   "tail": 12.49,
+   "lead": 26.0,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_echo_in_the_wind.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_echo_in_the_wind.ogg",
+   "title": "Echo in the Wind",
+   "artist": "Aaron Cherof",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/echo_in_the_wind.ogg (asset index 34.json, object 5c97ac9788ab81e560bae32b0f5e4fc244e544b4)",
+   "hash": "5c97ac9788ab81e560ba",
+   "in": 8562,
+   "out": 14174670,
+   "dur": 295.12725,
+   "lufs": -15.23,
+   "gain_db": -1.27,
+   "tail": 34.13,
+   "lead": 35.0,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_endless.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_endless.ogg",
+   "title": "Endless",
+   "artist": "Lena Raine",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/endless.ogg (asset index 34.json, object 14221fedadd7431bc557f36be1af86582955f7c5)",
+   "hash": "14221fedadd7431bc557",
+   "in": 25033,
+   "out": 19156889,
+   "dur": 398.58033333333333,
+   "lufs": -15.98,
+   "gain_db": -0.52,
+   "tail": 12.58,
+   "lead": 15.0,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_featherfall.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_featherfall.ogg",
+   "title": "Featherfall",
+   "artist": "Aaron Cherof",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/featherfall.ogg (asset index 34.json, object 0c62057c8a75b57a8f06e7c1bc1b21a7f88d4820)",
+   "hash": "0c62057c8a75b57a8f06",
+   "in": 31367,
+   "out": 16342787,
+   "dur": 339.82125,
+   "lufs": -11.39,
+   "gain_db": -5.11,
+   "tail": 7.32,
+   "lead": 4.5,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_firebugs.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_firebugs.ogg",
+   "title": "Firebugs",
+   "artist": "Lena Raine",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/swamp/firebugs.ogg (asset index 34.json, object bea9b17990e1d513cab127ead72c8f655995109e)",
+   "hash": "bea9b17990e1d513cab1",
+   "in": 27680,
+   "out": 14943606,
+   "dur": 310.74845833333336,
+   "lufs": -15.27,
+   "gain_db": -1.23,
+   "tail": 7.75,
+   "lead": 7.5,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_fireflies.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_fireflies.ogg",
+   "title": "Fireflies",
+   "artist": "Amos Roddy",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/fireflies.ogg (asset index 34.json, object 154255dcccfcde8af7e3727a0ccaaa72ea359ff5)",
+   "hash": "154255dcccfcde8af7e3",
+   "in": 7953,
+   "out": 7351836,
+   "dur": 152.9975625,
+   "lufs": -14.52,
+   "gain_db": -1.98,
+   "tail": 4.5,
+   "lead": 5.0,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_floating_dream.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_floating_dream.ogg",
+   "title": "Floating Dream",
+   "artist": "Kumi Tanioka",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/floating_dream.ogg (asset index 34.json, object dec42f5a10b6a0018594bdb868882ddccf04f52e)",
+   "hash": "dec42f5a10b6a0018594",
+   "in": 3908,
+   "out": 9606209,
+   "dur": 200.0479375,
+   "lufs": -17.98,
+   "gain_db": 1.48,
+   "tail": 20.05,
+   "lead": 21.5,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_home.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_home.ogg",
+   "title": "Home",
+   "artist": "fingerspit",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/home.ogg (asset index 34.json, object c00e50dc3ac0d08faf529dff0e6e620a81221f47)",
+   "hash": "c00e50dc3ac0d08faf52",
+   "in": 1896517,
+   "out": 18218359,
+   "dur": 340.038375,
+   "lufs": -16.9,
+   "gain_db": 0.4,
+   "tail": 25.54,
+   "lead": 42.5,
+   "intro_cut": 39.5
+  },
+  {
+   "file": "music\\mc_infinite_amethyst.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_infinite_amethyst.ogg",
+   "title": "Infinite Amethyst",
+   "artist": "Lena Raine",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/infinite_amethyst.ogg (asset index 34.json, object f6dd3e263823fbc2051f441e5b12a02b2258ae84)",
+   "hash": "f6dd3e263823fbc2051f",
+   "in": 18318,
+   "out": 12939691,
+   "dur": 269.1952708333333,
+   "lufs": -12.43,
+   "gain_db": -4.07,
+   "tail": 56.7,
+   "lead": 33.0,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_komorebi.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_komorebi.ogg",
+   "title": "komorebi",
+   "artist": "Kumi Tanioka",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/komorebi.ogg (asset index 34.json, object c3e6d3f34a7221360ad11d18335edd6709df4609)",
+   "hash": "c3e6d3f34a7221360ad1",
+   "in": 25983,
+   "out": 13495211,
+   "dur": 280.6089166666667,
+   "lufs": -17.61,
+   "gain_db": 1.11,
+   "tail": 15.11,
+   "lead": 3.5,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_left_to_bloom.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_left_to_bloom.ogg",
+   "title": "Left to Bloom",
+   "artist": "Lena Raine",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/left_to_bloom.ogg (asset index 34.json, object a971ae2004798c14bc3387cfd1b89420092b3263)",
+   "hash": "a971ae2004798c14bc33",
+   "in": 2399854,
+   "out": 16444221,
+   "dur": 292.59097916666667,
+   "lufs": -15.53,
+   "gain_db": -0.97,
+   "tail": 11.09,
+   "lead": 52.5,
+   "intro_cut": 49.5
+  },
+  {
+   "file": "music\\mc_lilypad.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_lilypad.ogg",
+   "title": "Lilypad",
+   "artist": "Amos Roddy",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/lilypad.ogg (asset index 34.json, object b023b1ddac5e027086ef04a9da7234e73a4502a6)",
+   "hash": "b023b1ddac5e027086ef",
+   "in": 4565,
+   "out": 11269153,
+   "dur": 234.67891666666668,
+   "lufs": -13.36,
+   "gain_db": -3.14,
+   "tail": 21.68,
+   "lead": 0.0,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_memories.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_memories.ogg",
+   "title": "Memories",
+   "artist": "fingerspit",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/memories.ogg (asset index 34.json, object 8a91604916a4b53e0a3a913917f5fec0539c6a2e)",
+   "hash": "8a91604916a4b53e0a3a",
+   "in": 744,
+   "out": 11770375,
+   "dur": 245.20064583333334,
+   "lufs": -14.91,
+   "gain_db": -1.59,
+   "tail": 14.2,
+   "lead": 14.0,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_nightly.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_nightly.ogg",
+   "title": "Nightly",
+   "artist": "fingerspit",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/nightly.ogg (asset index 34.json, object aebe56d3016657dfeacfadb953424079c7e3d32c)",
+   "hash": "aebe56d3016657dfeacf",
+   "in": 1085,
+   "out": 14502835,
+   "dur": 302.1197916666667,
+   "lufs": -14.25,
+   "gain_db": -2.25,
+   "tail": 25.12,
+   "lead": 23.5,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_one_more_day.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_one_more_day.ogg",
+   "title": "One More Day",
+   "artist": "Lena Raine",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/one_more_day.ogg (asset index 34.json, object 324f58251829988ad3f4a5f7dc39b647fdcc2639)",
+   "hash": "324f58251829988ad3f4",
+   "in": 23492,
+   "out": 13280343,
+   "dur": 276.1843958333333,
+   "lufs": -17.92,
+   "gain_db": 1.42,
+   "tail": 5.68,
+   "lead": 12.5,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_os_piano.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_os_piano.ogg",
+   "title": "O's Piano",
+   "artist": "Amos Roddy",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/os_piano.ogg (asset index 34.json, object a32d22b74e0a451083c99b68a0119b501652ccd8)",
+   "hash": "a32d22b74e0a451083c9",
+   "in": 7139,
+   "out": 13150133,
+   "dur": 273.812375,
+   "lufs": -14.01,
+   "gain_db": -2.49,
+   "tail": 6.81,
+   "lead": 8.0,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_pokopoko.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_pokopoko.ogg",
+   "title": "pokopoko",
+   "artist": "Kumi Tanioka",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/pokopoko.ogg (asset index 34.json, object 2142a00de645aa748b908c74fc275a3025b8bd90)",
+   "hash": "2142a00de645aa748b90",
+   "in": 2349610,
+   "out": 14117140,
+   "dur": 245.156875,
+   "lufs": -17.43,
+   "gain_db": 0.93,
+   "tail": 6.66,
+   "lead": 50.0,
+   "intro_cut": 47.0
+  },
+  {
+   "file": "music\\mc_shores.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_shores.ogg",
+   "title": "Shores",
+   "artist": "fingerspit",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/shores.ogg (asset index 34.json, object 974c6083c8de0de74185e966d664bf0a5841bc22)",
+   "hash": "974c6083c8de0de74185",
+   "in": 32233,
+   "out": 15359999,
+   "dur": 319.32845833333334,
+   "lufs": -12.35,
+   "gain_db": -4.15,
+   "tail": 57.83,
+   "lead": 36.5,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_stand_tall.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_stand_tall.ogg",
+   "title": "Stand Tall",
+   "artist": "Lena Raine",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/stand_tall.ogg (asset index 34.json, object e04acb34861b4ac53abf9c0e3aec3c0f83cefc0c)",
+   "hash": "e04acb34861b4ac53abf",
+   "in": 24648,
+   "out": 14700741,
+   "dur": 305.7519375,
+   "lufs": -17.04,
+   "gain_db": 0.54,
+   "tail": 14.25,
+   "lead": 36.0,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_wending.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_wending.ogg",
+   "title": "Wending",
+   "artist": "Lena Raine",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/wending.ogg (asset index 34.json, object 0cfa947f3d282bb02426b1c5e666b5dc28aff8a4)",
+   "hash": "0cfa947f3d282bb02426",
+   "in": 19273,
+   "out": 14977829,
+   "dur": 311.6365833333333,
+   "lufs": -15.06,
+   "gain_db": -1.44,
+   "tail": 10.14,
+   "lead": 9.0,
+   "intro_cut": 0.0
+  },
+  {
+   "file": "music\\mc_yakusoku.ogg",
+   "path": "C:\\dev\\cozy-vibe-vids\\music\\mc_yakusoku.ogg",
+   "title": "yakusoku",
+   "artist": "Kumi Tanioka",
+   "source": "Minecraft soundtrack (Mojang Studios)",
+   "license": "Mojang Creator-Safe Playlist, approved for monetized Minecraft content",
+   "license_url": "https://www.minecraft.net/en-us/article/can-i-use-minecraft-music-",
+   "attribution": "Music courtesy of Mojang Studios",
+   "origin": "the user's Minecraft: Java Edition install, minecraft/sounds/music/game/yakusoku.ogg (asset index 34.json, object e36444071568c3273ea00627ed5462275cd6828e)",
+   "hash": "e36444071568c3273ea0",
+   "in": 2623253,
+   "out": 12752860,
+   "dur": 211.03347916666667,
+   "lufs": -16.72,
+   "gain_db": 0.22,
+   "tail": 50.03,
+   "lead": 57.0,
+   "intro_cut": 54.0
+  }
+ ],
+ "entries": [
+  {
+   "track": 5,
+   "start": 0.0,
+   "xfade": 7.47
+  },
+  {
+   "track": 2,
+   "start": 303.997125,
+   "xfade": 12.0
+  },
+  {
+   "track": 0,
+   "start": 581.424688,
+   "xfade": 9.19
+  },
+  {
+   "track": 16,
+   "start": 811.923833,
+   "xfade": 12.0
+  },
+  {
+   "track": 28,
+   "start": 1139.962208,
+   "xfade": 10.14
+  },
+  {
+   "track": 15,
+   "start": 1441.458792,
+   "xfade": 12.0
+  },
+  {
+   "track": 19,
+   "start": 1629.506729,
+   "xfade": 11.09
+  },
+  {
+   "track": 7,
+   "start": 1911.007708,
+   "xfade": 11.17
+  },
+  {
+   "track": 12,
+   "start": 2146.507125,
+   "xfade": 7.32
+  },
+  {
+   "track": 9,
+   "start": 2479.008375,
+   "xfade": 12.0
+  },
+  {
+   "track": 21,
+   "start": 2773.494542,
+   "xfade": 12.0
+  },
+  {
+   "track": 22,
+   "start": 3006.695188,
+   "xfade": 12.0
+  },
+  {
+   "track": 1,
+   "start": 3296.814979,
+   "xfade": 11.05
+  },
+  {
+   "track": 11,
+   "start": 3578.319771,
+   "xfade": 12.0
+  },
+  {
+   "track": 10,
+   "start": 3964.900104,
+   "xfade": 12.0
+  },
+  {
+   "track": 27,
+   "start": 4248.027354,
+   "xfade": 12.0
+  },
+  {
+   "track": 3,
+   "start": 4541.779292,
+   "xfade": 9.9
+  },
+  {
+   "track": 25,
+   "start": 4743.778833,
+   "xfade": 6.66
+  },
+  {
+   "track": 24,
+   "start": 4982.275708,
+   "xfade": 6.81
+  },
+  {
+   "track": 17,
+   "start": 5249.278083,
+   "xfade": 12.0
+  },
+  {
+   "track": 20,
+   "start": 5506.473354,
+   "xfade": 12.0
+  },
+  {
+   "track": 18,
+   "start": 5729.152271,
+   "xfade": 12.0
+  },
+  {
+   "track": 8,
+   "start": 5997.761188,
+   "xfade": 6.06
+  },
+  {
+   "track": 29,
+   "start": 6291.263146,
+   "xfade": 12.0
+  },
+  {
+   "track": 14,
+   "start": 6490.296625,
+   "xfade": 6.0
+  },
+  {
+   "track": 26,
+   "start": 6637.294187,
+   "xfade": 12.0
+  },
+  {
+   "track": 4,
+   "start": 6944.622646,
+   "xfade": 9.58
+  },
+  {
+   "track": 13,
+   "start": 7148.118812,
+   "xfade": 7.75
+  },
+  {
+   "track": 6,
+   "start": 7451.117271,
+   "xfade": 12.0
+  },
+  {
+   "track": 23,
+   "start": 7645.16275,
+   "xfade": 6.0
+  },
+  {
+   "track": 5,
+   "start": 7915.347146,
+   "xfade": 7.47
+  },
+  {
+   "track": 4,
+   "start": 8219.344271,
+   "xfade": 9.58
+  },
+  {
+   "track": 28,
+   "start": 8422.840437,
+   "xfade": 10.14
+  },
+  {
+   "track": 14,
+   "start": 8724.337021,
+   "xfade": 6.0
+  },
+  {
+   "track": 0,
+   "start": 8871.334583,
+   "xfade": 9.19
+  },
+  {
+   "track": 12,
+   "start": 9101.833729,
+   "xfade": 7.32
+  },
+  {
+   "track": 13,
+   "start": 9434.334979,
+   "xfade": 7.75
+  },
+  {
+   "track": 9,
+   "start": 9737.333437,
+   "xfade": 12.0
+  },
+  {
+   "track": 17,
+   "start": 10031.819604,
+   "xfade": 12.0
+  },
+  {
+   "track": 18,
+   "start": 10289.014875,
+   "xfade": 12.0
+  },
+  {
+   "track": 2,
+   "start": 10557.623792,
+   "xfade": 12.0
+  },
+  {
+   "track": 1,
+   "start": 10835.051354,
+   "xfade": 11.05
+  },
+  {
+   "track": 23,
+   "start": 11116.556146,
+   "xfade": 6.0
+  },
+  {
+   "track": 26,
+   "start": 11386.740542,
+   "xfade": 12.0
+  },
+  {
+   "track": 7,
+   "start": 11694.069,
+   "xfade": 11.17
+  },
+  {
+   "track": 22,
+   "start": 11929.568417,
+   "xfade": 12.0
+  },
+  {
+   "track": 16,
+   "start": 12219.688208,
+   "xfade": 12.0
+  },
+  {
+   "track": 20,
+   "start": 12547.726583,
+   "xfade": 12.0
+  },
+  {
+   "track": 15,
+   "start": 12770.4055,
+   "xfade": 12.0
+  },
+  {
+   "track": 27,
+   "start": 12958.453437,
+   "xfade": 12.0
+  },
+  {
+   "track": 11,
+   "start": 13252.205375,
+   "xfade": 12.0
+  },
+  {
+   "track": 24,
+   "start": 13638.785708,
+   "xfade": 6.81
+  },
+  {
+   "track": 19,
+   "start": 13905.788083,
+   "xfade": 11.09
+  },
+  {
+   "track": 6,
+   "start": 14187.289062,
+   "xfade": 12.0
+  },
+  {
+   "track": 10,
+   "start": 14381.334542,
+   "xfade": 12.0
+  },
+  {
+   "track": 8,
+   "start": 14664.461792,
+   "xfade": 6.06
+  },
+  {
+   "track": 21,
+   "start": 14957.96375,
+   "xfade": 12.0
+  },
+  {
+   "track": 3,
+   "start": 15191.164396,
+   "xfade": 9.9
+  },
+  {
+   "track": 25,
+   "start": 15393.163937,
+   "xfade": 6.66
+  },
+  {
+   "track": 29,
+   "start": 15631.660812,
+   "xfade": 12.0
+  },
+  {
+   "track": 9,
+   "start": 15830.694292,
+   "xfade": 12.0
+  },
+  {
+   "track": 21,
+   "start": 16125.180458,
+   "xfade": 12.0
+  },
+  {
+   "track": 16,
+   "start": 16358.381104,
+   "xfade": 12.0
+  },
+  {
+   "track": 10,
+   "start": 16686.419479,
+   "xfade": 12.0
+  },
+  {
+   "track": 1,
+   "start": 16969.546729,
+   "xfade": 11.05
+  },
+  {
+   "track": 19,
+   "start": 17251.051521,
+   "xfade": 11.09
+  },
+  {
+   "track": 15,
+   "start": 17532.5525,
+   "xfade": 12.0
+  },
+  {
+   "track": 12,
+   "start": 17720.600437,
+   "xfade": 7.32
+  },
+  {
+   "track": 22,
+   "start": 18053.101687,
+   "xfade": 12.0
+  },
+  {
+   "track": 8,
+   "start": 18343.221479,
+   "xfade": 6.06
+  },
+  {
+   "track": 7,
+   "start": 18636.723438,
+   "xfade": 11.17
+  },
+  {
+   "track": 26,
+   "start": 18872.222854,
+   "xfade": 12.0
+  },
+  {
+   "track": 2,
+   "start": 19179.551312,
+   "xfade": 12.0
+  },
+  {
+   "track": 4,
+   "start": 19456.978875,
+   "xfade": 9.58
+  },
+  {
+   "track": 27,
+   "start": 19660.475042,
+   "xfade": 12.0
+  },
+  {
+   "track": 5,
+   "start": 19954.226979,
+   "xfade": 7.47
+  },
+  {
+   "track": 6,
+   "start": 20258.224104,
+   "xfade": 12.0
+  },
+  {
+   "track": 24,
+   "start": 20452.269583,
+   "xfade": 6.81
+  },
+  {
+   "track": 11,
+   "start": 20719.271958,
+   "xfade": 12.0
+  },
+  {
+   "track": 25,
+   "start": 21105.852292,
+   "xfade": 6.66
+  },
+  {
+   "track": 28,
+   "start": 21344.349167,
+   "xfade": 10.14
+  },
+  {
+   "track": 20,
+   "start": 21645.84575,
+   "xfade": 12.0
+  },
+  {
+   "track": 14,
+   "start": 21868.524667,
+   "xfade": 6.0
+  },
+  {
+   "track": 13,
+   "start": 22015.522229,
+   "xfade": 7.75
+  },
+  {
+   "track": 18,
+   "start": 22318.520688,
+   "xfade": 12.0
+  },
+  {
+   "track": 17,
+   "start": 22587.129604,
+   "xfade": 12.0
+  },
+  {
+   "track": 0,
+   "start": 22844.324875,
+   "xfade": 9.19
+  },
+  {
+   "track": 29,
+   "start": 23074.824021,
+   "xfade": 12.0
+  },
+  {
+   "track": 3,
+   "start": 23273.8575,
+   "xfade": 9.9
+  },
+  {
+   "track": 23,
+   "start": 23475.857042,
+   "xfade": 6.0
+  },
+  {
+   "track": 25,
+   "start": 23746.041438,
+   "xfade": 6.66
+  },
+  {
+   "track": 29,
+   "start": 23984.538313,
+   "xfade": 12.0
+  },
+  {
+   "track": 11,
+   "start": 24183.571792,
+   "xfade": 12.0
+  },
+  {
+   "track": 23,
+   "start": 24570.152125,
+   "xfade": 6.0
+  },
+  {
+   "track": 0,
+   "start": 24840.336521,
+   "xfade": 9.19
+  },
+  {
+   "track": 12,
+   "start": 25070.835667,
+   "xfade": 7.32
+  },
+  {
+   "track": 22,
+   "start": 25403.336917,
+   "xfade": 12.0
+  },
+  {
+   "track": 3,
+   "start": 25693.456708,
+   "xfade": 9.9
+  },
+  {
+   "track": 19,
+   "start": 25895.45625,
+   "xfade": 11.09
+  },
+  {
+   "track": 1,
+   "start": 26176.957229,
+   "xfade": 11.05
+  },
+  {
+   "track": 14,
+   "start": 26458.462021,
+   "xfade": 6.0
+  },
+  {
+   "track": 15,
+   "start": 26605.459583,
+   "xfade": 12.0
+  },
+  {
+   "track": 17,
+   "start": 26793.507521,
+   "xfade": 12.0
+  },
+  {
+   "track": 8,
+   "start": 27050.702792,
+   "xfade": 6.06
+  },
+  {
+   "track": 5,
+   "start": 27344.20475,
+   "xfade": 7.47
+  },
+  {
+   "track": 7,
+   "start": 27648.201875,
+   "xfade": 11.17
+  },
+  {
+   "track": 24,
+   "start": 27883.701292,
+   "xfade": 6.81
+  },
+  {
+   "track": 16,
+   "start": 28150.703667,
+   "xfade": 12.0
+  },
+  {
+   "track": 18,
+   "start": 28478.742042,
+   "xfade": 12.0
+  },
+  {
+   "track": 27,
+   "start": 28747.350958,
+   "xfade": 12.0
+  },
+  {
+   "track": 20,
+   "start": 29041.102896,
+   "xfade": 12.0
+  },
+  {
+   "track": 9,
+   "start": 29263.781813,
+   "xfade": 12.0
+  },
+  {
+   "track": 2,
+   "start": 29558.267979,
+   "xfade": 12.0
+  },
+  {
+   "track": 4,
+   "start": 29835.695542,
+   "xfade": 9.58
+  },
+  {
+   "track": 26,
+   "start": 30039.191708,
+   "xfade": 12.0
+  },
+  {
+   "track": 6,
+   "start": 30346.520167,
+   "xfade": 12.0
+  },
+  {
+   "track": 13,
+   "start": 30540.565646,
+   "xfade": 7.75
+  },
+  {
+   "track": 28,
+   "start": 30843.564104,
+   "xfade": 10.14
+  },
+  {
+   "track": 21,
+   "start": 31145.060688,
+   "xfade": 12.0
+  },
+  {
+   "track": 10,
+   "start": 31378.261333,
+   "xfade": 12.0
+  },
+  {
+   "track": 29,
+   "start": 31661.388583,
+   "xfade": 12.0
+  },
+  {
+   "track": 27,
+   "start": 31860.422063,
+   "xfade": 12.0
+  },
+  {
+   "track": 7,
+   "start": 32154.174,
+   "xfade": 11.17
+  },
+  {
+   "track": 17,
+   "start": 32389.673417,
+   "xfade": 12.0
+  },
+  {
+   "track": 8,
+   "start": 32646.868688,
+   "xfade": 6.06
+  },
+  {
+   "track": 18,
+   "start": 32940.370646,
+   "xfade": 12.0
+  },
+  {
+   "track": 26,
+   "start": 33208.979563,
+   "xfade": 12.0
+  },
+  {
+   "track": 1,
+   "start": 33516.308021,
+   "xfade": 11.05
+  },
+  {
+   "track": 22,
+   "start": 33797.812813,
+   "xfade": 12.0
+  },
+  {
+   "track": 25,
+   "start": 34087.932604,
+   "xfade": 6.66
+  },
+  {
+   "track": 6,
+   "start": 34326.429479,
+   "xfade": 12.0
+  },
+  {
+   "track": 2,
+   "start": 34520.474958,
+   "xfade": 12.0
+  },
+  {
+   "track": 14,
+   "start": 34797.902521,
+   "xfade": 6.0
+  },
+  {
+   "track": 28,
+   "start": 34944.900083,
+   "xfade": 10.14
+  },
+  {
+   "track": 9,
+   "start": 35246.396667,
+   "xfade": 12.0
+  },
+  {
+   "track": 20,
+   "start": 35540.882833,
+   "xfade": 12.0
+  },
+  {
+   "track": 15,
+   "start": 35763.56175,
+   "xfade": 12.0
+  },
+  {
+   "track": 19,
+   "start": 35951.609688,
+   "xfade": 11.09
+  }
+ ]
+}

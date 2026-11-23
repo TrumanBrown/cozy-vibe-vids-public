@@ -1,0 +1,92 @@
+{
+ "source": "C:\\dev\\cozy-vibe-vids\\out\\tidepool-fog\\render\\loop20_v1",
+ "source_tag": "loop20_v1",
+ "window": [
+  1200,
+  2400
+ ],
+ "times": 30,
+ "xfade_s": 3.0,
+ "offset_s": 0,
+ "intro": "C:/dev/cozy-vibe-vids/out/tidepool-fog/render/loop20_v1_intro_at1200/seg/v_000.mp4#62ce1ef1329a4f57",
+ "duration_s": 36000,
+ "created": "2026-11-05T19:54:15",
+ "kept": [],
+ "music": {
+  "tracks": 24,
+  "plays": 241,
+  "music_dir": [
+   "music/ink-gouache"
+  ],
+  "plan_sha1": "7786d39db54a778e",
+  "limited_spots": [
+   [
+    22854.002,
+    -4.54
+   ]
+  ]
+ },
+ "qa": {
+  "pass": true,
+  "checks": {
+   "length_sync": {
+    "pass": true,
+    "frames": 1080000,
+    "expected": 1080000,
+    "video_s": 36000.0,
+    "audio_s": 36000.0
+   },
+   "loop_seam": {
+    "pass": true,
+    "max_diff": 0,
+    "px_over_2": 0,
+    "detail": "frame 72000 (just past the window) rendered identical to frame 36000 (its start)"
+   },
+   "hour_join_frames": {
+    "pass": true,
+    "at_s": 2400.0,
+    "detail": "the 2 frames each side of a join decode identical to the source window's end/start"
+   },
+   "hour_join_audio": {
+    "pass": true,
+    "level_dip_db": 1.37,
+    "step_vs_p999": 0.14,
+    "at_s": 1200
+   },
+   "loudness": {
+    "pass": true,
+    "target": -21.8,
+    "lufs": -22.0,
+    "lra": 7.4,
+    "true_peak": -2.8
+   },
+   "music_length_sync": {
+    "pass": true,
+    "frames": 1080000,
+    "expected": 1080000,
+    "video_s": 36000.0,
+    "audio_s": 36000.0
+   },
+   "music_hour_join_audio": {
+    "pass": true,
+    "step_vs_p999": 0.12,
+    "at_s": 1200
+   },
+   "music_transitions": {
+    "pass": true,
+    "changes": 24,
+    "dip_median_db": 1.48,
+    "dip_max_db": 4.51,
+    "worst": "April Showers -> Slow Dancing By the Stove at 0:14:53.1",
+    "detail": "the music's level over each of the first 24 track changes vs the 10 s on each side (fitted plan: every dip <= 6 dB)"
+   },
+   "music_loudness": {
+    "pass": true,
+    "lufs": -15.8,
+    "lra": 3.7,
+    "true_peak": -2.1,
+    "target": "-17.3..-14.3 LUFS (music bus -16.5, ambience -2 dB), true peak <= -1.5 dBTP"
+   }
+  }
+ }
+}

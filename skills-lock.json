@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "skills": {
+    "analytics": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "skillPath": "skills/analytics/SKILL.md",
+      "computedHash": "b1cfa6544cfab28d5c3af4929a110961ea74256ab346af11339af9737226ce99"
+    },
+    "community-marketing": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "skillPath": "skills/community-marketing/SKILL.md",
+      "computedHash": "a03b4acff0650071536c45e1915af07bbc5c3c3c64b536ddfb9e90b55ff70471"
+    },
+    "content-strategy": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "skillPath": "skills/content-strategy/SKILL.md",
+      "computedHash": "cbf8cf05638c2e86afe9e3ffb91d01dddb0f65df86ce0b197b9d3a80c7ee868a"
+    },
+    "ffmpeg": {
+      "source": "digitalsamba/claude-code-video-toolkit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/ffmpeg/SKILL.md",
+      "computedHash": "453ce416b404291eb9ae04164b68447b3f35d9fb019f924ab5b72c503b2a6dc8"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "computedHash": "b146008599c31057cef1c145774cea5d5afb30e8f43fa802e47a4b461419aaaf"
+    },
+    "launch": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "skillPath": "skills/launch/SKILL.md",
+      "computedHash": "a91f095dd57e2ae64dc6482865747df9eee9d3205b211d114763e68832e9ef34"
+    },
+    "social": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "skillPath": "skills/social/SKILL.md",
+      "computedHash": "8fbfde477a34d243500855a5f4f47a9848dedba21713d53467dc603cd15001ef"
+    },
+    "threejs-weather": {
+      "source": "mengto/skills",
+      "sourceType": "github",
+      "skillPath": "agent-skills/web-design/threejs-weather/SKILL.md",
+      "computedHash": "9df21f4b77ea09a98e4f65ce8981fc5ffcb0dd1e59a581e43be439a49ecbc537"
+    }
+  }
+}
