@@ -10,7 +10,7 @@ import re
 
 AI_WORDS = re.compile(r"\bA\.?I\b|(?i:artificial intelligence|\bgpt\b|openai|midjourney|dall-?e|stable diffusion|"
                       r"\bai[- ]generated|\bgenerative\b)")
-# The checkable part of Truman's voice rules (user-level truman-voice and humanizer skills, DECISIONS 2026-10-16).
+# The checkable part of Truman's voice rules (user-level public-voice and humanizer skills, DECISIONS 2026-10-16).
 DASHES = re.compile(r"[\u2013\u2014]|\s--\s")
 EMOJI = re.compile(r"[\u2300-\u23ff\u2600-\u27bf\u2b00-\u2bff\U0001f000-\U0001faff]")
 STOCK = re.compile(r"(?i)\b(?:stunning|breathtaking|vibrant|captivating|seamless(?:ly)?|robust|delve|tapestry|"

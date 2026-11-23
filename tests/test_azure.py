@@ -180,18 +180,44 @@ class AccountStaysLocal(unittest.TestCase):
                 self.assertEqual(AP.load_cfg()["account"], "acct-1")
 
     def test_a_new_machine_finds_the_account_instead_of_making_one(self):
-        import azure_provision as AP
-        one = [{"name": "acct-1", "kind": "AIServices"}, {"name": "other", "kind": "Storage"}]
-        with mock.patch.object(AP, "az", return_value=one):
-            self.assertEqual(AP.find_account("rg"), "acct-1")
-        with mock.patch.object(AP, "az", return_value=None):              # no resource group yet
-            self.assertIsNone(AP.find_account("rg"))
-        with mock.patch.object(AP, "az", return_value=one + [{"name": "acct-2", "kind": "AIServices"}]):
-            with self.assertRaises(SystemExit):
-                AP.find_account("rg")
+        def az(rc=0, out=None, err=""):
+            return mock.Mock(returncode=rc, stdout=json.dumps(out) if out is not None else "", stderr=err)
 
-    def test_no_endpoint_says_how_to_get_one(self):
-        with mock.patch.dict(azure_ai.CFG, {"endpoint": None}):
+        one = [{"name": "acct-1", "kind": "AIServices", "properties": {"endpoint": "https://acct-1.example/"}},
+               {"name": "other", "kind": "Storage", "properties": {}}]
+        with mock.patch.object(azure_ai.subprocess, "run", return_value=az(out=one)) as run:
+            self.assertEqual(azure_ai.find_account("rg"), ("acct-1", "https://acct-1.example/"))
+        self.assertEqual(run.call_args.args[0][1:6], ["cognitiveservices", "account", "list", "-g", "rg"])
+        with mock.patch.object(azure_ai.subprocess, "run", return_value=az(1, err="(ResourceGroupNotFound) no rg")):
+            self.assertIsNone(azure_ai.find_account("rg"))                    # a subscription with nothing yet
+        two = one + [{"name": "acct-2", "kind": "AIServices", "properties": {"endpoint": "https://acct-2.example/"}}]
+        with mock.patch.object(azure_ai.subprocess, "run", return_value=az(out=two)):
+            with self.assertRaises(SystemExit):
+                azure_ai.find_account("rg")
+        with mock.patch.object(azure_ai.subprocess, "run", return_value=az(1, err="Please run 'az login' to setup account.")):
+            with self.assertRaises(SystemExit) as e:
+                azure_ai.find_account("rg")
+        self.assertIn("az login", str(e.exception))
+
+    def test_the_first_call_on_a_new_machine_writes_the_local_file(self):
+        """The laptop needs nothing by hand (2026-11-22): without config/azure.local.json the first call looks the
+        account up with az and writes the file, once."""
+        one = [{"name": "acct-1", "kind": "AIServices", "properties": {"endpoint": "https://acct-1.example/"}}]
+        reply = mock.Mock(returncode=0, stdout=json.dumps(one), stderr="")
+        with tempfile.TemporaryDirectory() as tmp:
+            local = Path(tmp) / "azure.local.json"
+            with mock.patch.object(azure_ai, "LOCAL_AZURE", local), \
+                    mock.patch.dict(azure_ai.CFG, {"account": None, "endpoint": None}), \
+                    mock.patch.object(azure_ai.subprocess, "run", return_value=reply) as run:
+                self.assertEqual(azure_ai.endpoint(), "https://acct-1.example/")
+                self.assertEqual(azure_ai.endpoint(), "https://acct-1.example/")
+                self.assertEqual(run.call_count, 1)
+                self.assertEqual(json.loads(local.read_text(encoding="utf-8")),
+                                 {"account": "acct-1", "endpoint": "https://acct-1.example/"})
+
+    def test_no_account_anywhere_says_how_to_make_one(self):
+        reply = mock.Mock(returncode=0, stdout="[]", stderr="")
+        with mock.patch.dict(azure_ai.CFG, {"endpoint": None}), mock.patch.object(azure_ai.subprocess, "run", return_value=reply):
             with self.assertRaises(SystemExit) as e:
                 azure_ai.endpoint()
         self.assertIn("azure_provision.py", str(e.exception))

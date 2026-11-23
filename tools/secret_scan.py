@@ -9,7 +9,10 @@ commit adds. It refuses:
     inside the repo instead;
   - the private terms in .git/info/private-terms: one per line, matched without case (the Azure sign-in, subscription
     and tenant IDs, the work email). The file lives inside .git, so it is never committed or pushed; each clone makes
-    its own.
+    its own;
+  - and every value this machine keeps in config/*.local.json (never committed): the Azure account and its endpoint,
+    which the first Azure call on a new machine writes there, and a music library's folder (security review
+    2026-11-22), so no machine has to copy those into private-terms by hand.
 It never prints what it found, only where and what kind, so a secret doesn't land in a log either. Reword the line,
 stage it and commit again.
 
@@ -20,11 +23,13 @@ tools/go_public.py uses the same terms and checks to clean and verify the copy t
 """
 import argparse
 import getpass
+import json
 import pathlib
 import re
 import subprocess
 import sys
 import threading
+import urllib.parse
 
 KEYS = [
     ("a private key", r"-----BEGIN (?:RSA |EC |DSA |OPENSSH |PGP |ENCRYPTED )?PRIVATE KEY(?: BLOCK)?-----"),
@@ -49,20 +54,49 @@ def git(*args, cwd=None, binary=False):
     return r.stdout if binary else r.stdout.decode("utf-8", "replace")
 
 
-def terms_file(cwd=None):
-    """.git/info/private-terms of the repo at cwd (the main repo's .git, shared by its worktrees)."""
+def common_dir(cwd=None):
+    """The main repo's .git, which its worktrees share."""
     common = pathlib.Path(git("rev-parse", "--git-common-dir", cwd=cwd).strip())
     if not common.is_absolute():
         common = pathlib.Path(cwd or ".").resolve() / common
-    return common / "info" / "private-terms"
+    return common
+
+
+def terms_file(cwd=None):
+    """.git/info/private-terms of the repo at cwd (the main repo's .git, shared by its worktrees)."""
+    return common_dir(cwd) / "info" / "private-terms"
+
+
+def local_terms(cwd=None):
+    """The values in the main working tree's config/*.local.json: this machine's own settings, never committed (the
+    Azure account and endpoint, a music library's folder; security review 2026-11-22). Each string of 6 or more
+    characters is a private term, with a URL's host and a path in its other slash style."""
+    out = []
+    for f in sorted((common_dir(cwd).parent / "config").glob("*.local.json")):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        for v in data.values() if isinstance(data, dict) else ():
+            if not isinstance(v, str) or len(v.strip()) < 6:
+                continue
+            v = v.strip()
+            out.append(v)
+            if "://" in v:
+                host = urllib.parse.urlparse(v).hostname
+                out += [host] if host else []
+            elif "/" in v or "\\" in v:
+                out += [v.replace("\\", "/"), v.replace("/", "\\")]
+    return list(dict.fromkeys(out))
 
 
 def private_terms(cwd=None):
     f = terms_file(cwd)
-    if not f.exists():
-        return []
-    lines = (x.strip() for x in f.read_text(encoding="utf-8").splitlines())
-    return [x for x in lines if x and not x.startswith("#")]
+    terms = []
+    if f.exists():
+        lines = (x.strip() for x in f.read_text(encoding="utf-8").splitlines())
+        terms = [x for x in lines if x and not x.startswith("#")]
+    return list(dict.fromkeys(terms + local_terms(cwd)))
 
 
 def user_name():

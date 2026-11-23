@@ -246,7 +246,7 @@ Run long renders in the background and poll the output or `render.json`; Electro
      - **No list of moments by default.** He dropped it on the ramen video; Treetop kept one ("What happens every hour:"). Tell him about a strong moment in your message, and leave it out of the spec unless he asks.
    - **Tags:** optional. He left them out on the ramen video. On Treetop he typed short single words (minecraft, rain, study, relax, calm, cozy). The hashtags carry the search terms.
    - **Public text never mentions AI, and stays true:** no "hand-drawn", "no AI" or stock-library claims (DECISIONS 2026-10-16). His blurb's first person ("made by myself", "my engine") is his own wording; keep it as he wrote it.
-   - **Voice:** his published text is the reference: first person, warm and plain ("Come relax", "I love making these videos"). Write with the user-level `truman-voice` and `humanizer` skills; he rejected the first drafts of 2026-10-16 as obviously AI-written.
+   - **Voice:** his published text is the reference: first person, warm and plain ("Come relax", "I love making these videos"). Write with the user-level `public-voice` and `humanizer` skills; he rejected the first drafts of 2026-10-16 as obviously AI-written.
      - No em or en dashes, no exclamation marks, no stock words (stunning, immersive, vibrant, delve…), no "not just X". upload_package checks these.
      - No emoji anywhere, the title included (user 2026-10-26).
      - The title and opening are new for every video. The blurb repeats on purpose.

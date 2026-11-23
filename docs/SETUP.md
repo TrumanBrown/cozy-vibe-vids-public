@@ -28,9 +28,9 @@ git config core.hooksPath .githooks             # every commit is checked for ke
 git config user.name "Truman Brown"; git config user.email trumanbrown@users.noreply.github.com
 ```
 
-Then put the private terms, one per line, in `.git/info/private-terms`: the Azure sign-in email, the subscription and tenant IDs (`az account show`), the work email, the Azure account's name (`config/azure.local.json`) and the music library's folder name. The file stays inside `.git`, so it is never committed; `tools/secret_scan.py` refuses a commit that adds one of them or this PC's user folder, and `tools/go_public.py` uses the same list to clean the public copy (security review 2026-10-26; the account and the folder since 2026-11-22).
+Then put the private terms, one per line, in `.git/info/private-terms`: the Azure sign-in email, the subscription and tenant IDs (`az account show`), the work email and the music library's folder name. The file stays inside `.git`, so it is never committed; `tools/secret_scan.py` refuses a commit that adds one of them or this PC's user folder, and `tools/go_public.py` uses the same list to clean the public copy (security review 2026-10-26). Every value in a `config/*.local.json` counts as a private term too, without being listed (2026-11-22), so the Azure account and its endpoint are covered on every machine.
 
-What is this machine's own lives in `config/<name>.local.json`, which git ignores and every tool reads over `config/<name>.json` (`cozy.paths.config`): the Azure account and endpoint (`config/azure.local.json`, written by `tools/azure_provision.py`, section 3) and the folder of the Skyrim soundtrack album (`config/skyrim_music.local.json`: `{"source_dir": "<folder>"}`, or `tools\skyrim_music.py --src`).
+What is this machine's own lives in `config/<name>.local.json`, which git ignores and every tool reads over `config/<name>.json` (`cozy.paths.config`): the Azure account and endpoint (`config/azure.local.json`, written by the first Azure call on a new machine, section 3) and the folder of the Skyrim soundtrack album (`config/skyrim_music.local.json`: `{"source_dir": "<folder>"}`, or `tools\skyrim_music.py --src`; only the machine with the album needs it).
 
 `requirements.lock.txt` holds the exact versions the desktop runs (torch with CUDA 12.8 comes from PyTorch's index). numpy makes the ambience and torch runs the plate models, so a different version can change the sound or the plate of a rebuilt video: upgrade on purpose, then record the goldens again (`tests/test_goldens.py`). `requirements.txt` is the short list of what the tools import. `requirements-dev.txt` adds ruff for `tests/test_lint.py`, which looks only for undefined or unused names and bare `except:` (`ruff.toml`) and never reformats: `.venv\Scripts\python -m pip install -r requirements-dev.txt`.
 
@@ -54,7 +54,7 @@ az login                                         # same tenant/subscription
 .venv\Scripts\python tools\keyart.py scenes\treetop\keyart.json --only rainy_dusk
 ```
 
-Non-secret settings (deployment names, API version, prices, the daily cap) live in `config/azure.json` (committed). The account's name and its endpoint live in `config/azure.local.json`, which is never committed (security review 2026-11-22: the repo goes public). `azure_provision.py` writes it, and on a new machine it finds the account already in the resource group rather than making a second one, so run it once per machine after `az login`. Key-art sidecars no longer record the endpoint (the deployment's name is enough). To remove everything: `python tools/azure_provision.py --teardown`.
+Non-secret settings (deployment names, API version, prices, the daily cap) live in `config/azure.json` (committed). The account's name and its endpoint live in `config/azure.local.json`, which is never committed (security review 2026-11-22: the repo goes public). A new machine needs only `az login`: its first Azure call finds the account in the resource group and writes that file (`tools/azure_ai.py` `endpoint`), and `azure_provision.py` does the same. Key-art sidecars no longer record the endpoint (the deployment's name is enough). To remove everything: `python tools/azure_provision.py --teardown`.
 
 **Costs:** pay per token. A 2560x1440 `high` Sunburst image used ~1.8k-3.7k output image tokens (~$0.07-0.15) and gpt-image-2 ~7.4k; a gpt-6-sol image analysis is ~$0.02-0.06. Every call is logged with an estimate in `out/azure_usage.jsonl`: `.venv\Scripts\python tools\azure_ai.py spend [--since <date>]` (prices in `config/azure.json`; real charges are in the portal). Generate a few candidates per scene, not hundreds. No Azure call goes out once the day's logged estimate reaches `daily_cap_usd` in `config/azure.json` ($40, over twice the busiest day so far); `COZY_DAILY_CAP_USD` changes it for one run, 0 turns it off.
 
@@ -98,7 +98,7 @@ npx skills experimental_install                  # restores from skills-lock.jso
 
 See [AGENTS.md](../AGENTS.md#skills) for which skills are installed and why. For a new video, start with `new-video`.
 
-Truman's writing skills (`truman-voice`, `humanizer`) and rules live at user level, not in the repo. On a new machine, install them from his voice pack by following its `START-HERE.md` (into `~/.copilot/skills/` and `~/.copilot/copilot-instructions.md`). Every title, description and channel text is written with them.
+Truman's writing skills (`public-voice` for public text, `email-voice`, `humanizer`) and his rules live at user level in `~/.copilot`, a checkout of his own settings repo that syncs to every machine he uses, so a new machine gets them with that checkout. `public-voice` keeps copies of his photography site's voice rules, and its `refresh.py` updates them from that repo. Every title, description and channel text is written with them.
 
 ## 6. Gotchas
 

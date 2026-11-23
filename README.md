@@ -21,6 +21,16 @@ This is a public copy of a private repo, which is why its history is so short.
   </tr>
 </table>
 
+## How it's built
+
+- The renderer is three.js shaders in Electron. Every frame comes from the frame number and a seed, so a scene renders the same pixels every time. The 10 hours are a 20 minute window on repeat, and you can't see the seam.
+- I use Depth Anything V2 and SAM 2 to work out what's sky, glass, water, ground or furniture in the picture. That's how the rain only falls outside and the critters can walk behind things.
+- The fire is the painting's own flames, animated with Wan 2.2 on my GPU, and the steam is a little fluid simulation. The frog and the axolotl are built from boxes in code. Most of the sound is made in code too, timed so the thunder comes after each flash.
+- I give `tools/autopilot.py` an idea in one line and get back a 5 minute sample with music. A vision model checks where the rain falls and compares the render to videos I already approved. Autopilot stops twice for me: once to pick the key art and once to OK the sample. It still misses things, which is why I watch every sample.
+- Over 300 tests run offline in about two minutes, and every commit goes through a secret scan. Azure only takes my sign-in, with a daily cap on spend.
+
+It's Python and JavaScript, with three.js, Electron, PyTorch, ffmpeg, Azure OpenAI and llama.cpp. [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) has the details.
+
 ## The idea
 
 I have [Rainy Apartment (10 Hours)](https://www.youtube.com/watch?v=eFVPmqgZAi4) on a lot. It's a locked camera on a cozy scene, a few short loops (rain, a spinning fan, a ticking clock), a change now and then (the dog lies down) and a rare surprise (lightning). All of that can be built in code, where every detail is a setting I can change until it's right: how hard it rains, where the drops land, how often a bird goes by, which music plays.

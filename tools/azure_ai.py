@@ -41,15 +41,45 @@ _token = {"v": None, "exp": 0}
 # tools ask the models from several threads at once (outdoor_check's tiles): one token fetch and one spend-log line at a
 # time
 _LOCK = threading.RLock()
+LOCAL_AZURE = ROOT / "config" / "azure.local.json"
+
+
+def find_account(rg):
+    """(name, endpoint) of the AI Services account in the resource group, or None when the group or an account isn't
+    there yet. Several stop the run: which one is this repo's is then the person's call (config/azure.local.json)."""
+    try:
+        r = subprocess.run([AZ, "cognitiveservices", "account", "list", "-g", rg, "-o", "json"],
+                           capture_output=True, text=True, timeout=180)
+    except (OSError, subprocess.TimeoutExpired) as e:
+        raise SystemExit(f"az couldn't list the Azure accounts ({e}): install the Azure CLI and run `az login`")
+    if r.returncode != 0:
+        if "ResourceGroupNotFound" in (r.stderr or ""):
+            return None
+        raise SystemExit(f"az couldn't list the accounts in {rg} (signed in? `az login`): {(r.stderr or '').strip()[:300]}")
+    found = [(x["name"], (x.get("properties") or {}).get("endpoint")) for x in json.loads(r.stdout or "[]")
+             if x.get("kind") == "AIServices"]
+    if len(found) > 1:
+        raise SystemExit(f"{rg} has {len(found)} AI Services accounts: put the one to use in config/azure.local.json "
+                         "as {\"account\": ..., \"endpoint\": ...}")
+    return found[0] if found else None
 
 
 def endpoint():
-    """The Azure account's endpoint, from this machine's config/azure.local.json (never committed, security review
-    2026-11-22)."""
-    if not CFG.get("endpoint"):
-        raise SystemExit("no Azure endpoint on this machine: run `python tools/azure_provision.py` once after `az login` "
-                         "(it finds the account in the resource group and writes config/azure.local.json)")
-    return CFG["endpoint"]
+    """The Azure account's endpoint. It is this machine's own, in config/azure.local.json, never committed (security
+    review 2026-11-22). A machine that has none yet (a fresh clone, the laptop) looks the account up once in the
+    resource group with az, which every call needs signed in anyway, and writes the file: nothing to set up by hand."""
+    with _LOCK:
+        if not CFG.get("endpoint"):
+            found = find_account(CFG["resource_group"])
+            if not found or not found[1]:
+                raise SystemExit(f"no Azure account in {CFG['resource_group']}: run `python tools/azure_provision.py` "
+                                 "after `az login` to make one")
+            local = json.loads(LOCAL_AZURE.read_text(encoding="utf-8")) if LOCAL_AZURE.exists() else {}
+            local.update({"account": found[0], "endpoint": found[1]})
+            LOCAL_AZURE.write_text(json.dumps(local, indent=2) + "\n", encoding="utf-8")
+            CFG.update(local)
+            print(f"azure: found the account in {CFG['resource_group']}; wrote config/azure.local.json", flush=True)
+        return CFG["endpoint"]
 
 
 def token():

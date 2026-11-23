@@ -13,9 +13,9 @@ Usage (repo root, after `az login`):
   python tools/azure_provision.py --teardown # delete the whole resource group (asks to confirm)
 
 The shared settings are committed in config/azure.json (no secrets). The account's name and its endpoint stay on each
-machine in config/azure.local.json, which is never committed (security review 2026-11-22: the repo goes public). So
-another machine needs `az login` and one run of this script: it finds the account already in the resource group and
-writes that file (and makes everything again only if the resource group was torn down).
+machine in config/azure.local.json, which is never committed (security review 2026-11-22: the repo goes public). Another
+machine needs only `az login`: its first Azure call finds the account in the resource group and writes that file
+(tools/azure_ai.py endpoint). This script does the same, and makes everything again if the resource group was torn down.
 """
 import argparse
 import json
@@ -44,7 +44,7 @@ DEFAULTS = {
     "tags": {"project": "cozy-vibe-vids", "purpose": "image-generation", "owner": "agent"},
 }
 
-from azure_ai import AZ  # noqa: E402  (the one place the az CLI is found)
+from azure_ai import AZ, find_account  # noqa: E402  (the one place the az CLI is found, and the account looked up)
 
 
 def az(*args, check=True, parse=True):
@@ -82,22 +82,13 @@ def save_cfg(cfg):
     LOCAL.write_text(json.dumps({k: cfg.get(k) for k in LOCAL_KEYS}, indent=2) + "\n", encoding="utf-8")
 
 
-def find_account(rg):
-    """The AI Services account already in the resource group, so a new machine uses it instead of making another."""
-    names = [x["name"] for x in az("cognitiveservices", "account", "list", "-g", rg, check=False) or []
-             if x.get("kind") == "AIServices"]
-    if len(names) > 1:
-        raise SystemExit(f"{rg} has {len(names)} AI Services accounts ({', '.join(names)}): put the one to use in "
-                         f"{LOCAL.relative_to(ROOT)} as \"account\" and run this again")
-    return names[0] if names else None
-
-
 def provision():
     acct = az("account", "show")
     print(f"subscription: {acct['name']} ({acct['id']}) as {acct['user']['name']}")
     cfg = load_cfg()
     if not cfg.get("account"):
-        cfg["account"] = find_account(cfg["resource_group"]) or f"cvvimg-{secrets.token_hex(3)}"
+        found = find_account(cfg["resource_group"])                # a new machine uses the account already there
+        cfg["account"] = found[0] if found else f"cvvimg-{secrets.token_hex(3)}"
     rg, loc, name = cfg["resource_group"], cfg["location"], cfg["account"]
     tags = [f"{k}={v}" for k, v in cfg["tags"].items()]
 

@@ -93,7 +93,7 @@ Until the gate is met, Truman builds history by hand: his own replies in study t
 
 ### Draft and check
 
-1. Write the text in Truman's voice (truman-voice skill), then run the humanizer pass.
+1. Write the text in Truman's voice (public-voice skill), then run the humanizer pass.
 2. Save it as `marketing/drafts/<slug>/<platform>-<kind>-<n>.txt`, text only. Kinds: `youtube-title`, `youtube-description`, `youtube-comment`, `reddit-title`, `reddit-post`, `reddit-comment`, `pinterest-title`, `pinterest-description`, `x-post`, `discord-message`.
 3. Run `.venv\Scripts\python tools\marketing_check.py marketing\drafts\<slug>` and fix every problem it reports.
 4. Log it as drafted. Show Truman the full text, the place, the rules checked and the link.

@@ -117,7 +117,7 @@ $env:COZY_SLOW = "1"; .venv\Scripts\python -m unittest discover -s tests -p test
 $env:UPDATE_GOLDENS = "1"; .venv\Scripts\python -m unittest discover -s tests -p test_scenes.py; Remove-Item Env:UPDATE_GOLDENS   # record the timeline goldens again, on code you trust, after a deliberate timeline change
 # going public (security review 2026-10-26): the pre-commit hook runs secret_scan --staged on every commit
 .venv\Scripts\python tools\secret_scan.py --tracked     # or --history: keys, tokens, this PC's user folder, .git/info/private-terms
-.venv\Scripts\python tools\go_public.py C:\dev\cozy-vibe-vids-public   # the public repo (github.com/TrumanBrown/cozy-vibe-vids-public; the folder is its clone): a snapshot of main without the private notes, checked (secrets, private paths, his words, binaries), committed; then git -C C:\dev\cozy-vibe-vids-public push
+.venv\Scripts\python tools\go_public.py C:\dev\cozy-vibe-vids-public   # the public repo (github.com/TrumanBrown/cozy-vibe-vids-public; the folder is its clone), at milestones only (a video goes live, a new layer, look or tool lands): a snapshot of main without the private notes, checked (secrets, private paths, his words, binaries), committed; it lists what the snapshot changes and GitHub's open alerts; after a security review of that diff, git -C C:\dev\cozy-vibe-vids-public push
 ```
 
 - Launch Electron only via `node src/cli.mjs` (`electron.exe` is a GUI-subsystem binary, so the shell won't wait for it).

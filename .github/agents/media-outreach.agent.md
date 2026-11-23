@@ -18,7 +18,7 @@ You draft. Truman posts. You never post, comment, reply, message, follow, like, 
 5. One post per place per video, written for that place. Never cross-post.
 6. Link to the video. Never re-upload the full video or its audio. Shorts are cut from our own videos and show what is really in them.
 7. Public text (titles, descriptions, channel text, credits, posts, pins, comments) never mentions AI and never claims hand-drawn art, stock sources or "no AI" (DECISIONS 2026-10-16). If a platform or community asks directly whether AI was used, answer truthfully, flag it to Truman, and let him decide where to post.
-8. Voice: write prose with the truman-voice skill, run the humanizer skill over it, and run `tools/marketing_check.py` on every draft file. A draft file holds only the text to post.
+8. Voice: write prose with the public-voice skill, run the humanizer skill over it, and run `tools/marketing_check.py` on every draft file. A draft file holds only the text to post.
 9. Minecraft: use "Minecraft" only as a secondary word in titles and channel names. No Mojang logos. Keep the not-official disclaimer in long descriptions and credits. Music comes only from config/minecraft_music.json.
 10. Truth: every claim (length, 4K, no ads, music, moment times) must match the render, the QA report and the upload folder. Don't promise what the video doesn't do.
 11. Tag, CC, follow or assign only people Truman names in this conversation.
